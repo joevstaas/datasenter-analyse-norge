@@ -55,3 +55,13 @@ Brukeren foretrekker B med fargetonene fra A. B beholder oppsett, sans-serif,
 kompakt prosjektindeks og talltypografi, men bruker nå As papirtoner og grønne
 aksenter. Kombinasjonen er forhåndsvalgt på designsiden. Endringen er fortsatt
 avgrenset til designbranchen; main og produksjon er ikke endret.
+
+## Godkjent hoveddesign
+
+Brukeren godkjente B med As palett for publisering. Designvelgeren er fjernet,
+stilen brukes på hovedruten, og /design videresender til kartet. Historiske
+skjermbilder over viser vurderingsprosessen; de er ikke egne appvarianter.
+
+Sluttkontroll: TypeScript, produksjonsbygg og tre nettlesertester bestod på
+localhost:5174 (prosjektdata/kilder/mobil, naturkartlag og eksplisitt ODP-feil).
+Produksjonsskjermbildene i docs/implementation er oppdatert til valgt design.

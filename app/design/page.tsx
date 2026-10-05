@@ -1,19 +1,3 @@
-'use client';
-import {useState} from 'react';
-import AtlasView from '@/components/atlas';
+import {redirect} from 'next/navigation';
 import {BASE} from '@/lib/model';
-import styles from './preview.module.css';
-export default function DesignPreview(){
- const [direction,setDirection]=useState<'nature'|'observatory'>('observatory');
- return <div className={`${styles.preview} ${styles[direction]}`}>
-  <nav className={styles.reviewbar} aria-label="Sammenlign designutkast">
-   <span className={styles.reviewlabel}>Designstudie <small>B med fargetonene fra A</small></span>
-   <div className={styles.choices}>
-    <button aria-pressed={direction==='nature'} onClick={()=>setDirection('nature')}>A <span>Rolig naturatlas</span></button>
-    <button aria-pressed={direction==='observatory'} onClick={()=>setDirection('observatory')}>B <span>Observatorium · varm</span></button>
-   </div>
-   <a href={BASE}>Dagens app ↗</a>
-  </nav>
-  <AtlasView/>
- </div>;
-}
+export default function Page(){redirect(BASE);}
