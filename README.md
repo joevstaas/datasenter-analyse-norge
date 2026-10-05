@@ -104,3 +104,7 @@ Bidra gjerne med rettelser via issues eller pull requests. Oppgi prosjekt/påsta
 Prosjektets egen kode er MIT-lisensiert, se [LICENSE](LICENSE). Eksterne data, kart, dokumenter og sitater følger kildenes egne rettigheter og vilkår; MIT-lisensen gir ingen nye rettigheter til disse. Lokale PDF-er, HTML-kopier og tekstuttrekk fra tredjepartsdokumenter er ikke med i det offentlige repoet. Kildereferanser og dokumenterte analyser er beholdt.
 
 Naturtypelagene vises fra zoomnivå 8; dekningskartet kan vises på oversiktsnivå. Tomme treff er ikke dokumentasjon på fravær av naturverdier. NiN og HB13 bruker ulik metodikk og summeres ikke. Se [lagdokumentasjonen](docs/implementation/nature-layers-2026-10-05.md).
+
+## Quiz
+
+`/quiz` har 10 tilfeldige flervalgsspørsmål (av 20) om datasentre i Norge, hentet fra Teknologirådets rapport. Spørsmålene ligger i `quiz/*.json` (med side- og kapittelhenvisning), og `lib/quiz.ts` trekker og blander dem. Resultatet kan deles som lenke (`/quiz/del/<poeng>-<faktum>`) med et generert bilde: 1200×630 for lenkeforhåndsvisning (`opengraph-image`) og 1080×1350 for Instagram (`/portrett`). Test: `npx playwright test tests/quiz.spec.ts`.

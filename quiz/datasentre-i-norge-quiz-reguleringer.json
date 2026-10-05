@@ -11,121 +11,251 @@
       "id": 1,
       "question": "Estland har siden 2017 hatt en løsning for å sikre at offentlig sektor kan klare seg selv om landet rammes. Hva er det Estland har gjort?",
       "options": [
-        { "id": "A", "text": "Lagt alle statlige datasentre i fjellhaller langs grensen mot Russland" },
-        { "id": "B", "text": "Forbudt offentlige virksomheter å bruke utenlandske skytjenester" },
-        { "id": "C", "text": "Opprettet en «dataambassade» i Luxembourg som fungerer som backup for offentlig sektor" }
+        {
+          "id": "A",
+          "text": "Lagt alle statlige datasentre i fjellhaller langs grensen mot Russland"
+        },
+        {
+          "id": "B",
+          "text": "Forbudt offentlige virksomheter å bruke utenlandske skytjenester"
+        },
+        {
+          "id": "C",
+          "text": "Opprettet en «dataambassade» i Luxembourg som fungerer som backup for offentlig sektor"
+        }
       ],
       "correct": "C",
       "explanation": "Rapporten bruker Estland som eksempel på at ledig kapasitet kan holdes klar til uforutsette behov, eller til å ta imot data fra et alliert land som må evakuere dem.",
-      "reference": { "page": "57", "chapter": "Samfunnsnytten ved datasentre i Norge → Nasjonal kontroll og strategisk kapasitet" }
+      "reference": {
+        "page": "57",
+        "chapter": "Samfunnsnytten ved datasentre i Norge → Nasjonal kontroll og strategisk kapasitet"
+      },
+      "fact": "Estland har siden 2017 en «dataambassade» i Luxembourg som backup for offentlig sektor."
     },
     {
       "id": 2,
       "question": "EU-kommisjonen foreslo i juni 2026 en Cloud and AI Development Act (CADA) med «akselerasjonssoner» for datasentre. Hva er den konkrete fordelen i slike soner?",
       "options": [
-        { "id": "A", "text": "Datasentre i sonene slipper alle krav til miljøutredning" },
-        { "id": "B", "text": "Prosjektene får raskere saksbehandling, med maksimalt tolv måneders behandlingstid fra en fullstendig søknad er levert" },
-        { "id": "C", "text": "Prosjektene får gratis strøm de første fem årene" }
+        {
+          "id": "A",
+          "text": "Datasentre i sonene slipper alle krav til miljøutredning"
+        },
+        {
+          "id": "B",
+          "text": "Prosjektene får raskere saksbehandling, med maksimalt tolv måneders behandlingstid fra en fullstendig søknad er levert"
+        },
+        {
+          "id": "C",
+          "text": "Prosjektene får gratis strøm de første fem årene"
+        }
       ],
       "correct": "B",
       "explanation": "Sonene legges strategisk til områder der det overordnede arbeidet med konsekvensutredning allerede er gjort, for eksempel allerede utbygde industriarealer (grått areal) med nettkapasitet, god fibertilknytning og planer for gjenbruk av overskuddsvarme.",
-      "reference": { "page": "64", "chapter": "Nasjonal kontroll og strategisk kapasitet → Datasenterkapasitet kan utgjøre en strategisk ressurs" }
+      "reference": {
+        "page": "64",
+        "chapter": "Nasjonal kontroll og strategisk kapasitet → Datasenterkapasitet kan utgjøre en strategisk ressurs"
+      },
+      "fact": "EUs CADA-forslag gir «akselerasjonssoner» med maks 12 måneders saksbehandling for datasentre."
     },
     {
       "id": 3,
       "question": "CADA deler skytjenester inn i fire suverenitetsnivåer. Hva kreves blant annet for å vinne kontrakter på det aller høyeste nivået, og hvorfor ville en skyleverandør eid av et amerikansk selskap ikke kvalifisere?",
       "options": [
-        { "id": "A", "text": "Personell med teknisk tilgang må ha statsborgerskap i et EU-land, og leverandøren kan ikke ha utenlandsk eierskap eller moderselskap utenfor EU/EØS. Et amerikansk morselskap er underlagt CLOUD Act" },
-        { "id": "B", "text": "Anlegget må drives av en offentlig etat, og et amerikansk selskap kan ikke være offentlig eid" },
-        { "id": "C", "text": "Anlegget må være minst 500 MW, og de amerikanske selskapene bygger mindre anlegg" }
+        {
+          "id": "A",
+          "text": "Personell med teknisk tilgang må ha statsborgerskap i et EU-land, og leverandøren kan ikke ha utenlandsk eierskap eller moderselskap utenfor EU/EØS. Et amerikansk morselskap er underlagt CLOUD Act"
+        },
+        {
+          "id": "B",
+          "text": "Anlegget må drives av en offentlig etat, og et amerikansk selskap kan ikke være offentlig eid"
+        },
+        {
+          "id": "C",
+          "text": "Anlegget må være minst 500 MW, og de amerikanske selskapene bygger mindre anlegg"
+        }
       ],
       "correct": "A",
       "explanation": "CLOUD Act gir amerikanske myndigheter hjemmel til å kreve utlevering av data som er i besittelse av eller under kontroll av tjenesteleverandører under amerikansk jurisdiksjon, uavhengig av hvor i verden data lagres.",
-      "reference": { "page": "62–64", "chapter": "Nasjonal kontroll og strategisk kapasitet → Anleggenes egenskaper avgjør muligheten for kontroll / Datasenterkapasitet kan utgjøre en strategisk ressurs" }
+      "reference": {
+        "page": "62–64",
+        "chapter": "Nasjonal kontroll og strategisk kapasitet → Anleggenes egenskaper avgjør muligheten for kontroll / Datasenterkapasitet kan utgjøre en strategisk ressurs"
+      },
+      "fact": "På EUs høyeste suverenitetsnivå kan ikke skyleverandøren ha amerikansk morselskap (CLOUD Act)."
     },
     {
       "id": 4,
       "question": "Hva har EU gjort for å få bedre oversikt over datasentrenes vannbruk, og hvor står saken?",
       "options": [
-        { "id": "A", "text": "Siden 2024 må datasentre med betydelig energiforbruk rapportere årlig til en europeisk database, blant annet WUE (vannbruk per enhet strøm). Et forslag om felles rating og merkeordning ble lagt frem 21. september 2026, men er ikke vedtatt" },
-        { "id": "B", "text": "EU har innført et totalforbud mot fordampingskjøling i alle medlemsland, og ordningen trådte i kraft i 2026" },
-        { "id": "C", "text": "EU har ikke gjort noe og overlater alt vannsporing til hvert enkelt selskap" }
+        {
+          "id": "A",
+          "text": "Siden 2024 må datasentre med betydelig energiforbruk rapportere årlig til en europeisk database, blant annet WUE (vannbruk per enhet strøm). Et forslag om felles rating og merkeordning ble lagt frem 21. september 2026, men er ikke vedtatt"
+        },
+        {
+          "id": "B",
+          "text": "EU har innført et totalforbud mot fordampingskjøling i alle medlemsland, og ordningen trådte i kraft i 2026"
+        },
+        {
+          "id": "C",
+          "text": "EU har ikke gjort noe og overlater alt vannsporing til hvert enkelt selskap"
+        }
       ],
       "correct": "A",
       "explanation": "Forslaget skal gjøre energi- og vannutnyttelsen fra datasentre langt mer synlig og sammenlignbar på tvers av anlegg. Norge mangler i dag systematisk, offentlig rapportering av vannutnyttelse, men kan bygge videre på EU-systemet etter hvert som det trer i kraft.",
-      "reference": { "page": "55–56", "chapter": "Samfunnsnytten ved datasentre i Norge → Skånsomhet mot natur og vannressurser → Norge mangler oversikt over datasentres vannutnyttelse" }
+      "reference": {
+        "page": "55–56",
+        "chapter": "Samfunnsnytten ved datasentre i Norge → Skånsomhet mot natur og vannressurser → Norge mangler oversikt over datasentres vannutnyttelse"
+      },
+      "fact": "Siden 2024 må store datasentre i EU rapportere vannbruk (WUE). En felles merkeordning er foreslått."
     },
     {
       "id": 5,
       "question": "Energiloven krever at datasentre med mer enn 2 MW tilført effekt gjennomfører en kost-nytte-analyse av mulig varmeutnyttelse. Hva vedtok Stortinget i juni 2026?",
       "options": [
-        { "id": "A", "text": "At alle datasentre må levere fjernvarme til nærmeste kommune uansett kostnad" },
-        { "id": "B", "text": "At datasentre fra 2030 må bruke luftkjøling for å spare vann" },
-        { "id": "C", "text": "At unntaket for datasentre fjernes, slik at overskuddsvarmen må utnyttes på samme vilkår som for andre anleggstyper når kost-nytte-analysen viser at fordelene er større enn kostnadene" }
+        {
+          "id": "A",
+          "text": "At alle datasentre må levere fjernvarme til nærmeste kommune uansett kostnad"
+        },
+        {
+          "id": "B",
+          "text": "At datasentre fra 2030 må bruke luftkjøling for å spare vann"
+        },
+        {
+          "id": "C",
+          "text": "At unntaket for datasentre fjernes, slik at overskuddsvarmen må utnyttes på samme vilkår som for andre anleggstyper når kost-nytte-analysen viser at fordelene er større enn kostnadene"
+        }
       ],
       "correct": "C",
       "explanation": "Tidligere var datasentre eksplisitt unntatt fra muligheten til å bli pålagt faktisk utnyttelse. Lovendringen har også til hensikt å løse koordineringsutfordringen ved å pålegge industrianlegg og andre virksomheter med varmebehov å vurdere om de kan utnytte overskuddsvarme fra nærliggende datasentre.",
-      "reference": { "page": "48–49", "chapter": "Samfunnsnytten ved datasentre i Norge → Fleksibilitet og robusthet i energisystemet → Nesten ingen overskuddsvarme utnyttes i Norge foreløpig" }
+      "reference": {
+        "page": "48–49",
+        "chapter": "Samfunnsnytten ved datasentre i Norge → Fleksibilitet og robusthet i energisystemet → Nesten ingen overskuddsvarme utnyttes i Norge foreløpig"
+      },
+      "fact": "Stortinget fjernet i juni 2026 datasentrenes unntak fra krav om å utnytte overskuddsvarme."
     },
     {
       "id": 6,
       "question": "Fra 1. juli 2026 gir en ny bestemmelse i energiloven regjeringen en ny mulighet i nettilknytningen. Hva går den ut på, og hva var bakgrunnen?",
       "options": [
-        { "id": "A", "text": "Regjeringen kan fordele alle nettilknytninger ved loddtrekning, etter at Statnett fikk klager fra kommunene" },
-        { "id": "B", "text": "Regjeringen kan pålegge nettselskaper å gi datasentre rabatt på nettleien, etter press fra bransjen" },
-        { "id": "C", "text": "Regjeringen kan pålegge nettselskaper å prioritere nettilknytningen for en bestemt kunde når det er nødvendig av hensyn til nasjonale sikkerhetsinteresser. Bestemmelsen kom etter at Statnett avslo en søknad om mer kraft til Forsvarets nye ubåtbase i Ramsund" }
+        {
+          "id": "A",
+          "text": "Regjeringen kan fordele alle nettilknytninger ved loddtrekning, etter at Statnett fikk klager fra kommunene"
+        },
+        {
+          "id": "B",
+          "text": "Regjeringen kan pålegge nettselskaper å gi datasentre rabatt på nettleien, etter press fra bransjen"
+        },
+        {
+          "id": "C",
+          "text": "Regjeringen kan pålegge nettselskaper å prioritere nettilknytningen for en bestemt kunde når det er nødvendig av hensyn til nasjonale sikkerhetsinteresser. Bestemmelsen kom etter at Statnett avslo en søknad om mer kraft til Forsvarets nye ubåtbase i Ramsund"
+        }
       ],
       "correct": "C",
       "explanation": "Dette kan i prinsippet sikre en helt ny aktør plass i køen foran andre.",
-      "reference": { "page": "20", "chapter": "En ny kraftintensiv industri → Datasentre og kampen om knappe kraftressurser → Hvorfor datasentre vinner frem i kampen om strøm" }
+      "reference": {
+        "page": "20",
+        "chapter": "En ny kraftintensiv industri → Datasentre og kampen om knappe kraftressurser → Hvorfor datasentre vinner frem i kampen om strøm"
+      },
+      "fact": "Fra 1. juli 2026 kan regjeringen prioritere nettilknytning av hensyn til nasjonal sikkerhet."
     },
     {
       "id": 7,
       "question": "I mai 2026 ble det bestemt at datasentrenes kraftforbruk ikke lenger skal regnes som alminnelig forsyning i konsesjonskraftordningen. Hva er konsekvensen?",
       "options": [
-        { "id": "A", "text": "Datasentrenes forbruk øker ikke lenger vertskommunens andel av konsesjonskraften. Det overskytende går til fylkeskommunen, med en overgangsordning for kommuner som allerede har datasentre i drift" },
-        { "id": "B", "text": "Datasentre må kjøpe all strøm til markedspris og kan ikke inngå langsiktige avtaler" },
-        { "id": "C", "text": "Vertskommunene får i stedet hele konsesjonskraften fra alle datasentre" }
+        {
+          "id": "A",
+          "text": "Datasentrenes forbruk øker ikke lenger vertskommunens andel av konsesjonskraften. Det overskytende går til fylkeskommunen, med en overgangsordning for kommuner som allerede har datasentre i drift"
+        },
+        {
+          "id": "B",
+          "text": "Datasentre må kjøpe all strøm til markedspris og kan ikke inngå langsiktige avtaler"
+        },
+        {
+          "id": "C",
+          "text": "Vertskommunene får i stedet hele konsesjonskraften fra alle datasentre"
+        }
       ],
       "correct": "A",
       "explanation": "Endringen betyr at datasentre ikke lenger bidrar til å øke vertskommunens andel av konsesjonskraften.",
-      "reference": { "page": "20", "chapter": "En ny kraftintensiv industri → Datasentre og kampen om knappe kraftressurser → Hvorfor datasentre vinner frem i kampen om strøm" }
+      "reference": {
+        "page": "20",
+        "chapter": "En ny kraftintensiv industri → Datasentre og kampen om knappe kraftressurser → Hvorfor datasentre vinner frem i kampen om strøm"
+      },
+      "fact": "Datasentre teller ikke lenger som alminnelig forsyning i konsesjonskraftordningen."
     },
     {
       "id": 8,
       "question": "I juli 2026 strammet Statnett inn kravene for forbrukstilknytninger på 100 MW eller mer. Hva er blant kravene?",
       "options": [
-        { "id": "A", "text": "At anlegget har minst to utenlandske eiere som deler risikoen" },
-        { "id": "B", "text": "Arealet må være regulert, finansieringen må dokumenteres, gjennomføringstiden er som hovedregel seks år, og forsinkelser på over ett til to år kan føre til at kapasiteten trekkes tilbake" },
-        { "id": "C", "text": "At anlegget bare drives på nattestid for å avlaste nettet på dagtid" }
+        {
+          "id": "A",
+          "text": "At anlegget har minst to utenlandske eiere som deler risikoen"
+        },
+        {
+          "id": "B",
+          "text": "Arealet må være regulert, finansieringen må dokumenteres, gjennomføringstiden er som hovedregel seks år, og forsinkelser på over ett til to år kan føre til at kapasiteten trekkes tilbake"
+        },
+        {
+          "id": "C",
+          "text": "At anlegget bare drives på nattestid for å avlaste nettet på dagtid"
+        }
       ],
       "correct": "B",
       "explanation": "Kravene er innarbeidet i modenhetsvurderingen fra Fornybar Norge, med lignende reguleringskrav til prosjekter under 100 MW. Reglene skal gjelde for de som har reservert eller står i kø, men med overgangsregler.",
-      "reference": { "page": "19–20", "chapter": "En ny kraftintensiv industri → Datasentre og kampen om knappe kraftressurser → Hvorfor datasentre vinner frem i kampen om strøm" }
+      "reference": {
+        "page": "19–20",
+        "chapter": "En ny kraftintensiv industri → Datasentre og kampen om knappe kraftressurser → Hvorfor datasentre vinner frem i kampen om strøm"
+      },
+      "fact": "Statnett krever fra juli 2026 regulert areal og dokumentert finansiering for prosjekter på 100 MW eller mer."
     },
     {
       "id": 9,
       "question": "Sikkerhetsloven gir staten en egen kontroll med eierskap i visse virksomheter. Hvilket datasenter nevner rapporten som eksempel på et anlegg som er underlagt dette, og hva innebærer det?",
       "options": [
-        { "id": "A", "text": "Google Skien. Alle eierskifter må godkjennes av Stortinget" },
-        { "id": "B", "text": "Nscales anlegg på Glomfjord. Staten må eie minst 51 prosent" },
-        { "id": "C", "text": "Green Mountains anlegg på Hamar. Den som vil kjøpe en kvalifisert eierandel må melde dette til departementet på forhånd, og kongen i statsråd kan sette vilkår eller forby transaksjonen. De aller fleste datasentre i Norge er imidlertid ikke underlagt bestemmelsen" }
+        {
+          "id": "A",
+          "text": "Google Skien. Alle eierskifter må godkjennes av Stortinget"
+        },
+        {
+          "id": "B",
+          "text": "Nscales anlegg på Glomfjord. Staten må eie minst 51 prosent"
+        },
+        {
+          "id": "C",
+          "text": "Green Mountains anlegg på Hamar. Den som vil kjøpe en kvalifisert eierandel må melde dette til departementet på forhånd, og kongen i statsråd kan sette vilkår eller forby transaksjonen. De aller fleste datasentre i Norge er imidlertid ikke underlagt bestemmelsen"
+        }
       ],
       "correct": "C",
       "explanation": "Evnen til å understøtte datalagring, dataprosessering og dataoverføring i Norge er innmeldt som en grunnleggende nasjonal funksjon (GNF). Det er ikke de enkelte datasentrene som er utpekt, men enkeltanlegg kan likevel bli underlagt loven.",
-      "reference": { "page": "57", "chapter": "Samfunnsnytten ved datasentre i Norge → Nasjonal kontroll og strategisk kapasitet" }
+      "reference": {
+        "page": "57",
+        "chapter": "Samfunnsnytten ved datasentre i Norge → Nasjonal kontroll og strategisk kapasitet"
+      },
+      "fact": "Green Mountain Hamar er underlagt sikkerhetslovens eierskapskontroll, men det er ikke de fleste datasentre."
     },
     {
       "id": 10,
       "question": "Ekomloven og datasenterforskriften gir Nkom mulighet til å pålegge datasenteroperatører å prioritere viktige samfunnsaktører. Hva er den viktigste begrensningen rapporten peker på?",
       "options": [
-        { "id": "A", "text": "Kravene gjelder bare datasentre med mer enn 1 GW kapasitet" },
-        { "id": "B", "text": "Prioriteringskravene forutsetter at aktøren allerede er kunde av anlegget og har dataene sine plassert der, og det er usikkert om loven gir rett til å tvinge frem plass til nye kunder" },
-        { "id": "C", "text": "Kravene gjelder bare i fredstid, og må oppheves ved krig" }
+        {
+          "id": "A",
+          "text": "Kravene gjelder bare datasentre med mer enn 1 GW kapasitet"
+        },
+        {
+          "id": "B",
+          "text": "Prioriteringskravene forutsetter at aktøren allerede er kunde av anlegget og har dataene sine plassert der, og det er usikkert om loven gir rett til å tvinge frem plass til nye kunder"
+        },
+        {
+          "id": "C",
+          "text": "Kravene gjelder bare i fredstid, og må oppheves ved krig"
+        }
       ],
       "correct": "B",
       "explanation": "Nkom kan blant annet pålegge operatører å prioritere viktige samfunnsaktører når normal drift skal gjenopptas etter en forstyrrelse, og å drifte og vedlikeholde tjenestetilbudet med personell og tekniske løsninger i Norge i en krise- eller beredskapssituasjon.",
-      "reference": { "page": "63", "chapter": "Nasjonal kontroll og strategisk kapasitet → Anleggenes egenskaper avgjør muligheten for kontroll" }
+      "reference": {
+        "page": "63",
+        "chapter": "Nasjonal kontroll og strategisk kapasitet → Anleggenes egenskaper avgjør muligheten for kontroll"
+      },
+      "fact": "Nkom kan pålegge operatører å prioritere viktige samfunnsaktører, men bare eksisterende kunder."
     }
   ]
 }
