@@ -4,7 +4,7 @@ En kartbasert utforskning av norske datasenterprosjekter, med naturpåvirkning, 
 
 > **KI-drevet datainnhenting. Kun demonstrasjon – ikke beslutningsstøtte.** Utvalget er ufullstendig, kildekontrollen er begrenset, og opplysninger kan være feil eller utdaterte.
 
-**Planlagt offentlig adresse:** [oceandatajo.com/labs/datasenter-analyse-norge](https://oceandatajo.com/labs/datasenter-analyse-norge). Se [verifikasjonsloggen](docs/implementation/verification-2026-10-05.md) for faktisk test- og deploystatus.
+**Åpne demoen:** [oceandatajo.com/labs/datasenter-analyse-norge](https://oceandatajo.com/labs/datasenter-analyse-norge). Se [verifikasjonsloggen](docs/implementation/verification-2026-10-05.md) for faktisk test- og deploystatus.
 
 ![Kartdemo på desktop](docs/implementation/demo-desktop.png)
 
@@ -17,7 +17,7 @@ En kartbasert utforskning av norske datasenterprosjekter, med naturpåvirkning, 
 - Etterprøving av nasjonale påstander, med skille mellom medieomtale, publisert rapport og egen vurdering.
 - Nedlasting av datauttrekket som vises i demoen.
 
-Kartmotoren er Mapbox GL JS. Mapbox er standard basiskart; ved tilgangsfeil kan brukeren velge Kartverkets gråtonekart. Skjermbildet viser dette alternativet.
+Kartmotoren er Mapbox GL JS. Mapbox er standard basiskart; ved tilgangsfeil kan brukeren velge Kartverkets gråtonekart. Skjermbildet viser produksjonsløsningen med Mapbox.
 
 ## Datagrunnlag og begrensninger
 
@@ -68,6 +68,8 @@ npm run typecheck
 npm run build
 # Med lokal dev-server, gyldig .env og Playwright Chromium installert:
 npx playwright test
+# Eller kontroller en deploy:
+TEST_APP_URL=https://oceandatajo.com/labs/datasenter-analyse-norge npx playwright test
 ```
 
 Enhetstester dekker filtrering, koordinatkontroll og kilde-URL-er. Nettlesertester dekker desktop/mobil, prosjektvalg, lenker, tomme søkeresultater, ODP-feil og alternativt basiskart. Integrasjonstestene krever nettverk og bruker ekte ODP- og karttjenester. Testene verifiserer produktets oppførsel, ikke sannhetsgehalten i alle forskningspåstandene.

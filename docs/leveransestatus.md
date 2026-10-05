@@ -13,8 +13,8 @@
 | Eierskap | Utvalgte konsern-/operatørkilder, datert der mulig | Full juridisk eierkjede og reell eier per anlegg |
 | Usikkerhet og kilder | Kilde-ID-er, innhentingsdato, publiseringsdato eller eksplisitt ukjent, begrunnelser | Normalisere alle arbeidsdata til endelig datakontrakt |
 | Teknologirådet | Full analyserapport lest; 12 påstander/kontrollspørsmål; interne avvik og datoer bevart | Underliggende 192-raders oversikt, uavhengig reproduksjon og separat kommende anbefalingsrapport |
-| Interaktiv kartløsning | Next.js/Mapbox-demo med ODP, fem temaer, kilder, filtre og verneområder; lokale nettlesertester bestått | Vercel-datatilgang og gateway-integrasjon |
-| Vercel og oceandatajo.com/labs | Lesetilgang og eksisterende gateway kartlagt | Oppdatert gateway-kilde, app-deploy, avgrensede rewrites og live kontroll |
+| Interaktiv kartløsning | Next.js/Mapbox-demo med ODP, fem temaer, kilder, filtre og verneområder; nettlesertester av data, filtre og mobil bestått på offentlig Labs-adresse | Videre nasjonal datadekning |
+| Vercel og oceandatajo.com/labs | Produksjonsdeploy og gateway-ruting levert; offentlig side, ressurser og ODP-API verifisert | Løpende oppfølging ved nye datautgivelser |
 
 En opplysning som ikke er funnet er et kunnskapshull, ikke dokumentasjon på null påvirkning. Første utvalg er ikke representativt, og kan ikke brukes til å estimere nasjonale totaler uten videre arbeid.
 

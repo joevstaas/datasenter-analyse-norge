@@ -38,3 +38,28 @@ Offentlig side på datasenter-analyse-norge.vercel.app svarte 200; API svarte 50
 Siste diagnostiserte upstream-feil var ODP_HTTP_403; datatilgang er ikke verifisert i produksjon.
 Eksisterende Mapbox/base-URL-variabler ble utvidet til Production uten å endre verdiene.
 ODP-nøkkelen er brukerens egen Vercel-variabel og ble ikke overskrevet fra lokal .env.
+
+## Sluttkontroll – offentlig Labs-adresse
+
+Brukeren ga ODP-nøkkelen tilgang til selve datasettene i ODP-admin. Deretter svarte
+https://oceandatajo.com/labs/datasenter-analyse-norge/api/atlas med HTTP 200 og
+utgivelse 2026-10-05-r2: 8 prosjekter, 93 påstander, 45 natur-/vannrader og 77 kilder.
+Ingen lokal nøkkel ble lastet opp som del av denne rettingen.
+
+Appens main-commit 8d49251 utløste vellykket Git-deploy
+(dpl_4dKCQDNPSKuCmjsWuHPc1EhJ3EGM). Gatewayens main-commit 650f074 la til to
+rewrites og utløste vellykket produksjonsdeploy (dpl_JAQjc7zHHikMePtkwjJsowE7vYSS).
+Eksisterende rewrites og redirects ble sammenlignet og beholdt uendret.
+Offentlig Labs-side, CSS og JavaScript svarte HTTP 200.
+
+Playwright mot offentlig Labs-adresse bestod:
+- Ekte ODP-data, 8 markører, søk, kilder, prosjektvalg, delbar URL, tomt søk,
+  verneområder og mobilvisning uten horisontal overløp eller JavaScript-feil.
+- Eksplisitt feilvisning når ODP-feil simuleres.
+- Kartverkets basiskart ved simulert Mapbox-feil, samt tastaturlukking av dialog.
+
+Første kjøring av fallback-testen feilet fordi det gamle glob-mønsteret ikke
+matchet Mapbox-fliser med flere stisegmenter. Testen ble rettet til URL-predikat
+for api.mapbox.com og .vector.pbf; ny kjøring bestod. Produksjonskode var uendret.
+TEST_APP_URL kan nå velge testmål. Produksjonsskjermbilder erstatter lokale bilder.
+Mapbox-basiskart fungerte på produksjonsdomenet ved sluttkontrollen.

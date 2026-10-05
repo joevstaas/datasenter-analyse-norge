@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-const url='http://127.0.0.1:3000/labs/datasenter-analyse-norge';
+const url=(process.env.TEST_APP_URL || 'http://127.0.0.1:3000/labs/datasenter-analyse-norge');
 test('real ODP data, filters, sourced details, shared link, nature and mobile',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(url);await expect(page.locator('.project-row')).toHaveCount(8,{timeout:60000});await expect(page.locator('.map-marker')).toHaveCount(8,{timeout:30000});

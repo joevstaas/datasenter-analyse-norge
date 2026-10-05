@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 test('Mapbox tile error offers working Kartverket basemap; keyboard dialog',async({page})=>{
- await page.route('**/v4/*.vector.pbf*',r=>r.fulfill({status:403,body:'Forbidden'}));
- await page.goto('http://127.0.0.1:3000/labs/datasenter-analyse-norge');
+ await page.route(url=>url.hostname==='api.mapbox.com' && url.pathname.endsWith('.vector.pbf'),r=>r.fulfill({status:403,body:'Forbidden'}));
+ await page.goto((process.env.TEST_APP_URL || 'http://127.0.0.1:3000/labs/datasenter-analyse-norge'));
  await expect(page.getByRole('button',{name:'Bruk Kartverkets basiskart'})).toBeVisible({timeout:30000});
  const tile=page.waitForResponse(r=>r.url().includes('cache.kartverket.no')&&r.status()===200);
  await page.getByRole('button',{name:'Bruk Kartverkets basiskart'}).click();await tile;
