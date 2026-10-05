@@ -1,0 +1,131 @@
+{
+  "title": "Datasentre i Norge – quiz",
+  "source": {
+    "report": "Datasentre i Norge: Vurderinger av samfunnsnytte",
+    "publisher": "Teknologirådet",
+    "published": "Oslo, oktober 2026",
+    "pageNumbering": "Sidetall refererer til trykt sidetall i rapporten (som i innholdsfortegnelsen), ikke PDF-sideindeks."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Google har fått godkjent 46 nødstrømsaggregater og et drivstofflager på én million liter ved datasenteret i Skien. Hva tilsvarer den installerte nødstrømseffekten på 334 MW i størrelse?",
+      "options": [
+        { "id": "A", "text": "Omtrent like stort som vannkraftverket Driva, det 16. største i Norge målt i effekt" },
+        { "id": "B", "text": "Omtrent like stort som et lite lokalt bygdekraftverk på 5 MW" },
+        { "id": "C", "text": "Omtrent like stort som all vindkraft i Trøndelag samlet" }
+      ],
+      "correct": "A",
+      "explanation": "Nødanleggene har en tilført effekt på 334 MW, som gir anslagsvis 130–140 MW strøm. Rapporten sammenligner dette med Driva, det sekstiende største norske vannkraftverket målt i effekt.",
+      "reference": { "page": "49–50", "chapter": "Samfunnsnytten ved datasentre i Norge → Fleksibilitet og robusthet i energisystemet → Reservekraft kan gi avlastning, men dette er lite utnyttet" }
+    },
+    {
+      "id": 2,
+      "question": "Datasentre gir fra seg enorme mengder varme, men hvor mye overskuddsvarme avgir norsk industri, og hvor mye fjernvarme leverer Norge til alle sluttbrukere samlet?",
+      "options": [
+        { "id": "A", "text": "Industrien avgir rundt 2 TWh, mens Norge leverer 20 TWh fjernvarme" },
+        { "id": "B", "text": "Industrien avgir rundt 20 TWh i året, mens Norge leverer bare 6,8 TWh fjernvarme totalt" },
+        { "id": "C", "text": "Begge tallene ligger på rundt 6,8 TWh, så alt går i dag til fjernvarme" }
+      ],
+      "correct": "B",
+      "explanation": "Stabil og billig vannkraft har gjort elektrisitet til den foretrukne energikilden, og fjernvarmesystemene er langt mindre utbygget enn i Sverige og Tyskland.",
+      "reference": { "page": "49", "chapter": "Samfunnsnytten ved datasentre i Norge → Fleksibilitet og robusthet i energisystemet → Nesten ingen overskuddsvarme utnyttes i Norge foreløpig" }
+    },
+    {
+      "id": 3,
+      "question": "Herøya Industripark i Telemark har rundt 1 TWh lavtemperatur overskuddsvarme tilgjengelig. Hvor stor del av dette utnytter fjernvarmenettet i Porsgrunn i dag?",
+      "options": [
+        { "id": "A", "text": "Omtrent 95 prosent, nesten alt gjenbrukes" },
+        { "id": "B", "text": "Omtrent halvparten, siden resten går til gartnerier" },
+        { "id": "C", "text": "Bare 5 prosent: nettet bruker 50 GWh av nesten 1 TWh" }
+      ],
+      "correct": "C",
+      "explanation": "Rapporten bruker Herøya som eksempel på at fjernvarme til boliger sjelden er nok til å ta unna volumet kraftintensiv industri kan produsere. Slik overskuddsvarme må ofte finne andre mottakere enn boliger, som industri, gartnerier eller oppdrett.",
+      "reference": { "page": "48", "chapter": "Samfunnsnytten ved datasentre i Norge → Fleksibilitet og robusthet i energisystemet → Nesten ingen overskuddsvarme utnyttes i Norge foreløpig" }
+    },
+    {
+      "id": 4,
+      "question": "Ifølge anslag i rapporten kan datasentrenes vannfotavtrykk fra strømproduksjon nå 9,3 billioner liter i 2030. Hva tilsvarer dette?",
+      "options": [
+        { "id": "A", "text": "Vannforbruket til alle Nordens fotballbaner og golfbaner til sammen" },
+        { "id": "B", "text": "Det årlige vannforbruket til Norges hundre største fabrikker" },
+        { "id": "C", "text": "De grunnleggende årlige husholdningsbehovene for vann til 1,3 milliarder mennesker i Afrika sør for Sahara" }
+      ],
+      "correct": "C",
+      "explanation": "Rapporten understreker samtidig at Norge mangler systematisk, offentlig rapportering som kartlegger vannutnyttelsen til norske datasentre eller annen industri samlet.",
+      "reference": { "page": "55", "chapter": "Samfunnsnytten ved datasentre i Norge → Skånsomhet mot natur og vannressurser → Norge mangler oversikt over datasentres vannutnyttelse" }
+    },
+    {
+      "id": 5,
+      "question": "Dagens mest utbredte GPU-generasjon (NVIDIA Blackwell) krever opptil 130 kW per serverstativ. Neste generasjon, Rubin Ultra, ventes å trekke 600 kW per stativ. Hvor mange norske husstander tilsvarer det årlige strømforbruket til ett enkelt Rubin Ultra-stativ?",
+      "options": [
+        { "id": "A", "text": "Omtrent 25 husstander, som et lite borettslag" },
+        { "id": "B", "text": "Omtrent 250 husstander" },
+        { "id": "C", "text": "Omtrent 2 500 husstander, som en mellomstor by" }
+      ],
+      "correct": "B",
+      "explanation": "Et Blackwell-stativ på 130 kW tilsvarer ca. 55 husstander, mens et Rubin Ultra-stativ på 600 kW tilsvarer ca. 250 husstander (beregnet med 70 prosent kapasitetsfaktor). Varmen fra stativet tilsvarer rundt 600 panelovner.",
+      "reference": { "page": "26", "chapter": "Datasentre – typer, bruk og eierskap → Hva datasentre faktisk brukes til → Trene opp KI-modeller – mest kraftintensivt, men fleksibelt" }
+    },
+    {
+      "id": 6,
+      "question": "Green Mountains datasenter OSL-Hamar har TikTok som eneste kunde. Hvor stor tilknyttet kapasitet har det sammenlignet med hele den norske datasenternæringen i 2019?",
+      "options": [
+        { "id": "A", "text": "Omtrent en tiendedel av hele næringen i 2019" },
+        { "id": "B", "text": "Nesten like stor som hele den norske datasenternæringen hadde totalt i 2019" },
+        { "id": "C", "text": "Dobbelt så stor som hele næringen hadde i 2019" }
+      ],
+      "correct": "B",
+      "explanation": "OSL-Hamar har 110 MW tilknyttet kapasitet, mens NVEs anslag for hele Norge i 2019 var 135 MW.",
+      "reference": { "page": "12", "chapter": "En ny kraftintensiv industri → Raskt økende kraftbehov for datasentre i Norge → 92 nye datasentre siden 2019" }
+    },
+    {
+      "id": 7,
+      "question": "Hvis all tilknyttet kapasitet, all reservert kapasitet og hele kapasitetskøen realiseres, blir samlet kapasitet 14 320 MW. Hvor stor andel av gjennomsnittlig norsk vannkraftproduksjon vil datasentrene da teoretisk forbruke (87,8 TWh i 2036)?",
+      "options": [
+        { "id": "A", "text": "Rundt 12 prosent" },
+        { "id": "B", "text": "Rundt 31 prosent" },
+        { "id": "C", "text": "Rundt 64 prosent, altså nesten to tredjedeler" }
+      ],
+      "correct": "C",
+      "explanation": "Det tilsvarer en vekst på 1 647 prosent fra 2025. Rapporten presiserer at dette er teoretiske anslag og at mange av prosjektene sannsynligvis aldri vil realiseres.",
+      "reference": { "page": "16–17", "chapter": "En ny kraftintensiv industri → Datasentre og kampen om knappe kraftressurser → Kan i teorien bruke over halvparten av vannkraften" }
+    },
+    {
+      "id": 8,
+      "question": "Norsk Datasenterindustri (NDI) rapporterte om lag 4 400 årsverk i næringen i ett år. Hvor mange av disse var i hovedsak knyttet til bygging og ikke til drift?",
+      "options": [
+        { "id": "A", "text": "Rundt 3 700" },
+        { "id": "B", "text": "Rundt 1 100" },
+        { "id": "C", "text": "Rundt 400, resten var i drift" }
+      ],
+      "correct": "A",
+      "explanation": "Av de 4 400 hadde bare 403 ansatte hos datasenteroperatøren selv, i tillegg til 327 innleide. Rundt 3 700 var i hovedsak knyttet til bygging. SSB fant at næringen sysselsetter 2,3 ansatte per MW i drift, og at tallet faller til 1,9 når planlagte anlegg regnes med.",
+      "reference": { "page": "40", "chapter": "Samfunnsnytten ved datasentre i Norge → Lokal/nasjonal verdiskaping og næringsvirksomhet → Byggefasen gir mer lokal verdiskaping enn driftsfasen" }
+    },
+    {
+      "id": 9,
+      "question": "Maskinvare som GPU-er utgjør 60–75 prosent av investeringskostnadene i et datasenter. Hvordan slår dette ut for kommunenes eiendomsskatt?",
+      "options": [
+        { "id": "A", "text": "Produksjonsutstyr og -installasjoner er unntatt fra eiendomsskatt siden 2019, og servere regnes som slikt utstyr, så maskinvaren faller utenfor" },
+        { "id": "B", "text": "Maskinvaren beskattes dobbelt så høyt som bygget fordi den er mer verdifull" },
+        { "id": "C", "text": "Alle datasentre er fritatt for eiendomsskatt ved lov" }
+      ],
+      "correct": "A",
+      "explanation": "Kommunen kan i hovedsak bare skattlegge bygget og tomten, mens maskinvaren, som utgjør den største delen av investeringen, faller utenfor. Det er også opp til hver kommune om den skriver ut eiendomsskatt i det hele tatt.",
+      "reference": { "page": "43–44", "chapter": "Samfunnsnytten ved datasentre i Norge → Lokal/nasjonal verdiskaping og næringsvirksomhet → Byggefasen gir mer lokal verdiskaping enn driftsfasen" }
+    },
+    {
+      "id": 10,
+      "question": "Datasenterbygget er sjelden det eneste som bygges. Hvor stor andel av all nedbygd natur i Norge mellom 1990 og 2019 sto kraftlinjer alene for?",
+      "options": [
+        { "id": "A", "text": "Under 1 prosent" },
+        { "id": "B", "text": "10 prosent" },
+        { "id": "C", "text": "Over 40 prosent" }
+      ],
+      "correct": "B",
+      "explanation": "Store anlegg trenger ny nettkapasitet, som igjen krever kraftlinjer og transformatorstasjoner, og veier for å frakte utstyr og personell. Rapporten peker på at disse følgeinngrepene i noen tilfeller kan bli mer omfattende enn selve datasentertomten.",
+      "reference": { "page": "54", "chapter": "Samfunnsnytten ved datasentre i Norge → Skånsomhet mot natur og vannressurser → Presset på norsk natur øker, og mer utbygging er planlagt" }
+    }
+  ]
+}
