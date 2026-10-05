@@ -1,0 +1,192 @@
+{
+ "currentVersion": 10.91,
+ "serviceDescription": "Terestriske Naturtyper etter DN-håndbok 13",
+ "mapName": "Layers",
+ "description": "",
+ "copyrightText": "Miljødirektoratet",
+ "supportsDynamicLayers": false,
+ "layers": [
+  {
+   "id": 0,
+   "name": "naturtyper_hb13_alle",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 1,
+   "name": "hovednaturtype_hb13_myr_og_kilde",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 2,
+   "name": "hovednaturtype_hb13_rasmark_berg_kantkratt",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 3,
+   "name": "hovednaturtype_hb13_fjell",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 4,
+   "name": "hovednaturtype_hb13_kulturlandskap",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 5,
+   "name": "hovednaturtype_hb13_ferskvann_vatmark",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 6,
+   "name": "hovednaturtype_hb13_skog",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 7,
+   "name": "hovednaturtype_hb13_kyst_havstrand",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 8,
+   "name": "hovednaturtype_hb13_andre_viktige",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  }
+ ],
+ "tables": [
+  {
+   "id": 11,
+   "name": "naturtype_kommune",
+   "type": "Table"
+  },
+  {
+   "id": 12,
+   "name": "naturtype_kilder",
+   "type": "Table"
+  }
+ ],
+ "spatialReference": {
+  "wkid": 25833,
+  "latestWkid": 25833
+ },
+ "singleFusedMapCache": false,
+ "initialExtent": {
+  "xmin": 27534.010811979264,
+  "ymin": 6981611.589450756,
+  "xmax": 88282.46564222229,
+  "ymax": 6986638.682838276,
+  "spatialReference": {
+   "wkid": 25833,
+   "latestWkid": 25833
+  }
+ },
+ "fullExtent": {
+  "xmin": -76110.97670000046,
+  "ymin": 6448524.772399999,
+  "xmax": 1108323.7035999997,
+  "ymax": 8686471.530000001,
+  "spatialReference": {
+   "wkid": 25833,
+   "latestWkid": 25833
+  }
+ },
+ "minScale": 1280001,
+ "maxScale": 0,
+ "units": "esriMeters",
+ "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+ "documentInfo": {
+  "Title": "",
+  "Author": "",
+  "Comments": "Naturtyper",
+  "Subject": "Naturtyper",
+  "Category": "",
+  "AntialiasingMode": "None",
+  "TextAntialiasingMode": "Force",
+  "Keywords": "Naturtyper,Naturbase"
+ },
+ "capabilities": "Map,Query,Data",
+ "supportedQueryFormats": "JSON, geoJSON",
+ "exportTilesAllowed": false,
+ "referenceScale": 0,
+ "datumTransformations": [
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": true,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": false,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  }
+ ],
+ "supportsDatumTransformation": true,
+ "maxRecordCount": 5000,
+ "maxImageHeight": 4096,
+ "maxImageWidth": 4096,
+ "supportedExtensions": "WMSServer",
+ "resampling": false
+}

@@ -1,0 +1,289 @@
+{
+ "currentVersion": 10.91,
+ "id": 1,
+ "name": "dekningskart_naturtyper_nin",
+ "type": "Feature Layer",
+ "description": "Dekningskart som viser områdene som er kartlagt",
+ "geometryType": "esriGeometryPolygon",
+ "sourceSpatialReference": {
+  "wkid": 25833,
+  "latestWkid": 25833
+ },
+ "copyrightText": "",
+ "parentLayer": null,
+ "subLayers": [],
+ "minScale": 0,
+ "maxScale": 0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriPFS",
+    "url": "3947491846713ff9159cb46ae266e691",
+    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAD0AAAA9CAYAAAAeYmHpAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAA85JREFUaIG1mtuRYyEMRJkq0ttsJozNZgOc/bILcyX1acHwdXlJQmo9wJ5jjPH97+fn75+vr9Fo0d51zKF9IodDY44xxroo25QdJFq7jila2b51XaXEvV8d+LV2ZowrYsQalXAVMiJZKt5KlojvpFrfCSgIZ32y9qa7RXSmgnZmoeybwq86WLaffGc01zUf8KYWrxqFHw10RNFExnXNjBhXgpBAl61zod2BOdn/iN5KEBWcXmNd1FQWdOGd7X9EbyWIGneDkmPNE3iv696HphB3IadongStrkvNDI40x1YMnMJhn+8EMOpSk1iNBjWquL1PLeQE2Ko/s40E3l2Y731loR2NTjEU9dM8nTFwUtmNC0TE0ymGSp9WDDuVVoUU53ZGqzfVf6csGqFJ0KjGd4gqSGffJ+gJfToT/LRKimh2Wyc47useh1ZW/s3iw60NqJwPn94Ju0Ehmqd+vX+T2oAoUVk8LU4igWlx4aQ6Ehvcq6OyOApkN9IRiQnOg8a+3pEFBbKqUKiEjeZI2lM0MzmjvZHLpReObIxWT/scpUVodl54PqI39ekTpazjygrdGsGCN/XVDiOa/ijEndiyKzS9cHQPQg7YydcdC2eVXwhvJYA6iIrOFbwzWpkM1ThRbHqfrny9YqCsq3Ko4uMqB8FbCdHROoW2WwFmMkeK+YC3e6AOvGlwcg7o0NnbJIudcddSXf89URB6I+sItQriXBJcxWf0K2OW796nxUe0J4NlJbRTvFTKe9+yOgekezrzkdC0eIlkjiw+s8WkqT2ddOjIQSAfrSlfTjplX7Rmz5WUptNUoFvb41dLtZEEmgxyp0GqUixNi+9Dd3y3GldzDt2Ob6sscv1XSzJ3kp6q9crCj0CmfDkjpOYiuh2fJvIpPq8WRm8HOhHTbMyxbMVXKU3NS3jf8neaCcjtzpUxrcice3WnXqeZ4DRgElcJ4e3cgx1m2Tq19yRSR/vQEzBp1BLEus61UQW1qI9SFi0QoleKThYgrlHNKXcI/0dWEXYrr9N3MHUglRIjpOF/AbvCrEyi731PJQN9XaGBEf8LWLWO4m7A22myDCUQJdbt5msluNpbZaBrPt2Jog4dh56iec2nXRouSgjCaE1u/6xDGhHI9XmyV9F8FCckFVTfaq4S6PTlxLV8+kZGtOymj07gyxpJdxmdxw94t7UeCUGrsQ5yCKIej/2nEHeidTdrVAeqxh8+7TDtwLjKmzeqwIxf6dOnsF6ba919jgbLSuHVWeR9uhO5q7FqT3QYWow472/yPt2J3EpAOq9a5wVnjDH+AyTAX5RJx7OqAAAAAElFTkSuQmCC",
+    "contentType": "image/png",
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSDash",
+     "color": [
+      0,
+      77,
+      168,
+      255
+     ],
+     "width": 1.5
+    },
+    "width": 45.75,
+    "height": 45.75,
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0,
+    "xscale": 1,
+    "yscale": 1
+   },
+   "label": "Dekningskart naturtyper NiN",
+   "description": ""
+  },
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": true,
+ "extent": {
+  "xmin": -76223.9952999996,
+  "ymin": 6448485.5067,
+  "xmax": 1095945.9304999998,
+  "ymax": 7937977.329999998,
+  "spatialReference": {
+   "wkid": 25833,
+   "latestWkid": 25833
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "Prosjektområdenavn",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "Prosjektområdenavn",
+   "type": "esriFieldTypeString",
+   "alias": "Prosjektområdenavn",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "Prosjektnavn",
+   "type": "esriFieldTypeString",
+   "alias": "Prosjektnavn",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "Årstall",
+   "type": "esriFieldTypeInteger",
+   "alias": "Årstall",
+   "domain": null
+  },
+  {
+   "name": "Oppdragsgiver",
+   "type": "esriFieldTypeString",
+   "alias": "Oppdragsgiver",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "Oppdragstaker",
+   "type": "esriFieldTypeString",
+   "alias": "Oppdragstaker",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "Programkode",
+   "type": "esriFieldTypeString",
+   "alias": "Programkode",
+   "length": 20,
+   "domain": null
+  },
+  {
+   "name": "Program",
+   "type": "esriFieldTypeString",
+   "alias": "Program",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "Kartleggingsinstruks",
+   "type": "esriFieldTypeString",
+   "alias": "Kartleggingsinstruks",
+   "length": 120,
+   "domain": null
+  },
+  {
+   "name": "Dekningskartverdi",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Dekningskartverdi",
+   "domain": {
+    "type": "codedValue",
+    "name": "Dekningskartverdi",
+    "description": "Kodeliste for dekningskart. Frem til og med 2019 gjelder den kun for NIN Naturtyper (ikke 5K/20K).",
+    "codedValues": [
+     {
+      "name": "Grundig kartlagt med funn",
+      "code": 1
+     },
+     {
+      "name": "Delvis kartlagt med funn",
+      "code": 2
+     },
+     {
+      "name": "Ikke-systematisk kartlagt men funn/enkeltfunn forekommer",
+      "code": 3
+     },
+     {
+      "name": "Kartlagt uten funn",
+      "code": 4
+     },
+     {
+      "name": "Ikke kartlagt",
+      "code": 5
+     },
+     {
+      "name": "Innenfor juridiksjonsområde",
+      "code": 6
+     },
+     {
+      "name": "Utenfor juridiksjonsområde",
+      "code": 7
+     },
+     {
+      "name": "Ikke relevant",
+      "code": 8
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "prosjektid",
+   "type": "esriFieldTypeGUID",
+   "alias": "ProsjektID",
+   "length": 38,
+   "domain": null
+  },
+  {
+   "name": "SHAPE",
+   "type": "esriFieldTypeGeometry",
+   "alias": "SHAPE",
+   "domain": null
+  },
+  {
+   "name": "Prosjektrapport",
+   "type": "esriFieldTypeString",
+   "alias": "Prosjektrapport",
+   "length": 150,
+   "domain": null
+  },
+  {
+   "name": "SHAPE.STArea()",
+   "type": "esriFieldTypeDouble",
+   "alias": "SHAPE.STArea()",
+   "domain": null
+  },
+  {
+   "name": "SHAPE.STLength()",
+   "type": "esriFieldTypeDouble",
+   "alias": "SHAPE.STLength()",
+   "domain": null
+  }
+ ],
+ "geometryField": {
+  "name": "SHAPE",
+  "type": "esriFieldTypeGeometry",
+  "alias": "SHAPE"
+ },
+ "indexes": [
+  {
+   "name": "R156_pk",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "G2261Prosjektnav",
+   "fields": "Prosjektnavn",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "G2261prosjektid",
+   "fields": "prosjektid",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "S61_idx",
+   "fields": "SHAPE",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [
+  {
+   "id": 0,
+   "name": "NNF_Naturomrader",
+   "relatedTableId": 0,
+   "role": "esriRelRoleDestination",
+   "keyField": "prosjektid",
+   "cardinality": "esriRelCardinalityOneToOne",
+   "composite": false
+  }
+ ],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 5000,
+ "supportsStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, geoJSON",
+ "isDataVersioned": false,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsHavingClause": true,
+  "supportsCountDistinct": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsPagination": true,
+  "supportsTrueCurve": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true
+ },
+ "supportsDatumTransformation": true,
+ "hasGeometryProperties": true,
+ "geometryProperties": {
+  "shapeAreaFieldName": "SHAPE.STArea()",
+  "shapeLengthFieldName": "SHAPE.STLength()",
+  "units": "esriMeters"
+ },
+ "dateFieldsTimeReference": null,
+ "supportsCoordinatesQuantization": true
+}

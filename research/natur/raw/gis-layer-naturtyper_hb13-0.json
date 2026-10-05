@@ -1,0 +1,3241 @@
+{
+ "currentVersion": 10.91,
+ "id": 0,
+ "name": "naturtyper_hb13_alle",
+ "type": "Feature Layer",
+ "description": "Alle naturtyper (Etter DN Håndbok 13)",
+ "geometryType": "esriGeometryPolygon",
+ "sourceSpatialReference": {
+  "wkid": 25833,
+  "latestWkid": 25833
+ },
+ "copyrightText": "",
+ "parentLayer": null,
+ "subLayers": [],
+ "minScale": 1280001,
+ "maxScale": 0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "verdi",
+   "field2": null,
+   "field3": null,
+   "defaultSymbol": null,
+   "defaultLabel": null,
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSHorizontal",
+      "color": [
+       0,
+       150,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        150,
+        0,
+        255
+       ],
+       "width": 1.5
+      }
+     },
+     "value": "A",
+     "label": "Svært viktig og viktig",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSHorizontal",
+      "color": [
+       0,
+       150,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        150,
+        0,
+        255
+       ],
+       "width": 1.5
+      }
+     },
+     "value": "B",
+     "label": "Svært viktig og viktig",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSHorizontal",
+      "color": [
+       0,
+       175,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSDash",
+       "color": [
+        0,
+        175,
+        0,
+        255
+       ],
+       "width": 1
+      }
+     },
+     "value": "C",
+     "label": "Lokalt viktig",
+     "description": ""
+    }
+   ],
+   "fieldDelimiter": ","
+  },
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": true,
+ "extent": {
+  "xmin": -76110.97670000046,
+  "ymin": 6448524.772399999,
+  "xmax": 1108323.7035999997,
+  "ymax": 8686471.530000001,
+  "spatialReference": {
+   "wkid": 25833,
+   "latestWkid": 25833
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "naturtypeId",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "naturtypeId",
+   "type": "esriFieldTypeString",
+   "alias": "NaturtypeId",
+   "length": 10,
+   "domain": null
+  },
+  {
+   "name": "omraadenavn",
+   "type": "esriFieldTypeString",
+   "alias": "Områdenavn",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "naturtype",
+   "type": "esriFieldTypeString",
+   "alias": "Naturtype",
+   "length": 3,
+   "domain": {
+    "type": "codedValue",
+    "name": "Kode_Naturtype",
+    "description": "Kodeliste for Naturtype",
+    "codedValues": [
+     {
+      "name": "Intakte lavlandsmyrer",
+      "code": "A01"
+     },
+     {
+      "name": "Intakte høgmyrer",
+      "code": "A02"
+     },
+     {
+      "name": "Palsmyr",
+      "code": "A04"
+     },
+     {
+      "name": "Rikmyr",
+      "code": "A05"
+     },
+     {
+      "name": "Kilder og kildebekker",
+      "code": "A06"
+     },
+     {
+      "name": "Intakt lavlandsmyr i innlandet",
+      "code": "A07"
+     },
+     {
+      "name": "Kystmyr",
+      "code": "A08"
+     },
+     {
+      "name": "Våtmarksmassiv",
+      "code": "A09"
+     },
+     {
+      "name": "Høgmyrer i innlandet",
+      "code": "A10"
+     },
+     {
+      "name": "Oseanisk nedbørsmyr",
+      "code": "A11"
+     },
+     {
+      "name": "Sørvendte berg og rasmarker",
+      "code": "B01"
+     },
+     {
+      "name": "Kantkratt",
+      "code": "B02"
+     },
+     {
+      "name": "Ultrabasisk og tungmetallrik mark i lavlandet",
+      "code": "B03"
+     },
+     {
+      "name": "Nordvendte kystberg og blokkmark",
+      "code": "B04"
+     },
+     {
+      "name": "Grotte/gruve",
+      "code": "B05"
+     },
+     {
+      "name": "Leirskredgrop",
+      "code": "B06"
+     },
+     {
+      "name": "Ravinedal",
+      "code": "B07"
+     },
+     {
+      "name": "Jordpyramide",
+      "code": "B08"
+     },
+     {
+      "name": "Isinnfrysingsmark",
+      "code": "B09"
+     },
+     {
+      "name": "Ur og rasmark",
+      "code": "B10"
+     },
+     {
+      "name": "Breforland",
+      "code": "B11"
+     },
+     {
+      "name": "Dødisgrop",
+      "code": "B12"
+     },
+     {
+      "name": "Åpen kalkmark",
+      "code": "B13"
+     },
+     {
+      "name": "Rik berglendt mark",
+      "code": "B14"
+     },
+     {
+      "name": "Fosseberg",
+      "code": "B15"
+     },
+     {
+      "name": "Fosse-eng",
+      "code": "B16"
+     },
+     {
+      "name": "Kalkrike områder i fjellet",
+      "code": "C01"
+     },
+     {
+      "name": "Arktisk alpin grunn våtmark",
+      "code": "C02"
+     },
+     {
+      "name": "Rik fjellhei og tundra",
+      "code": "C03"
+     },
+     {
+      "name": "Rike snøleier",
+      "code": "C04"
+     },
+     {
+      "name": "Slåttemark",
+      "code": "D01"
+     },
+     {
+      "name": "Slåtte- og beitemyr",
+      "code": "D02"
+     },
+     {
+      "name": "Artsrik veikant",
+      "code": "D03"
+     },
+     {
+      "name": "Naturbeitemark",
+      "code": "D04"
+     },
+     {
+      "name": "Hagemark",
+      "code": "D05"
+     },
+     {
+      "name": "Beiteskog",
+      "code": "D06"
+     },
+     {
+      "name": "Kystlynghei",
+      "code": "D07"
+     },
+     {
+      "name": "Kalkrike enger",
+      "code": "D08"
+     },
+     {
+      "name": "Fuktenger",
+      "code": "D09"
+     },
+     {
+      "name": "Småbiotoper",
+      "code": "D11"
+     },
+     {
+      "name": "Store gamle trær",
+      "code": "D12"
+     },
+     {
+      "name": "Parklandskap",
+      "code": "D13"
+     },
+     {
+      "name": "Erstatningsbiotoper",
+      "code": "D14"
+     },
+     {
+      "name": "Skrotemark",
+      "code": "D15"
+     },
+     {
+      "name": "Grotter/gruver",
+      "code": "D16"
+     },
+     {
+      "name": "Lauveng",
+      "code": "D17"
+     },
+     {
+      "name": "Høstingsskog",
+      "code": "D18"
+     },
+     {
+      "name": "Åpen grunnlendt kalkmark",
+      "code": "D19"
+     },
+     {
+      "name": "Åpen kalkmark",
+      "code": "D20"
+     },
+     {
+      "name": "Annen kulturmarkseng",
+      "code": "D21"
+     },
+     {
+      "name": "Boreal hei",
+      "code": "D22"
+     },
+     {
+      "name": "Andre viktige kulturmarkstyper",
+      "code": "D23"
+     },
+     {
+      "name": "Tresatt kulturmark",
+      "code": "D24"
+     },
+     {
+      "name": "Engpregete erstatningsbiotoper",
+      "code": "D51"
+     },
+     {
+      "name": "Erstatningsbiotoper på berg og åpen jord",
+      "code": "D52"
+     },
+     {
+      "name": "Erstatningsbiotoper på ved",
+      "code": "D53"
+     },
+     {
+      "name": "Deltaområde",
+      "code": "E01"
+     },
+     {
+      "name": "Mudderbank",
+      "code": "E02"
+     },
+     {
+      "name": "Kroksjøer, flomdammer og meandrerende elveparti",
+      "code": "E03"
+     },
+     {
+      "name": "Fossesprøytsone",
+      "code": "E05"
+     },
+     {
+      "name": "Viktig bekkedrag",
+      "code": "E06"
+     },
+     {
+      "name": "Kalksjø",
+      "code": "E07"
+     },
+     {
+      "name": "Rik kulturlandskapssjø",
+      "code": "E08"
+     },
+     {
+      "name": "Dam",
+      "code": "E09"
+     },
+     {
+      "name": "Naturlig fisketomme innsjøer og tjern",
+      "code": "E10"
+     },
+     {
+      "name": "Ikke forsuret restområde",
+      "code": "E11"
+     },
+     {
+      "name": "Evjer, bukter og viker",
+      "code": "E12"
+     },
+     {
+      "name": "Svært kalkfattig innsjø (Klar, kalkfattig innsjø)",
+      "code": "E14"
+     },
+     {
+      "name": "Middels kalkrik innsjø (Klar intermediær innsjø)",
+      "code": "E15"
+     },
+     {
+      "name": "Hurtigstrømmende elveløp",
+      "code": "E16"
+     },
+     {
+      "name": "Roligflytende elveløp",
+      "code": "E17"
+     },
+     {
+      "name": "Brakkvannssjøer",
+      "code": "E18"
+     },
+     {
+      "name": "Kalkrik bekk og liten elv",
+      "code": "E19"
+     },
+     {
+      "name": "Middels kalkrik bekk i låglandet",
+      "code": "E20"
+     },
+     {
+      "name": "Kalkfattig og klar bekk eller elv",
+      "code": "E21"
+     },
+     {
+      "name": "Elveslette",
+      "code": "E22"
+     },
+     {
+      "name": "Rik edellauvskog",
+      "code": "F01"
+     },
+     {
+      "name": "Gammel fattig edellauvskog",
+      "code": "F02"
+     },
+     {
+      "name": "Kalkskog",
+      "code": "F03"
+     },
+     {
+      "name": "Gråor-heggeskog",
+      "code": "F05"
+     },
+     {
+      "name": "Rik sump- og kildeskog",
+      "code": "F06"
+     },
+     {
+      "name": "Gammel boreal lauvskog",
+      "code": "F07"
+     },
+     {
+      "name": "Gammel barskog",
+      "code": "F08"
+     },
+     {
+      "name": "Bekkekløft og bergvegg",
+      "code": "F09"
+     },
+     {
+      "name": "Brannfelt",
+      "code": "F10"
+     },
+     {
+      "name": "Kystgranskog",
+      "code": "F11"
+     },
+     {
+      "name": "Kystfuruskog",
+      "code": "F12"
+     },
+     {
+      "name": "Rik blandingsskog i lavlandet",
+      "code": "F13"
+     },
+     {
+      "name": "Gammel sumpskog",
+      "code": "F14"
+     },
+     {
+      "name": "Kalkedellauvskog",
+      "code": "F15"
+     },
+     {
+      "name": "Kalkbarskog",
+      "code": "F16"
+     },
+     {
+      "name": "Rik barskog",
+      "code": "F17"
+     },
+     {
+      "name": "Gammel granskog",
+      "code": "F18"
+     },
+     {
+      "name": "Gammel furuskog",
+      "code": "F19"
+     },
+     {
+      "name": "Regnskog",
+      "code": "F20"
+     },
+     {
+      "name": "Flommarksskog",
+      "code": "F21"
+     },
+     {
+      "name": "Sandfuruskog",
+      "code": "F22"
+     },
+     {
+      "name": "Rik olivinfuruskog",
+      "code": "F23"
+     },
+     {
+      "name": "Kalkskog med boreale lauvtrær",
+      "code": "F24"
+     },
+     {
+      "name": "Gammel lavlandsblandingsskog",
+      "code": "F25"
+     },
+     {
+      "name": "Grunne strømmer",
+      "code": "G01"
+     },
+     {
+      "name": "Undervannseng",
+      "code": "G02"
+     },
+     {
+      "name": "Sanddyne",
+      "code": "G03"
+     },
+     {
+      "name": "Sand- og grusstrand",
+      "code": "G04"
+     },
+     {
+      "name": "Strandeng og strandsump",
+      "code": "G05"
+     },
+     {
+      "name": "Tangvoll",
+      "code": "G06"
+     },
+     {
+      "name": "Brakkvannsdelta",
+      "code": "G07"
+     },
+     {
+      "name": "Brakkvannspoller",
+      "code": "G08"
+     },
+     {
+      "name": "Rikt strandberg",
+      "code": "G09"
+     },
+     {
+      "name": "Fuglefjell",
+      "code": "G10"
+     },
+     {
+      "name": "Kystnær grus og steinmark",
+      "code": "G11"
+     },
+     {
+      "name": "Andre viktige forekomster",
+      "code": "H00"
+     },
+     {
+      "name": "Åpen flommark",
+      "code": "E04"
+     },
+     {
+      "name": "Rik boreal lauvskog",
+      "code": "F04"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "verdi",
+   "type": "esriFieldTypeString",
+   "alias": "Verdi",
+   "length": 1,
+   "domain": {
+    "type": "codedValue",
+    "name": "Kode_Verdi",
+    "description": "Kodeliste for Verdi",
+    "codedValues": [
+     {
+      "name": "Svært viktig",
+      "code": "A"
+     },
+     {
+      "name": "Viktig",
+      "code": "B"
+     },
+     {
+      "name": "Lokalt viktig",
+      "code": "C"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "registreringsDato",
+   "type": "esriFieldTypeDate",
+   "alias": "Registreringsdato",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "utvalgtNaturtype",
+   "type": "esriFieldTypeString",
+   "alias": "Utvalgt naturtype",
+   "length": 4,
+   "domain": {
+    "type": "codedValue",
+    "name": "Kode_UtvalgtNaturtype",
+    "description": "Kodeliste for UtvalgtNaturtype",
+    "codedValues": [
+     {
+      "name": "Ikke utvalgt",
+      "code": "NEI"
+     },
+     {
+      "name": "Slåttemark",
+      "code": "UN01"
+     },
+     {
+      "name": "Slåttemyr",
+      "code": "UN02"
+     },
+     {
+      "name": "Hule eiker",
+      "code": "UN03"
+     },
+     {
+      "name": "Kystlynghei",
+      "code": "UN06"
+     },
+     {
+      "name": "Åpen grunnlendt kalkmark i boreonemoral sone",
+      "code": "UN07"
+     },
+     {
+      "name": "Olivinskog",
+      "code": "UN08"
+     },
+     {
+      "name": "Kalklindeskog",
+      "code": "UN04"
+     },
+     {
+      "name": "Kalksjøer",
+      "code": "UN05"
+     },
+     {
+      "name": "Korallrev",
+      "code": "UN09"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "hevdstatus",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Hevdstatus",
+   "domain": {
+    "type": "codedValue",
+    "name": "Kode_Hevdstatus",
+    "description": "Kodeliste for Hevdstatus",
+    "codedValues": [
+     {
+      "name": "God hevd",
+      "code": 1
+     },
+     {
+      "name": "Svak hevd",
+      "code": 2
+     },
+     {
+      "name": "Ingen hevd",
+      "code": 3
+     },
+     {
+      "name": "Moderat-sterkt gjengrodd",
+      "code": 4
+     },
+     {
+      "name": "Dårlig hevd",
+      "code": 5
+     },
+     {
+      "name": "Ikke aktuelt",
+      "code": 9
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "utforming",
+   "type": "esriFieldTypeString",
+   "alias": "Utforming",
+   "length": 5,
+   "domain": {
+    "type": "codedValue",
+    "name": "Kode_Utforming",
+    "description": "Kodeliste for Utforming",
+    "codedValues": [
+     {
+      "name": "Urørte myrer og mindre påvirkede myrer i nemoral og boreonemoral sone",
+      "code": "A0101"
+     },
+     {
+      "name": "Øvrige myrer i lavlandet med stort arealpress",
+      "code": "A0102"
+     },
+     {
+      "name": "Rik skog- og krattbevokst myr",
+      "code": "A0501"
+     },
+     {
+      "name": "Middelsrik fastmattemyr",
+      "code": "A0502"
+     },
+     {
+      "name": "Ekstremrik fastmattemyr",
+      "code": "A0503"
+     },
+     {
+      "name": "Rik mykmatte/løsbunnmyr",
+      "code": "A0504"
+     },
+     {
+      "name": "Åpen intermediær og rikmyr i lavlandet",
+      "code": "A0505"
+     },
+     {
+      "name": "Ekstremrik myr i høyereliggende områder",
+      "code": "A0506"
+     },
+     {
+      "name": "Skog-/krattbevokst rik og intermediær myr i låglandet (BN-SB)",
+      "code": "A0507"
+     },
+     {
+      "name": "Skog-/krattbevokst myr i høyereliggende strøk (MB-NB)",
+      "code": "A0508"
+     },
+     {
+      "name": "Lavlandskilde",
+      "code": "A0601"
+     },
+     {
+      "name": "Kilder i fjellet",
+      "code": "A0602"
+     },
+     {
+      "name": "Kilde over sørboreal",
+      "code": "A0603"
+     },
+     {
+      "name": "Velutviklet høgmyr",
+      "code": "A0701"
+     },
+     {
+      "name": "Blanding mellom nedbørsmyr og jordvannsmyr",
+      "code": "A0702"
+     },
+     {
+      "name": "Flatmyr",
+      "code": "A0703"
+     },
+     {
+      "name": "Velutviklet terrengdekkende myr",
+      "code": "A0801"
+     },
+     {
+      "name": "Atlantisk høgmyr",
+      "code": "A0802"
+     },
+     {
+      "name": "Jordvannsmyr",
+      "code": "A0803"
+     },
+     {
+      "name": "Blanding mellom nedbørsmyr og jordvannsmyr",
+      "code": "A0804"
+     },
+     {
+      "name": "Våtmarksmassiv i mellomboreal og nordboreal sone",
+      "code": "A0901"
+     },
+     {
+      "name": "Våtmarksmassiv i alpine soner",
+      "code": "A0902"
+     },
+     {
+      "name": "Våtmarksmassiv i boreonemoral og sørboreal sone",
+      "code": "A0903"
+     },
+     {
+      "name": "Konsentrisk høgmyr",
+      "code": "A1001"
+     },
+     {
+      "name": "Eksentrisk høgmyr",
+      "code": "A1002"
+     },
+     {
+      "name": "Platåhøgmyr",
+      "code": "A1003"
+     },
+     {
+      "name": "Kanthøgmyr",
+      "code": "A1101"
+     },
+     {
+      "name": "Atlantisk høgmyr",
+      "code": "A1102"
+     },
+     {
+      "name": "Terrengdekkende høgmyr",
+      "code": "A1103"
+     },
+     {
+      "name": "Ombrotrof planmyr",
+      "code": "A1104"
+     },
+     {
+      "name": "Kalkrik og/eller sørvendt bergvegg",
+      "code": "B0101"
+     },
+     {
+      "name": "Bergknaus og -flate",
+      "code": "B0102"
+     },
+     {
+      "name": "Rasmark",
+      "code": "B0103"
+     },
+     {
+      "name": "Fuktig, overrislet bergflate",
+      "code": "B0104"
+     },
+     {
+      "name": "Ustabil rasmark med kalkrikt finmateriale",
+      "code": "B0105"
+     },
+     {
+      "name": "Stabil utforming på moserik, grovsteinet blokkmark",
+      "code": "B0106"
+     },
+     {
+      "name": "Slåpetorn-hagtorn-utforming",
+      "code": "B0201"
+     },
+     {
+      "name": "Einer-rose-utforming",
+      "code": "B0202"
+     },
+     {
+      "name": "Tindved-utforming",
+      "code": "B0203"
+     },
+     {
+      "name": "Urterik kant",
+      "code": "B0204"
+     },
+     {
+      "name": "Ultrabasisk utforming",
+      "code": "B0301"
+     },
+     {
+      "name": "Tungmetallrik utforming",
+      "code": "B0302"
+     },
+     {
+      "name": "Olivinmark",
+      "code": "B0303"
+     },
+     {
+      "name": "Annen ultramafisk og kis-rik mark",
+      "code": "B0304"
+     },
+     {
+      "name": "Lavrik utforming",
+      "code": "B0401"
+     },
+     {
+      "name": "Sørlig, oseanisk moseutforming",
+      "code": "B0402"
+     },
+     {
+      "name": "Moserik fjellheiutforming",
+      "code": "B0403"
+     },
+     {
+      "name": "Fattig boreonemoralt oseanisk berg",
+      "code": "B0404"
+     },
+     {
+      "name": "Rikt boreonemoralt oseanisk berg",
+      "code": "B0405"
+     },
+     {
+      "name": "Borealt oseanisk berg og hei",
+      "code": "B0406"
+     },
+     {
+      "name": "Karstgrotte",
+      "code": "B0501"
+     },
+     {
+      "name": "Brenningshule",
+      "code": "B0502"
+     },
+     {
+      "name": "Uoppvarmet del av gammelt forsvarsanlegg",
+      "code": "B0503"
+     },
+     {
+      "name": "Gruve",
+      "code": "B0504"
+     },
+     {
+      "name": "Ravinedal uten kildefremspring",
+      "code": "B0701"
+     },
+     {
+      "name": "Svakkilde-ravinedal",
+      "code": "B0702"
+     },
+     {
+      "name": "Sterkkilde-ravinedal",
+      "code": "B0703"
+     },
+     {
+      "name": "Ravinedal i marin leire uten kildeframspring",
+      "code": "B0704"
+     },
+     {
+      "name": "Ravinedal i marin leire med kildeframspring",
+      "code": "B0705"
+     },
+     {
+      "name": "Ravinedal i marin leire med gjennomgående bekk",
+      "code": "B0706"
+     },
+     {
+      "name": "Ravinedal i bresjøsedimenter",
+      "code": "B0707"
+     },
+     {
+      "name": "Kalkfattig isinnfrysingsmark",
+      "code": "B0901"
+     },
+     {
+      "name": "Kalkrik is innfrysingsmark",
+      "code": "B0902"
+     },
+     {
+      "name": "Kalkrik ur og rasmark",
+      "code": "B1001"
+     },
+     {
+      "name": "Intermediær ur og rasmark",
+      "code": "B1002"
+     },
+     {
+      "name": "Ur og rasmark med avvikende berggrunn",
+      "code": "B1003"
+     },
+     {
+      "name": "Rik rasmarkseng",
+      "code": "B1004"
+     },
+     {
+      "name": "Dødisgrop med rik isinnfrysningsmark",
+      "code": "B1201"
+     },
+     {
+      "name": "Dødisgrop med myrbunn",
+      "code": "B1202"
+     },
+     {
+      "name": "Dødisgrop med kildebunn",
+      "code": "B1203"
+     },
+     {
+      "name": "Dødisgrop med temporær dam",
+      "code": "B1204"
+     },
+     {
+      "name": "Grytehullsjø",
+      "code": "B1205"
+     },
+     {
+      "name": "Kalkberg i Oslofeltet",
+      "code": "B1301"
+     },
+     {
+      "name": "Grunnlendt kalkberg i Oslofeltet",
+      "code": "B1302"
+     },
+     {
+      "name": "Kalkberg utenfor Oslofeltet",
+      "code": "B1303"
+     },
+     {
+      "name": "Grunnlendt kalkeberg utenfor Oslofeltet",
+      "code": "B1304"
+     },
+     {
+      "name": "Skyggefullt kalkberg",
+      "code": "B1305"
+     },
+     {
+      "name": "Rikt berg",
+      "code": "B1401"
+     },
+     {
+      "name": "Rik grunnlendt mark",
+      "code": "B1402"
+     },
+     {
+      "name": "Kalkfosseberg",
+      "code": "B1501"
+     },
+     {
+      "name": "Intermediært fosseberg",
+      "code": "B1502"
+     },
+     {
+      "name": "Kalkfosse-eng",
+      "code": "B1601"
+     },
+     {
+      "name": "Intermediær fosse-eng",
+      "code": "B1602"
+     },
+     {
+      "name": "Rabbe",
+      "code": "C0101"
+     },
+     {
+      "name": "Leside",
+      "code": "C0102"
+     },
+     {
+      "name": "Snøleie",
+      "code": "C0103"
+     },
+     {
+      "name": "Bergknaus og rasmark",
+      "code": "C0104"
+     },
+     {
+      "name": "Ultrabasisk og tungmetallrik utforming",
+      "code": "C0105"
+     },
+     {
+      "name": "Intermediær utforming",
+      "code": "C0201"
+     },
+     {
+      "name": "Kalkrik utforming",
+      "code": "C0202"
+     },
+     {
+      "name": "Kalkrabbe",
+      "code": "C0301"
+     },
+     {
+      "name": "Kalkhei",
+      "code": "C0302"
+     },
+     {
+      "name": "Leside-kalkeng",
+      "code": "C0303"
+     },
+     {
+      "name": "Rik rabbe",
+      "code": "C0304"
+     },
+     {
+      "name": "Rik leside",
+      "code": "C0305"
+     },
+     {
+      "name": "Rik fjellgrashei",
+      "code": "C0306"
+     },
+     {
+      "name": "Rikt snøleie",
+      "code": "C0307"
+     },
+     {
+      "name": "Lågurt-snøleie",
+      "code": "C0401"
+     },
+     {
+      "name": "Seint kalksnøleie",
+      "code": "C0402"
+     },
+     {
+      "name": "Ekstremt kalksnøleie",
+      "code": "C0403"
+     },
+     {
+      "name": "Fuktig fattigeng slått",
+      "code": "D0101"
+     },
+     {
+      "name": "Blåtoppeng slått",
+      "code": "D0102"
+     },
+     {
+      "name": "Sølvbunkeeng slått",
+      "code": "D0103"
+     },
+     {
+      "name": "Frisk fattigeng slått",
+      "code": "D0104"
+     },
+     {
+      "name": "Finnskjegg- og sauesvingeleng slått",
+      "code": "D0105"
+     },
+     {
+      "name": "Tørr, meget baserik eng i lavlandet slått",
+      "code": "D0106"
+     },
+     {
+      "name": "Frisk/tørr, middels baserik eng slått",
+      "code": "D0107"
+     },
+     {
+      "name": "Frisk/tørr, middels baserik eng i høyereliggende strøk og nordpå slått",
+      "code": "D0108"
+     },
+     {
+      "name": "Frisk/tørr, middels baserik eng i nordlige, kontinentale strøk slått",
+      "code": "D0109"
+     },
+     {
+      "name": "Frisk baserik eng slått",
+      "code": "D0110"
+     },
+     {
+      "name": "Vekselfuktig, baserik eng slått",
+      "code": "D0111"
+     },
+     {
+      "name": "Våt/fuktig, middels næringsrik eng slått",
+      "code": "D0112"
+     },
+     {
+      "name": "Frisk næringsrik \"natureng\" slått",
+      "code": "D0113"
+     },
+     {
+      "name": "Frisk næringsrik \"gammeleng\" slått",
+      "code": "D0114"
+     },
+     {
+      "name": "Svak lågurtslåtteeng",
+      "code": "D0115"
+     },
+     {
+      "name": "Lågurtslåtteeng",
+      "code": "D0116"
+     },
+     {
+      "name": "Kalkslåtteeng",
+      "code": "D0117"
+     },
+     {
+      "name": "Svak lågurt slåttefukteng",
+      "code": "D0118"
+     },
+     {
+      "name": "Lågurt slåttefukteng",
+      "code": "D0119"
+     },
+     {
+      "name": "Kalk slåttefukteng",
+      "code": "D0120"
+     },
+     {
+      "name": "Slåttevåteng",
+      "code": "D0121"
+     },
+     {
+      "name": "Fattig kulturmarkskant",
+      "code": "D0122"
+     },
+     {
+      "name": "Svak lågurtkulturmarkskant",
+      "code": "D0123"
+     },
+     {
+      "name": "Lågurt kulturmarkskant",
+      "code": "D0124"
+     },
+     {
+      "name": "Kulturmarkskalkkant",
+      "code": "D0125"
+     },
+     {
+      "name": "Fattig slåtteeng",
+      "code": "D0126"
+     },
+     {
+      "name": "Rik slåtteeng",
+      "code": "D0127"
+     },
+     {
+      "name": "Fattig slåttefukteng",
+      "code": "D0128"
+     },
+     {
+      "name": "Rik slåttefukteng",
+      "code": "D0129"
+     },
+     {
+      "name": "Slåttevåteng",
+      "code": "D0130"
+     },
+     {
+      "name": "Fattig slåttemarkskant",
+      "code": "D0131"
+     },
+     {
+      "name": "Rik slåttemarkskant",
+      "code": "D0132"
+     },
+     {
+      "name": "Slåttemyr",
+      "code": "D0201"
+     },
+     {
+      "name": "Beitemyr",
+      "code": "D0202"
+     },
+     {
+      "name": "Fattig slåttemyr",
+      "code": "D0203"
+     },
+     {
+      "name": "Intermediær slåttemyr",
+      "code": "D0204"
+     },
+     {
+      "name": "Rik slåttemyr",
+      "code": "D0205"
+     },
+     {
+      "name": "Slåttemyr i låglandet",
+      "code": "D0206"
+     },
+     {
+      "name": "Fuktig fattigeng beitet",
+      "code": "D0401"
+     },
+     {
+      "name": "Blåtoppeng beitet",
+      "code": "D0402"
+     },
+     {
+      "name": "Sølvbunkeeng beitet",
+      "code": "D0403"
+     },
+     {
+      "name": "Frisk fattigeng beitet",
+      "code": "D0404"
+     },
+     {
+      "name": "Finnskjegg- og sauesvingeleng beitet",
+      "code": "D0405"
+     },
+     {
+      "name": "Tørr, meget baserik eng i lavlandet beitet",
+      "code": "D0406"
+     },
+     {
+      "name": "Frisk/tørr, middels baserik eng beitet",
+      "code": "D0407"
+     },
+     {
+      "name": "Frisk/tørr, middels baserik eng i høyereliggende strøk og nordpå beitet",
+      "code": "D0408"
+     },
+     {
+      "name": "Frisk/tørr, middels baserik eng i nordlige, kontinentale strøk beitet",
+      "code": "D0409"
+     },
+     {
+      "name": "Frisk baserik eng beitet",
+      "code": "D0410"
+     },
+     {
+      "name": "Vekselfuktig, baserik eng beitet",
+      "code": "D0411"
+     },
+     {
+      "name": "Våt/fuktig, middels næringsrik eng beitet",
+      "code": "D0412"
+     },
+     {
+      "name": "Frisk næringsrik \"natureng\" beitet",
+      "code": "D0413"
+     },
+     {
+      "name": "Frisk næringsrik \"gammeleng\" beitet",
+      "code": "D0414"
+     },
+     {
+      "name": "Svak lågurteng",
+      "code": "D0415"
+     },
+     {
+      "name": "Lågurtbeiteeng",
+      "code": "D0416"
+     },
+     {
+      "name": "Kalkbeiteeng",
+      "code": "D0417"
+     },
+     {
+      "name": "Svak lågurtbeitefukteng",
+      "code": "D0418"
+     },
+     {
+      "name": "Lågurtbeitefukteng",
+      "code": "D0419"
+     },
+     {
+      "name": "Kalkbeitefukteng",
+      "code": "D0420"
+     },
+     {
+      "name": "Beitevåteng",
+      "code": "D0421"
+     },
+     {
+      "name": "Fattigbeitemarkskant",
+      "code": "D0422"
+     },
+     {
+      "name": "Svak lågurtbeitemarkskant",
+      "code": "D0423"
+     },
+     {
+      "name": "Lågurtbeitemarkskant",
+      "code": "D0424"
+     },
+     {
+      "name": "Kaløkbeitemarkskant",
+      "code": "D0425"
+     },
+     {
+      "name": "Beiterye",
+      "code": "D0426"
+     },
+     {
+      "name": "Beitefuktrye",
+      "code": "D0427"
+     },
+     {
+      "name": "Fattig beitetørreng",
+      "code": "D0428"
+     },
+     {
+      "name": "Rik beitetørreng",
+      "code": "D0429"
+     },
+     {
+      "name": "Fattig beiteeng",
+      "code": "D0430"
+     },
+     {
+      "name": "Rik beiteeng",
+      "code": "D0431"
+     },
+     {
+      "name": "Beitevåteng",
+      "code": "D0432"
+     },
+     {
+      "name": "Fattig beitemarkskant",
+      "code": "D0433"
+     },
+     {
+      "name": "Rik beitemarkskant",
+      "code": "D0434"
+     },
+     {
+      "name": "Bjørkehage",
+      "code": "D0501"
+     },
+     {
+      "name": "Einerhage/einerbakke",
+      "code": "D0502"
+     },
+     {
+      "name": "Eikehage",
+      "code": "D0503"
+     },
+     {
+      "name": "Frisk-fuktig blandingstype",
+      "code": "D0504"
+     },
+     {
+      "name": "Askehage",
+      "code": "D0506"
+     },
+     {
+      "name": "Orehage",
+      "code": "D0507"
+     },
+     {
+      "name": "Seljehage",
+      "code": "D0508"
+     },
+     {
+      "name": "Hasselhage",
+      "code": "D0509"
+     },
+     {
+      "name": "Fattig hagemark med edellauvtrær",
+      "code": "D0510"
+     },
+     {
+      "name": "Rik hagemark med edellauvtrær",
+      "code": "D0511"
+     },
+     {
+      "name": "Fattig hagemark med styvede eller stubbehøstede edellauvtrær",
+      "code": "D0512"
+     },
+     {
+      "name": "Rik hagemark med styvede eller stubbehøstede edellauvtrær",
+      "code": "D0513"
+     },
+     {
+      "name": "Fattig hagemark med boreale trær",
+      "code": "D0514"
+     },
+     {
+      "name": "Rik hagemark med boreale trær",
+      "code": "D0515"
+     },
+     {
+      "name": "Fattig hagemark med styvede eller stubbehøstede boreale lauvtrær",
+      "code": "D0516"
+     },
+     {
+      "name": "Rik hagemark med styvede eller stubbehøstede boreale lauvtrær",
+      "code": "D0517"
+     },
+     {
+      "name": "Beiteskog",
+      "code": "D0601"
+     },
+     {
+      "name": "Skogsbeite i edellauvskog",
+      "code": "D0602"
+     },
+     {
+      "name": "Skogsbeite i rike boreale granskoger",
+      "code": "D0603"
+     },
+     {
+      "name": "Beiteskog på kalkmark",
+      "code": "D0604"
+     },
+     {
+      "name": "Skogsbeite i gamle boreale lauvskoger",
+      "code": "D0605"
+     },
+     {
+      "name": "Fjellbjørkeskoger med høgstauder eller lågurter",
+      "code": "D0606"
+     },
+     {
+      "name": "Tørr lynghei",
+      "code": "D0701"
+     },
+     {
+      "name": "Tørr gras-urterik hei",
+      "code": "D0702"
+     },
+     {
+      "name": "Fuktig lynghei",
+      "code": "D0703"
+     },
+     {
+      "name": "Røsslyng-bjønnkamhei",
+      "code": "D0704"
+     },
+     {
+      "name": "Kystfjellhei",
+      "code": "D0705"
+     },
+     {
+      "name": "Purpurlynghei",
+      "code": "D0706"
+     },
+     {
+      "name": "Kalkfattig kysthei",
+      "code": "D0707"
+     },
+     {
+      "name": "Kalkfattig kystfukthei",
+      "code": "D0708"
+     },
+     {
+      "name": "Intermediær kysthei",
+      "code": "D0709"
+     },
+     {
+      "name": "Intermediær kystfukthei",
+      "code": "D0710"
+     },
+     {
+      "name": "Kalkkysthei",
+      "code": "D0711"
+     },
+     {
+      "name": "Kalkkystfukthei",
+      "code": "D0712"
+     },
+     {
+      "name": "Fattig tørrhei",
+      "code": "D0713"
+     },
+     {
+      "name": "Rik fukthei",
+      "code": "D0714"
+     },
+     {
+      "name": "Rik tørrhei",
+      "code": "D0715"
+     },
+     {
+      "name": "Olivinhei",
+      "code": "D0716"
+     },
+     {
+      "name": "Tørr kalkrik eng i lavlandet",
+      "code": "D0801"
+     },
+     {
+      "name": "Hestehavre-eng",
+      "code": "D0802"
+     },
+     {
+      "name": "Vekselfuktig baserik eng",
+      "code": "D0803"
+     },
+     {
+      "name": "Annen baserik engvegetasjon",
+      "code": "D0804"
+     },
+     {
+      "name": "Bekkeblom-utforming",
+      "code": "D0901"
+     },
+     {
+      "name": "Engkarse-krypsoleie-utforming",
+      "code": "D0902"
+     },
+     {
+      "name": "Mjødurt-utforming",
+      "code": "D0903"
+     },
+     {
+      "name": "Åkerholmer",
+      "code": "D1101"
+     },
+     {
+      "name": "Åkerreiner",
+      "code": "D1102"
+     },
+     {
+      "name": "Steinrøyser og -gjerder",
+      "code": "D1103"
+     },
+     {
+      "name": "Bergknauser",
+      "code": "D1104"
+     },
+     {
+      "name": "Skogholt med engpartier",
+      "code": "D1105"
+     },
+     {
+      "name": "Kantsamfunn",
+      "code": "D1106"
+     },
+     {
+      "name": "Steinrøys",
+      "code": "D1107"
+     },
+     {
+      "name": "Steingjerde",
+      "code": "D1108"
+     },
+     {
+      "name": "Gjentatt forstyrret mark på kalkrik leire",
+      "code": "D1109"
+     },
+     {
+      "name": "Ikke-skjøttet",
+      "code": "D1201"
+     },
+     {
+      "name": "Skjøttet/styvet",
+      "code": "D1202"
+     },
+     {
+      "name": "Hult tre",
+      "code": "D1203"
+     },
+     {
+      "name": "Gammelt tre",
+      "code": "D1204"
+     },
+     {
+      "name": "Eik",
+      "code": "D1207"
+     },
+     {
+      "name": "Alm",
+      "code": "D1208"
+     },
+     {
+      "name": "Ask",
+      "code": "D1209"
+     },
+     {
+      "name": "Lind",
+      "code": "D1210"
+     },
+     {
+      "name": "Bøk",
+      "code": "D1211"
+     },
+     {
+      "name": "Spisslønn",
+      "code": "D1212"
+     },
+     {
+      "name": "Svartor",
+      "code": "D1213"
+     },
+     {
+      "name": "Osp",
+      "code": "D1214"
+     },
+     {
+      "name": "Selje",
+      "code": "D1215"
+     },
+     {
+      "name": "Rogn",
+      "code": "D1216"
+     },
+     {
+      "name": "Bjørk",
+      "code": "D1217"
+     },
+     {
+      "name": "Barlind",
+      "code": "D1218"
+     },
+     {
+      "name": "Furu",
+      "code": "D1219"
+     },
+     {
+      "name": "Andre treslag",
+      "code": "D1220"
+     },
+     {
+      "name": "Kirkegårder",
+      "code": "D1301"
+     },
+     {
+      "name": "Parker",
+      "code": "D1302"
+     },
+     {
+      "name": "Alléer",
+      "code": "D1303"
+     },
+     {
+      "name": "Sand- og grustak",
+      "code": "D1401"
+     },
+     {
+      "name": "Bygningsstrukturer med spesiell flora eller fauna",
+      "code": "D1402"
+     },
+     {
+      "name": "Ballastplass",
+      "code": "D1501"
+     },
+     {
+      "name": "Slagghaug fra gruveindustri",
+      "code": "D1502"
+     },
+     {
+      "name": "Kalkbrudd",
+      "code": "D1503"
+     },
+     {
+      "name": "Industritomt",
+      "code": "D1504"
+     },
+     {
+      "name": "Mølletomt",
+      "code": "D1505"
+     },
+     {
+      "name": "Vei- og jernbaneutfylling",
+      "code": "D1506"
+     },
+     {
+      "name": "Tun og gårdsplass",
+      "code": "D1507"
+     },
+     {
+      "name": "Karstgrotter",
+      "code": "D1601"
+     },
+     {
+      "name": "Brenningshuler",
+      "code": "D1602"
+     },
+     {
+      "name": "Uoppvarmede deler av gamle forsvarsanlegg",
+      "code": "D1603"
+     },
+     {
+      "name": "Gruver",
+      "code": "D1604"
+     },
+     {
+      "name": "Fattig lauveng med edellauvtrær",
+      "code": "D1701"
+     },
+     {
+      "name": "Rik lauveng med edellauvtrær",
+      "code": "D1702"
+     },
+     {
+      "name": "Fattig lauveng med boreale trær",
+      "code": "D1703"
+     },
+     {
+      "name": "Rik lauveng med boreale trær",
+      "code": "D1704"
+     },
+     {
+      "name": "Høstingsskog med edellauvtrær",
+      "code": "D1801"
+     },
+     {
+      "name": "Høstingsskog med eik",
+      "code": "D1802"
+     },
+     {
+      "name": "Rik høstingsskog med stubbehøstet hassel",
+      "code": "D1803"
+     },
+     {
+      "name": "Stubbelauvet gråorskog",
+      "code": "D1804"
+     },
+     {
+      "name": "Stubbelauvet fjellbjørkeskog",
+      "code": "D1805"
+     },
+     {
+      "name": "Høstingsskog med alm",
+      "code": "D1806"
+     },
+     {
+      "name": "Fattig høstingsskog med styvingstrær",
+      "code": "D1811"
+     },
+     {
+      "name": "Rik høstingsskog med styva edellauvtrær",
+      "code": "D1812"
+     },
+     {
+      "name": "Fattig høstingsskog med stubbehøstet gråor eller fjellbjørk",
+      "code": "D1813"
+     },
+     {
+      "name": "Åpen grunnlendt kalkmark",
+      "code": "D2001"
+     },
+     {
+      "name": "Nakent berg",
+      "code": "D2002"
+     },
+     {
+      "name": "Fattig boreal hei",
+      "code": "D2201"
+     },
+     {
+      "name": "Rik boreal hei",
+      "code": "D2202"
+     },
+     {
+      "name": "Rik boreal kildepåvirket boreal hei",
+      "code": "D2203"
+     },
+     {
+      "name": "Fattig lauveng",
+      "code": "D2401"
+     },
+     {
+      "name": "Rik lauveng",
+      "code": "D2402"
+     },
+     {
+      "name": "Fattig hagemark uten styva trær",
+      "code": "D2403"
+     },
+     {
+      "name": "Rik hagemark uten styva trær",
+      "code": "D2404"
+     },
+     {
+      "name": "Fattig hagemark med styva trær",
+      "code": "D2405"
+     },
+     {
+      "name": "Rik hagemark med styva trær",
+      "code": "D2406"
+     },
+     {
+      "name": "Veg- og jernbanekant",
+      "code": "D5101"
+     },
+     {
+      "name": "Plen og tun",
+      "code": "D5102"
+     },
+     {
+      "name": "Tømmerlunne, rasteplass og traktorveg",
+      "code": "D5103"
+     },
+     {
+      "name": "Kraftgater",
+      "code": "D5104"
+     },
+     {
+      "name": "Skjæringer i berg og grunnlendt mark",
+      "code": "D5201"
+     },
+     {
+      "name": "Åpen sand- og grusmark",
+      "code": "D5202"
+     },
+     {
+      "name": "Åpen leirmark",
+      "code": "D5203"
+     },
+     {
+      "name": "Tørrlagt innsjø- og elvebunn",
+      "code": "D5204"
+     },
+     {
+      "name": "Steinrøyser og steingjerder",
+      "code": "D5205"
+     },
+     {
+      "name": "Bygningsstrukturer i stein",
+      "code": "D5206"
+     },
+     {
+      "name": "Tungmetallrik mark",
+      "code": "D5207"
+     },
+     {
+      "name": "Stort typisk utformet delta",
+      "code": "E0101"
+     },
+     {
+      "name": "Lite og mindre formrikt delta",
+      "code": "E0102"
+     },
+     {
+      "name": "Tydelig flompåvirkede kroksjøer, dammer og evjer",
+      "code": "E0103"
+     },
+     {
+      "name": "Kroksjøer, dammer og evjer uten eller med liten flompåvirkning",
+      "code": "E0104"
+     },
+     {
+      "name": "Forgreinete elveløp",
+      "code": "E0105"
+     },
+     {
+      "name": "Meandrerende elveløp",
+      "code": "E0106"
+     },
+     {
+      "name": "Fattig utforming",
+      "code": "E0201"
+     },
+     {
+      "name": "Rik utforming",
+      "code": "E0202"
+     },
+     {
+      "name": "Betydelig flompåvirkede kroksjøer og dammer",
+      "code": "E0301"
+     },
+     {
+      "name": "Gamle, mindre flompåvirkede kroksjøer og dammer",
+      "code": "E0302"
+     },
+     {
+      "name": "Artsrik lavlandsform under gjengroing",
+      "code": "E0303"
+     },
+     {
+      "name": "Kompleks med meandrerende elveparti, kroksjøer og dammer",
+      "code": "E0304"
+     },
+     {
+      "name": "Mindre flompåvirkede kroksjøer, flomdammer og meandere",
+      "code": "E0305"
+     },
+     {
+      "name": "Kroksjøer, dammer og meandere uten eller med svært liten flompåvirkning",
+      "code": "E0306"
+     },
+     {
+      "name": "Forgrenete elveløp",
+      "code": "E0307"
+     },
+     {
+      "name": "Meandrerende elveløp",
+      "code": "E0308"
+     },
+     {
+      "name": "Tydelig flompåvirket kroksjø",
+      "code": "E0309"
+     },
+     {
+      "name": "Tydelig flompåvirket flomdam",
+      "code": "E0310"
+     },
+     {
+      "name": "Lite eller ikke flompåvirket kroksjø",
+      "code": "E0311"
+     },
+     {
+      "name": "Lite eller ikke flompåvirket flomdam",
+      "code": "E0312"
+     },
+     {
+      "name": "Artsrike mose- og lavsamfunn",
+      "code": "E0401"
+     },
+     {
+      "name": "Urte- og grasrik ør",
+      "code": "E0402"
+     },
+     {
+      "name": "Elveørkratt",
+      "code": "E0403"
+     },
+     {
+      "name": "Stor sandur-utforming",
+      "code": "E0404"
+     },
+     {
+      "name": "Elveør",
+      "code": "E0405"
+     },
+     {
+      "name": "Rik grasflommark",
+      "code": "E0406"
+     },
+     {
+      "name": "Mudderbank",
+      "code": "E0407"
+     },
+     {
+      "name": "Ferskvannsdriftvoll",
+      "code": "E0408"
+     },
+     {
+      "name": "Temporær flomdam",
+      "code": "E0409"
+     },
+     {
+      "name": "Moserik utforming",
+      "code": "E0501"
+     },
+     {
+      "name": "Urterik utforming",
+      "code": "E0502"
+     },
+     {
+      "name": "Intermediært fosseberg",
+      "code": "E0503"
+     },
+     {
+      "name": "Kalkrikt fosseberg",
+      "code": "E0504"
+     },
+     {
+      "name": "Intermediær fosseeng",
+      "code": "E0506"
+     },
+     {
+      "name": "Kalkrik fosseeng",
+      "code": "E0507"
+     },
+     {
+      "name": "Fosserøykskog",
+      "code": "E0508"
+     },
+     {
+      "name": "Meandrerende parti med naturlige kantsoner",
+      "code": "E0601"
+     },
+     {
+      "name": "Ravinebekk",
+      "code": "E0602"
+     },
+     {
+      "name": "Parti som binder sammen andre naturmiljøer",
+      "code": "E0603"
+     },
+     {
+      "name": "Viktig gytebekk",
+      "code": "E0604"
+     },
+     {
+      "name": "Bekk i intensivt drevne jordbrukslandskap",
+      "code": "E0605"
+     },
+     {
+      "name": "Bekk på kalkgrunn",
+      "code": "E0606"
+     },
+     {
+      "name": "Kransalgesjø",
+      "code": "E0701"
+     },
+     {
+      "name": "Kalkrik tjønnaks-sjø",
+      "code": "E0702"
+     },
+     {
+      "name": "Humusrik kalksjø",
+      "code": "E0703"
+     },
+     {
+      "name": "Vegetasjonsfri kalksjø",
+      "code": "E0704"
+     },
+     {
+      "name": "Temporære innsjøer i karstområder",
+      "code": "E0705"
+     },
+     {
+      "name": "Næringsrik utforming",
+      "code": "E0801"
+     },
+     {
+      "name": "Kalkfattigere utforming",
+      "code": "E0802"
+     },
+     {
+      "name": "Gårdsdam",
+      "code": "E0901"
+     },
+     {
+      "name": "Isdam",
+      "code": "E0902"
+     },
+     {
+      "name": "Eldre fisketom dam",
+      "code": "E0903"
+     },
+     {
+      "name": "Høyereliggende innsjø",
+      "code": "E1001"
+     },
+     {
+      "name": "Små myrtjern og myrpytter",
+      "code": "E1002"
+     },
+     {
+      "name": "Innsjø",
+      "code": "E1101"
+     },
+     {
+      "name": "Bekk og elvestrekning",
+      "code": "E1102"
+     },
+     {
+      "name": "Evje",
+      "code": "E1201"
+     },
+     {
+      "name": "Bukter og viker",
+      "code": "E1202"
+     },
+     {
+      "name": "Elvesnelle-starrsump",
+      "code": "E1203"
+     },
+     {
+      "name": "Rikstarrsump",
+      "code": "E1204"
+     },
+     {
+      "name": "Takrør-sivakssump",
+      "code": "E1205"
+     },
+     {
+      "name": "Naturlig fisketom innsjø",
+      "code": "E1401"
+     },
+     {
+      "name": "Innsjø med fisk",
+      "code": "E1402"
+     },
+     {
+      "name": "Middels kalkrike innsjøer i lavlandet",
+      "code": "E1501"
+     },
+     {
+      "name": "Tolypella-innsjøer over tregrensa eller i \"kalde\" innsjøer i lavlandet",
+      "code": "E1502"
+     },
+     {
+      "name": "Kalkrike bekker og elver",
+      "code": "E1601"
+     },
+     {
+      "name": "Middels kalkrike bekker og elver",
+      "code": "E1602"
+     },
+     {
+      "name": "Svært kalkfattige bekker og elver",
+      "code": "E1603"
+     },
+     {
+      "name": "Breelver",
+      "code": "E1604"
+     },
+     {
+      "name": "Kalkrike bekker og elver",
+      "code": "E1701"
+     },
+     {
+      "name": "Middels kalkrike bekker og elver",
+      "code": "E1702"
+     },
+     {
+      "name": "Svært kalkfattige bekker og elver",
+      "code": "E1703"
+     },
+     {
+      "name": "Breelver",
+      "code": "E1704"
+     },
+     {
+      "name": "Elveslette forgrenet elveløp (sandur)",
+      "code": "E2201"
+     },
+     {
+      "name": "Elveslette i roligflytende meandrerende elv",
+      "code": "E2202"
+     },
+     {
+      "name": "Flomslette - uklar dannelse",
+      "code": "E2203"
+     },
+     {
+      "name": "Lågurt-eikeskog",
+      "code": "F0101"
+     },
+     {
+      "name": "Lågurt-bøkeskog",
+      "code": "F0102"
+     },
+     {
+      "name": "Lågurt-hasselkratt",
+      "code": "F0103"
+     },
+     {
+      "name": "Myske-bøkeskog",
+      "code": "F0104"
+     },
+     {
+      "name": "Alm-lindeskog",
+      "code": "F0105"
+     },
+     {
+      "name": "Gråor-almeskog",
+      "code": "F0106"
+     },
+     {
+      "name": "Or-askekog",
+      "code": "F0107"
+     },
+     {
+      "name": "Kalklindeskog",
+      "code": "F0108"
+     },
+     {
+      "name": "Kalkrik bøkeskog",
+      "code": "F0109"
+     },
+     {
+      "name": "Kalkrik ask-hasselskog",
+      "code": "F0110"
+     },
+     {
+      "name": "Rik rasmarkslindeskog",
+      "code": "F0111"
+     },
+     {
+      "name": "Høgstaudealmeskog",
+      "code": "F0112"
+     },
+     {
+      "name": "Rasmark-almeskog",
+      "code": "F0113"
+     },
+     {
+      "name": "Rik lågurt-bøkeskog",
+      "code": "F0114"
+     },
+     {
+      "name": "Fattigere eller svak lågurt-bøkeskog",
+      "code": "F0115"
+     },
+     {
+      "name": "Rasmark- og ravine-almeskog",
+      "code": "F0116"
+     },
+     {
+      "name": "Gammel eikeskog",
+      "code": "F0201"
+     },
+     {
+      "name": "Gammel bøkeskog",
+      "code": "F0202"
+     },
+     {
+      "name": "Gammel svartorskog",
+      "code": "F0203"
+     },
+     {
+      "name": "Gammel hasselskog",
+      "code": "F0204"
+     },
+     {
+      "name": "Gammel lindeskog",
+      "code": "F0205"
+     },
+     {
+      "name": "Gammel almeskog",
+      "code": "F0206"
+     },
+     {
+      "name": "Gammel askeskog",
+      "code": "F0207"
+     },
+     {
+      "name": "Tørr kalkfuruskog",
+      "code": "F0301"
+     },
+     {
+      "name": "Frisk kalkfuruskog",
+      "code": "F0302"
+     },
+     {
+      "name": "Kalkbjørkeskog",
+      "code": "F0303"
+     },
+     {
+      "name": "Kalkgranskog",
+      "code": "F0304"
+     },
+     {
+      "name": "Serpentinfuruskog",
+      "code": "F0305"
+     },
+     {
+      "name": "Lågurtkalkskog i kyststrøk",
+      "code": "F0306"
+     },
+     {
+      "name": "Høgstaudebjørkeskog",
+      "code": "F0401"
+     },
+     {
+      "name": "Lågurtbjørkeskog",
+      "code": "F0402"
+     },
+     {
+      "name": "Nordlig frodig bjørkeskog",
+      "code": "F0403"
+     },
+     {
+      "name": "Lier med storvier i indre Troms og Nordland",
+      "code": "F0404"
+     },
+     {
+      "name": "Rik løvskog i rasmark",
+      "code": "F0405"
+     },
+     {
+      "name": "Rik løvskog i liside",
+      "code": "F0406"
+     },
+     {
+      "name": "Flommarksskog",
+      "code": "F0501"
+     },
+     {
+      "name": "Liskog og raviner",
+      "code": "F0502"
+     },
+     {
+      "name": "Rik sumpskog",
+      "code": "F0601"
+     },
+     {
+      "name": "Rikere strandskog",
+      "code": "F0602"
+     },
+     {
+      "name": "Viersump i lavlandet",
+      "code": "F0603"
+     },
+     {
+      "name": "Varmekjær kildelauvskog",
+      "code": "F0604"
+     },
+     {
+      "name": "Gammelt ospeholt",
+      "code": "F0701"
+     },
+     {
+      "name": "Gammel bjørkeskog",
+      "code": "F0702"
+     },
+     {
+      "name": "Fuktig kystskog",
+      "code": "F0703"
+     },
+     {
+      "name": "Gammel hengebjørkskog",
+      "code": "F0704"
+     },
+     {
+      "name": "Gammel lauvblandingsskog",
+      "code": "F0705"
+     },
+     {
+      "name": "Gammel gråorskog",
+      "code": "F0706"
+     },
+     {
+      "name": "Gammel granskog",
+      "code": "F0801"
+     },
+     {
+      "name": "Gammel furuskog",
+      "code": "F0802"
+     },
+     {
+      "name": "Gammel kystfuruskog",
+      "code": "F0803"
+     },
+     {
+      "name": "Bekkekløft",
+      "code": "F0901"
+     },
+     {
+      "name": "Bergvegg",
+      "code": "F0902"
+     },
+     {
+      "name": "Lavlands-granbekkekløft på Østlandet",
+      "code": "F0903"
+     },
+     {
+      "name": "Lavlands-granbekkekløft i Trøndelag",
+      "code": "F0904"
+     },
+     {
+      "name": "Lavlands-lauvskogsbekkekløft",
+      "code": "F0905"
+     },
+     {
+      "name": "Kystbekkekløft",
+      "code": "F0906"
+     },
+     {
+      "name": "Fjellgranskogsbekkekløft",
+      "code": "F0907"
+     },
+     {
+      "name": "Nytt brannfelt med fattig utforming",
+      "code": "F1001"
+     },
+     {
+      "name": "Nytt brannfelt med rikere utforming",
+      "code": "F1002"
+     },
+     {
+      "name": "Gammelt brannfelt med fattig utforming",
+      "code": "F1003"
+     },
+     {
+      "name": "Gammelt brannfelt med rikere utforming",
+      "code": "F1004"
+     },
+     {
+      "name": "Fattig brannfelt",
+      "code": "F1005"
+     },
+     {
+      "name": "Rikt brannfelt",
+      "code": "F1006"
+     },
+     {
+      "name": "Ren granskog med lite lauvtrær",
+      "code": "F1101"
+     },
+     {
+      "name": "Glissen granskog med stort innslag av lauvtrær",
+      "code": "F1102"
+     },
+     {
+      "name": "Purpurlyng-furuskog",
+      "code": "F1201"
+     },
+     {
+      "name": "Oseanisk lågurt-furuskog",
+      "code": "F1202"
+     },
+     {
+      "name": "Fuktig furu-hasselskog",
+      "code": "F1203"
+     },
+     {
+      "name": "Boreal regnskog med furu",
+      "code": "F1205"
+     },
+     {
+      "name": "Temperert regnskog med furu",
+      "code": "F1206"
+     },
+     {
+      "name": "Boreonemoral blandingsskog",
+      "code": "F1301"
+     },
+     {
+      "name": "Sørboreal blandingsskog",
+      "code": "F1302"
+     },
+     {
+      "name": "Gammel furumyrskog",
+      "code": "F1401"
+     },
+     {
+      "name": "Gammel gransumpskog",
+      "code": "F1402"
+     },
+     {
+      "name": "Gammel bjørkesumpskog",
+      "code": "F1403"
+     },
+     {
+      "name": "Gammel oresumpskog",
+      "code": "F1404"
+     },
+     {
+      "name": "Gammel gran- og bjørkesumpskog",
+      "code": "F1405"
+     },
+     {
+      "name": "Gammel edellauvsumpskog",
+      "code": "F1406"
+     },
+     {
+      "name": "Kalklindeskog",
+      "code": "F1501"
+     },
+     {
+      "name": "Kalkhasselskog",
+      "code": "F1502"
+     },
+     {
+      "name": "Kalkaskeskog",
+      "code": "F1503"
+     },
+     {
+      "name": "Annen kalkedellauvskog",
+      "code": "F1504"
+     },
+     {
+      "name": "Urterik kalkfuruskog",
+      "code": "F1601"
+     },
+     {
+      "name": "Ekstremtørr kalkfuruskog",
+      "code": "F1602"
+     },
+     {
+      "name": "Sesongfuktig kalkfuruskog",
+      "code": "F1603"
+     },
+     {
+      "name": "Sesongfuktig svabergkalkfuruskog",
+      "code": "F1604"
+     },
+     {
+      "name": "Tørr kalkgranskog",
+      "code": "F1605"
+     },
+     {
+      "name": "Høgstaudekalkgranskog",
+      "code": "F1606"
+     },
+     {
+      "name": "Lågurtfuruskog",
+      "code": "F1701"
+     },
+     {
+      "name": "Lågurtgranskog",
+      "code": "F1702"
+     },
+     {
+      "name": "Høgstaudegranskog",
+      "code": "F1703"
+     },
+     {
+      "name": "Barlindskog",
+      "code": "F1704"
+     },
+     {
+      "name": "Gammel lavlandsgranskog",
+      "code": "F1801"
+     },
+     {
+      "name": "Gammel høyereliggende granskog",
+      "code": "F1802"
+     },
+     {
+      "name": "Gammel lavlandsfuruskog",
+      "code": "F1901"
+     },
+     {
+      "name": "Gammel høyereliggende furuskog",
+      "code": "F1902"
+     },
+     {
+      "name": "Gammel kystfuruskog",
+      "code": "F1903"
+     },
+     {
+      "name": "Solvarm lavlandsbergfuruskog",
+      "code": "F1904"
+     },
+     {
+      "name": "Fattig boreonemoral regnskog",
+      "code": "F2001"
+     },
+     {
+      "name": "Rik boreonemoral regnskog",
+      "code": "F2002"
+     },
+     {
+      "name": "Boreal regnskog med furu",
+      "code": "F2003"
+     },
+     {
+      "name": "Boreal regnskog med gran",
+      "code": "F2004"
+     },
+     {
+      "name": "Boreal regnskog med lauvtrær",
+      "code": "F2005"
+     },
+     {
+      "name": "Fosserøykskog",
+      "code": "F2006"
+     },
+     {
+      "name": "Flompåvirket oreskog",
+      "code": "F2101"
+     },
+     {
+      "name": "Flompåvirket bjørke- og vierskog",
+      "code": "F2102"
+     },
+     {
+      "name": "Doggpilkratt",
+      "code": "F2103"
+     },
+     {
+      "name": "Mandelpilkratt",
+      "code": "F2104"
+     },
+     {
+      "name": "Rik sandfuruskog",
+      "code": "F2201"
+     },
+     {
+      "name": "Intermediær sandfuruskog",
+      "code": "F2202"
+     },
+     {
+      "name": "Kalkbjørkeskog på rasmark",
+      "code": "F2401"
+     },
+     {
+      "name": "Kalkbjørkeskog på marmor",
+      "code": "F2402"
+     },
+     {
+      "name": "Høgstaude-kalkbjørkeskog",
+      "code": "F2403"
+     },
+     {
+      "name": "Annen kalkskog med boreale lauvtrær",
+      "code": "F2404"
+     },
+     {
+      "name": "Sørboreal gran-blandingsskog",
+      "code": "F2501"
+     },
+     {
+      "name": "Boreonemoral gran-blandingsskog",
+      "code": "F2502"
+     },
+     {
+      "name": "Ravine-blandingsskog",
+      "code": "F2503"
+     },
+     {
+      "name": "Furu-lavlandsblandingsskog",
+      "code": "F2504"
+     },
+     {
+      "name": "Trange sund",
+      "code": "G0101"
+     },
+     {
+      "name": "Utløp fra poller",
+      "code": "G0102"
+     },
+     {
+      "name": "Ålegras/alge-undervannseng",
+      "code": "G0201"
+     },
+     {
+      "name": "Havgras/tjønnaks-undervannseng",
+      "code": "G0202"
+     },
+     {
+      "name": "Brakkvannssjø",
+      "code": "G0203"
+     },
+     {
+      "name": "Fordyne",
+      "code": "G0301"
+     },
+     {
+      "name": "Store og flate flyvesandområder",
+      "code": "G0302"
+     },
+     {
+      "name": "Dynetrau",
+      "code": "G0303"
+     },
+     {
+      "name": "Forstrand",
+      "code": "G0304"
+     },
+     {
+      "name": "Hvit dyne",
+      "code": "G0305"
+     },
+     {
+      "name": "Grå dyne",
+      "code": "G0306"
+     },
+     {
+      "name": "Brun dyne",
+      "code": "G0307"
+     },
+     {
+      "name": "Erodert dyne",
+      "code": "G0308"
+     },
+     {
+      "name": "Sandstrand med tangvoller",
+      "code": "G0401"
+     },
+     {
+      "name": "Overgang til sump, saltpanne, strandeng etc.",
+      "code": "G0402"
+     },
+     {
+      "name": "Grus- og steinstrand med spesiell flora",
+      "code": "G0403"
+     },
+     {
+      "name": "Steinstrand",
+      "code": "G0404"
+     },
+     {
+      "name": "Grusstrand",
+      "code": "G0405"
+     },
+     {
+      "name": "Sandstrand",
+      "code": "G0406"
+     },
+     {
+      "name": "Stort strandengkompleks",
+      "code": "G0501"
+     },
+     {
+      "name": "Hevdet med slått",
+      "code": "G0502"
+     },
+     {
+      "name": "Hevdet med beite",
+      "code": "G0503"
+     },
+     {
+      "name": "Skjermede strandsumper",
+      "code": "G0504"
+     },
+     {
+      "name": "Kortvokst, åpen, artsrik saltsiveng på skjellsand",
+      "code": "G0505"
+     },
+     {
+      "name": "Strandeng-forstrand/panne",
+      "code": "G0506"
+     },
+     {
+      "name": "Øvre brakkvasseng",
+      "code": "G0507"
+     },
+     {
+      "name": "Øvre brakkvassfukteng",
+      "code": "G0508"
+     },
+     {
+      "name": "Øvre salteng",
+      "code": "G0509"
+     },
+     {
+      "name": "Øvre salt-fukteng",
+      "code": "G0510"
+     },
+     {
+      "name": "Midtre brakkvasseng",
+      "code": "G0511"
+     },
+     {
+      "name": "Midtre salteng",
+      "code": "G0512"
+     },
+     {
+      "name": "Nedre brakkvasseng",
+      "code": "G0513"
+     },
+     {
+      "name": "Helofytt-brakkvassump",
+      "code": "G0515"
+     },
+     {
+      "name": "Helofytt-saltsump",
+      "code": "G0516"
+     },
+     {
+      "name": "Saltpanne",
+      "code": "G0517"
+     },
+     {
+      "name": "Brakkvassmudderflate",
+      "code": "G0518"
+     },
+     {
+      "name": "Salt-mudderflate",
+      "code": "G0519"
+     },
+     {
+      "name": "Naturlig strandeng",
+      "code": "G0520"
+     },
+     {
+      "name": "Semi-naturlig strandeng",
+      "code": "G0521"
+     },
+     {
+      "name": "Strandsump",
+      "code": "G0522"
+     },
+     {
+      "name": "Ettårige driftvoller",
+      "code": "G0602"
+     },
+     {
+      "name": "Flerårig gras/urtetangvoll",
+      "code": "G0603"
+     },
+     {
+      "name": "Ferskvannspåvirket driftvoll",
+      "code": "G0604"
+     },
+     {
+      "name": "Tarevoll",
+      "code": "G0605"
+     },
+     {
+      "name": "Lågurt driftvoll",
+      "code": "G0606"
+     },
+     {
+      "name": "Høgurt driftvoll",
+      "code": "G0607"
+     },
+     {
+      "name": "?",
+      "code": "G0608"
+     },
+     {
+      "name": "Tydelig flompåvirkede kroksjøer, dammer og evjer",
+      "code": "G0701"
+     },
+     {
+      "name": "Kroksjøer, dammer og evjer uten eller med liten flompåvirkning",
+      "code": "G0702"
+     },
+     {
+      "name": "Forgreinete elveløp",
+      "code": "G0703"
+     },
+     {
+      "name": "Meandrerende elveløp",
+      "code": "G0704"
+     },
+     {
+      "name": "Produktive med undervannsenger",
+      "code": "G0801"
+     },
+     {
+      "name": "Kransalgepoller",
+      "code": "G0802"
+     },
+     {
+      "name": "Vågos",
+      "code": "G0803"
+     },
+     {
+      "name": "Sørlig",
+      "code": "G0901"
+     },
+     {
+      "name": "Vestlig og nordlig",
+      "code": "G0902"
+     },
+     {
+      "name": "Fuglepåvirket strandberg",
+      "code": "G0903"
+     },
+     {
+      "name": "Rik sjøsprøyt-sprekk",
+      "code": "G0904"
+     },
+     {
+      "name": "Fugleberg",
+      "code": "G1001"
+     },
+     {
+      "name": "Fuglefjell-eng",
+      "code": "G1002"
+     },
+     {
+      "name": "Fuglegjødslet eng i måkekolonier",
+      "code": "G1003"
+     },
+     {
+      "name": "Rovfugltue og fugleknaus",
+      "code": "G1004"
+     },
+     {
+      "name": "Naken grus- og steinmark",
+      "code": "G1101"
+     },
+     {
+      "name": "Åpen grus- og steinmark",
+      "code": "G1102"
+     },
+     {
+      "name": "Grus- og steinmarkskratt",
+      "code": "G1103"
+     },
+     {
+      "name": "Uspesifisert",
+      "code": "XXXXX"
+     },
+     {
+      "name": "Høstingsskog med ask",
+      "code": "D1807"
+     },
+     {
+      "name": "Høstingsskog med lind",
+      "code": "D1808"
+     },
+     {
+      "name": "Høstingsskog med lavlandsbjørk",
+      "code": "D1809"
+     },
+     {
+      "name": "Høstingsskog med boreale lauvtrær",
+      "code": "D1810"
+     },
+     {
+      "name": "Rikere gransumpskog",
+      "code": "F0605"
+     },
+     {
+      "name": "Rikere løvsumpskog",
+      "code": "F0606"
+     },
+     {
+      "name": "Boreal kildeskog",
+      "code": "F0607"
+     },
+     {
+      "name": "Nedre salteng",
+      "code": "G0514"
+     },
+     {
+      "name": "Uspesifisert",
+      "code": "USPES"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "kommune",
+   "type": "esriFieldTypeString",
+   "alias": "Kommune",
+   "length": 200,
+   "domain": null
+  },
+  {
+   "name": "noeyaktighetsklasse",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Nøyaktighetsklasse",
+   "domain": {
+    "type": "codedValue",
+    "name": "Kode_Noeyaktighetsklasse",
+    "description": "Kodeliste for Noeyaktighetsklasse",
+    "codedValues": [
+     {
+      "name": "Mindre god (>100m)",
+      "code": 1
+     },
+     {
+      "name": "God (50 - 100m)",
+      "code": 2
+     },
+     {
+      "name": "Mindre god (20 - 50m)",
+      "code": 3
+     },
+     {
+      "name": "Særs god (<20 m)",
+      "code": 4
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "forvaltningsplan",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Forvaltningsplan",
+   "domain": {
+    "type": "codedValue",
+    "name": "Nei_Ja",
+    "description": "Kodeliste for Nei/Ja (0/1)",
+    "codedValues": [
+     {
+      "name": "Nei",
+      "code": 0
+     },
+     {
+      "name": "Ja",
+      "code": 1
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "forvaltningsavtale",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Forvaltningsavtale",
+   "domain": {
+    "type": "codedValue",
+    "name": "Nei_Ja",
+    "description": "Kodeliste for Nei/Ja (0/1)",
+    "codedValues": [
+     {
+      "name": "Nei",
+      "code": 0
+     },
+     {
+      "name": "Ja",
+      "code": 1
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "forvaltningsavtaleInngaatt",
+   "type": "esriFieldTypeDate",
+   "alias": "Forvaltningsavtale Inngått",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "forvaltningsavtaleUtloeper",
+   "type": "esriFieldTypeDate",
+   "alias": "Forvaltningsavtale utløper",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "faktaark",
+   "type": "esriFieldTypeString",
+   "alias": "Faktaark",
+   "length": 200,
+   "domain": null
+  },
+  {
+   "name": "datafangstdato",
+   "type": "esriFieldTypeDate",
+   "alias": "Datafangstdato",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "punkt",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Punkt (opprinnelig)",
+   "domain": null
+  },
+  {
+   "name": "SHAPE",
+   "type": "esriFieldTypeGeometry",
+   "alias": "SHAPE",
+   "domain": null
+  },
+  {
+   "name": "SHAPE.STArea()",
+   "type": "esriFieldTypeDouble",
+   "alias": "SHAPE.STArea()",
+   "domain": null
+  },
+  {
+   "name": "SHAPE.STLength()",
+   "type": "esriFieldTypeDouble",
+   "alias": "SHAPE.STLength()",
+   "domain": null
+  }
+ ],
+ "geometryField": {
+  "name": "SHAPE",
+  "type": "esriFieldTypeGeometry",
+  "alias": "SHAPE"
+ },
+ "indexes": [
+  {
+   "name": "R38_pk",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "GDB_32_naturtype",
+   "fields": "naturtypeId",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "GDB_32_naturtype_1",
+   "fields": "naturtype",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "S4_idx",
+   "fields": "SHAPE",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [
+  {
+   "id": 0,
+   "name": "Naturtype_Kilder",
+   "relatedTableId": 12,
+   "role": "esriRelRoleOrigin",
+   "keyField": "naturtypeId",
+   "cardinality": "esriRelCardinalityOneToMany",
+   "composite": false
+  },
+  {
+   "id": 1,
+   "name": "Naturtype_Kommune",
+   "relatedTableId": 11,
+   "role": "esriRelRoleOrigin",
+   "keyField": "naturtypeId",
+   "cardinality": "esriRelCardinalityOneToMany",
+   "composite": false
+  }
+ ],
+ "canModifyLayer": false,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 5000,
+ "supportsStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, geoJSON",
+ "isDataVersioned": false,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsHavingClause": true,
+  "supportsCountDistinct": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsPagination": true,
+  "supportsTrueCurve": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true
+ },
+ "supportsDatumTransformation": true,
+ "hasGeometryProperties": true,
+ "geometryProperties": {
+  "shapeAreaFieldName": "SHAPE.STArea()",
+  "shapeLengthFieldName": "SHAPE.STLength()",
+  "units": "esriMeters"
+ },
+ "dateFieldsTimeReference": null,
+ "supportsCoordinatesQuantization": true
+}

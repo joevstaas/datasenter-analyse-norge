@@ -1,0 +1,923 @@
+{
+  "meta": {
+    "version": "0.1",
+    "accessedAt": "2026-10-01",
+    "scope": "Avgrenset naturpilot: Gromstul og Heggvin. Ingen juridisk eller landsdekkende konklusjon.",
+    "datePolicy": "Null nettpublisering når ikke oppgitt; rapport-/vedtaksdato separat.",
+    "scopePolicy": "Heggvin Løten, Hamar og LE01 må ikke slås sammen som samme geografiske tiltak.",
+    "redListPolicy": "Historiske KU-metoder og rødlisteversjoner beholdes. Ingen omklassifisering til 2026.",
+    "absencePolicy": "Ikke-funn dokumenterer bare søk/tilgang, aldri ingen KU eller ingen natur.",
+    "implementationStatus": "Gjennomføring av avbøtende tiltak ikke verifisert.",
+    "fulltextPolicy": "found_fulltext betyr lesbar sidemerket fulltekst i nettverktøy; ikke nødvendigvis lokal PDF.",
+    "quality": "Selvkontroll av skjema; ingen uavhengig faktakontroll."
+  },
+  "sources": [
+    {
+      "id": "u-grom-ku",
+      "title": "Detaljreguleringsplan for datasenter i Skien kommune – Konsekvensutredning av naturmangfold",
+      "url": "https://www.statsforvalteren.no/siteassets/fm-vestfold-og-telemark/miljo-og-klima/forurensning/dokumenter/2024/horinger/ws-computing-as/8.-konsekvensutredning-naturmangfold.pdf",
+      "publisher": "Norconsult for Statkraft AS; kopi hos Statsforvalteren",
+      "sourceType": "commissioned_analysis",
+      "documentDate": "2018-01-11",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01",
+      "access": "found_reference_only",
+      "version": "J03; oppdragsnr. 5172646",
+      "dateNote": "Dokumentdato er ikke dokumentert nettpubliseringsdato."
+    },
+    {
+      "id": "u-grom-miljo",
+      "title": "Miljøprogram med krav – Project Telemark",
+      "url": "https://webfileservice.nve.no/API/PublishedFiles/Download/924bb1c6-ed16-4fb2-a340-de79bc41626d/202312416/3440819",
+      "publisher": "Norconsult; kopi hos NVE",
+      "sourceType": "commissioned_analysis",
+      "documentDate": "2018-01-05",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01",
+      "access": "found_fulltext",
+      "version": "B02, Miljøprogram-01, oppdragsnr. 5172646",
+      "dateNote": "Dokumentdato er ikke dokumentert nettpubliseringsdato."
+    },
+    {
+      "id": "u-hegg-loten",
+      "title": "Heggvin næringsområde – vurdering av naturmangfold",
+      "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-11---miljokartlegging---vurdering-av-naturmangfold-17.01.2022.pdf.pdf",
+      "publisher": "Norconsult for Løten kommune; kopi hos Statsforvalteren",
+      "sourceType": "commissioned_analysis",
+      "documentDate": "2022-01-17",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01",
+      "access": "found_fulltext",
+      "version": "B02; oppdragsnr. 5175438",
+      "dateNote": "Dokumentdato er ikke dokumentert nettpubliseringsdato."
+    },
+    {
+      "id": "u-hegg-2018-ref",
+      "title": "Vurdering av virkninger på naturmangfold, Heggvin (Kornstad 2018) – bibliografisk referanse",
+      "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-11---miljokartlegging---vurdering-av-naturmangfold-17.01.2022.pdf.pdf",
+      "publisher": "Norconsult; omtalt i Løten-rapport",
+      "sourceType": "bibliographic_reference",
+      "documentDate": "2018",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01",
+      "access": "found_reference_only",
+      "version": null,
+      "dateNote": "Dokumentdato er ikke dokumentert nettpubliseringsdato."
+    },
+    {
+      "id": "u-hegg-le01",
+      "title": "BREEAM Communities – LE 01 Økologisk strategi",
+      "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-12---breeam-communities-le-01-okologisk-strategi-22.03.2024.pdf.pdf",
+      "publisher": "Norconsult for Green Mountain AS; kopi hos Statsforvalteren",
+      "sourceType": "commissioned_analysis",
+      "documentDate": "2024-03-22",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01",
+      "access": "found_fulltext",
+      "version": "J01; oppdragsnr. 52309570, dokumentnr. 01",
+      "dateNote": "Dokumentdato er ikke dokumentert nettpubliseringsdato."
+    },
+    {
+      "id": "u-hegg-vedtak",
+      "title": "Samlet saksframstilling – detaljregulering Heggvin næringspark",
+      "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-27---vedtak-detaljregulering---27.04.2022.pdf.pdf",
+      "publisher": "Hamar kommune; kopi hos Statsforvalteren",
+      "sourceType": "municipal_decision",
+      "documentDate": "2022-04-27",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01",
+      "access": "found_fulltext",
+      "version": "18/1461-72; kommunestyret 35/22",
+      "dateNote": "Dokumentdato er ikke dokumentert nettpubliseringsdato."
+    },
+    {
+      "id": "u-hegg-best",
+      "title": "Bestemmelser til detaljregulering Heggvin næringspark",
+      "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-26---detaljregulering_planbestemmelser-heggvin-hamar.pdf.pdf",
+      "publisher": "Hamar kommune; kopi hos Statsforvalteren",
+      "sourceType": "municipal_plan_provisions",
+      "documentDate": "2021-03-25",
+      "publishedAt": null,
+      "updatedAt": "2023-04-27",
+      "accessedAt": "2026-10-01",
+      "access": "found_fulltext",
+      "version": "Sak 18/1461-98; endring vedtatt 10.05.2023",
+      "dateNote": "Dokumentdato er ikke dokumentert nettpubliseringsdato."
+    },
+    {
+      "id": "u-grom-kritikk",
+      "title": "Innspill om anleggskonsesjon for datasenter på Gromstul",
+      "url": "https://webfileservice.nve.no/API/PublishedFiles/Download/c0f2e12b-22e1-40d0-aa19-ea33898dfd92/202312416/3440813",
+      "publisher": "Ruben Kaasa; arkivert hos NVE",
+      "sourceType": "public_submission",
+      "documentDate": "2024-06-06",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01",
+      "access": "found_fulltext",
+      "version": null,
+      "dateNote": "Dokumentdato er ikke dokumentert nettpubliseringsdato."
+    },
+    {
+      "id": "u-grom-svar",
+      "title": "Departementet fant ikke feil og mangler",
+      "url": "https://www.skien.kommune.no/by-og-naeringsutvikling/aktuelt/departementet-fant-ikke-feil-og-mangler/",
+      "publisher": "Skien kommune",
+      "sourceType": "municipal_summary",
+      "documentDate": null,
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01",
+      "access": "found_fulltext",
+      "version": null,
+      "dateNote": "Dokumentdato er ikke dokumentert nettpubliseringsdato."
+    },
+    {
+      "id": "u-hegg-plan",
+      "title": "Planbeskrivelse Heggvin næringspark",
+      "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-29---planbeskrivelse_heggvin-naringspark.pdf.pdf",
+      "publisher": "Norconsult / Hamar kommune",
+      "sourceType": "municipal_plan_report",
+      "documentDate": "2021-04-08",
+      "publishedAt": null,
+      "updatedAt": "2022-03-31",
+      "accessedAt": "2026-10-01",
+      "access": "found_reference_only",
+      "version": null,
+      "dateNote": "Dokumentdato er ikke dokumentert nettpubliseringsdato."
+    }
+  ],
+  "reports": [
+    {
+      "id": "report-grom-ku",
+      "projectId": "gromstul",
+      "planId": "2017004",
+      "sourceId": "u-grom-ku",
+      "kuStatus": "found_reference_only",
+      "fieldworkYear": null,
+      "fieldworkSeason": null,
+      "scope": "Historisk reguleringsplan, ikke verifisert dekning av dagens utbygging.",
+      "consequenceGrade": null,
+      "fieldworkDate": null,
+      "methodClaimIds": [
+        "u02"
+      ],
+      "mitigationImplemented": null
+    },
+    {
+      "id": "report-hegg-hamar",
+      "projectId": "hamar",
+      "planId": "079500",
+      "sourceId": "u-hegg-2018-ref",
+      "kuStatus": "found_reference_only",
+      "fieldworkYear": null,
+      "fieldworkSeason": null,
+      "scope": "Hamar-område; original utredningsgrense ikke kontrollert.",
+      "consequenceGrade": null,
+      "fieldworkDate": null,
+      "methodClaimIds": [],
+      "mitigationImplemented": null
+    },
+    {
+      "id": "report-hegg-loten",
+      "projectId": "hamar",
+      "planId": "3412_165",
+      "sourceId": "u-hegg-loten",
+      "kuStatus": "found_fulltext",
+      "fieldworkYear": 2021,
+      "fieldworkSeason": "sensommer (24. august)",
+      "scope": "Løten øst for Hamar; indirekte kumulative virkninger inkluderer Hamar.",
+      "consequenceGrade": null,
+      "gradeNote": "Kvalitative virkninger; ingen egen samlet tall-/symbolkarakter transkribert.",
+      "fieldworkDate": "2021-08-24",
+      "methodClaimIds": [
+        "u06"
+      ],
+      "mitigationImplemented": null
+    },
+    {
+      "id": "report-hegg-le01",
+      "projectId": "hamar",
+      "planId": null,
+      "sourceId": "u-hegg-le01",
+      "kuStatus": "found_fulltext",
+      "documentRole": "ecological_strategy_not_original_KU",
+      "fieldworkYear": null,
+      "fieldworkSeason": null,
+      "scope": "Heggvin næringspark og Sirkula; bredere enn plan079500.",
+      "consequenceGrade": null,
+      "fieldworkDate": null,
+      "methodClaimIds": [
+        "u12"
+      ],
+      "mitigationImplemented": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "u01",
+      "projectId": "gromstul",
+      "phaseId": "2017004-planfase-2018",
+      "field": "ku_reference",
+      "value": "Egen natur-KU fra Norconsult er dokumentert i miljøprogrammet.",
+      "unit": null,
+      "geographicScope": "2017004-planfase-2018",
+      "period": "2018-01-05",
+      "status": "rapportert",
+      "evidence": [
+        {
+          "sourceId": "u-grom-miljo",
+          "url": "https://webfileservice.nve.no/API/PublishedFiles/Download/924bb1c6-ed16-4fb2-a340-de79bc41626d/202312416/3440819",
+          "locator": "s. 11, Naturmangfold",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u02",
+      "projectId": "gromstul",
+      "phaseId": "2017004-planfase-2018",
+      "field": "ku_method_reference",
+      "value": "Søkeindeks: DN-håndbok 13, artskartlegging og akvatisk fauna; V712 (2015).",
+      "unit": null,
+      "geographicScope": "2017004-planfase-2018",
+      "period": "2018-01-11",
+      "status": "ukjent",
+      "evidence": [
+        {
+          "sourceId": "u-grom-ku",
+          "url": "https://www.statsforvalteren.no/siteassets/fm-vestfold-og-telemark/miljo-og-klima/forurensning/dokumenter/2024/horinger/ws-computing-as/8.-konsekvensutredning-naturmangfold.pdf",
+          "locator": "sammendrag; s. 10",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "lav",
+        "reason": "Kun søkeuttrekk; selve PDF-en lot seg ikke åpne. Ikke godkjent til faktavisning."
+      },
+      "publishAsFact": false,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u03",
+      "projectId": "gromstul",
+      "phaseId": "2017004-planfase-2018",
+      "field": "nature_values_reference",
+      "value": "Søkeindeks: rik edellauvskog Haukelikollen og gråor-heggeskog Smørholet ble liggende utenfor redusert planområde.",
+      "unit": null,
+      "geographicScope": "2017004-planfase-2018",
+      "period": "2018-01-11",
+      "status": "ukjent",
+      "evidence": [
+        {
+          "sourceId": "u-grom-ku",
+          "url": "https://www.statsforvalteren.no/siteassets/fm-vestfold-og-telemark/miljo-og-klima/forurensning/dokumenter/2024/horinger/ws-computing-as/8.-konsekvensutredning-naturmangfold.pdf",
+          "locator": "s. 15",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "lav",
+        "reason": "Avgrensningsopplysning kun fra indeksert utdrag; krever fulltekst og plankartkontroll."
+      },
+      "publishAsFact": false,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u04",
+      "projectId": "gromstul",
+      "phaseId": "2017004-planfase-2018",
+      "field": "mitigation",
+      "value": "Miljøprogrammet stiller krav om stedegen revegetering, kontroll med fremmede arter og bevaring av vegetasjon i Bjordamsbekkens hensynssoner.",
+      "unit": null,
+      "geographicScope": "2017004-planfase-2018",
+      "period": "2018-01-05",
+      "status": "foreslått",
+      "evidence": [
+        {
+          "sourceId": "u-grom-miljo",
+          "url": "https://webfileservice.nve.no/API/PublishedFiles/Download/924bb1c6-ed16-4fb2-a340-de79bc41626d/202312416/3440819",
+          "locator": "s. 11",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "middels",
+        "reason": "Programmet er fra før planvedtak. Henvisninger til bestemmelser dokumenterer programkrav, men gjeldende vedtak/gjennomføring er ikke kontrollert."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u05",
+      "projectId": "gromstul",
+      "phaseId": "2017004-planfase-2018",
+      "field": "baseline_peat",
+      "value": "Programmet beskriver omfattende drenering av tidligere myr/torv og ukjent torvkvalitet.",
+      "unit": null,
+      "geographicScope": "2017004-planfase-2018",
+      "period": "2018-01-05",
+      "status": "rapportert",
+      "evidence": [
+        {
+          "sourceId": "u-grom-miljo",
+          "url": "https://webfileservice.nve.no/API/PublishedFiles/Download/924bb1c6-ed16-4fb2-a340-de79bc41626d/202312416/3440819",
+          "locator": "s. 12, Grunn",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u06",
+      "projectId": "hamar",
+      "phaseId": "heggvin-loten-tilleggsomrade",
+      "field": "fieldwork",
+      "value": "Befaring 24.08.2021; Artskart/Naturbase. NiN-instruks M-1930; forenklet V712-verdivurdering og kvalitativ påvirkningsbeskrivelse.",
+      "unit": null,
+      "geographicScope": "heggvin-loten-tilleggsomrade",
+      "period": "2022-01-17",
+      "status": "rapportert",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-loten",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-11---miljokartlegging---vurdering-av-naturmangfold-17.01.2022.pdf.pdf",
+          "locator": "s. 1, 4–5",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u07",
+      "projectId": "hamar",
+      "phaseId": "heggvin-loten-tilleggsomrade",
+      "field": "nature_values",
+      "value": "Stabekken og hjorteviltkorridor: middels KU-verdi. Naturtyper/vegetasjon: noe verdi; ingen instruksnaturtyper registrert.",
+      "unit": null,
+      "geographicScope": "heggvin-loten-tilleggsomrade",
+      "period": "2022-01-17",
+      "status": "rapportert",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-loten",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-11---miljokartlegging---vurdering-av-naturmangfold-17.01.2022.pdf.pdf",
+          "locator": "s. 7–9",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u08",
+      "projectId": "hamar",
+      "phaseId": "heggvin-loten-tilleggsomrade",
+      "field": "assessed_effect",
+      "value": "Bekkeomlegging og innsnevring av trekkorridor; samlet belastning vurderes nær tålegrensen når Hamar-utbyggingen medregnes.",
+      "unit": null,
+      "geographicScope": "heggvin-loten-tilleggsomrade",
+      "period": "2022-01-17",
+      "status": "modellert",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-loten",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-11---miljokartlegging---vurdering-av-naturmangfold-17.01.2022.pdf.pdf",
+          "locator": "s. 9–11",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u09",
+      "projectId": "hamar",
+      "phaseId": "heggvin-loten-tilleggsomrade",
+      "field": "uncertainty",
+      "value": "Usikkert fiskesamfunn oppstrøms; seinhøstfiske 2021 hadde mulig lav fangbarhet. Føre var anvendt.",
+      "unit": null,
+      "geographicScope": "heggvin-loten-tilleggsomrade",
+      "period": "2022-01-17",
+      "status": "rapportert",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-loten",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-11---miljokartlegging---vurdering-av-naturmangfold-17.01.2022.pdf.pdf",
+          "locator": "s. 8",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u10",
+      "projectId": "hamar",
+      "phaseId": "heggvin-loten-tilleggsomrade",
+      "field": "mitigation",
+      "value": "Minst 50 m skogkorridor, kortest mulig bekkeomlegging, naturnær restaurering og hogst utenom april–juni foreslås.",
+      "unit": null,
+      "geographicScope": "heggvin-loten-tilleggsomrade",
+      "period": "2022-01-17",
+      "status": "foreslått",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-loten",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-11---miljokartlegging---vurdering-av-naturmangfold-17.01.2022.pdf.pdf",
+          "locator": "s. 10–11",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u11",
+      "projectId": "hamar",
+      "phaseId": "079500-planfase-2018",
+      "field": "ku_reference",
+      "value": "Hamar-området var utredet tidligere: Kornstad 2018. Originalrapporten er ikke hentet i dette søket.",
+      "unit": null,
+      "geographicScope": "079500-planfase-2018",
+      "period": "2022-01-17",
+      "status": "rapportert",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-loten",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-11---miljokartlegging---vurdering-av-naturmangfold-17.01.2022.pdf.pdf",
+          "locator": "s. 2 og litteraturliste s. 12",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u12",
+      "projectId": "hamar",
+      "phaseId": "heggvin-industri-og-sirkula-le01-2024",
+      "field": "assessment_scope",
+      "value": "LE01 gjelder næringspark og Sirkula, på tvers av kommunegrensen. Det er en økologistrategi basert på tidligere KU-er, ikke ny feltkartlegging dokumentert her.",
+      "unit": null,
+      "geographicScope": "heggvin-industri-og-sirkula-le01-2024",
+      "period": "2024-03-22",
+      "status": "rapportert",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-le01",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-12---breeam-communities-le-01-okologisk-strategi-22.03.2024.pdf.pdf",
+          "locator": "s. 1, 4–6",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u13",
+      "projectId": "hamar",
+      "phaseId": "heggvin-industri-og-sirkula-le01-2024",
+      "field": "assessed_effect",
+      "value": "Rapporten vurderer netto biodiversitetstap og at LE01-poeng ikke kan oppnås med de vurderte tiltakene.",
+      "unit": null,
+      "geographicScope": "heggvin-industri-og-sirkula-le01-2024",
+      "period": "2024-03-22",
+      "status": "modellert",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-le01",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-12---breeam-communities-le-01-okologisk-strategi-22.03.2024.pdf.pdf",
+          "locator": "s. 1, 12, 14–15",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u14",
+      "projectId": "hamar",
+      "phaseId": "heggvin-industri-og-sirkula-le01-2024",
+      "field": "source_conflict",
+      "value": "Hjorteviltkorridoren gis middels verdi i kap. 4.4, men noe verdi i tabell 2. Uavklart intern forskjell; ikke harmonisert.",
+      "unit": null,
+      "geographicScope": "heggvin-industri-og-sirkula-le01-2024",
+      "period": "2024-03-22",
+      "status": "rapportert",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-le01",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-12---breeam-communities-le-01-okologisk-strategi-22.03.2024.pdf.pdf",
+          "locator": "s. 11–12",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "middels",
+        "reason": "Tekstlig motstrid identifisert; PDF-skjermbildekontroll feilet. Krever forfatteravklaring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u15",
+      "projectId": "hamar",
+      "phaseId": "079500-endring-2023",
+      "field": "mitigation",
+      "value": "Bestemmelsene krever hogst utenom april–juli, hjemlige trær og ivaretakelse av vestlig skogkorridor. Grønne tak skal vurderes.",
+      "unit": null,
+      "geographicScope": "079500-endring-2023",
+      "period": "2021-03-25",
+      "status": "vedtatt",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-best",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-26---detaljregulering_planbestemmelser-heggvin-hamar.pdf.pdf",
+          "locator": "s. 3, pkt. 2.6",
+          "publishedAt": null,
+          "updatedAt": "2023-04-27",
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u16",
+      "projectId": "hamar",
+      "phaseId": "079500-endring-2023",
+      "field": "mitigation",
+      "value": "Ved bekkeomlegging kreves blant annet revegeterte kantsoner, variert bunn uten vandringshinder og detaljert plan med nødvendige tillatelser.",
+      "unit": null,
+      "geographicScope": "079500-endring-2023",
+      "period": "2021-03-25",
+      "status": "vedtatt",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-best",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-26---detaljregulering_planbestemmelser-heggvin-hamar.pdf.pdf",
+          "locator": "s. 6, pkt. 4.1; s. 9, pkt. 5.3",
+          "publishedAt": null,
+          "updatedAt": "2023-04-27",
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u17",
+      "projectId": "hamar",
+      "phaseId": "079500-endring-2023",
+      "field": "conditional_greenbelt",
+      "value": "GV2 kan omgjøres til næringsareal dersom Stabekken legges om gjennom Løten-plan 3412_165.",
+      "unit": null,
+      "geographicScope": "079500-endring-2023",
+      "period": "2021-03-25",
+      "status": "vedtatt",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-best",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-26---detaljregulering_planbestemmelser-heggvin-hamar.pdf.pdf",
+          "locator": "s. 8, pkt. 4.3",
+          "publishedAt": null,
+          "updatedAt": "2023-04-27",
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u18",
+      "projectId": "hamar",
+      "phaseId": "079500-planbehandling-2021-2022",
+      "field": "authority_objection",
+      "value": "Statsforvalteren fremmet jordverninnsigelse mot utvidelse på fulldyrka jord, gbnr. 160/2.",
+      "unit": null,
+      "geographicScope": "079500-planbehandling-2021-2022",
+      "period": "2022-04-27",
+      "status": "rapportert",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-vedtak",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-27---vedtak-detaljregulering---27.04.2022.pdf.pdf",
+          "locator": "s. 5 og 8",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Direkte lesning av datert primærkilde; gjelder dokumentets vurdering og avgrensning, ikke målt faktisk naturendring."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u19",
+      "projectId": "hamar",
+      "phaseId": "079500-planbehandling-2021-2022",
+      "field": "objection_response",
+      "value": "Kommunen begrunnet behovet og fastsatte erstatningsfaktor 1,5 ved nydyrking. Saksframlegget oppgir at Statsforvalteren 17.11.2021 fant dokumentasjonen tilstrekkelig til å trekke innsigelsen.",
+      "unit": null,
+      "geographicScope": "079500-planbehandling-2021-2022",
+      "period": "2022-04-27",
+      "status": "rapportert",
+      "evidence": [
+        {
+          "sourceId": "u-hegg-vedtak",
+          "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-27---vedtak-detaljregulering---27.04.2022.pdf.pdf",
+          "locator": "s. 8",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "middels",
+        "reason": "Kommunens referat av myndighetsbrev; originalbrevet er ikke lest. Ingen dokumentasjon på gjennomført nydyrking."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u20",
+      "projectId": "gromstul",
+      "phaseId": "anleggskonsesjon-innspill-2024",
+      "field": "public_criticism",
+      "value": "Kaasa kritiserer at tidligere KU ikke dekker endret kjølemetode og nødstrømsopplegg.",
+      "unit": null,
+      "geographicScope": "anleggskonsesjon-innspill-2024",
+      "period": "2024-06-06",
+      "status": "rapportert",
+      "evidence": [
+        {
+          "sourceId": "u-grom-kritikk",
+          "url": "https://webfileservice.nve.no/API/PublishedFiles/Download/c0f2e12b-22e1-40d0-aa19-ea33898dfd92/202312416/3440813",
+          "locator": "s. 1–3",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "høy",
+        "reason": "Primærkilde til avsenderens kritikk, ikke verifisering av kritikkens materielle/juridiske riktighet."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    },
+    {
+      "id": "u21",
+      "projectId": "gromstul",
+      "phaseId": "reguleringsplan-omgjoringsanmodning",
+      "field": "authority_response_reported",
+      "value": "Kommunen opplyser at departementet ikke omgjør reguleringsvedtaket og vurderer at KU er utført.",
+      "unit": null,
+      "geographicScope": "reguleringsplan-omgjoringsanmodning",
+      "period": null,
+      "status": "rapportert",
+      "evidence": [
+        {
+          "sourceId": "u-grom-svar",
+          "url": "https://www.skien.kommune.no/by-og-naeringsutvikling/aktuelt/departementet-fant-ikke-feil-og-mangler/",
+          "locator": "avsnitt 1–6",
+          "publishedAt": null,
+          "updatedAt": null,
+          "accessedAt": "2026-10-01"
+        }
+      ],
+      "confidence": {
+        "type": "qualitative",
+        "level": "middels",
+        "reason": "Kommunal omtale; departementets originalavgjørelse og dato er ikke hentet. Ikke knyttet som sikkert svar til u20."
+      },
+      "publishAsFact": true,
+      "collector": "natur_utredninger",
+      "reviewer": null,
+      "reviewStatus": "not_independently_reviewed",
+      "supersedes": null
+    }
+  ],
+  "searchLog": [
+    {
+      "date": "2026-10-01",
+      "queries": [
+        "Gromstul naturmangfold konsekvensutredning 2017",
+        "Heggvin næringsområde naturmangfold konsekvensutredning 079500",
+        "Heggvin Kornstad 2018 pdf",
+        "Gromstul naturmangfold J03"
+      ],
+      "outcome": "Løten-KU, LE01, planbestemmelser, Hamar-saksframlegg og Gromstul-miljøprogram lest. Original Gromstul KU og Hamar 2018 KU ikke fulltekst tilgjengelig."
+    },
+    {
+      "date": "2026-10-01",
+      "urls": [
+        "https://www.statsforvalteren.no/siteassets/fm-vestfold-og-telemark/miljo-og-klima/forurensning/dokumenter/2024/horinger/ws-computing-as/8.-konsekvensutredning-naturmangfold.pdf",
+        "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-29---planbeskrivelse_heggvin-naringspark.pdf.pdf"
+      ],
+      "outcome": "Nettåpning omdirigerte til portal. Lokal nedlasting gav 403. Ikke automatisk tolket som fravær."
+    },
+    {
+      "date": "2026-10-01",
+      "urls": [
+        "https://arealplaner.no/skien4003/arealplaner/726",
+        "https://api.arealplaner.no/api/kunder/skien4003/arealplaner/726/dokumenter"
+      ],
+      "outcome": "Planmetadata fra lokal baseline lest. Dokumentliste-API gav 401; nettåpning av planregister utilgjengelig."
+    },
+    {
+      "date": "2026-10-01",
+      "urls": [
+        "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-12---breeam-communities-le-01-okologisk-strategi-22.03.2024.pdf.pdf"
+      ],
+      "outcome": "Visuell kontroll s.11–12 forsøkt med PDF-screenshot, feilet. Tekst ble lest med sidenummer."
+    }
+  ],
+  "gaps": [
+    "Full Gromstul natur-KU J03 og Hamar Kornstad 2018 med kart og feltkalender må innhentes.",
+    "Gjeldende Gromstul-bestemmelser og miljøoppfølgingsrapporter må leses før tiltak kan merkes vedtatt/gjennomført.",
+    "Original Statsforvalterbrev 17.11.2021 og departementsavgjørelse om Gromstul må innhentes.",
+    "Faktisk inngrep og dokumentert effekt av restaurering/tiltak er ukjent.",
+    "LE01s interne verdiforskjell for hjortevilttrekk må avklares; biodiversitetskalkulatoren er ikke kvalitetssikret.",
+    "Hamar/Løten plan-ID-kobling må kontrolleres mot originalt Løten-register før geometrisk sammenkobling."
+  ],
+  "rawExtract": {
+    "path": "research/natur/raw/utredninger-web-fulltekst-uttrekk.json",
+    "sha256": "031f36fdbfc690aba7c8bf7d3785beaae8b8a8ef8be330cab9b524252d2f2f2a",
+    "note": "Nettverktøyuttrekk, ikke arkivert original-PDF."
+  }
+}

@@ -1,0 +1,159 @@
+{
+ "currentVersion": 10.91,
+ "serviceDescription": "Naturvernområder",
+ "mapName": "Layers",
+ "description": "",
+ "copyrightText": "Miljødirektoratet",
+ "supportsDynamicLayers": true,
+ "layers": [
+  {
+   "id": 0,
+   "name": "naturvern_omrade",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 1,
+   "name": "naturvern_klasser_omrade",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 2,
+   "name": "naturvern_teiggrensepunkt",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPoint"
+  },
+  {
+   "id": 3,
+   "name": "naturvern_grense",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolyline"
+  },
+  {
+   "id": 4,
+   "name": "foreslatt_naturvern_omrade",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 5,
+   "name": "foreslatt_naturvern_grense",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  }
+ ],
+ "tables": [
+  {
+   "id": 11,
+   "name": "Naturvern_Kommune",
+   "type": "Table"
+  },
+  {
+   "id": 12,
+   "name": "Naturvern_Nettverk",
+   "type": "Table"
+  }
+ ],
+ "spatialReference": {
+  "wkid": 25833,
+  "latestWkid": 25833
+ },
+ "singleFusedMapCache": false,
+ "initialExtent": {
+  "xmin": 96629.79400522704,
+  "ymin": 6928737.550967644,
+  "xmax": 220594.70654492476,
+  "ymax": 6986072.831840434,
+  "spatialReference": {
+   "wkid": 25833,
+   "latestWkid": 25833
+  }
+ },
+ "fullExtent": {
+  "xmin": -383818.5499999998,
+  "ymin": 6448253.720000001,
+  "xmax": 1099462.6900000004,
+  "ymax": 9000718.77,
+  "spatialReference": {
+   "wkid": 25833,
+   "latestWkid": 25833
+  }
+ },
+ "minScale": 0,
+ "maxScale": 0,
+ "units": "esriMeters",
+ "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+ "documentInfo": {
+  "Title": "",
+  "Author": "",
+  "Comments": "Naturvernområder",
+  "Subject": "Verneområder",
+  "Category": "",
+  "AntialiasingMode": "None",
+  "TextAntialiasingMode": "Force",
+  "Keywords": "Vern"
+ },
+ "capabilities": "Map,Query,Data",
+ "supportedQueryFormats": "JSON, geoJSON",
+ "exportTilesAllowed": false,
+ "referenceScale": 0,
+ "datumTransformations": [
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": true,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": false,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  }
+ ],
+ "supportsDatumTransformation": true,
+ "maxRecordCount": 2000,
+ "maxImageHeight": 4096,
+ "maxImageWidth": 4096,
+ "supportedExtensions": "FeatureServer, WMSServer",
+ "resampling": false
+}

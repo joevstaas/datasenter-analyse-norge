@@ -1,0 +1,34 @@
+# Local credentials; only the empty template is versioned.
+.env
+.env.*
+!.env.example
+*.pem
+
+# Local tools and generated caches
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.next/
+.vercel/
+coverage/
+.pytest_cache/
+
+# Scratch outputs
+tmp/
+.vercel
+.env*
+
+!.env.example
+*.tsbuildinfo
+test-results/
+playwright-report/
+
+# Third-party source documents remain local; publish references and analyses.
+report/*.pdf
+research/**/*.pdf
+research/**/*.html
+research/**/raw/*.txt
+research/raw/**/*.txt

@@ -1,0 +1,43 @@
+{
+  "retrieved_at": "2026-10-01",
+  "source_url": "https://ws.geonorge.no/adresser/v1/sok?sok=Svaddevegen+161&treffPerSide=10",
+  "response": {
+    "metadata": {
+      "treffPerSide": 10,
+      "side": 0,
+      "totaltAntallTreff": 1,
+      "viserFra": 0,
+      "viserTil": 10,
+      "sokeStreng": "sok=Svaddevegen+161&treffPerSide=10",
+      "asciiKompatibel": true
+    },
+    "adresser": [
+      {
+        "adressenavn": "Svaddevegen",
+        "adressetekst": "Svaddevegen 161",
+        "adressetilleggsnavn": null,
+        "adressekode": 3430,
+        "nummer": 161,
+        "bokstav": "",
+        "kommunenummer": "4026",
+        "kommunenavn": "TINN",
+        "gardsnummer": 120,
+        "bruksnummer": 32,
+        "festenummer": 0,
+        "undernummer": null,
+        "bruksenhetsnummer": [],
+        "objtype": "Vegadresse",
+        "poststed": "RJUKAN",
+        "postnummer": "3660",
+        "adressetekstutenadressetilleggsnavn": "Svaddevegen 161",
+        "stedfestingverifisert": false,
+        "representasjonspunkt": {
+          "epsg": "EPSG:4258",
+          "lat": 59.88108325483751,
+          "lon": 8.669421227037606
+        },
+        "oppdateringsdato": "2024-01-01T00:00:00"
+      }
+    ]
+  }
+}

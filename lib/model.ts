@@ -1,0 +1,17 @@
+export const BASE = '/labs/datasenter-analyse-norge';
+export type Row = Record<string, string | number | boolean | null>;
+export interface Atlas { projects: Row[]; claims: Row[]; nature: Row[]; sources: Row[]; release: string; fetchedAt: string; origin: string }
+export const topics = ['Natur', 'Kraft', 'Areal', 'Verdiskaping', 'Eierskap'] as const;
+export type Topic = typeof topics[number];
+export const topicFields: Record<Topic,string[]> = { Natur:['nature'], Kraft:['power'], Areal:['area','plan_extent'], Verdiskaping:['jobs','value_creation'], Eierskap:['ownership'] };
+export function operator(p: Row) { const n=String(p.name); return n.includes('Green Mountain')?'Green Mountain':n.includes('Google')?'Google / WS Computing':n.includes('Bulk')?'Bulk':n.includes('Lefdal')?'Lefdal':'Ikke klassifisert'; }
+export function statusGroup(p: Row) {const s=String(p.status).toLowerCase();return s.startsWith('i drift')?'Rapportert i drift':s.includes('bygg')?'Bygging / utvikling':'Annen rapportert status';}
+export function filterProjects(rows: Row[], query: string, municipality: string, op: string, status: string) {return rows.filter(p => `${p.name} ${p.municipality}`.toLocaleLowerCase('nb').includes(query.toLocaleLowerCase('nb')) && (!municipality || p.municipality===municipality) && (!op || operator(p)===op) && (!status || statusGroup(p)===status));}
+export function sourceKeys(value: Row[string]) { return String(value||'').split(';').map(s=>s.trim()).filter(Boolean); }
+export function safeUrl(value: Row[string]) {try {const u=new URL(String(value));return ['https:','http:'].includes(u.protocol)?u.href:undefined;}catch{return undefined;}}
+export function confidence(value: Row[string]) {const s=String(value||'');return ({high:'høy',medium:'middels',low:'lav',unknown:'ukjent'} as Record<string,string>)[s]||s||'ukjent';}
+export function details(row: Row): Record<string,unknown> {try{return JSON.parse(String(row.details_json||'{}'));}catch{return {};}}
+export function claimLabel(row: Row) { const d=details(row);if(d.publishAsFact===false || row.attributed_publication_allowed===false)return 'Uverifisert / attribuert påstand';return 'Kildeopplysning'; }
+export function coordinates(p: Row): [number,number] | null {const x=p.longitude,y=p.latitude;return typeof x==='number' && typeof y==='number' && Number.isFinite(x)&&Number.isFinite(y)&&x>=-180&&x<=180&&y>=-90&&y<=90?[x,y]:null;}
+export const kindLabels: Record<string,string> = {
+planned_IT_capacity:'Planlagt IT-kapasitet',planned_site_capacity:'Planlagt kapasitet for anlegget',contracted_IT_capacity:'Kontrahert IT-kapasitet',planned_maximum_IT_capacity:'Planlagt maksimal IT-kapasitet',reported_campus_area:'Oppgitt campusareal',potential_campus_area:'Potensielt campusareal',approximately_purchased_plot_area:'Omtrentlig kjøpt tomteareal',approximately_regulated_total_area:'Omtrentlig regulert areal',allocated_capacity_operator_statement:'Tildelt kapasitet ifølge operatør',historical_permitted_connection:'Historisk tillatt nettilknytning',reported_group_owner:'Oppgitt konserneier',operator_design_claim:'Operatørens beskrivelse',modelled_construction_gross_value_added:'Modellert brutto verdiskaping i byggefasen',approximately_forecast_regular_workplace_count:'Prognose for faste arbeidsplasser',reported_investment:'Oppgitt investering',regulatory_plan_area_not_actual_land_take:'Planområde – ikke faktisk arealbeslag'};

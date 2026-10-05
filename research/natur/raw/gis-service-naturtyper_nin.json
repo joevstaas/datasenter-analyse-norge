@@ -1,0 +1,169 @@
+{
+ "currentVersion": 10.91,
+ "serviceDescription": "Naturtyper NiN etter Miljødirektoratets instruks \n(NIN 2.1)",
+ "mapName": "Layers",
+ "description": "",
+ "copyrightText": "Miljødirektoratet",
+ "supportsDynamicLayers": true,
+ "layers": [
+  {
+   "id": 0,
+   "name": "naturtyper_nin_alle",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 2,
+   "name": "naturtype_nin_svart_hoy_kvalitet",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 3,
+   "name": "naturtype_nin_hoy_kvalitet",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 4,
+   "name": "naturtype_nin_moderat_kvalitet",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 5,
+   "name": "naturtype_nin_lav_kvalitet",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 6,
+   "name": "naturtype_nin_svart_lav_kvalitet",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 7,
+   "name": "naturtype_nin_ikke_kvalitetsvurdert",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 1280001,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  },
+  {
+   "id": 1,
+   "name": "dekningskart_naturtyper_nin",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  }
+ ],
+ "tables": [
+  {
+   "id": 11,
+   "name": "beskrivelsesvariabler_nin",
+   "type": "Table"
+  },
+  {
+   "id": 12,
+   "name": "kartleggingsenheter_nin",
+   "type": "Table"
+  },
+  {
+   "id": 13,
+   "name": "NNF_Prosjektbeskrivelse",
+   "type": "Table"
+  },
+  {
+   "id": 14,
+   "name": "NNF_Prosjektbeskrivelse__ATTACH",
+   "type": "Table"
+  }
+ ],
+ "spatialReference": {
+  "wkid": 25833,
+  "latestWkid": 25833
+ },
+ "singleFusedMapCache": false,
+ "initialExtent": {
+  "xmin": -67082.97512373785,
+  "ymin": 6638511.776927835,
+  "xmax": -25543.308711071622,
+  "ymax": 6661001.405240425,
+  "spatialReference": {
+   "wkid": 25833,
+   "latestWkid": 25833
+  }
+ },
+ "fullExtent": {
+  "xmin": -76223.9952999996,
+  "ymin": 6448485.5067,
+  "xmax": 1095945.9304999998,
+  "ymax": 7937977.329999998,
+  "spatialReference": {
+   "wkid": 25833,
+   "latestWkid": 25833
+  }
+ },
+ "minScale": 0,
+ "maxScale": 0,
+ "units": "esriMeters",
+ "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+ "documentInfo": {
+  "Title": "Naturtyper NiN",
+  "Author": "",
+  "Comments": "Naturtyper NiN etter Miljødirektoratets instruks \n(NIN 2.1)",
+  "Subject": "Naturtyper NiN etter Miljødirektoratets instruks \n(NIN 2.1)",
+  "Category": "",
+  "AntialiasingMode": "None",
+  "TextAntialiasingMode": "Force",
+  "Keywords": "NiN,Naturtyper"
+ },
+ "capabilities": "Map,Query,Data",
+ "supportedQueryFormats": "JSON, geoJSON",
+ "exportTilesAllowed": false,
+ "referenceScale": 0,
+ "supportsDatumTransformation": true,
+ "maxRecordCount": 5000,
+ "maxImageHeight": 4096,
+ "maxImageWidth": 4096,
+ "supportedExtensions": "FeatureServer, WMSServer",
+ "resampling": false
+}

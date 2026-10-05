@@ -1,0 +1,795 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-05",
+  "scope": "Tre naturpiloter. Foreløpig skrivebordskontroll med eksplisitte kunnskapshull; ingen nasjonal eller målt naturtapsanalyse.",
+  "sources": [
+    {
+      "id": "gis-gromstul-naturtyper_hb13-0",
+      "title": "naturtyper_hb13_alle – foreløpig søk gromstul",
+      "publisher": "Miljødirektoratet",
+      "url": "https://kart.miljodirektoratet.no/arcgis/rest/services/naturtyper_hb13/MapServer/0/query?f=json&where=1%3D1&geometry=%7B%22xmin%22%3A9.500617623875113%2C%22ymin%22%3A59.26547333703958%2C%22xmax%22%3A9.537731197091905%2C%22ymax%22%3A59.28897634652845%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+      "publishedAt": null,
+      "documentDate": null,
+      "accessedAt": "2026-10-01",
+      "access": "api_response",
+      "locator": "results: gromstul/naturtyper_hb13/0",
+      "dateNote": "Publiseringsdato for dette datasettuttrekket ukjent. Objektenes kartleggingsår er separate.",
+      "localEvidence": "research/natur/gis-screening.json"
+    },
+    {
+      "id": "gis-gromstul-naturtyper_nin-0",
+      "title": "naturtyper_nin_alle – foreløpig søk gromstul",
+      "publisher": "Miljødirektoratet",
+      "url": "https://kart.miljodirektoratet.no/arcgis/rest/services/naturtyper_nin/MapServer/0/query?f=json&where=1%3D1&geometry=%7B%22xmin%22%3A9.500617623875113%2C%22ymin%22%3A59.26547333703958%2C%22xmax%22%3A9.537731197091905%2C%22ymax%22%3A59.28897634652845%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+      "publishedAt": null,
+      "documentDate": null,
+      "accessedAt": "2026-10-01",
+      "access": "api_response",
+      "locator": "results: gromstul/naturtyper_nin/0",
+      "dateNote": "Publiseringsdato for dette datasettuttrekket ukjent. Objektenes kartleggingsår er separate.",
+      "localEvidence": "research/natur/gis-screening.json"
+    },
+    {
+      "id": "gis-gromstul-naturtyper_nin-1",
+      "title": "dekningskart_naturtyper_nin – foreløpig søk gromstul",
+      "publisher": "Miljødirektoratet",
+      "url": "https://kart.miljodirektoratet.no/arcgis/rest/services/naturtyper_nin/MapServer/1/query?f=json&where=1%3D1&geometry=%7B%22xmin%22%3A9.500617623875113%2C%22ymin%22%3A59.26547333703958%2C%22xmax%22%3A9.537731197091905%2C%22ymax%22%3A59.28897634652845%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+      "publishedAt": null,
+      "documentDate": null,
+      "accessedAt": "2026-10-01",
+      "access": "api_response",
+      "locator": "results: gromstul/naturtyper_nin/1",
+      "dateNote": "Publiseringsdato for dette datasettuttrekket ukjent. Objektenes kartleggingsår er separate.",
+      "localEvidence": "research/natur/gis-screening.json"
+    },
+    {
+      "id": "gis-hamar-naturtyper_nin-1",
+      "title": "dekningskart_naturtyper_nin – foreløpig søk hamar",
+      "publisher": "Miljødirektoratet",
+      "url": "https://kart.miljodirektoratet.no/arcgis/rest/services/naturtyper_nin/MapServer/1/query?f=json&where=1%3D1&geometry=%7B%22xmin%22%3A11.25923287152275%2C%22ymin%22%3A60.83131956854819%2C%22xmax%22%3A11.275530418714263%2C%22ymax%22%3A60.85123743309795%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+      "publishedAt": null,
+      "documentDate": null,
+      "accessedAt": "2026-10-01",
+      "access": "api_response",
+      "locator": "results: hamar/naturtyper_nin/1",
+      "dateNote": "Publiseringsdato for dette datasettuttrekket ukjent. Objektenes kartleggingsår er separate.",
+      "localEvidence": "research/natur/gis-screening.json"
+    },
+    {
+      "id": "grom-permit-2025",
+      "title": "Tillatelse – WS Computing AS, datasenter 1 Gromstul",
+      "publisher": "Statsforvalteren i Vestfold og Telemark",
+      "url": "https://webfileservice.nve.no/API/PublishedFiles/Download/dddf6fda-38d1-491f-abc5-9464c85e35eb/202422995/3446684",
+      "publishedAt": null,
+      "documentDate": "2025-08-25",
+      "accessedAt": "2026-10-05",
+      "access": "fulltext",
+      "locator": "s. 1–4",
+      "dateNote": "Dokumentdato kjent; publiseringsdato ukjent. PDF-tekst lest via nettverktøy; lokal nedlasting mislyktes.",
+      "localEvidence": "research/natur/raw/gromstul-tillatelse-kildekontroll-2026-10-05.json"
+    },
+    {
+      "id": "narvik-N2",
+      "title": "PLA-001 Planinitiativ Kjølevannsanlegg Bjerkvik",
+      "publisher": "Norconsult; publisert av Narvik kommune",
+      "url": "https://www.narvik.kommune.no/_f/p1/ic10ceebf-27b0-4a5f-88ec-6fe256625887/pla-001-planinitiativ-kjolevannslosning-bjerkvik.pdf",
+      "publishedAt": null,
+      "documentDate": "2026-08-31",
+      "accessedAt": "2026-10-01",
+      "access": "fulltext",
+      "locator": "Se utsagnets henvisning",
+      "dateNote": "Seneste revisjonsrad på side 2 er 31.08.2026; løpende fot viser 19.08.2026. Versjonsavvik bevart.",
+      "localEvidence": "research/natur/raw/narvik-kjolevann-planinitiativ.pdf",
+      "version": "E05 i revisjonstabell; E04 i løpende fot"
+    },
+    {
+      "id": "narvik-N3",
+      "title": "Referat oppstartsmøte Kjølevannsanlegg Bjerkvik",
+      "publisher": "Narvik kommune",
+      "url": "https://www.narvik.kommune.no/_f/p1/i5c711bb0-acb3-400e-9995-8f972f1d26fc/referat-fra-oppstartsmote-detaljregulering-for-kjolevannsanlegg-bjerkvik.pdf",
+      "publishedAt": null,
+      "documentDate": "2026-08-31",
+      "accessedAt": "2026-10-01",
+      "access": "fulltext",
+      "locator": "Se utsagnets henvisning",
+      "dateNote": "Referatdatofelt 03.07.2026/31.08.2026; møte avholdt 03.07.2026.",
+      "localEvidence": "research/natur/raw/narvik-kjolevann-oppstartsreferat.pdf",
+      "version": null
+    },
+    {
+      "id": "narvik-N5",
+      "title": "Planbeskrivelse Skoglund–Lallasletta, NOKV-104-PNA-PLA-00004",
+      "publisher": "Norconsult; publisert av Narvik kommune",
+      "url": "https://www.narvik.kommune.no/_f/p1/ib5679dd3-4a12-4de3-be6a-5aea0c66e6f6/vedtatt-planbeskrivelse-komprimert-detaljregulering-for-skoglund-lallasletta.pdf",
+      "publishedAt": null,
+      "documentDate": "2025-10-17",
+      "accessedAt": "2026-10-01",
+      "access": "fulltext",
+      "locator": "Se utsagnets henvisning",
+      "dateNote": "PDF intern dato 17.10.2025; vedtak omtaler plan siste revisjon13.02.2026. PDF-dato erstattes ikke med vedtaksdato.",
+      "localEvidence": "research/natur/raw/narvik-skoglund-planbeskrivelse.pdf",
+      "version": "06"
+    },
+    {
+      "id": "narvik-N6",
+      "title": "Konsekvensutredning naturmangfold, NOKV-104-HSE-REP-00021",
+      "publisher": "Norconsult; publisert av Narvik kommune",
+      "url": "https://oldweb.narvik.kommune.no/_f/p28/i07f76ef7-28d1-45ab-9ff6-a68524e0d5e9/nokv-104-hse-rep-00021-konsekvensutredning-naturmangfold.pdf",
+      "publishedAt": null,
+      "documentDate": "2024-02-19",
+      "accessedAt": "2026-10-01",
+      "access": "fulltext",
+      "locator": "Se utsagnets henvisning",
+      "dateNote": "Historisk plangrep med hydrogen/ammoniakk på Skoglund og tunnel; ikke faglig godkjenning av kjølevann2026007.",
+      "localEvidence": "research/natur/raw/narvik-skoglund-natur-2024.pdf",
+      "version": "02"
+    },
+    {
+      "id": "narvik-N7",
+      "title": "Konsekvensutredning vannmiljø, NOKV-104-HSE-REP-00022",
+      "publisher": "Norconsult; publisert av Narvik kommune",
+      "url": "https://oldweb.narvik.kommune.no/_f/p28/i8a395588-f0b4-4e7e-8237-2651747427f8/nokv-104-hse-rep-00022-vannmiljo.pdf",
+      "publishedAt": null,
+      "documentDate": "2024-02-22",
+      "accessedAt": "2026-10-01",
+      "access": "fulltext",
+      "locator": "Se utsagnets henvisning",
+      "dateNote": "Historisk plangrep; lest for å kontrollere at sjøvann/desalinering/tunnel ikke er dagens kjølevannstiltak.",
+      "localEvidence": "research/natur/raw/narvik-skoglund-vann-2024.pdf",
+      "version": "02"
+    },
+    {
+      "id": "plan-gromstul",
+      "title": "Reguleringsplan for gbnr. 11/1 - datasenter Gromstul",
+      "publisher": "Kommunalt planregister / Norkart",
+      "url": "https://api.arealplaner.no/api/gi/kunder/skien4003/planomraader/4003/2017004",
+      "publishedAt": null,
+      "documentDate": null,
+      "accessedAt": "2026-10-01",
+      "access": "api_response",
+      "locator": "Se utsagnets henvisning",
+      "dateNote": "Geometridatum ikke eksplisitt deklarert; ikraftdato finnes i separat planmetadata.",
+      "localEvidence": "research/raw/skien4003-2017004-geometry.json",
+      "updatedAt": null
+    },
+    {
+      "id": "plan-hamar",
+      "title": "Detaljreguleringsplan for Heggvin næringspark",
+      "publisher": "Kommunalt planregister / Norkart",
+      "url": "https://api.arealplaner.no/api/gi/kunder/hamar3403/planomraader/3403/079500",
+      "publishedAt": null,
+      "documentDate": null,
+      "accessedAt": "2026-10-01",
+      "access": "api_response",
+      "locator": "Se utsagnets henvisning",
+      "dateNote": "Geometridatum ikke eksplisitt deklarert; ikraftdato finnes i separat planmetadata.",
+      "localEvidence": "research/raw/hamar3403-079500-geometry.json",
+      "updatedAt": "2024-11-26T00:00:00"
+    },
+    {
+      "id": "u-grom-ku",
+      "title": "Detaljreguleringsplan for datasenter i Skien kommune – Konsekvensutredning av naturmangfold",
+      "publisher": "Norconsult for Statkraft AS; kopi hos Statsforvalteren",
+      "url": "https://www.statsforvalteren.no/siteassets/fm-vestfold-og-telemark/miljo-og-klima/forurensning/dokumenter/2024/horinger/ws-computing-as/8.-konsekvensutredning-naturmangfold.pdf",
+      "publishedAt": null,
+      "documentDate": "2018-01-11",
+      "accessedAt": "2026-10-01",
+      "access": "reference_only",
+      "locator": "Se utsagnets henvisning",
+      "dateNote": "Nettpubliseringsdato ukjent; dokumentdato er separat.",
+      "localEvidence": "research/natur/utredninger.json",
+      "updatedAt": null,
+      "version": "J03; oppdragsnr. 5172646"
+    },
+    {
+      "id": "u-grom-miljo",
+      "title": "Miljøprogram med krav – Project Telemark",
+      "publisher": "Norconsult; kopi hos NVE",
+      "url": "https://webfileservice.nve.no/API/PublishedFiles/Download/924bb1c6-ed16-4fb2-a340-de79bc41626d/202312416/3440819",
+      "publishedAt": null,
+      "documentDate": "2018-01-05",
+      "accessedAt": "2026-10-01",
+      "access": "fulltext",
+      "locator": "Se utsagnets henvisning",
+      "dateNote": "Nettpubliseringsdato ukjent; dokumentdato er separat.",
+      "localEvidence": "research/natur/utredninger.json",
+      "updatedAt": null,
+      "version": "B02, Miljøprogram-01, oppdragsnr. 5172646"
+    },
+    {
+      "id": "u-hegg-best",
+      "title": "Bestemmelser til detaljregulering Heggvin næringspark",
+      "publisher": "Hamar kommune; kopi hos Statsforvalteren",
+      "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-26---detaljregulering_planbestemmelser-heggvin-hamar.pdf.pdf",
+      "publishedAt": null,
+      "documentDate": "2021-03-25",
+      "accessedAt": "2026-10-01",
+      "access": "fulltext",
+      "locator": "Se utsagnets henvisning",
+      "dateNote": "Nettpubliseringsdato ukjent; dokumentdato er separat.",
+      "localEvidence": "research/natur/utredninger.json",
+      "updatedAt": "2023-04-27",
+      "version": "Sak 18/1461-98; endring vedtatt 10.05.2023"
+    },
+    {
+      "id": "u-hegg-le01",
+      "title": "BREEAM Communities – LE 01 Økologisk strategi",
+      "publisher": "Norconsult for Green Mountain AS; kopi hos Statsforvalteren",
+      "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-12---breeam-communities-le-01-okologisk-strategi-22.03.2024.pdf.pdf",
+      "publishedAt": null,
+      "documentDate": "2024-03-22",
+      "accessedAt": "2026-10-01",
+      "access": "fulltext",
+      "locator": "Se utsagnets henvisning",
+      "dateNote": "Nettpubliseringsdato ukjent; dokumentdato er separat.",
+      "localEvidence": "research/natur/utredninger.json",
+      "updatedAt": null,
+      "version": "J01; oppdragsnr. 52309570, dokumentnr. 01"
+    },
+    {
+      "id": "u-hegg-loten",
+      "title": "Heggvin næringsområde – vurdering av naturmangfold",
+      "publisher": "Norconsult for Løten kommune; kopi hos Statsforvalteren",
+      "url": "https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/vedlegg-11---miljokartlegging---vurdering-av-naturmangfold-17.01.2022.pdf.pdf",
+      "publishedAt": null,
+      "documentDate": "2022-01-17",
+      "accessedAt": "2026-10-01",
+      "access": "fulltext",
+      "locator": "Se utsagnets henvisning",
+      "dateNote": "Nettpubliseringsdato ukjent; dokumentdato er separat.",
+      "localEvidence": "research/natur/utredninger.json",
+      "updatedAt": null,
+      "version": "B02; oppdragsnr. 5175438"
+    }
+  ],
+  "cards": [
+    {
+      "id": "nature-gromstul",
+      "projectId": "gromstul",
+      "name": "Gromstul – Skien",
+      "status": "screening_only",
+      "planIds": [
+        "2017004"
+      ],
+      "geometryRole": "regulatory_plan_extent",
+      "scopeNote": "Karttesten gjelder hele reguleringsområdet 2017004. Miljøprogram 2018 beskriver planfasen; dagens inngrep er ikke målt.",
+      "ku": [
+        {
+          "component": "Gromstul natur-KU",
+          "status": "found_reference_only",
+          "documentType": "Natur-KU J03 fra 2018",
+          "scopeNote": "Originalrapporten er identifisert, men fulltekst ikke lest i piloten.",
+          "sourceIds": [
+            "u-grom-ku",
+            "u-grom-miljo"
+          ]
+        },
+        {
+          "component": "Planlagt utbygging",
+          "status": "found_fulltext",
+          "documentType": "Miljøprogram 2018",
+          "scopeNote": "Programkrav og førtilstandsbeskrivelse er ikke full KU eller dokumentert gjennomføring.",
+          "sourceIds": [
+            "u-grom-miljo"
+          ]
+        }
+      ],
+      "baseline": [
+        {
+          "id": "g-baseline",
+          "statement": "Miljøprogrammet fra 2018 beskriver tidligere myr/torv og omfattende drenering; torvkvaliteten var ukjent. Det dokumenterer et historisk kunnskapsgrunnlag, ikke dagens naturtilstand.",
+          "evidenceKind": "report_finding",
+          "validTime": "2018-01-05",
+          "sourceIds": [
+            "u-grom-miljo"
+          ],
+          "locator": "s. 12, Grunn",
+          "uncertainty": {
+            "type": "qualitative",
+            "confidence": "high",
+            "reason": "Dokumentert kildeutsagn innen oppgitt avgrensning; ikke målt naturtap."
+          }
+        },
+        {
+          "id": "g-permit-species",
+          "statement": "Tillatelsen omtaler registrert ildsandbie (2022) og hagtornsommerfugl (2009, publisert 2021) i planområdet. Dette supplerer naturtypekarttesten; eget artsuttrekk mangler.",
+          "evidenceKind": "authority_statement",
+          "validTime": "2025-08-25",
+          "sourceIds": [
+            "grom-permit-2025"
+          ],
+          "locator": "s. 4",
+          "uncertainty": {
+            "type": "qualitative",
+            "confidence": "medium",
+            "reason": "Historiske registreringer gjengitt av myndighet; ikke bekreftet nåtilstand eller påvist skade."
+          }
+        }
+      ],
+      "change": [
+        {
+          "id": "g-change",
+          "statement": "Planområdet er dokumentert, men piloten har ikke beregnet faktisk nedbygd areal eller tap av myr/skog.",
+          "evidenceKind": "knowledge_gap",
+          "validTime": null,
+          "sourceIds": [
+            "plan-gromstul",
+            "u-grom-miljo"
+          ],
+          "locator": "plan 2017004; miljøprogram 2018 er ikke etterundersøkelse",
+          "uncertainty": {
+            "type": "unknown",
+            "confidence": "unknown",
+            "reason": "Mangler validert inngrepsgeometri og før-/etterbilder med dokumentert metode."
+          }
+        }
+      ],
+      "consequence": [
+        {
+          "id": "g-program",
+          "statement": "Miljøprogrammet beskriver vegetasjonshensyn langs Bjordamsbekken, revegetering og håndtering av fremmede arter. Endelig vedtak og gjennomføring av disse programkravene er ikke kontrollert her.",
+          "evidenceKind": "report_finding",
+          "validTime": "2018-01-05",
+          "sourceIds": [
+            "u-grom-miljo"
+          ],
+          "locator": "s. 11, Naturmangfold",
+          "uncertainty": {
+            "type": "qualitative",
+            "confidence": "medium",
+            "reason": "Dokumentert kildeutsagn innen oppgitt avgrensning; ikke målt naturtap."
+          }
+        },
+        {
+          "id": "g-screen",
+          "statement": "Søkerektangelet gir 38 NiN- og 7 DN13-kandidater. Ingen berører planringen i den betingede testen. Dette er ikke bevis for at naturverdier eller tidligere naturtap mangler.",
+          "evidenceKind": "spatial_screening",
+          "validTime": "2026-10-01",
+          "sourceIds": [
+            "gis-gromstul-naturtyper_nin-0",
+            "gis-gromstul-naturtyper_hb13-0"
+          ],
+          "locator": "countReturned og conditionalPolygonIntersection; raw features",
+          "uncertainty": {
+            "type": "qualitative",
+            "confidence": "medium",
+            "reason": "Ubekreftet plan-CRS, utvalgte temalag og ulike kartleggingsår; ingen effektanalyse."
+          }
+        },
+        {
+          "id": "g-permit-water",
+          "statement": "Tillatelsen beskriver overvann til Bjordamsbekken via rensing/fordrøyning og ingen utslipp av kjølevann eller prosessavløpsvann fra datasenter 1. Aksept med vilkår er ikke dokumentert ettertilstand eller samlet prosjektgodkjenning.",
+          "evidenceKind": "authority_statement",
+          "validTime": "2025-08-25",
+          "sourceIds": [
+            "grom-permit-2025"
+          ],
+          "locator": "s. 2–4",
+          "uncertainty": {
+            "type": "qualitative",
+            "confidence": "medium",
+            "reason": "Dokumentert kildeutsagn innen oppgitt avgrensning; ikke målt naturtap."
+          }
+        }
+      ],
+      "knowledge_gap": [
+        {
+          "id": "g-ku-gap",
+          "statement": "Original natur-KU, feltarbeidskalender og samsvar med senere prosjektendringer må kontrolleres. Søkeutdrag er ikke brukt som verifiserte naturfunn.",
+          "evidenceKind": "knowledge_gap",
+          "validTime": null,
+          "sourceIds": [
+            "u-grom-ku",
+            "u-grom-miljo"
+          ],
+          "locator": "KU-referanse og tilgangslogg i utredninger.json",
+          "uncertainty": {
+            "type": "unknown",
+            "confidence": "unknown",
+            "reason": "Full KU er ikke tilgjengelig i denne kontrollen."
+          }
+        },
+        {
+          "id": "g-coverage",
+          "statement": "Tre av fem dekningskandidater berører planen betinget. Full temadekning, førtilstand, AR5 og et eget Artskart-uttrekk er ikke kontrollert.",
+          "evidenceKind": "knowledge_gap",
+          "validTime": null,
+          "sourceIds": [
+            "gis-gromstul-naturtyper_nin-1"
+          ],
+          "locator": "conditionalPolygonIntersection; OBJECTID 6218/6380/6734",
+          "uncertainty": {
+            "type": "unknown",
+            "confidence": "unknown",
+            "reason": "Berøring er ikke arealdekning; nye kartlegginger beskriver ikke automatisk natur før bygging."
+          }
+        }
+      ],
+      "screening": {
+        "status": "performed_preliminary",
+        "inputCrsStatus": "unconfirmed",
+        "spatialRelation": "conditional_polygon_intersection",
+        "areaCalculationApproved": false,
+        "actualHabitatLossM2": null,
+        "knowledgeCoverage": "unknown",
+        "resultFile": "research/natur/gis-screening.json",
+        "limitations": [
+          "Ingen validert faktisk inngrepsgeometri eller arealberegning.",
+          "Kartleggingsdekning og før-/ettertilstand er ikke fullstendig kontrollert."
+        ]
+      },
+      "review": {
+        "reviewer": "hovedagent",
+        "reviewedAt": "2026-10-05",
+        "status": "limited_desk_review",
+        "scope": "Tidligere pilotkontroll supplert med avgrenset lesing av tillatelse for datasenter 1. Ikke feltkontroll eller full KU."
+      },
+      "nextActions": [
+        {
+          "owner": "naturutredninger",
+          "action": "Hent original natur-KU og senere faglige revisjoner.",
+          "evidenceRequired": "Fulltekst med kart/feltkalender og kobling til gjeldende prosjektutforming."
+        },
+        {
+          "owner": "natur-GIS",
+          "action": "Koble dokumentert førtilstand mot faktisk inngrep og naturdatasett.",
+          "evidenceRequired": "CRS-bekreftelse, eldre ortofoto, AR5/artsdata og validert endringsgeometri."
+        }
+      ]
+    },
+    {
+      "id": "nature-hamar",
+      "projectId": "hamar",
+      "name": "Heggvin – Hamar, med separat naboområdekontekst",
+      "status": "screening_only",
+      "planIds": [
+        "079500"
+      ],
+      "geometryRole": "regulatory_plan_extent",
+      "scopeNote": "Karttesten gjelder Hamar 079500. Løten-KU og LE01 har andre/bredere avgrensninger og brukes kun med eksplisitt scope.",
+      "ku": [
+        {
+          "component": "Hamar 079500 – original naturutredning",
+          "status": "found_reference_only",
+          "documentType": "Naturutredning 2018",
+          "scopeNote": "Referert i senere rapport; originalens geografi og feltkalender ikke kontrollert.",
+          "sourceIds": [
+            "u-hegg-loten"
+          ]
+        },
+        {
+          "component": "Tilgrensende Løten-område",
+          "status": "found_fulltext",
+          "documentType": "Naturfaglig vurdering 2022",
+          "scopeNote": "Ikke samme område som Hamar 079500.",
+          "sourceIds": [
+            "u-hegg-loten"
+          ]
+        },
+        {
+          "component": "Heggvin og Sirkula samlet",
+          "status": "found_fulltext",
+          "documentType": "BREEAM LE01-strategi 2024",
+          "scopeNote": "Bredere område og flere utbyggere. Ikke ny feltkartlegging eller observert ettertilstand.",
+          "sourceIds": [
+            "u-hegg-le01"
+          ]
+        }
+      ],
+      "baseline": [
+        {
+          "id": "h-baseline",
+          "statement": "Løten-utredningen vurderer Stabekken og hjorteviltkorridoren som verdifulle økologiske funksjoner. Funnene gjelder dens undersøkelsesområde, ikke automatisk hele Hamar-planen.",
+          "evidenceKind": "report_finding",
+          "validTime": "2022-01-17",
+          "sourceIds": [
+            "u-hegg-loten"
+          ],
+          "locator": "s. 7–9; geografisk avgrensning s. 2",
+          "uncertainty": {
+            "type": "qualitative",
+            "confidence": "medium",
+            "reason": "Dokumentert kildeutsagn innen oppgitt avgrensning; ikke målt naturtap."
+          }
+        }
+      ],
+      "change": [
+        {
+          "id": "h-change",
+          "statement": "Hamar-planomrisset viser et reguleringsområde. Faktisk naturareal som er endret av datasenteret er ikke målt i piloten.",
+          "evidenceKind": "knowledge_gap",
+          "validTime": null,
+          "sourceIds": [
+            "plan-hamar"
+          ],
+          "locator": "plan 079500; rawGeometry",
+          "uncertainty": {
+            "type": "unknown",
+            "confidence": "unknown",
+            "reason": "Mangler kontrollert før-/ettergrunnlag og geometri for faktisk inngrep."
+          }
+        }
+      ],
+      "consequence": [
+        {
+          "id": "h-effect",
+          "statement": "LE01-strategien vurderer netto biodiversitetstap og manglende grunnlag for LE01-poeng. Vurderingen gjelder det samlede området Heggvin/Sirkula og er ikke et målt tap for datasenteret alene.",
+          "evidenceKind": "report_finding",
+          "validTime": "2024-03-22",
+          "sourceIds": [
+            "u-hegg-le01"
+          ],
+          "locator": "s. 1, 4, 14–15 og 19",
+          "uncertainty": {
+            "type": "qualitative",
+            "confidence": "high",
+            "reason": "Dokumentert kildeutsagn innen oppgitt avgrensning; ikke målt naturtap."
+          }
+        },
+        {
+          "id": "h-mitigation",
+          "statement": "Hamar-bestemmelsene har krav om hensyn til vegetasjon, hogstperiode og bekk. Gjennomføringen av disse kravene er ikke kontrollert.",
+          "evidenceKind": "authority_statement",
+          "validTime": "2023-05-10",
+          "sourceIds": [
+            "u-hegg-best"
+          ],
+          "locator": "pkt. 2.6, 4.1 og 5.3; historisk versjon vedtatt 10.05.2023",
+          "uncertainty": {
+            "type": "qualitative",
+            "confidence": "medium",
+            "reason": "Dokumentert kildeutsagn innen oppgitt avgrensning; ikke målt naturtap."
+          }
+        }
+      ],
+      "knowledge_gap": [
+        {
+          "id": "h-survey",
+          "statement": "NiN-dekningsuttrekket har to Løten-registrerte kartleggingsområder fra 2021 som berører Hamar-planen i en betinget geometritest. Dette dokumenterer ikke full kartleggingsdekning eller fravær av naturverdier.",
+          "evidenceKind": "spatial_screening",
+          "validTime": "2021 / uttrekk 2026-10-01",
+          "sourceIds": [
+            "gis-hamar-naturtyper_nin-1"
+          ],
+          "locator": "OBJECTID 4023/4387; conditionalPolygonIntersection",
+          "uncertainty": {
+            "type": "qualitative",
+            "confidence": "medium",
+            "reason": "Plan-CRS er ubekreftet; dekningsgrad og tematisk scope er ikke fastslått."
+          }
+        },
+        {
+          "id": "h-original",
+          "statement": "Original Hamar-utredning fra 2018, oppdatert artsgrunnlag og dokumentasjon på faktisk gjennomført avbøting mangler i piloten.",
+          "evidenceKind": "knowledge_gap",
+          "validTime": null,
+          "sourceIds": [
+            "u-hegg-loten",
+            "u-hegg-best"
+          ],
+          "locator": "Løten s. 2/litteraturliste; bestemmelser gir krav, ikke gjennomføringsbevis",
+          "uncertainty": {
+            "type": "unknown",
+            "confidence": "unknown",
+            "reason": "Rapportreferanse og vedtaksbestemmelser er ikke erstatning for originalrapport og effektoppfølging."
+          }
+        }
+      ],
+      "screening": {
+        "status": "performed_preliminary",
+        "inputCrsStatus": "unconfirmed",
+        "spatialRelation": "conditional_polygon_intersection",
+        "areaCalculationApproved": false,
+        "actualHabitatLossM2": null,
+        "knowledgeCoverage": "unknown",
+        "resultFile": "research/natur/gis-screening.json",
+        "limitations": [
+          "Ingen validert faktisk inngrepsgeometri eller arealberegning.",
+          "Kartleggingsdekning og før-/ettertilstand er ikke fullstendig kontrollert."
+        ]
+      },
+      "review": {
+        "reviewer": "hovedagent",
+        "reviewedAt": "2026-10-01",
+        "status": "limited_desk_review",
+        "scope": "Avgrenset kilde- og avgrensningskontroll; se qa-natur.md. Ingen feltvalidering."
+      },
+      "nextActions": [
+        {
+          "owner": "naturutredninger",
+          "action": "Hent original Hamar 2018 og gjeldende planvedlegg.",
+          "evidenceRequired": "Full rapport med kart, feltkalender og dokumentert kobling til plan 079500."
+        },
+        {
+          "owner": "natur-GIS",
+          "action": "Avklar CRS, dekning, førbilder og faktisk inngrep.",
+          "evidenceRequired": "Planmetadata, datert ortofoto, temadekning og kontrollert inngrepspolygon."
+        }
+      ]
+    },
+    {
+      "id": "nature-narvik",
+      "projectId": "narvik",
+      "name": "Narvik – Skoglund og separat kjølevannsløsning",
+      "status": "insufficient_evidence",
+      "planIds": [
+        "2023003",
+        "2026007"
+      ],
+      "geometryRole": "not_acquired",
+      "scopeNote": "Industriplanen Skoglund–Lallasletta og kjølevannsplanen Bjerkvik har forskjellig omfang og utredningshistorikk. Ingen inngrepspolygon er validert.",
+      "ku": [
+        {
+          "component": "Historisk industriprosjekt Skoglund–Lallasletta",
+          "status": "found_fulltext",
+          "documentType": "Natur-KU 2024, versjon 02",
+          "scopeNote": "Hydrogen/ammoniakk og tilknyttet infrastruktur. Ikke KU for kjølevannsplan 2026007. Oppdatert fagrapport ikke innhentet.",
+          "sourceIds": [
+            "narvik-N6"
+          ]
+        },
+        {
+          "component": "Kjølevannsløsning Bjerkvik 2026007",
+          "status": "planned_not_obtained",
+          "documentType": "Utredningskrav i oppstartsreferat 2026",
+          "scopeNote": "Kommunen angir utredning av natur på land, i ferskvann og sjø. Fullført KU ikke innhentet.",
+          "sourceIds": [
+            "narvik-N3"
+          ]
+        }
+      ],
+      "baseline": [
+        {
+          "id": "n-baseline",
+          "statement": "Natur-KU fra 2024 beskriver blant annet flommarksskog og marine naturverdier i sitt historiske undersøkelsesområde. Dette dokumenterer ikke overlapp med den nye kjølevannstraseen.",
+          "evidenceKind": "report_finding",
+          "validTime": "2024-02-19",
+          "sourceIds": [
+            "narvik-N6"
+          ],
+          "locator": "s. 51–58; prosjektbeskrivelse og kart må leses samlet",
+          "uncertainty": {
+            "type": "qualitative",
+            "confidence": "medium",
+            "reason": "Dokumentert kildeutsagn innen oppgitt avgrensning; ikke målt naturtap."
+          }
+        }
+      ],
+      "change": [
+        {
+          "id": "n-warning-area",
+          "statement": "Planinitiativet oppgir omtrent 6200 dekar varslingsområde, inkludert alternativer og sjøareal. Området ventes innsnevret; tallet er ikke naturtap eller faktisk arealbeslag.",
+          "evidenceKind": "report_finding",
+          "validTime": "2026-08-31",
+          "sourceIds": [
+            "narvik-N2"
+          ],
+          "locator": "s. 7",
+          "uncertainty": {
+            "type": "qualitative",
+            "confidence": "high",
+            "reason": "Dokumentert kildeutsagn innen oppgitt avgrensning; ikke målt naturtap."
+          }
+        },
+        {
+          "id": "n-change-gap",
+          "statement": "Faktisk samlet naturinngrep og datasenterets andel er ikke beregnet i piloten.",
+          "evidenceKind": "knowledge_gap",
+          "validTime": null,
+          "sourceIds": [
+            "narvik-N5"
+          ],
+          "locator": "s. 92–93; historisk grunnarbeid og nullalternativ",
+          "uncertainty": {
+            "type": "unknown",
+            "confidence": "unknown",
+            "reason": "Mangler datert førtilstand, inngrepspolygon og fordeling mellom tiltak."
+          }
+        }
+      ],
+      "consequence": [
+        {
+          "id": "n-cooling",
+          "statement": "Planinitiativet oppgir at temperaturforskjellen mellom inntak og utslipp ennå ikke er avklart. Kommunens oppstartsreferat krever naturutredning; en dokumentert effektberegning for ny kjøling er ikke innhentet.",
+          "evidenceKind": "report_finding",
+          "validTime": "2026-08-31",
+          "sourceIds": [
+            "narvik-N2",
+            "narvik-N3"
+          ],
+          "locator": "planinitiativ s. 10; oppstartsreferat pkt. 2.3",
+          "uncertainty": {
+            "type": "qualitative",
+            "confidence": "medium",
+            "reason": "Dokumentert kildeutsagn innen oppgitt avgrensning; ikke målt naturtap."
+          }
+        },
+        {
+          "id": "n-counterfactual",
+          "statement": "Planbeskrivelsens naturvurdering bruker allerede tillatt industriutbygging som del av nullalternativet. En vurdert tilleggseffekt kan derfor ikke leses som samlet naturtap fra opprinnelig tilstand.",
+          "evidenceKind": "report_finding",
+          "validTime": "2025-10-17",
+          "sourceIds": [
+            "narvik-N5"
+          ],
+          "locator": "s. 92–93",
+          "uncertainty": {
+            "type": "qualitative",
+            "confidence": "medium",
+            "reason": "Dokumentert kildeutsagn innen oppgitt avgrensning; ikke målt naturtap."
+          }
+        }
+      ],
+      "knowledge_gap": [
+        {
+          "id": "n-current-ku",
+          "statement": "Oppdatert natur-KU og konsekvensutredning for den nye kjølevannsløsningen mangler i pilotgrunnlaget. Eldre rapporter gjelder andre prosjektutforminger.",
+          "evidenceKind": "knowledge_gap",
+          "validTime": null,
+          "sourceIds": [
+            "narvik-N3",
+            "narvik-N6",
+            "narvik-N7"
+          ],
+          "locator": "oppstartsreferat pkt. 2.3; KU-rapportenes prosjektbeskrivelser",
+          "uncertainty": {
+            "type": "unknown",
+            "confidence": "unknown",
+            "reason": "Historisk rapport kan ikke overføres til ny teknologi og trasé uten faglig kontroll."
+          }
+        },
+        {
+          "id": "n-water-status",
+          "statement": "Vann-Nett-status gjengitt i planbeskrivelsen er historisk. Dagens vannforekomststatus og en uavhengig romlig kontroll av ny trasé er ikke innhentet.",
+          "evidenceKind": "knowledge_gap",
+          "validTime": null,
+          "sourceIds": [
+            "narvik-N5"
+          ],
+          "locator": "s. 44–45, tabell 4-2; datagrunnlag 12.12.2023",
+          "uncertainty": {
+            "type": "unknown",
+            "confidence": "unknown",
+            "reason": "Historisk avskrift er ikke en oppdatert overvåkingsserie eller årsaksanalyse."
+          }
+        }
+      ],
+      "screening": {
+        "status": "not_performed",
+        "inputCrsStatus": "not_available",
+        "spatialRelation": "not_computed",
+        "areaCalculationApproved": false,
+        "actualHabitatLossM2": null,
+        "knowledgeCoverage": "unknown",
+        "resultFile": null,
+        "limitations": [
+          "Ingen validert faktisk inngrepsgeometri eller arealberegning.",
+          "Kartleggingsdekning og før-/ettertilstand er ikke fullstendig kontrollert."
+        ]
+      },
+      "review": {
+        "reviewer": "hovedagent",
+        "reviewedAt": "2026-10-01",
+        "status": "limited_desk_review",
+        "scope": "Avgrenset kilde- og avgrensningskontroll; se qa-natur.md. Ingen feltvalidering."
+      },
+      "nextActions": [
+        {
+          "owner": "naturutredninger",
+          "action": "Innhent gjeldende fagrapporter for hver prosjektkomponent.",
+          "evidenceRequired": "Versjon, dato, feltkalender og dokumentert kobling til 2023003/2026007."
+        },
+        {
+          "owner": "natur-GIS",
+          "action": "Avgrens faktisk inngrep og alternative kjølevannstraseer mot datert førtilstand.",
+          "evidenceRequired": "Kildebelagte polygoner, bekreftet CRS, ortofoto og relevante natur- og artslag."
+        },
+        {
+          "owner": "naturutredninger",
+          "action": "Undersøk vannpåvirkning og samlet belastning.",
+          "evidenceRequired": "Gjeldende Vann-Nett, temperatur/vannmengde, utslippsmodell og dokumentert økologisk vurdering."
+        }
+      ]
+    }
+  ]
+}

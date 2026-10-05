@@ -1,0 +1,69 @@
+{
+  "retrieved_at": "2026-10-01",
+  "source_url": "https://ws.geonorge.no/adresser/v1/sok?sok=Granittveien+110&treffPerSide=10",
+  "response": {
+    "metadata": {
+      "treffPerSide": 10,
+      "side": 0,
+      "totaltAntallTreff": 2,
+      "viserFra": 0,
+      "viserTil": 10,
+      "sokeStreng": "sok=Granittveien+110&treffPerSide=10",
+      "asciiKompatibel": true
+    },
+    "adresser": [
+      {
+        "adressenavn": "Granittveien",
+        "adressetekst": "Granittveien 110",
+        "adressetilleggsnavn": null,
+        "adressekode": 4460,
+        "nummer": 110,
+        "bokstav": "",
+        "kommunenummer": "3220",
+        "kommunenavn": "ENEBAKK",
+        "gardsnummer": 91,
+        "bruksnummer": 908,
+        "festenummer": 0,
+        "undernummer": null,
+        "bruksenhetsnummer": [],
+        "objtype": "Vegadresse",
+        "poststed": "YTRE ENEBAKK",
+        "postnummer": "1914",
+        "adressetekstutenadressetilleggsnavn": "Granittveien 110",
+        "stedfestingverifisert": false,
+        "representasjonspunkt": {
+          "epsg": "EPSG:4258",
+          "lat": 59.75739221276422,
+          "lon": 10.99371918458457
+        },
+        "oppdateringsdato": "2024-09-05T09:45:16"
+      },
+      {
+        "adressenavn": "Granittveien",
+        "adressetekst": "Granittveien 12",
+        "adressetilleggsnavn": null,
+        "adressekode": 17177,
+        "nummer": 12,
+        "bokstav": "",
+        "kommunenummer": "3205",
+        "kommunenavn": "LILLESTRØM",
+        "gardsnummer": 456,
+        "bruksnummer": 110,
+        "festenummer": 0,
+        "undernummer": null,
+        "bruksenhetsnummer": [],
+        "objtype": "Vegadresse",
+        "poststed": "GAN",
+        "postnummer": "1903",
+        "adressetekstutenadressetilleggsnavn": "Granittveien 12",
+        "stedfestingverifisert": false,
+        "representasjonspunkt": {
+          "epsg": "EPSG:4258",
+          "lat": 59.879916191348926,
+          "lon": 11.247279097196053
+        },
+        "oppdateringsdato": "2024-01-01T00:00:00"
+      }
+    ]
+  }
+}

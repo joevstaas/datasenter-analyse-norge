@@ -1,0 +1,170 @@
+{
+  "projects": [
+    {
+      "before": {
+        "id": "e063b117-b745-5caf-88d0-5ca711e6917b",
+        "project_id": "undheim",
+        "name": "Green Mountain SVG-Undheim",
+        "municipality": "Time",
+        "status": "Under bygging ifølge operatør; planlagt ferdigstillelse 2028",
+        "status_verified": false,
+        "longitude": null,
+        "latitude": null,
+        "geometry": null,
+        "location_role": null,
+        "original_crs": null,
+        "location_sources": "",
+        "location_uncertainty": null,
+        "knowledge_gaps": "Faktisk årlig kraftbruk (målt TWh og år) mangler.; Faktisk nedbygd areal med måledato og metode mangler.; Validert planpolygon, bygningsfotavtrykk og naturtypeoverlegg mangler.; Eiendomseier og endelig reell eier er ikke kontrollert mot full eierkjede."
+      },
+      "after": {
+        "id": "e063b117-b745-5caf-88d0-5ca711e6917b",
+        "project_id": "undheim",
+        "name": "Green Mountain SVG-Undheim",
+        "municipality": "Time",
+        "status": "Under bygging ifølge operatør; planlagt ferdigstillelse 2028",
+        "status_verified": false,
+        "longitude": 5.794339715544289,
+        "latitude": 58.65968677839994,
+        "geometry": "POINT (5.794339715544289 58.65968677839994)",
+        "location_role": "address_point",
+        "original_crs": "EPSG:4258",
+        "location_sources": "projects:undheim-nav-address; projects:undheim-nve-location; projects:kartverket-undheim-20261005",
+        "location_uncertainty": "Dokumentert adressepunkt; stedfestingverifisert=false i registeret. Ikke anleggets sentrum, bygningsfotavtrykk eller arealgrense. Numerisk nøyaktighet er ikke dokumentert; ingen statistisk konfidensintervall.",
+        "knowledge_gaps": "Faktisk årlig kraftbruk (målt TWh og år) mangler.; Faktisk nedbygd areal med måledato og metode mangler.; Validert planpolygon, bygningsfotavtrykk og naturtypeoverlegg mangler.; Eiendomseier og endelig reell eier er ikke kontrollert mot full eierkjede."
+      }
+    },
+    {
+      "before": {
+        "id": "2a409ff7-5682-5e5c-b5e5-301e13cfe18e",
+        "project_id": "gromstul",
+        "name": "Google / WS Computing – Gromstul",
+        "municipality": "Skien",
+        "status": "Byggestart dokumentert 2024; søknad byggetrinn 2 i august 2025. Drift ikke bekreftet.",
+        "status_verified": false,
+        "longitude": null,
+        "latitude": null,
+        "geometry": null,
+        "location_role": null,
+        "original_crs": null,
+        "location_sources": "",
+        "location_uncertainty": null,
+        "knowledge_gaps": "Faktisk årlig kraftbruk (målt TWh og år) mangler.; Faktisk nedbygd areal med måledato og metode mangler.; Eiendomseier og endelig reell eier er ikke kontrollert mot full eierkjede.; 240 MW fra operatør er ikke kontrollert mot gjeldende nettilknytningsavtale.; 2026 var en forventet driftsstart i 2024; faktisk oppstart må verifiseres.; Planomriss hentet; gjeldende revisjon, formålsflater, eiendomsavgrensning og faktisk nedbygging må fortsatt kvalitetssikres."
+      },
+      "after": {
+        "id": "2a409ff7-5682-5e5c-b5e5-301e13cfe18e",
+        "project_id": "gromstul",
+        "name": "Google / WS Computing – Gromstul",
+        "municipality": "Skien",
+        "status": "Byggestart dokumentert 2024; søknad byggetrinn 2 i august 2025. Drift ikke bekreftet.",
+        "status_verified": false,
+        "longitude": 9.518779375062875,
+        "latitude": 59.26995366923121,
+        "geometry": "POINT (9.518779375062875 59.26995366923121)",
+        "location_role": "address_point",
+        "original_crs": "EPSG:4258",
+        "location_sources": "projects:gromstul-brreg-address; projects:gromstul-permit-location; projects:kartverket-gromstul-20261005",
+        "location_uncertainty": "Dokumentert adressepunkt; stedfestingverifisert=false i registeret. Ikke anleggets sentrum, bygningsfotavtrykk eller arealgrense. Numerisk nøyaktighet er ikke dokumentert; ingen statistisk konfidensintervall.",
+        "knowledge_gaps": "Faktisk årlig kraftbruk (målt TWh og år) mangler.; Faktisk nedbygd areal med måledato og metode mangler.; Eiendomseier og endelig reell eier er ikke kontrollert mot full eierkjede.; 240 MW fra operatør er ikke kontrollert mot gjeldende nettilknytningsavtale.; 2026 var en forventet driftsstart i 2024; faktisk oppstart må verifiseres.; Planomriss hentet; gjeldende revisjon, formålsflater, eiendomsavgrensning og faktisk nedbygging må fortsatt kvalitetssikres."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "before": null,
+      "after": {
+        "id": "4df835fb-035a-56f4-8f25-d57dd46a5214",
+        "source_key": "projects:undheim-nav-address",
+        "record_kind": "source",
+        "title": "Green Mountain søker fagansvarlige: Elektro, Automasjon og Kjøling",
+        "publisher": "Green Mountain via NAV Arbeidsplassen",
+        "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b388197f-a539-470c-a5ee-bc9b43ad97bc",
+        "published_at": "2026-09-28",
+        "document_date": null,
+        "accessed_at": "2026-10-05",
+        "locator": "Arbeidssted og første avsnitt; publiseringsdato i sidens annonsedata",
+        "content": "{\"accessedAt\": \"2026-10-05\", \"id\": \"undheim-nav-address\", \"localFile\": \"research/raw/location-review-2026-10-05/undheim-nav.html\", \"locator\": \"Arbeidssted og første avsnitt; publiseringsdato i sidens annonsedata\", \"publishedAt\": \"2026-09-28\", \"publisher\": \"Green Mountain via NAV Arbeidsplassen\", \"sha256\": \"0806abc25a0486140fd8f28f6434ec31f8b9e724a32d80c61f053725f7a1418f\", \"title\": \"Green Mountain søker fagansvarlige: Elektro, Automasjon og Kjøling\", \"type\": \"operator_job_advertisement\", \"url\": \"https://arbeidsplassen.nav.no/stillinger/stilling/b388197f-a539-470c-a5ee-bc9b43ad97bc\"}"
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "id": "ab73c70f-1180-5fdf-92d5-b82e2af80b1a",
+        "source_key": "projects:undheim-nve-location",
+        "record_kind": "source",
+        "title": "Undheim datasenter – søknad om jordkabel og transformatorstasjon, revisjon J02",
+        "publisher": "Green Mountain / Norconsult, publisert av NVE",
+        "url": "https://webfileservice.nve.no/API/PublishedFiles/Download/ceadb8aa-5326-4bca-9688-e5901ae12fd0/202608496/3454679",
+        "published_at": "2026-07-10",
+        "document_date": null,
+        "accessed_at": "2026-10-05",
+        "locator": "s. 7: berørte eiendommer, herunder 46/317; s. 8: plan 052800. Ikke kilde til kartpunkt alene.",
+        "content": "{\"accessedAt\": \"2026-10-05\", \"id\": \"undheim-nve-location\", \"localFile\": \"research/raw/location-review-2026-10-05/undheim-nve.pdf\", \"locator\": \"s. 7: berørte eiendommer, herunder 46/317; s. 8: plan 052800. Ikke kilde til kartpunkt alene.\", \"publishedAt\": \"2026-07-10\", \"publisher\": \"Green Mountain / Norconsult, publisert av NVE\", \"sha256\": \"4d0df67383dff823f9a767d131027320171212ad588eb2e95891ebd96b117839\", \"title\": \"Undheim datasenter – søknad om jordkabel og transformatorstasjon, revisjon J02\", \"type\": \"operator_application\", \"url\": \"https://webfileservice.nve.no/API/PublishedFiles/Download/ceadb8aa-5326-4bca-9688-e5901ae12fd0/202608496/3454679\"}"
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "id": "35c010cd-9aa7-59fa-a81d-c4bd59ab4071",
+        "source_key": "projects:gromstul-brreg-address",
+        "record_kind": "source",
+        "title": "WS Computing AS – underenhet 925646334, beliggenhetsadresse",
+        "publisher": "Brønnøysundregistrene",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter/925646334",
+        "published_at": null,
+        "document_date": null,
+        "accessed_at": "2026-10-05",
+        "locator": "beliggenhetsadresse",
+        "content": "{\"accessedAt\": \"2026-10-05\", \"id\": \"gromstul-brreg-address\", \"localFile\": \"research/raw/location-review-2026-10-05/gromstul-brreg.json\", \"locator\": \"beliggenhetsadresse\", \"publishedAt\": null, \"publisher\": \"Brønnøysundregistrene\", \"sha256\": \"a9be7543abebc0862407ad254a4dd15cb9fbdd7df00e40695a95007848a5964c\", \"title\": \"WS Computing AS – underenhet 925646334, beliggenhetsadresse\", \"type\": \"authority_register\", \"url\": \"https://data.brreg.no/enhetsregisteret/api/underenheter/925646334\"}"
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "id": "35ce9ac0-83cd-5c3e-8282-bc9609f18061",
+        "source_key": "projects:gromstul-permit-location",
+        "record_kind": "source",
+        "title": "Tillatelse til datasenter 1 på Gromstul, gnbr. 11/28",
+        "publisher": "Statsforvalteren i Vestfold og Telemark",
+        "url": "https://webfileservice.nve.no/API/PublishedFiles/Download/dddf6fda-38d1-491f-abc5-9464c85e35eb/202422995/3446684",
+        "published_at": "2025-08-25",
+        "document_date": null,
+        "accessed_at": "2026-10-05",
+        "locator": "PDF-side 1: datasenter 1, gnbr 11/28; gjelder ikke alle framtidige bygg",
+        "content": "{\"accessedAt\": \"2026-10-05\", \"id\": \"gromstul-permit-location\", \"localFile\": \"research/raw/location-review-2026-10-05/gromstul-permit.pdf\", \"locator\": \"PDF-side 1: datasenter 1, gnbr 11/28; gjelder ikke alle framtidige bygg\", \"publishedAt\": \"2025-08-25\", \"publisher\": \"Statsforvalteren i Vestfold og Telemark\", \"sha256\": \"d5f32bce71c647dc5fe90890b0d9f9d6d898c9300abfcbd4a38916bcb63e2c4f\", \"title\": \"Tillatelse til datasenter 1 på Gromstul, gnbr. 11/28\", \"type\": \"authority_permit\", \"url\": \"https://webfileservice.nve.no/API/PublishedFiles/Download/dddf6fda-38d1-491f-abc5-9464c85e35eb/202422995/3446684\"}"
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "id": "e0e2b2a0-6c62-5be4-a3c8-d7b81f5324dc",
+        "source_key": "projects:kartverket-undheim-20261005",
+        "record_kind": "source",
+        "title": "Kartverket adressepunkt: Undheimsvegen 759",
+        "publisher": "Kartverket",
+        "url": "https://ws.geonorge.no/adresser/v1/sok?kommunenummer=1121&gardsnummer=46&bruksnummer=317",
+        "published_at": null,
+        "document_date": null,
+        "accessed_at": "2026-10-05",
+        "locator": "adresser[0].representasjonspunkt; eksakt kommune, gårds- og bruksnummer",
+        "content": "{\"accessedAt\": \"2026-10-05\", \"id\": \"kartverket-undheim-20261005\", \"localFile\": \"research/raw/location-review-2026-10-05/undheim-addresses.json\", \"locator\": \"adresser[0].representasjonspunkt; eksakt kommune, gårds- og bruksnummer\", \"publishedAt\": null, \"publisher\": \"Kartverket\", \"sha256\": \"ac8a874e78385b705a03e677a2fdd975821519fdba616deb9f7105450653b3be\", \"title\": \"Kartverket adressepunkt: Undheimsvegen 759\", \"type\": \"authority\", \"updatedAt\": \"2026-01-29T10:07:44\", \"url\": \"https://ws.geonorge.no/adresser/v1/sok?kommunenummer=1121&gardsnummer=46&bruksnummer=317\"}"
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "id": "1e642742-e5b6-5670-a8aa-8087375224a0",
+        "source_key": "projects:kartverket-gromstul-20261005",
+        "record_kind": "source",
+        "title": "Kartverket adressepunkt: Gromstulvegen 82",
+        "publisher": "Kartverket",
+        "url": "https://ws.geonorge.no/adresser/v1/sok?kommunenummer=4003&gardsnummer=11&bruksnummer=28",
+        "published_at": null,
+        "document_date": null,
+        "accessed_at": "2026-10-05",
+        "locator": "adresser[0].representasjonspunkt; eksakt kommune, gårds- og bruksnummer",
+        "content": "{\"accessedAt\": \"2026-10-05\", \"id\": \"kartverket-gromstul-20261005\", \"localFile\": \"research/raw/location-review-2026-10-05/gromstul-addresses.json\", \"locator\": \"adresser[0].representasjonspunkt; eksakt kommune, gårds- og bruksnummer\", \"publishedAt\": null, \"publisher\": \"Kartverket\", \"sha256\": \"62d05fdf889585b9a4a46d7be13e142cf010d91bc16c194da92aed62469652a5\", \"title\": \"Kartverket adressepunkt: Gromstulvegen 82\", \"type\": \"authority\", \"updatedAt\": \"2025-02-05T08:54:34\", \"url\": \"https://ws.geonorge.no/adresser/v1/sok?kommunenummer=4003&gardsnummer=11&bruksnummer=28\"}"
+      }
+    }
+  ]
+}

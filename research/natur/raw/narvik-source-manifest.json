@@ -1,0 +1,65 @@
+[
+  {
+    "sourceId": "N1",
+    "url": "https://www.narvik.kommune.no/kunngjoringer/varsel-om-oppstart-detaljregulering-for-kjolevannslosning-bjerkvik-planid-2026007.11697.aspx",
+    "documentDate": null,
+    "retrievedAt": "2026-10-01",
+    "file": "research/natur/raw/narvik-kjolevann-varsel.html",
+    "bytes": 59614,
+    "sha256": "0be7841ec26af06784d6c4b53d64a13cf0202884ab9362d6e880fe6da05901f9"
+  },
+  {
+    "sourceId": "N2",
+    "url": "https://www.narvik.kommune.no/_f/p1/ic10ceebf-27b0-4a5f-88ec-6fe256625887/pla-001-planinitiativ-kjolevannslosning-bjerkvik.pdf",
+    "documentDate": "2026-08-31",
+    "retrievedAt": "2026-10-01",
+    "file": "research/natur/raw/narvik-kjolevann-planinitiativ.pdf",
+    "bytes": 3266293,
+    "sha256": "b7a67b4958fc3c66d29e19c2bf1e6a317112561022656364c4e184c4df26cc3a"
+  },
+  {
+    "sourceId": "N3",
+    "url": "https://www.narvik.kommune.no/_f/p1/i5c711bb0-acb3-400e-9995-8f972f1d26fc/referat-fra-oppstartsmote-detaljregulering-for-kjolevannsanlegg-bjerkvik.pdf",
+    "documentDate": "2026-08-31",
+    "retrievedAt": "2026-10-01",
+    "file": "research/natur/raw/narvik-kjolevann-oppstartsreferat.pdf",
+    "bytes": 445443,
+    "sha256": "e207b6884f1c4cce25ab8e45e70ce6205064adb5d36efc241a856f1fdac23ab5"
+  },
+  {
+    "sourceId": "N4",
+    "url": "https://www.narvik.kommune.no/kunngjoringer/kunngjoring-av-planvedtak-detaljregulering-for-skoglund-lallasletta.10940.aspx",
+    "documentDate": "2026-04-09",
+    "retrievedAt": "2026-10-01",
+    "file": "research/natur/raw/narvik-skoglund-vedtak.html",
+    "bytes": 62340,
+    "sha256": "6db361d32de111f0294dd9e7852c77aebf038f930d286292e4d249cb1dc606b5"
+  },
+  {
+    "sourceId": "N5",
+    "url": "https://www.narvik.kommune.no/_f/p1/ib5679dd3-4a12-4de3-be6a-5aea0c66e6f6/vedtatt-planbeskrivelse-komprimert-detaljregulering-for-skoglund-lallasletta.pdf",
+    "documentDate": "2025-10-17",
+    "retrievedAt": "2026-10-01",
+    "file": "research/natur/raw/narvik-skoglund-planbeskrivelse.pdf",
+    "bytes": 15928683,
+    "sha256": "0e4c5e689f0517602ec9ab12ad13b3a6c1c2a514d8dbc31f7c152bbb474d1089"
+  },
+  {
+    "sourceId": "N6",
+    "url": "https://oldweb.narvik.kommune.no/_f/p28/i07f76ef7-28d1-45ab-9ff6-a68524e0d5e9/nokv-104-hse-rep-00021-konsekvensutredning-naturmangfold.pdf",
+    "documentDate": "2024-02-19",
+    "retrievedAt": "2026-10-01",
+    "file": "research/natur/raw/narvik-skoglund-natur-2024.pdf",
+    "bytes": 9625861,
+    "sha256": "b16186194aa4371dbb0ab6c264245711bad7f40dc1031a74e1d536b061f1826d"
+  },
+  {
+    "sourceId": "N7",
+    "url": "https://oldweb.narvik.kommune.no/_f/p28/i8a395588-f0b4-4e7e-8237-2651747427f8/nokv-104-hse-rep-00022-vannmiljo.pdf",
+    "documentDate": "2024-02-22",
+    "retrievedAt": "2026-10-01",
+    "file": "research/natur/raw/narvik-skoglund-vann-2024.pdf",
+    "bytes": 3221499,
+    "sha256": "9fd450d235b52777e3c1d373c49208a962fea0cfbf6060cbf501648f5e1266c7"
+  }
+]

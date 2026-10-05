@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-10-05",
+  "scope": "Supplerende forskningskontrakt for tre naturpiloter. Ingen nye areal- eller vannmengdeberegninger.",
+  "sourceRegistry": [
+    "research/natur/naturkort.json"
+  ],
+  "policy": "Alle ukjente målinger er null. WUE krever eksplisitt IT-energi som nevner og samme måleperiode; ikke beregn med MW kapasitet. Ingen globale vannfaktorer fordeles på norske anlegg.",
+  "projects": [
+    {
+      "projectId": "gromstul",
+      "reviewedAt": "2026-10-05",
+      "sourceIds": [
+        "grom-permit-2025",
+        "u-grom-miljo"
+      ],
+      "scope": "Datasenter 1-tillatelse separat fra hele planområdet og fremtidige byggetrinn.",
+      "documentedContext": "Overvann til Bjordamsbekken beskrevet i tillatelsen.",
+      "followOnInfrastructure": "Massedeponi, nett/vei og overvann må avgrenses per komponent; ikke fordeles uten belegg.",
+      "quantities": {
+        "waterWithdrawalM3PerYear": null,
+        "consumptiveUseM3PerYear": null,
+        "returnWaterM3PerYear": null,
+        "peakWithdrawalM3PerHour": null,
+        "dischargeTemperatureC": null,
+        "temperatureRiseC": null,
+        "WUELitrePerKWhIT": null,
+        "actualLandTakeM2": null
+      },
+      "measurementPeriod": null,
+      "seasonalProfile": null,
+      "internalCoolingCircuit": null,
+      "finalHeatRejection": null,
+      "quantityStatus": "not_obtained",
+      "beforeState": {
+        "observationDate": null,
+        "landCoverBeforeWorks": null,
+        "evidenceFile": null
+      },
+      "gaps": [
+        "Datert førtilstand og validert faktisk inngrepspolygon.",
+        "Vannbalanse per krets, målepunkt, periode og sesong; intern kjøling skilles fra endelig varmeavgivelse.",
+        "Komponentgeometri og eventuell delt infrastruktur uten vilkårlig tilordning.",
+        "Myndighetskrav, gjennomføring og målt effekt holdes atskilt."
+      ],
+      "nextEvidence": [
+        "Gjeldende tillatelser og relevante KU-revisjoner",
+        "Måle-/overvåkingsrapporter og systemtegning",
+        "Historiske ortofoto, artsdata og avgrensning av følgeinngrep"
+      ]
+    },
+    {
+      "projectId": "hamar",
+      "reviewedAt": "2026-10-05",
+      "sourceIds": [
+        "u-hegg-loten",
+        "u-hegg-le01",
+        "u-hegg-best"
+      ],
+      "scope": "Hamar-plan, tilgrensende Løten og bredere Heggvin/Sirkula holdes atskilt.",
+      "documentedContext": "Stabekken er omtalt i områdets naturgrunnlag; ingen målt datasentertilordnet vannpåvirkning.",
+      "followOnInfrastructure": "Grøntkorridor, bekk og delt industriinfrastruktur krever geografisk tilordning.",
+      "quantities": {
+        "waterWithdrawalM3PerYear": null,
+        "consumptiveUseM3PerYear": null,
+        "returnWaterM3PerYear": null,
+        "peakWithdrawalM3PerHour": null,
+        "dischargeTemperatureC": null,
+        "temperatureRiseC": null,
+        "WUELitrePerKWhIT": null,
+        "actualLandTakeM2": null
+      },
+      "measurementPeriod": null,
+      "seasonalProfile": null,
+      "internalCoolingCircuit": null,
+      "finalHeatRejection": null,
+      "quantityStatus": "not_obtained",
+      "beforeState": {
+        "observationDate": null,
+        "landCoverBeforeWorks": null,
+        "evidenceFile": null
+      },
+      "gaps": [
+        "Datert førtilstand og validert faktisk inngrepspolygon.",
+        "Vannbalanse per krets, målepunkt, periode og sesong; intern kjøling skilles fra endelig varmeavgivelse.",
+        "Komponentgeometri og eventuell delt infrastruktur uten vilkårlig tilordning.",
+        "Myndighetskrav, gjennomføring og målt effekt holdes atskilt."
+      ],
+      "nextEvidence": [
+        "Gjeldende tillatelser og relevante KU-revisjoner",
+        "Måle-/overvåkingsrapporter og systemtegning",
+        "Historiske ortofoto, artsdata og avgrensning av følgeinngrep"
+      ]
+    },
+    {
+      "projectId": "narvik",
+      "reviewedAt": "2026-10-05",
+      "sourceIds": [
+        "narvik-N2",
+        "narvik-N3",
+        "narvik-N6"
+      ],
+      "scope": "Ny kjølevannsplan 2026007 separat fra historisk industriplan og KU.",
+      "documentedContext": "Inntak/retur fra Herjangsfjorden er planlagt; temperatur og endelig trasé uavklart i planinitiativet.",
+      "followOnInfrastructure": "Kjølevannsledninger, bekke-/elvekryssinger og pumpeanlegg må avgrenses for ny løsning.",
+      "quantities": {
+        "waterWithdrawalM3PerYear": null,
+        "consumptiveUseM3PerYear": null,
+        "returnWaterM3PerYear": null,
+        "peakWithdrawalM3PerHour": null,
+        "dischargeTemperatureC": null,
+        "temperatureRiseC": null,
+        "WUELitrePerKWhIT": null,
+        "actualLandTakeM2": null
+      },
+      "measurementPeriod": null,
+      "seasonalProfile": null,
+      "internalCoolingCircuit": null,
+      "finalHeatRejection": null,
+      "quantityStatus": "not_obtained",
+      "beforeState": {
+        "observationDate": null,
+        "landCoverBeforeWorks": null,
+        "evidenceFile": null
+      },
+      "gaps": [
+        "Datert førtilstand og validert faktisk inngrepspolygon.",
+        "Vannbalanse per krets, målepunkt, periode og sesong; intern kjøling skilles fra endelig varmeavgivelse.",
+        "Komponentgeometri og eventuell delt infrastruktur uten vilkårlig tilordning.",
+        "Myndighetskrav, gjennomføring og målt effekt holdes atskilt."
+      ],
+      "nextEvidence": [
+        "Gjeldende tillatelser og relevante KU-revisjoner",
+        "Måle-/overvåkingsrapporter og systemtegning",
+        "Historiske ortofoto, artsdata og avgrensning av følgeinngrep"
+      ]
+    }
+  ]
+}

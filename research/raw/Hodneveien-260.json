@@ -1,0 +1,43 @@
+{
+  "retrieved_at": "2026-10-01",
+  "source_url": "https://ws.geonorge.no/adresser/v1/sok?sok=Hodneveien+260&treffPerSide=10",
+  "response": {
+    "metadata": {
+      "treffPerSide": 10,
+      "side": 0,
+      "totaltAntallTreff": 1,
+      "viserFra": 0,
+      "viserTil": 10,
+      "sokeStreng": "sok=Hodneveien+260&treffPerSide=10",
+      "asciiKompatibel": true
+    },
+    "adresser": [
+      {
+        "adressenavn": "Hodneveien",
+        "adressetekst": "Hodneveien 260",
+        "adressetilleggsnavn": null,
+        "adressekode": 4220,
+        "nummer": 260,
+        "bokstav": "",
+        "kommunenummer": "1103",
+        "kommunenavn": "STAVANGER",
+        "gardsnummer": 236,
+        "bruksnummer": 16,
+        "festenummer": 0,
+        "undernummer": null,
+        "bruksenhetsnummer": [],
+        "objtype": "Vegadresse",
+        "poststed": "RENNESØY",
+        "postnummer": "4150",
+        "adressetekstutenadressetilleggsnavn": "Hodneveien 260",
+        "stedfestingverifisert": false,
+        "representasjonspunkt": {
+          "epsg": "EPSG:4258",
+          "lat": 59.06854209888397,
+          "lon": 5.758031501966236
+        },
+        "oppdateringsdato": "2021-02-24T22:11:36"
+      }
+    ]
+  }
+}

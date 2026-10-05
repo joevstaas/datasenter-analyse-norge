@@ -1,0 +1,43 @@
+{
+  "retrieved_at": "2026-10-01",
+  "source_url": "https://ws.geonorge.no/adresser/v1/sok?sok=Nordfjordvegen+7300&treffPerSide=10",
+  "response": {
+    "metadata": {
+      "treffPerSide": 10,
+      "side": 0,
+      "totaltAntallTreff": 1,
+      "viserFra": 0,
+      "viserTil": 10,
+      "sokeStreng": "sok=Nordfjordvegen+7300&treffPerSide=10",
+      "asciiKompatibel": true
+    },
+    "adresser": [
+      {
+        "adressenavn": "Nordfjordvegen",
+        "adressetekst": "Nordfjordvegen 7300",
+        "adressetilleggsnavn": null,
+        "adressekode": 8000,
+        "nummer": 7300,
+        "bokstav": "",
+        "kommunenummer": "4649",
+        "kommunenavn": "STAD",
+        "gardsnummer": 102,
+        "bruksnummer": 3,
+        "festenummer": 1,
+        "undernummer": null,
+        "bruksenhetsnummer": [],
+        "objtype": "Vegadresse",
+        "poststed": "KJØLSDALEN",
+        "postnummer": "6776",
+        "adressetekstutenadressetilleggsnavn": "Nordfjordvegen 7300",
+        "stedfestingverifisert": false,
+        "representasjonspunkt": {
+          "epsg": "EPSG:4258",
+          "lat": 61.93203463076023,
+          "lon": 5.506214036146013
+        },
+        "oppdateringsdato": "2020-06-15T18:28:21"
+      }
+    ]
+  }
+}

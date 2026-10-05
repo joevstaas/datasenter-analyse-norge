@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-01",
+  "scope": "Første uavhengige kontroll av offentlig omtalte påstander. Ikke revisjon av full Teknologirådet-rapport.",
+  "sources": [
+    {
+      "id": "tr-project",
+      "publisher": "Teknologirådet",
+      "title": "Datasentre i Norge",
+      "url": "https://teknologiradet.no/project/datasentre-i-norge-ringvirkninger-og-ressursbruk/",
+      "publishedAt": "2025-10-22",
+      "updatedAt": null,
+      "datePrecision": "day",
+      "type": "project_page",
+      "access": "full_text",
+      "retrievedAt": "2026-10-01",
+      "locator": "Avsnitt om Nkom/THEMA/Statnett og Teknologirådets prosjekt"
+    },
+    {
+      "id": "tr-publications",
+      "publisher": "Teknologirådet",
+      "title": "Rapporter",
+      "url": "https://teknologiradet.no/list-publikasjoner/",
+      "publishedAt": null,
+      "datePrecision": "unknown",
+      "type": "publication_index",
+      "access": "full_text",
+      "retrievedAt": "2026-10-01"
+    },
+    {
+      "id": "media-relay",
+      "publisher": "Faktaportalen",
+      "title": "Teknologirådets datasenterrapport er ikke ute. Dette sier tallene vi har",
+      "url": "https://faktaportalen.no/blogg/2026-09-29-teknologiradets-datasenterrapport-er-ikke-ute-dette-sier-tallene-vi-har",
+      "publishedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
+      "datePrecision": "day",
+      "type": "secondary_commentary",
+      "access": "full_text",
+      "caution": "Gjengir NRK. NRKs fulltekst og omtalt sammendrag ikke tilgjengelig i kontrollen.",
+      "retrievedAt": "2026-10-01",
+      "locator": "Rapporten finnes; Verdiskapingen; 964 megawatt; Eierskapet"
+    },
+    {
+      "id": "ssb",
+      "publisher": "Statistisk sentralbyrå",
+      "title": "Datasentrene vokser raskt – men hvilke verdier skaper de for Norge?",
+      "url": "https://www.ssb.no/teknologi-og-innovasjon/informasjons-og-kommunikasjonsteknologi-ikt/artikler/datasentrene-vokser-raskt-men-hvilke-verdier-skaper-de-for-norge",
+      "publishedAt": "2026-04-28",
+      "updatedAt": "2026-06-18",
+      "datePrecision": "day",
+      "version": "SSB innsikt 2026/2, revidert 18.06.2026",
+      "type": "primary_analysis",
+      "access": "full_text",
+      "retrievedAt": "2026-10-01",
+      "locator": "Tabell 1; avsnitt Datagrunnlag og Høyere verdiskaping per sysselsatt"
+    },
+    {
+      "id": "soa",
+      "publisher": "Samfunnsøkonomisk Analyse",
+      "title": "Verdiskaping i norsk datasenterindustri",
+      "url": "https://samfunnsokonomisk-analyse.no/publikasjoner/verdiskaping-i-norsk-datasenterindustri",
+      "publishedAt": "2024",
+      "datePrecision": "year",
+      "version": "R.33",
+      "type": "commissioned_analysis_summary",
+      "commissioner": "Norsk Datasenterindustri",
+      "access": "full_web_summary",
+      "retrievedAt": "2026-10-01",
+      "locator": "Tiltakende vekst i den norske datasenterindustrien"
+    },
+    {
+      "id": "elhub",
+      "publisher": "Elhub",
+      "title": "Ny rapport gir innsikt i datasentrenes faktiske strømforbruk",
+      "url": "https://elhub.no/artikler/ny-rapport-gir-innsikt-i-datasentrenes-faktiske-stromforbruk",
+      "publishedAt": "2026-09-21",
+      "datePrecision": "day",
+      "type": "primary_report_summary",
+      "access": "full_web_summary",
+      "caution": "Lenket PDF kunne ikke åpnes i kontrollen.",
+      "retrievedAt": "2026-10-01",
+      "locator": "Hovedfunn og Publisert"
+    },
+    {
+      "id": "elhub-method",
+      "publisher": "Elhub",
+      "title": "Strømforbruk i datasentre",
+      "url": "https://elhub.no/data-og-innsikt/stromforbruk-i-datasentre",
+      "publishedAt": null,
+      "datePrecision": "unknown",
+      "type": "data_documentation",
+      "access": "full_text",
+      "retrievedAt": "2026-10-01"
+    },
+    {
+      "id": "nve-web",
+      "publisher": "NVE",
+      "title": "Energibruk i datasenter",
+      "url": "https://www.nve.no/energi/energisystem/energibruk/energibruk-i-datasenter/",
+      "publishedAt": "2026-06-22",
+      "updatedAt": "2026-08-26",
+      "datePrecision": "day",
+      "type": "primary_official_summary",
+      "access": "full_text",
+      "retrievedAt": "2026-10-01",
+      "locator": "Innledningen; Publisert/sist oppdatert"
+    },
+    {
+      "id": "nve-17",
+      "publisher": "NVE",
+      "title": "Status og utvikling i kraftsystemet 2025–2030",
+      "url": "https://publikasjoner.nve.no/rapport/2026/rapport2026_17.pdf",
+      "publishedAt": "2026",
+      "datePrecision": "year",
+      "version": "Rapport 17/2026",
+      "type": "primary_forecast_report",
+      "access": "pdf_text",
+      "locator": "PDF-side 21 og 23",
+      "retrievedAt": "2026-10-01"
+    },
+    {
+      "id": "statnett",
+      "publisher": "Statnett",
+      "title": "Statistikk om tilknytningssaker",
+      "url": "https://www.statnett.no/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/",
+      "publishedAt": null,
+      "datePrecision": "unknown",
+      "type": "primary_data_documentation",
+      "access": "html_only",
+      "caution": "Power BI-tabellene er ikke eksportert eller kontrollert.",
+      "retrievedAt": "2026-10-01",
+      "locator": "Innledende metodeavsnitt; Visning av tilknytning på særlig vilkår i listen"
+    },
+    {
+      "id": "gm-sale",
+      "publisher": "Green Mountain",
+      "title": "Green Mountain Data Centers to be acquired by Azrieli Group Ltd.",
+      "url": "https://greenmountain.no/green-mountain-data-centers-acquired-by-azrieli-group-ltd/",
+      "publishedAt": "2021-07-19",
+      "datePrecision": "day",
+      "type": "company_press_release",
+      "access": "full_text",
+      "retrievedAt": "2026-10-01",
+      "locator": "Innledning om salgsavtale 19. juli 2021"
+    },
+    {
+      "id": "bulk-owners",
+      "publisher": "Bulk Infrastructure",
+      "title": "Investor Relations – Ownership",
+      "url": "https://bulkinfrastructure.com/about-us/investor-relations",
+      "publishedAt": null,
+      "referenceDate": "2025-12",
+      "datePrecision": "unknown_publication_month_reference",
+      "type": "company_investor_information",
+      "access": "full_text",
+      "retrievedAt": "2026-10-01",
+      "locator": "Ownership, tall per desember 2025"
+    }
+  ],
+  "claims": [
+    {
+      "id": "report-publication",
+      "topic": "publikasjonsstatus",
+      "claim": "En offentlig tilgjengelig sluttrapport fra Teknologirådets Datasentre i Norge-prosjekt foreligger.",
+      "attribution": "Medieomtale; ikke verifisert som publisert rapport",
+      "sourceIds": [
+        "tr-project",
+        "tr-publications",
+        "media-relay"
+      ],
+      "assessment": "not_confirmed",
+      "reason": "Sluttrapportens fulltekst, dato og versjon ble ikke funnet på kontrollert prosjektside eller publikasjonsliste. Sekundæromtalen viser til et sammendrag.",
+      "uncertainty": {
+        "type": "qualitative",
+        "level": "unknown",
+        "reason": "Fravær i søk er ikke bevis for at dokumentet ikke finnes."
+      },
+      "gaps": [
+        "Sluttrapport",
+        "Publiseringsdato",
+        "Versjon",
+        "Originalt sammendrag"
+      ],
+      "publishAsFact": false,
+      "claimType": "control_question"
+    },
+    {
+      "id": "foreign-ownership",
+      "topic": "eierskap",
+      "claim": "90,6 prosent av norsk datasenterkapasitet er utenlandsk eid.",
+      "attribution": "Gjengitt av Faktaportalen som NRKs omtale av Teknologirådets sammendrag",
+      "sourceIds": [
+        "media-relay",
+        "gm-sale",
+        "bulk-owners"
+      ],
+      "assessment": "not_reproduced",
+      "reason": "Selskapskilder dokumenterer enkelttilfeller og sammensatt aksjonærstruktur, men nasjonal nevner og kapasitetsvekter mangler. Antall sentre kan ikke erstattes med kapasitet.",
+      "uncertainty": {
+        "type": "qualitative",
+        "level": "low",
+        "reason": "Originaltabell og definisjon av utenlandsk eierskap ikke tilgjengelig."
+      },
+      "support": "Green Mountain dokumenterte avtale om salg til israelske Azrieli i 2021.",
+      "counterEvidence": "Bulk har flere aksjonærgrupper; land, aksjeandel og kontroll må skilles. Dette er definisjonsusikkerhet, ikke motbevis mot prosenttallet.",
+      "gaps": [
+        "Eierkjede per anlegg",
+        "Sluttføring og oppdatert eierskap",
+        "Referansedato",
+        "Installert, tilknyttet eller planlagt kapasitet?",
+        "Behandling av joint ventures"
+      ],
+      "publishAsFact": false,
+      "claimType": "attributed_claim"
+    },
+    {
+      "id": "reserved-grid-share",
+      "topic": "kraft",
+      "claim": "Datasentre har om lag 47 prosent av all reservert nettkapasitet.",
+      "attribution": "Sekundært gjengitt sammendrag",
+      "sourceIds": [
+        "media-relay",
+        "statnett",
+        "tr-project"
+      ],
+      "assessment": "not_reproduced",
+      "reason": "Teknologirådets 2025-side har 40 prosent og 3,2 GW. Senere tall kan være endret uten at det er en motsigelse. Samtidig datert eksport og nevner mangler.",
+      "uncertainty": {
+        "type": "qualitative",
+        "level": "low",
+        "reason": "Dynamiske tabeller ikke hentet ut."
+      },
+      "gaps": [
+        "Felles uttrekksdato",
+        "Total reservert kapasitet",
+        "Dobbelttelling mellom vilkårsreservasjon og kø",
+        "Registerdekning"
+      ],
+      "publishAsFact": false,
+      "claimType": "attributed_claim"
+    },
+    {
+      "id": "value-per-energy",
+      "topic": "verdiskaping",
+      "claim": "I 2023 var verdiskapingen 587 kroner/MWh i datasentre mot 913 kroner/MWh i kraftintensiv industri.",
+      "attribution": "SSB tabell 1; offentlig omtalt i forbindelse med Teknologirådet",
+      "sourceIds": [
+        "ssb",
+        "soa"
+      ],
+      "referencePeriod": "2023",
+      "assessment": "supported_with_scope",
+      "reason": "Tallene står i SSBs tabell. Avgrenset til tradisjonelle kommersielle datasentre, ikke generell konklusjon om fremtidig KI eller lokal verdiskaping.",
+      "support": "SSB tabell 1.",
+      "counterEvidence": "SSBs 2020-tall viser motsatt rangering. SØAs bredere 2024-aktivitet inkluderer bygging og leverandører og er derfor ikke samme mål.",
+      "uncertainty": {
+        "type": "qualitative",
+        "level": "high_for_source_match",
+        "reason": "Direkte kontroll mot tabell; generalisering utenfor populasjonen er ikke støttet."
+      },
+      "gaps": [
+        "Nyere sammenlignbare data",
+        "Lokal fordeling",
+        "KI-klare sentre"
+      ],
+      "publishAsFact": true,
+      "claimType": "attributed_claim"
+    },
+    {
+      "id": "measured-energy",
+      "topic": "kraft",
+      "claim": "Norske datasentres målte/registrerte energibruk i 2025 er entydig kjent.",
+      "attribution": "Kontrollspørsmål til nasjonalt totalmål",
+      "sourceIds": [
+        "elhub",
+        "nve-web",
+        "elhub-method"
+      ],
+      "referencePeriod": "2025",
+      "assessment": "source_discrepancy",
+      "observations": [
+        {
+          "value": 3.14,
+          "unit": "TWh",
+          "sourceId": "elhub"
+        },
+        {
+          "value": 3.3,
+          "unit": "TWh",
+          "sourceId": "nve-web"
+        }
+      ],
+      "reason": "To primærkilder gir forskjellige tall. Elhub dokumenterer mulig over- og underdekning fra næringskoder.",
+      "uncertainty": {
+        "type": "documented_source_values",
+        "level": "unresolved",
+        "reason": "Verdiene er ikke et statistisk konfidensintervall eller et fastslått spenn for sann forbruksmengde."
+      },
+      "gaps": [
+        "Forskjeller i utvalg, revisjon og metode"
+      ],
+      "publishAsFact": false,
+      "claimType": "control_question"
+    },
+    {
+      "id": "forecast-2030",
+      "topic": "kraft",
+      "claim": "Norske datasentre vil bruke 9 TWh i 2030.",
+      "attribution": "Teknologirådets prosjektside tilskriver anslaget THEMA",
+      "sourceIds": [
+        "tr-project",
+        "nve-17"
+      ],
+      "referencePeriod": "2030",
+      "assessment": "forecast_not_observation",
+      "reason": "NVE rapport 17/2026 anslår rundt 8 TWh. Forskjellen viser modell- og årgangsavhengighet, ikke bevist feil i en annen prognose.",
+      "uncertainty": {
+        "type": "scenario_comparison",
+        "level": "medium_for_attribution",
+        "reason": "Ingen statistisk dekningsgrad dokumentert. 8–9 TWh må ikke kalles konfidensintervall."
+      },
+      "gaps": [
+        "Sammenlignbare antagelser",
+        "THEMA-modellens datagrunnlag",
+        "Realiseringsgrad"
+      ],
+      "publishAsFact": false,
+      "claimType": "attributed_claim"
+    },
+    {
+      "id": "capacity-is-consumption",
+      "topic": "kraft",
+      "claim": "964 MW tilknyttet kapasitet beskriver faktisk løpende strømbruk.",
+      "attribution": "Mulig feiltolkning av medieomtalt kapasitetsmål",
+      "sourceIds": [
+        "media-relay",
+        "statnett",
+        "elhub",
+        "nve-web"
+      ],
+      "assessment": "invalid_interpretation",
+      "reason": "Tilknytning og reservasjon er kapasitetsstatus; energibruk måles over tid. Selve 964 MW-tallet er ikke reprodusert her.",
+      "uncertainty": {
+        "type": "qualitative",
+        "level": "high_for_unit_distinction",
+        "reason": "Dimensjons- og definisjonsforskjellen er klar; tallets kildespor er uavklart."
+      },
+      "gaps": [
+        "Original kilde og referansetid for 964 MW",
+        "Sammenlignbar populasjon for energimåling"
+      ],
+      "publishAsFact": false,
+      "claimType": "interpretation_check"
+    },
+    {
+      "id": "nature-impact",
+      "topic": "natur",
+      "claim": "En tallfestet nasjonal naturpåvirkning er dokumentert av Teknologirådets datasenterprosjekt.",
+      "attribution": "Kontrollpunkt; ingen slik tallpåstand verifisert",
+      "sourceIds": [
+        "tr-project"
+      ],
+      "assessment": "knowledge_gap",
+      "reason": "Prosjektsiden omtaler ressursavveininger, men gir ikke verifisert polygonbasert arealregnskap eller nasjonalt påvirkningstall.",
+      "uncertainty": {
+        "type": "qualitative",
+        "level": "unknown",
+        "reason": "Mangler prosjektgeometri, referansetid og effektvurderinger."
+      },
+      "gaps": [
+        "Reguleringspolygoner",
+        "Faktisk inngrepsgeometri",
+        "Naturtyper og kartleggingsdekning",
+        "Indirekte nett- og veiareal",
+        "Avbøting og restpåvirkning"
+      ],
+      "publishAsFact": false,
+      "claimType": "control_question"
+    }
+  ]
+}

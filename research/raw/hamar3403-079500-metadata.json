@@ -1,0 +1,56 @@
+{
+  "id": 156,
+  "arealplanGuid": "6d4f13e2-770c-4330-a43e-9e046897aecb",
+  "komnr": "3403",
+  "planId": "079500",
+  "planNavn": "Detaljreguleringsplan for Heggvin næringspark",
+  "planBeskrivelse": null,
+  "planTypeId": 35,
+  "planType": "Detaljregulering",
+  "planStatusId": 3,
+  "planStatus": "Endelig vedtatt arealplan",
+  "iKraft": "2022-04-27T00:00:00",
+  "planBestemmelseId": 4,
+  "planBestemmelse": "Planbestemmelser både på kart og som egen tekst",
+  "myndighet": null,
+  "lovreferanseId": 6,
+  "lovreferanse": "Plan- og bygningsloven av 2008",
+  "forslagsstillerId": 1,
+  "forslagsstiller": "Offentlig",
+  "formatId": 1,
+  "opprinneligAdministrativEnhet": "0000",
+  "opprinneligPlanId": "",
+  "overstyrtPlanid": false,
+  "plandokumentasjonOppdatert": true,
+  "ubehandletKlage": false,
+  "ubehandletInnsigelse": false,
+  "klagefrist": "2022-06-07T00:00:00",
+  "horingsStart": "2023-03-31T00:00:00",
+  "horingsfrist": "2023-04-24T00:00:00",
+  "sistBehandlet": "2024-11-26T00:00:00",
+  "gjenstaendeKlage": false,
+  "meldingKlagefrist": true,
+  "fraFiks": null,
+  "egendefinerteVarslinger": [],
+  "vertikalniva": [
+    {
+      "id": 2,
+      "beskrivelse": "På grunnen/vannoverflaten"
+    }
+  ],
+  "dokumenter": null,
+  "behandlinger": null,
+  "saker": [
+    {
+      "id": 377,
+      "sakAar": 18,
+      "sakSeknr": 1461,
+      "arkivId": 1,
+      "url": "",
+      "urlIntern": ""
+    }
+  ],
+  "planforholdEtterkommere": null,
+  "planforholdForlopere": null,
+  "dispensasjoner": null
+}

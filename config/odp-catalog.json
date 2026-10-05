@@ -1,0 +1,615 @@
+{
+  "project": {
+    "name": "Datasentre i Norge – åpen kartdemo",
+    "repository": "https://github.com/joevstaas/datasenter-analyse-norge",
+    "repositoryDescription": "KI-drevet kartdemo om norske datasentre: kraft, areal, natur og vann, verdiskaping og eierskap. Daterte kilder, tydelig usikkerhet og kunnskapshull. Kun demonstrasjon, ikke beslutningsstøtte."
+  },
+  "collection": {
+    "id": "dc64cd07-753a-4956-be81-50dc60743ffa",
+    "name": "Datasentre i Norge – KI-drevet kartdemo",
+    "description": "KI-drevet kartdemo om norske datasentre: kraft, areal, natur og vann, verdiskaping og eierskap. Daterte kilder, tydelig usikkerhet og kunnskapshull. Kun demonstrasjon, ikke beslutningsstøtte. Ufullstendig prosjektutvalg og begrenset kildekontroll. Opplysninger kan være feil eller utdaterte.",
+    "remoteMetadataStatus": "verified",
+    "accessNote": "Authenticated catalog access and child dataset membership verified.",
+    "visibility": "private"
+  },
+  "datasets": [
+    {
+      "key": "projects",
+      "id": "7b54b868-0b58-4139-8025-9bf79dc1edb3",
+      "name": "Datasentre i Norge – prosjekter og plassering",
+      "description": "Prosjektidentitet, kommune, dokumenterte adressepunkter og datert prosjektstatus. Punkter er ikke anleggsgrenser. Ukjent plassering beholdes uten kartmarkør. KI-drevet forskningsgrunnlag, kun demo – ikke beslutningsstøtte.",
+      "sourceFiles": [
+        "research/prosjekter.json"
+      ],
+      "status": "uploaded_readback_verified",
+      "file": {
+        "id": "41ffdec3-053",
+        "name": "projects-2026-10-05-r2-ce5422c446d9.json",
+        "sha256": "ce5422c446d9c4d74d3064830c89f03cd496a6639c551aa23334c4561bd4c3f1"
+      },
+      "visibility": "private",
+      "publishStatus": "draft",
+      "table": {
+        "status": "typed_table_readback_verified",
+        "rows": 8,
+        "columns": 14,
+        "geometryPolicy": "EPSG:4258 address points transformed to WGS84; unconfirmed plan WKT kept non-spatial.",
+        "schema": [
+          {
+            "name": "id",
+            "type": "string",
+            "metadata": {
+              "description": "Stable UUID primary key. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "project_id",
+            "type": "string",
+            "metadata": {
+              "description": "Project join key. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "metadata": {
+              "description": "Project name. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "municipality",
+            "type": "string",
+            "metadata": {
+              "description": "Municipality. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "metadata": {
+              "description": "Reported or historical project status; not proof of operation. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "status_verified",
+            "type": "bool",
+            "metadata": {
+              "description": "Whether status has been verified as current. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "longitude",
+            "type": "double",
+            "metadata": {
+              "description": "WGS84 longitude, transformed from EPSG:4258. NULL means unknown or not documented.",
+              "class": "longitude"
+            }
+          },
+          {
+            "name": "latitude",
+            "type": "double",
+            "metadata": {
+              "description": "WGS84 latitude, transformed from EPSG:4258. NULL means unknown or not documented.",
+              "class": "latitude"
+            }
+          },
+          {
+            "name": "geometry",
+            "type": "string",
+            "metadata": {
+              "description": "WGS84 WKT, longitude first. Address location only; not a footprint. NULL means unknown or not documented.",
+              "class": "geometry",
+              "isGeometry": "1",
+              "index": "1"
+            }
+          },
+          {
+            "name": "location_role",
+            "type": "string",
+            "metadata": {
+              "description": "Location role, e.g. address_point. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "original_crs",
+            "type": "string",
+            "metadata": {
+              "description": "Original coordinate reference system. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "location_sources",
+            "type": "string",
+            "metadata": {
+              "description": "Semicolon-separated source join keys. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "location_uncertainty",
+            "type": "string",
+            "metadata": {
+              "description": "Location limitations and confidence rationale. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "knowledge_gaps",
+            "type": "string",
+            "metadata": {
+              "description": "Known missing evidence. NULL means unknown or not documented."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "claims",
+      "id": "bc988c6e-2144-4579-bf4d-9a110e01013e",
+      "name": "Datasentre i Norge – kildebelagte opplysninger og påstander",
+      "description": "Kraft, verdiskaping, eierskap og driftsmodell med kilde, periode, enhet og kontrollstatus. Historiske verdier og motstridende påstander bevares. KI-drevet forskningsgrunnlag, kun demo – ikke beslutningsstøtte.",
+      "sourceFiles": [
+        "research/prosjekter.json",
+        "research/pastander.json"
+      ],
+      "status": "uploaded_readback_verified",
+      "file": {
+        "id": "2065ab5f-890",
+        "name": "claims-2026-10-05-r2-fd1db34a359f.json",
+        "sha256": "fd1db34a359f4974d18d6261bfb9741af142cdc56101fc4ca7a084c4bc852554"
+      },
+      "visibility": "private",
+      "publishStatus": "draft",
+      "table": {
+        "status": "typed_table_readback_verified",
+        "rows": 93,
+        "columns": 14,
+        "geometryPolicy": "EPSG:4258 address points transformed to WGS84; unconfirmed plan WKT kept non-spatial.",
+        "schema": [
+          {
+            "name": "id",
+            "type": "string",
+            "metadata": {
+              "description": "Stable UUID primary key. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "project_id",
+            "type": "string",
+            "metadata": {
+              "description": "Project join key; NULL for national claims. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "topic",
+            "type": "string",
+            "metadata": {
+              "description": "Claim topic. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "statement",
+            "type": "string",
+            "metadata": {
+              "description": "Claim text or source value. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "numeric_value",
+            "type": "double",
+            "metadata": {
+              "description": "Numeric value only when source supplies a scalar. Never sum across kinds/periods. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "metadata": {
+              "description": "Source unit; see value_kind. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "value_kind",
+            "type": "string",
+            "metadata": {
+              "description": "Definition, such as IT capacity or reserved capacity. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "reference_period",
+            "type": "string",
+            "metadata": {
+              "description": "Source period, preserved at original precision. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "source_keys",
+            "type": "string",
+            "metadata": {
+              "description": "Semicolon-separated source join keys. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "source_locator",
+            "type": "string",
+            "metadata": {
+              "description": "Page or section references. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "metadata": {
+              "description": "Qualitative evidence confidence; not a probability. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "assessment",
+            "type": "string",
+            "metadata": {
+              "description": "Verification status or limitations. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "attributed_publication_allowed",
+            "type": "bool",
+            "metadata": {
+              "description": "Permission to display as attributed research claim, NOT independent verification. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "details_json",
+            "type": "string",
+            "metadata": {
+              "description": "Complete original claim including conflicts and nested evidence. NULL means unknown or not documented."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "geometries",
+      "id": "27357c9c-0cd6-4dd0-831d-7a5d8cbe51b8",
+      "name": "Datasentre i Norge – planområder og arealavgrensninger",
+      "description": "Kildebelagte polygoner med geometrirolle og kontrollstatus. Planområde er ikke faktisk arealbeslag. Ubekreftet koordinatsystem skal framgå og hindrer publisering som verifisert kartlag. KI-drevet forskningsgrunnlag, kun demo – ikke beslutningsstøtte.",
+      "sourceFiles": [
+        "research/planomriss.geojson"
+      ],
+      "status": "uploaded_readback_verified",
+      "file": {
+        "id": "b9113b28-973",
+        "name": "geometries-2026-10-05-r2-a0fbb3f29fcf.json",
+        "sha256": "a0fbb3f29fcfec35afd136c2cd2ae197bc5aa3f4c1f00243c6101c867f2d3ac2"
+      },
+      "visibility": "private",
+      "publishStatus": "draft",
+      "table": {
+        "status": "typed_table_readback_verified",
+        "rows": 2,
+        "columns": 12,
+        "geometryPolicy": "EPSG:4258 address points transformed to WGS84; unconfirmed plan WKT kept non-spatial.",
+        "schema": [
+          {
+            "name": "id",
+            "type": "string",
+            "metadata": {
+              "description": "Stable UUID primary key. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "project_id",
+            "type": "string",
+            "metadata": {
+              "description": "Project join key. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "metadata": {
+              "description": "Project name. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "plan_id",
+            "type": "string",
+            "metadata": {
+              "description": "Municipal plan identifier. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "geometry_role",
+            "type": "string",
+            "metadata": {
+              "description": "Regulatory plan extent, not actual land take. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "source_crs",
+            "type": "string",
+            "metadata": {
+              "description": "Source CRS description; unconfirmed. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "crs_confirmed",
+            "type": "bool",
+            "metadata": {
+              "description": "Whether original CRS is verified. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "map_display_approved",
+            "type": "bool",
+            "metadata": {
+              "description": "Whether suitable for spatial publication. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "source_wkt",
+            "type": "string",
+            "metadata": {
+              "description": "Unconfirmed source coordinates preserved as plain WKT TEXT; deliberately NOT classified as map geometry. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "source_keys",
+            "type": "string",
+            "metadata": {
+              "description": "Source join keys. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "limitations",
+            "type": "string",
+            "metadata": {
+              "description": "Geographic interpretation limits. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "actual_land_take_m2",
+            "type": "double",
+            "metadata": {
+              "description": "Measured actual land take in square metres, currently unknown. NULL means unknown or not documented."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "nature_water",
+      "id": "fd62f4ad-6844-4702-835d-927f9971ca65",
+      "name": "Datasentre i Norge – natur, vann og følgeinngrep",
+      "description": "Naturpiloter med utredningsstatus, førtilstand, kildeutsagn og kunnskapshull. Vannuttak, forbruk og retur skilles. Ingen samlet naturkarakter; ukjent betyr ikke null påvirkning. KI-drevet forskningsgrunnlag, kun demo – ikke beslutningsstøtte.",
+      "sourceFiles": [
+        "research/natur/naturkort.json",
+        "research/natur/vann-og-folgeinngrep.json"
+      ],
+      "status": "uploaded_readback_verified",
+      "file": {
+        "id": "35440870-6a2",
+        "name": "nature_water-2026-10-05-r2-36e422ef162f.json",
+        "sha256": "36e422ef162fc8bd7ac06a2e038c6548753abf18047a26a270420d864cc5e871"
+      },
+      "visibility": "private",
+      "publishStatus": "draft",
+      "table": {
+        "status": "typed_table_readback_verified",
+        "rows": 45,
+        "columns": 15,
+        "geometryPolicy": "EPSG:4258 address points transformed to WGS84; unconfirmed plan WKT kept non-spatial.",
+        "schema": [
+          {
+            "name": "id",
+            "type": "string",
+            "metadata": {
+              "description": "Stable UUID primary key. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "project_id",
+            "type": "string",
+            "metadata": {
+              "description": "Project join key; includes Narvik pilot not in main project register. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "section",
+            "type": "string",
+            "metadata": {
+              "description": "Baseline, change, consequence, gap or metric. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "statement",
+            "type": "string",
+            "metadata": {
+              "description": "Scoped statement. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "evidence_kind",
+            "type": "string",
+            "metadata": {
+              "description": "Report finding, authority statement, spatial screening or gap. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "reference_period",
+            "type": "string",
+            "metadata": {
+              "description": "Original observation/report period. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "reviewed_at",
+            "type": "date32[day]",
+            "metadata": {
+              "description": "Date of desk review, not measurement date. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "source_keys",
+            "type": "string",
+            "metadata": {
+              "description": "Source join keys. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "source_locator",
+            "type": "string",
+            "metadata": {
+              "description": "Page/section. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "metadata": {
+              "description": "Qualitative evidence confidence. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "limitations",
+            "type": "string",
+            "metadata": {
+              "description": "Scope and uncertainty. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "metric",
+            "type": "string",
+            "metadata": {
+              "description": "Metric identifier; NULL for narrative findings. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "numeric_value",
+            "type": "double",
+            "metadata": {
+              "description": "Documented measured value; missing is never zero. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "metadata": {
+              "description": "Metric unit. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "details_json",
+            "type": "string",
+            "metadata": {
+              "description": "Complete source finding or water record. NULL means unknown or not documented."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "sources",
+      "id": "8227415e-18a0-4d42-8252-902c14a8c686",
+      "name": "Datasentre i Norge – kilder, metode og kvalitet",
+      "description": "Kilderegister, datoer, avgrensninger, kontrollnotater og metode. Referanser til originalkilder; tredjeparts fulltekst deles bare med dokumentert rettighet. KI-drevet forskningsgrunnlag, kun demo – ikke beslutningsstøtte.",
+      "sourceFiles": [
+        "research/prosjekter.json",
+        "research/pastander.json",
+        "docs/datametode.md",
+        "docs/naturmetode.md"
+      ],
+      "status": "uploaded_readback_verified",
+      "file": {
+        "id": "3caf8fbd-d27",
+        "name": "sources-2026-10-05-r2-09fc13e0479c.json",
+        "sha256": "09fc13e0479cb18a62e5520988a3e61190859c6e51a11a9addb50d55e2abb713"
+      },
+      "visibility": "private",
+      "publishStatus": "draft",
+      "table": {
+        "status": "typed_table_readback_verified",
+        "rows": 77,
+        "columns": 11,
+        "geometryPolicy": "EPSG:4258 address points transformed to WGS84; unconfirmed plan WKT kept non-spatial.",
+        "schema": [
+          {
+            "name": "id",
+            "type": "string",
+            "metadata": {
+              "description": "Stable UUID primary key. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "source_key",
+            "type": "string",
+            "metadata": {
+              "description": "Namespaced source join key. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "record_kind",
+            "type": "string",
+            "metadata": {
+              "description": "source or method_document. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "metadata": {
+              "description": "Source title. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "publisher",
+            "type": "string",
+            "metadata": {
+              "description": "Source publisher, not necessarily independent. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "metadata": {
+              "description": "Original source URL. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "published_at",
+            "type": "string",
+            "metadata": {
+              "description": "Publication date at original precision; not ingestion date. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "document_date",
+            "type": "string",
+            "metadata": {
+              "description": "Document date at original precision. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "accessed_at",
+            "type": "string",
+            "metadata": {
+              "description": "Source access date. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "locator",
+            "type": "string",
+            "metadata": {
+              "description": "Page or file reference. NULL means unknown or not documented."
+            }
+          },
+          {
+            "name": "content",
+            "type": "string",
+            "metadata": {
+              "description": "Full source metadata or project methodology text. NULL means unknown or not documented."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "publicationPolicy": "Fem private datasett med bevarte JSON-uttrekk og typede tabeller verifisert ved tilbake-lesing. Ingen offentlig publisering forespurt; originalkildenes rettigheter beholdes."
+}

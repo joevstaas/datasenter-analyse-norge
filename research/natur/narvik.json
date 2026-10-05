@@ -1,0 +1,698 @@
+{
+  "schemaVersion": "1.0",
+  "id": "narvik-natur",
+  "title": "Narvik/Kvanndalen: campus og tilknyttet kjølevann",
+  "retrievedAt": "2026-10-01",
+  "reviewStatus": "Avgrenset dokumentgjennomgang; ikke feltkontroll eller komplett myndighetsrevisjon.",
+  "components": [
+    {
+      "id": "campus",
+      "label": "Campus Skoglund/Kvanndalen",
+      "planIds": [
+        "2023003"
+      ],
+      "historicalPlanIds": [
+        "2019002"
+      ]
+    },
+    {
+      "id": "cooling",
+      "label": "Tilknyttet kjølevann Bjerkvik",
+      "planIds": [
+        "2026007"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "N1",
+      "title": "Varsel om oppstart: Kjølevannsløsning Bjerkvik, planID 2026007",
+      "url": "https://www.narvik.kommune.no/kunngjoringer/varsel-om-oppstart-detaljregulering-for-kjolevannslosning-bjerkvik-planid-2026007.11697.aspx",
+      "documentDate": null,
+      "retrievedAt": "2026-10-01",
+      "rawFile": "research/natur/raw/narvik-kjolevann-varsel.html",
+      "version": null,
+      "dateNote": "Ingen synlig publiseringsdato; innspillsfrist 01.10.2026 er ikke publiseringsdato."
+    },
+    {
+      "id": "N2",
+      "title": "PLA-001 Planinitiativ Kjølevannsanlegg Bjerkvik",
+      "url": "https://www.narvik.kommune.no/_f/p1/ic10ceebf-27b0-4a5f-88ec-6fe256625887/pla-001-planinitiativ-kjolevannslosning-bjerkvik.pdf",
+      "documentDate": "2026-08-31",
+      "retrievedAt": "2026-10-01",
+      "rawFile": "research/natur/raw/narvik-kjolevann-planinitiativ.pdf",
+      "version": "E05 i revisjonstabell; E04 i løpende fot",
+      "dateNote": "Seneste revisjonsrad på side 2 er 31.08.2026; løpende fot viser 19.08.2026. Versjonsavvik bevart."
+    },
+    {
+      "id": "N3",
+      "title": "Referat oppstartsmøte Kjølevannsanlegg Bjerkvik",
+      "url": "https://www.narvik.kommune.no/_f/p1/i5c711bb0-acb3-400e-9995-8f972f1d26fc/referat-fra-oppstartsmote-detaljregulering-for-kjolevannsanlegg-bjerkvik.pdf",
+      "documentDate": "2026-08-31",
+      "retrievedAt": "2026-10-01",
+      "rawFile": "research/natur/raw/narvik-kjolevann-oppstartsreferat.pdf",
+      "version": null,
+      "dateNote": "Referatdatofelt 03.07.2026/31.08.2026; møte avholdt 03.07.2026."
+    },
+    {
+      "id": "N4",
+      "title": "Kunngjøring planvedtak Skoglund–Lallasletta",
+      "url": "https://www.narvik.kommune.no/kunngjoringer/kunngjoring-av-planvedtak-detaljregulering-for-skoglund-lallasletta.10940.aspx",
+      "documentDate": "2026-04-09",
+      "retrievedAt": "2026-10-01",
+      "rawFile": "research/natur/raw/narvik-skoglund-vedtak.html",
+      "version": null,
+      "dateNote": "Publisert 09.04.2026; vedtak 26.03.2026, sak045/26."
+    },
+    {
+      "id": "N5",
+      "title": "Planbeskrivelse Skoglund–Lallasletta, NOKV-104-PNA-PLA-00004",
+      "url": "https://www.narvik.kommune.no/_f/p1/ib5679dd3-4a12-4de3-be6a-5aea0c66e6f6/vedtatt-planbeskrivelse-komprimert-detaljregulering-for-skoglund-lallasletta.pdf",
+      "documentDate": "2025-10-17",
+      "retrievedAt": "2026-10-01",
+      "rawFile": "research/natur/raw/narvik-skoglund-planbeskrivelse.pdf",
+      "version": "06",
+      "dateNote": "PDF intern dato 17.10.2025; vedtak omtaler plan siste revisjon13.02.2026. PDF-dato erstattes ikke med vedtaksdato."
+    },
+    {
+      "id": "N6",
+      "title": "Konsekvensutredning naturmangfold, NOKV-104-HSE-REP-00021",
+      "url": "https://oldweb.narvik.kommune.no/_f/p28/i07f76ef7-28d1-45ab-9ff6-a68524e0d5e9/nokv-104-hse-rep-00021-konsekvensutredning-naturmangfold.pdf",
+      "documentDate": "2024-02-19",
+      "retrievedAt": "2026-10-01",
+      "rawFile": "research/natur/raw/narvik-skoglund-natur-2024.pdf",
+      "version": "02",
+      "dateNote": "Historisk plangrep med hydrogen/ammoniakk på Skoglund og tunnel; ikke faglig godkjenning av kjølevann2026007."
+    },
+    {
+      "id": "N7",
+      "title": "Konsekvensutredning vannmiljø, NOKV-104-HSE-REP-00022",
+      "url": "https://oldweb.narvik.kommune.no/_f/p28/i8a395588-f0b4-4e7e-8237-2651747427f8/nokv-104-hse-rep-00022-vannmiljo.pdf",
+      "documentDate": "2024-02-22",
+      "retrievedAt": "2026-10-01",
+      "rawFile": "research/natur/raw/narvik-skoglund-vann-2024.pdf",
+      "version": "02",
+      "dateNote": "Historisk plangrep; lest for å kontrollere at sjøvann/desalinering/tunnel ikke er dagens kjølevannstiltak."
+    }
+  ],
+  "claims": [
+    {
+      "id": "plan-separation",
+      "kind": "identity",
+      "scope": "campus_and_cooling",
+      "statement": "Kjølevann 2026007 er tilknyttet datasenteret i Kvanndalen/Skoglund, men er en egen plan. Skoglund–Lallasletta 2023003 omfatter også annen industri.",
+      "evidence": [
+        {
+          "sourceId": "N1",
+          "url": "https://www.narvik.kommune.no/kunngjoringer/varsel-om-oppstart-detaljregulering-for-kjolevannslosning-bjerkvik-planid-2026007.11697.aspx",
+          "documentDate": null,
+          "retrievedAt": "2026-10-01",
+          "locator": "Formålet med planarbeidet"
+        },
+        {
+          "sourceId": "N4",
+          "url": "https://www.narvik.kommune.no/kunngjoringer/kunngjoring-av-planvedtak-detaljregulering-for-skoglund-lallasletta.10940.aspx",
+          "documentDate": "2026-04-09",
+          "retrievedAt": "2026-10-01",
+          "locator": "Formålet med planen"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Begge kommunale kunngjøringer angir formål; omfangene er forskjellige.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "campus-plan-status",
+      "kind": "planning_status",
+      "scope": "industrial_plan2023003",
+      "statement": "Plan 2023003 ble vedtatt med KU 26.03.2026. Skoglund fikk full rettsvirkning; Lallasletta var vedtatt uten rettsvirkning inntil innsigelsen ble avklart. Datasenter Bjerkvik 2019002 ble opphevet. Senere avklaring av Lallasletta er ikke verifisert her.",
+      "evidence": [
+        {
+          "sourceId": "N4",
+          "url": "https://www.narvik.kommune.no/kunngjoringer/kunngjoring-av-planvedtak-detaljregulering-for-skoglund-lallasletta.10940.aspx",
+          "documentDate": "2026-04-09",
+          "retrievedAt": "2026-10-01",
+          "locator": "Vedtak punkt 2–6 og avsnitt om innsigelse"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Eksplisitt vedtaksomtale; status er tidsavgrenset, ikke en full kontroll av senere vedtak.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "cooling-ku-status",
+      "kind": "planning_status",
+      "scope": "cooling2026007",
+      "statement": "KU for terrestrisk natur, natur i ferskvann/sjø og friluftsliv skal utarbeides. Kommunens referat og planinitiativ sier KU-plikt uten krav om eget planprogram. Ferdig KU for 2026007 er ikke dokumentert i de leste kildene.",
+      "evidence": [
+        {
+          "sourceId": "N1",
+          "url": "https://www.narvik.kommune.no/kunngjoringer/varsel-om-oppstart-detaljregulering-for-kjolevannslosning-bjerkvik-planid-2026007.11697.aspx",
+          "documentDate": null,
+          "retrievedAt": "2026-10-01",
+          "locator": "Konsekvensutredning"
+        },
+        {
+          "sourceId": "N2",
+          "url": "https://www.narvik.kommune.no/_f/p1/ic10ceebf-27b0-4a5f-88ec-6fe256625887/pla-001-planinitiativ-kjolevannslosning-bjerkvik.pdf",
+          "documentDate": "2026-08-31",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 35, kap 6.3–6.4"
+        },
+        {
+          "sourceId": "N3",
+          "url": "https://www.narvik.kommune.no/_f/p1/i5c711bb0-acb3-400e-9995-8f972f1d26fc/referat-fra-oppstartsmote-detaljregulering-for-kjolevannsanlegg-bjerkvik.pdf",
+          "documentDate": "2026-08-31",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 3, KU/planprogram"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Samsvar mellom varsel, planinitiativ og kommunalt referat. Fravær i dette utvalget beviser ikke at ingen senere rapport finnes.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "cooling-area",
+      "kind": "planned_change",
+      "scope": "cooling2026007",
+      "statement": "Ca 6200 dekar er varslingsområde med alternative landkorridorer og sjøareal. Det forventes innsnevret. Tallet er ikke campusareal, permanent beslag eller dokumentert naturtap.",
+      "evidence": [
+        {
+          "sourceId": "N2",
+          "url": "https://www.narvik.kommune.no/_f/p1/ic10ceebf-27b0-4a5f-88ec-6fe256625887/pla-001-planinitiativ-kjolevannslosning-bjerkvik.pdf",
+          "documentDate": "2026-08-31",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 7, kap 1.2"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Planinitiativet definerer eksplisitt arealtypen og foreløpig avgrensning.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "cooling-design",
+      "kind": "planned_change",
+      "scope": "cooling2026007",
+      "statement": "Planen undersøker nedgravd rørtrasé, varmevekslere og sjøvannsinntak/utslipp ved Bjerkvik båthavn eller Lallasletta. Sluttvalg av trasé/inntak er ikke dokumentert. Tilrettelegging for mulig spillvarmebruk er ikke dokumentasjon av realisert utnyttelse.",
+      "evidence": [
+        {
+          "sourceId": "N2",
+          "url": "https://www.narvik.kommune.no/_f/p1/ic10ceebf-27b0-4a5f-88ec-6fe256625887/pla-001-planinitiativ-kjolevannslosning-bjerkvik.pdf",
+          "documentDate": "2026-08-31",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 7, kap 1.1; s 10, kap 2"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Beskrivelse av prosjekteringsalternativer; sikker for hva som planlegges, ikke endelig utførelse.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "cooling-temperature-gap",
+      "kind": "knowledge_gap",
+      "scope": "cooling2026007",
+      "statement": "Temperaturforskjellen mellom inntak og utslipp er ikke avklart. Figuren på side 11 er illustrativ. Temperaturpåvirkning i fjorden, vannmengde og influensareal kan ikke beregnes fra dette materialet.",
+      "evidence": [
+        {
+          "sourceId": "N2",
+          "url": "https://www.narvik.kommune.no/_f/p1/ic10ceebf-27b0-4a5f-88ec-6fe256625887/pla-001-planinitiativ-kjolevannslosning-bjerkvik.pdf",
+          "documentDate": "2026-08-31",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 10, kap 2; s 11, figur 2-1"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Kilden sier uttrykkelig temperaturforskjell uavklart. Ingen simulering eller måleserie er funnet i dette materialet.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "cooling-baseline",
+      "kind": "baseline_description",
+      "scope": "cooling2026007",
+      "statement": "Planinitiativet beskriver skog og regulerte nærings-/industriområder i Kvanndal. Ønsket om å unngå myr og beholde flere elvekryssingsalternativer er en planintensjon, ikke påvist null påvirkning.",
+      "evidence": [
+        {
+          "sourceId": "N2",
+          "url": "https://www.narvik.kommune.no/_f/p1/ic10ceebf-27b0-4a5f-88ec-6fe256625887/pla-001-planinitiativ-kjolevannslosning-bjerkvik.pdf",
+          "documentDate": "2026-08-31",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 7, kap 1.2"
+        }
+      ],
+      "confidence": {
+        "level": "medium",
+        "reason": "Forfatterbeskrivelse uten ny arealklassifisering; middels tillit som førtilstand for hele korridoren.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "river-pressure",
+      "kind": "reported_condition",
+      "scope": "Prestjordelva_near_cooling",
+      "statement": "Kommunens miljørådgiver beskriver Prestjordelva som presset av sedimentering og ber om at graving ikke tilfører mer sediment nedstrøms.",
+      "evidence": [
+        {
+          "sourceId": "N3",
+          "url": "https://www.narvik.kommune.no/_f/p1/i5c711bb0-acb3-400e-9995-8f972f1d26fc/referat-fra-oppstartsmote-detaljregulering-for-kjolevannsanlegg-bjerkvik.pdf",
+          "documentDate": "2026-08-31",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 6, innspill fra miljørådgiver"
+        }
+      ],
+      "confidence": {
+        "level": "medium",
+        "reason": "Primærkilde for kommunens bekymring, men ingen kvantitativ prøveserie oppgis her.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "samiske-interesser",
+      "kind": "assessment_requirement",
+      "scope": "cooling2026007",
+      "statement": "Kommunen sier at tiltaket kan berøre samiske interesser og at Robat/Grovfjord reinbeitedistrikt må involveres tidlig. Utsagn om ingen påvirkning på reindrift er derfor ikke underbygget av samlet kildemateriale.",
+      "evidence": [
+        {
+          "sourceId": "N3",
+          "url": "https://www.narvik.kommune.no/_f/p1/i5c711bb0-acb3-400e-9995-8f972f1d26fc/referat-fra-oppstartsmote-detaljregulering-for-kjolevannsanlegg-bjerkvik.pdf",
+          "documentDate": "2026-08-31",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 7, samiske interesser/reindrift"
+        },
+        {
+          "sourceId": "N2",
+          "url": "https://www.narvik.kommune.no/_f/p1/ic10ceebf-27b0-4a5f-88ec-6fe256625887/pla-001-planinitiativ-kjolevannslosning-bjerkvik.pdf",
+          "documentDate": "2026-08-31",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 27, naturressurser"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Referatet korrigerer sikkerheten i planinitiativets innledende avgrensning; faktisk virkning uavklart.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "historical-fieldwork",
+      "kind": "survey_method",
+      "scope": "industrial_plan2023003_historical",
+      "statement": "Natur-KU 2024 dokumenterer NiN-kartlegging 18.08.2022 ved Lallasletta/Kvanndalen og oktober 2023 ved Skoglund. Sistnevnte var sent i sesongen med noe snø. Marin ROV 22.01.2023: åtte transekter og sju punktobservasjoner; DN 19 og M 2153. KU-metoden er M 1941.",
+      "evidence": [
+        {
+          "sourceId": "N6",
+          "url": "https://oldweb.narvik.kommune.no/_f/p28/i07f76ef7-28d1-45ab-9ff6-a68524e0d5e9/nokv-104-hse-rep-00021-konsekvensutredning-naturmangfold.pdf",
+          "documentDate": "2024-02-19",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 3; s 36–37, kap 3.3.1.0"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Eksakte metode- og tidsopplysninger i fagrapport; kartleggingsdekning gjelder historisk utredningsområde, ikke automatisk ny rørtrasé.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "floodplain-forest",
+      "kind": "baseline_observation",
+      "scope": "Skoglund_Prestjordelva_historical",
+      "statement": "Natur-KU 2024 kartla to flommarkskogsmarkpolygoner ved Tverrelva/Prestjordelva. Flere mindre forekomster oppfylte ikke størrelseskriteriet. Rapporten peker også på en ukartlagt mellomstrekning ved overgang Skoglund–Prestjordmarka.",
+      "evidence": [
+        {
+          "sourceId": "N6",
+          "url": "https://oldweb.narvik.kommune.no/_f/p28/i07f76ef7-28d1-45ab-9ff6-a68524e0d5e9/nokv-104-hse-rep-00021-konsekvensutredning-naturmangfold.pdf",
+          "documentDate": "2024-02-19",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 51 og figur 4-3 s 53"
+        }
+      ],
+      "confidence": {
+        "level": "medium",
+        "reason": "Fagrapportens feltobservasjon og eksplisitte kartleggingshull; dagens utbredelse og overlapp med ny trasé er ikke verifisert.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "site-disturbance",
+      "kind": "reported_observed_change",
+      "scope": "Skoglund",
+      "statement": "Planbeskrivelsen opplyser at grunnarbeider allerede er gjennomført for store deler av Skoglund. Dette er rapportert terrengendring, uten målt areal eller fullstendig før/etter-datering i dette naturkortet.",
+      "evidence": [
+        {
+          "sourceId": "N5",
+          "url": "https://www.narvik.kommune.no/_f/p1/ib5679dd3-4a12-4de3-be6a-5aea0c66e6f6/vedtatt-planbeskrivelse-komprimert-detaljregulering-for-skoglund-lallasletta.pdf",
+          "documentDate": "2025-10-17",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 93, referansesituasjon; s 7–8, flyfoto"
+        }
+      ],
+      "confidence": {
+        "level": "medium",
+        "reason": "Rapportert tilstand med illustrasjon; ukjent opptaksdato og manglende arealavgrensning begrenser kvantifisering.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "counterfactual",
+      "kind": "interpretation_check",
+      "scope": "industrial_plan2023003",
+      "statement": "Naturkonsekvensen sammenlignes for Skoglund med tillatt næringsutvikling i tidligere reguleringsplan. Forurensning/klimagass bruker dagens miljøtilstand, med utførte grunnarbeider. En lav inkrementell KU-grad må ikke leses som alt historisk naturtap.",
+      "evidence": [
+        {
+          "sourceId": "N5",
+          "url": "https://www.narvik.kommune.no/_f/p1/ib5679dd3-4a12-4de3-be6a-5aea0c66e6f6/vedtatt-planbeskrivelse-komprimert-detaljregulering-for-skoglund-lallasletta.pdf",
+          "documentDate": "2025-10-17",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 92–93, kap 6.1 Referansesituasjon"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Kildens nullalternativ er eksplisitt. Siste setning er vår metodiske tolkning.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "consequence-qualified",
+      "kind": "consequence_assessment",
+      "scope": "industrial_plan2023003",
+      "statement": "Planbeskrivelsen oppsummerer naturkonsekvens som noe negativ, samtidig som tabell 6-3 gir to delområder middels negativ konsekvens. Dette er faglig vurdering av den bredere industriplanen og dens nullalternativ, ikke målt effekt eller KU-resultat for 2026007.",
+      "evidence": [
+        {
+          "sourceId": "N5",
+          "url": "https://www.narvik.kommune.no/_f/p1/ib5679dd3-4a12-4de3-be6a-5aea0c66e6f6/vedtatt-planbeskrivelse-komprimert-detaljregulering-for-skoglund-lallasletta.pdf",
+          "documentDate": "2025-10-17",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 102–103, tabell 6-3"
+        }
+      ],
+      "confidence": {
+        "level": "medium",
+        "reason": "Eksplisitt skille mellom samlet grad og delområder. Tekst/tabell er ikke helt konsistente; revidert fagrapport må følges opp.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "marine-baseline",
+      "kind": "baseline_observation",
+      "scope": "Lallasletta_historical",
+      "statement": "Fagrapporten beskriver ruglbunn, bløtbunn og sjøfjær i influensområdet ved Lallasletta. Disse historiske registreringene er relevante ved alternativ dit, men dokumenterer ikke overlapp med kjølevannstrasé2026007.",
+      "evidence": [
+        {
+          "sourceId": "N6",
+          "url": "https://oldweb.narvik.kommune.no/_f/p28/i07f76ef7-28d1-45ab-9ff6-a68524e0d5e9/nokv-104-hse-rep-00021-konsekvensutredning-naturmangfold.pdf",
+          "documentDate": "2024-02-19",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 3 og s 53–58, marint naturmangfold"
+        }
+      ],
+      "confidence": {
+        "level": "medium",
+        "reason": "Historisk marin kartlegging; romlig kobling til endelig inntak/utslipp mangler.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "water-historical",
+      "kind": "historical_registry_snapshot",
+      "scope": "industrial_plan2023003",
+      "statement": "Planbeskrivelsens Vann-Nett-tabell er hentet 12.12.2023. Herjangsfjorden står der med god økologisk/kjemisk tilstand, og tre elveforekomster uten informasjon. Dette er ikke en verifisert 2026-registerstatus.",
+      "evidence": [
+        {
+          "sourceId": "N5",
+          "url": "https://www.narvik.kommune.no/_f/p1/ib5679dd3-4a12-4de3-be6a-5aea0c66e6f6/vedtatt-planbeskrivelse-komprimert-detaljregulering-for-skoglund-lallasletta.pdf",
+          "documentDate": "2025-10-17",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 44, tabell 4-2"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Dato og IDer er eksplisitte; live register kunne ikke leses i denne gjennomgangen.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "water-alternative-evidence",
+      "kind": "baseline_assessment",
+      "scope": "Lallasletta_Herjangsfjorden",
+      "statement": "Samme planbeskrivelse rapporterer egne undersøkelser fra 2022 og vurderer kjemisk tilstand som ikke god og økologisk som moderat. Dette må skilles fra den historiske Vann-Nett-tabellen, og fra påvist endring forårsaket av datasenteret.",
+      "evidence": [
+        {
+          "sourceId": "N5",
+          "url": "https://www.narvik.kommune.no/_f/p1/ib5679dd3-4a12-4de3-be6a-5aea0c66e6f6/vedtatt-planbeskrivelse-komprimert-detaljregulering-for-skoglund-lallasletta.pdf",
+          "documentDate": "2025-10-17",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 44–45, Herjangsfjorden"
+        }
+      ],
+      "confidence": {
+        "level": "medium",
+        "reason": "Kilden tilskriver resultatet prøver fra2022. Ingen kausal attribusjon til datasenter eller egen registeroppdatering gjøres.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "revised-study-gap",
+      "kind": "knowledge_gap",
+      "scope": "industrial_plan2023003",
+      "statement": "Planbeskrivelsen viser til naturkartlegging også i 2024, men den nedlastede naturfagrapporten er versjon 02 fra 19.02.2024 med 2022–2023-feltarbeid. Oppdatert naturfagrapport, kartleggingsgeometri og revisjonshistorikk må innhentes før full dekning hevdes.",
+      "evidence": [
+        {
+          "sourceId": "N5",
+          "url": "https://www.narvik.kommune.no/_f/p1/ib5679dd3-4a12-4de3-be6a-5aea0c66e6f6/vedtatt-planbeskrivelse-komprimert-detaljregulering-for-skoglund-lallasletta.pdf",
+          "documentDate": "2025-10-17",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 33 og s 103"
+        },
+        {
+          "sourceId": "N6",
+          "url": "https://oldweb.narvik.kommune.no/_f/p28/i07f76ef7-28d1-45ab-9ff6-a68524e0d5e9/nokv-104-hse-rep-00021-konsekvensutredning-naturmangfold.pdf",
+          "documentDate": "2024-02-19",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 2, s 36–37"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Konstatert dokumentversjonsforskjell; eldre fulltekst brukes kun med tydelig tidsavgrensning.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "historic-water-scope",
+      "kind": "interpretation_check",
+      "scope": "industrial_plan2023003_historical",
+      "statement": "Vann-KU 2024 omhandler blant annet sjøvann/desalinering og ammoniakkrelatert rørgatetunnel. Den er ikke en ferdig utredning av Nscales 2026-kjølevannsløsning.",
+      "evidence": [
+        {
+          "sourceId": "N7",
+          "url": "https://oldweb.narvik.kommune.no/_f/p28/i8a395588-f0b4-4e7e-8237-2651747427f8/nokv-104-hse-rep-00022-vannmiljo.pdf",
+          "documentDate": "2024-02-22",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 18–20, kap 2.2.3–2.3"
+        },
+        {
+          "sourceId": "N2",
+          "url": "https://www.narvik.kommune.no/_f/p1/ic10ceebf-27b0-4a5f-88ec-6fe256625887/pla-001-planinitiativ-kjolevannslosning-bjerkvik.pdf",
+          "documentDate": "2026-08-31",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 7 og s 10"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Teknologi, formål og rute er forskjellig beskrevet i dokumentene.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null
+    },
+    {
+      "id": "construction-corridor-range",
+      "kind": "planned_change",
+      "scope": "cooling2026007",
+      "statement": "Planinitiativet anslår innledningsvis et 15–20 meter bredt anleggsbelte, med stedvis mindre bredde. Dette er et dokumentert planleggingsspenn, ikke statistisk konfidensintervall eller vedtatt/faktisk beslag. Lengde og geometri er ikke fastlagt i dette naturkortet.",
+      "evidence": [
+        {
+          "sourceId": "N2",
+          "url": "https://www.narvik.kommune.no/_f/p1/ic10ceebf-27b0-4a5f-88ec-6fe256625887/pla-001-planinitiativ-kjolevannslosning-bjerkvik.pdf",
+          "documentDate": "2026-08-31",
+          "retrievedAt": "2026-10-01",
+          "locator": "s 11, siste avsnitt"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Spennet står i fullteksten og er tydelig foreløpig. Ingen arealberegning foretas.",
+        "statisticalConfidenceInterval": null
+      },
+      "observationDate": null,
+      "documentedRange": {
+        "min": 15,
+        "max": 20,
+        "unit": "m",
+        "quantity": "initial_construction_corridor_width",
+        "intervalType": "planning_estimate_not_statistical",
+        "caveat": "Kan stedvis være mindre."
+      }
+    }
+  ],
+  "waterbodies": [
+    {
+      "name": "Herjangsfjorden",
+      "waterbodyId": "0364030600-C",
+      "relationship": "Dokumentert berørt av varslingsområdet for bredere plan2023003; ingen ny GIS-kobling eller endelig påvirkningsavgrensning for2026007.",
+      "currentEcologicalStatus": null,
+      "currentChemicalStatus": null,
+      "currentSnapshotDate": null,
+      "evidence": [
+        {
+          "sourceId": "N5",
+          "url": "https://www.narvik.kommune.no/_f/p1/ib5679dd3-4a12-4de3-be6a-5aea0c66e6f6/vedtatt-planbeskrivelse-komprimert-detaljregulering-for-skoglund-lallasletta.pdf",
+          "documentDate": "2025-10-17",
+          "retrievedAt": "2026-10-01",
+          "locator": "s44, tabell4-2; uttrekk12.12.2023"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Navn og ID direkte i tabell; vurderingen gjelder identifikasjon, ikke nåtilstand eller faktisk påvirkning."
+      }
+    },
+    {
+      "name": "Prestjordelva",
+      "waterbodyId": "174-44-R",
+      "relationship": "Dokumentert berørt av varslingsområdet for bredere plan2023003; ingen ny GIS-kobling eller endelig påvirkningsavgrensning for2026007.",
+      "currentEcologicalStatus": null,
+      "currentChemicalStatus": null,
+      "currentSnapshotDate": null,
+      "evidence": [
+        {
+          "sourceId": "N5",
+          "url": "https://www.narvik.kommune.no/_f/p1/ib5679dd3-4a12-4de3-be6a-5aea0c66e6f6/vedtatt-planbeskrivelse-komprimert-detaljregulering-for-skoglund-lallasletta.pdf",
+          "documentDate": "2025-10-17",
+          "retrievedAt": "2026-10-01",
+          "locator": "s44, tabell4-2; uttrekk12.12.2023"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Navn og ID direkte i tabell; vurderingen gjelder identifikasjon, ikke nåtilstand eller faktisk påvirkning."
+      }
+    },
+    {
+      "name": "Prestjordelva øvre",
+      "waterbodyId": "174-43-R",
+      "relationship": "Dokumentert berørt av varslingsområdet for bredere plan2023003; ingen ny GIS-kobling eller endelig påvirkningsavgrensning for2026007.",
+      "currentEcologicalStatus": null,
+      "currentChemicalStatus": null,
+      "currentSnapshotDate": null,
+      "evidence": [
+        {
+          "sourceId": "N5",
+          "url": "https://www.narvik.kommune.no/_f/p1/ib5679dd3-4a12-4de3-be6a-5aea0c66e6f6/vedtatt-planbeskrivelse-komprimert-detaljregulering-for-skoglund-lallasletta.pdf",
+          "documentDate": "2025-10-17",
+          "retrievedAt": "2026-10-01",
+          "locator": "s44, tabell4-2; uttrekk12.12.2023"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Navn og ID direkte i tabell; vurderingen gjelder identifikasjon, ikke nåtilstand eller faktisk påvirkning."
+      }
+    },
+    {
+      "name": "Sidebekker til Prestjordelva",
+      "waterbodyId": "174-42-R",
+      "relationship": "Dokumentert berørt av varslingsområdet for bredere plan2023003; ingen ny GIS-kobling eller endelig påvirkningsavgrensning for2026007.",
+      "currentEcologicalStatus": null,
+      "currentChemicalStatus": null,
+      "currentSnapshotDate": null,
+      "evidence": [
+        {
+          "sourceId": "N5",
+          "url": "https://www.narvik.kommune.no/_f/p1/ib5679dd3-4a12-4de3-be6a-5aea0c66e6f6/vedtatt-planbeskrivelse-komprimert-detaljregulering-for-skoglund-lallasletta.pdf",
+          "documentDate": "2025-10-17",
+          "retrievedAt": "2026-10-01",
+          "locator": "s44, tabell4-2; uttrekk12.12.2023"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "Navn og ID direkte i tabell; vurderingen gjelder identifikasjon, ikke nåtilstand eller faktisk påvirkning."
+      }
+    }
+  ],
+  "accessLog": [
+    {
+      "url": "https://vann-nett.no/waterbodies/0364030600-C/factsheet/information",
+      "retrievedAt": "2026-10-01",
+      "result": "Nettleseverktøyet kunne ikke hente lesbar side. Ingen nåstatus registrert."
+    },
+    {
+      "url": "https://vann-nett.no/waterbodies/174-44-R/factsheet/information",
+      "retrievedAt": "2026-10-01",
+      "result": "Nettleseverktøyet kunne ikke hente lesbar side. Ingen nåstatus registrert."
+    },
+    {
+      "url": "https://www.narvik.kommune.no/innsynfront/wfinnsyn.ashx?journalpostid=2022218513&response=journalpost_detaljer",
+      "retrievedAt": "2026-10-01",
+      "result": "Lenke PLAN002/25 fra kommunens nyhøring ga404. Reviderte fagvedlegg ikke hentet via denne lenken."
+    }
+  ],
+  "unknownQuantities": {
+    "campusObservedNatureLossM2": null,
+    "coolingPermanentFootprintM2": null,
+    "coolingTemporaryDisturbanceM2": null,
+    "thermalPlumeAreaM2": null,
+    "dischargeTemperatureC": null,
+    "temperatureRiseC": null,
+    "flowM3PerS": null
+  },
+  "publicationRules": [
+    "Vis campus og kjølevann som separate komponenter.",
+    "6200daa er varslingsområde, ikke beslag. Ikke beregn naturtap uten datert prosjektgeometri og førtilstand.",
+    "Historiske arts- og naturtyperegistreringer må merkes med kartleggingsår og dekningsforbehold.",
+    "Ikke bruk historisk KU-grad eller illustrative temperaturer som effektmål for kjølevann2026007.",
+    "Vannforekomst-ID er kildebelagt; dagens tilstand og romlig overlapp må hentes/verifiseres separat.",
+    "Ingen statistiske konfidensintervaller: kildene gir ikke et grunnlag for slike. Kvalitativ konfidens er begrunnet per opplysning."
+  ],
+  "nextEvidence": [
+    "Revidert natur-KU og vann-KU som inngår i vedtatt2023003, med feltmetadata2024 og geometri.",
+    "Opprinnelig førtilstand før planering på Skoglund og datert faktisk inngrepspolygon.",
+    "Publisert KU for2026007, endelig trasé/inntak/utslipp og temporært/permanent anleggsbelte.",
+    "Aktuelle Vann-Nett-faktaark/API-uttrekk med ID, oppdatertdato, klassifiseringsgrunnlag og pålitelighet.",
+    "Dokumentasjon av eventuelt avklart Lallasletta-innsigelse etter de leste kommunale dokumentene.",
+    "Vannmengde, varmeeffekt, sesongvariasjon, temperatur og strøm-/spredningsmodell før termisk påvirkning kan vurderes."
+  ]
+}

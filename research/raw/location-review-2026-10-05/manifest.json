@@ -1,0 +1,38 @@
+[
+  {
+    "file": "research/raw/location-review-2026-10-05/undheim-nav.html",
+    "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b388197f-a539-470c-a5ee-bc9b43ad97bc",
+    "accessedAt": "2026-10-05",
+    "sha256": "0806abc25a0486140fd8f28f6434ec31f8b9e724a32d80c61f053725f7a1418f"
+  },
+  {
+    "file": "research/raw/location-review-2026-10-05/gromstul-brreg.json",
+    "url": "https://data.brreg.no/enhetsregisteret/api/underenheter/925646334",
+    "accessedAt": "2026-10-05",
+    "sha256": "a9be7543abebc0862407ad254a4dd15cb9fbdd7df00e40695a95007848a5964c"
+  },
+  {
+    "file": "research/raw/location-review-2026-10-05/undheim-nve.pdf",
+    "url": "https://webfileservice.nve.no/API/PublishedFiles/Download/ceadb8aa-5326-4bca-9688-e5901ae12fd0/202608496/3454679",
+    "accessedAt": "2026-10-05",
+    "sha256": "4d0df67383dff823f9a767d131027320171212ad588eb2e95891ebd96b117839"
+  },
+  {
+    "file": "research/raw/location-review-2026-10-05/gromstul-permit.pdf",
+    "url": "https://webfileservice.nve.no/API/PublishedFiles/Download/dddf6fda-38d1-491f-abc5-9464c85e35eb/202422995/3446684",
+    "accessedAt": "2026-10-05",
+    "sha256": "d5f32bce71c647dc5fe90890b0d9f9d6d898c9300abfcbd4a38916bcb63e2c4f"
+  },
+  {
+    "file": "research/raw/location-review-2026-10-05/undheim-addresses.json",
+    "url": "https://ws.geonorge.no/adresser/v1/sok?kommunenummer=1121&gardsnummer=46&bruksnummer=317",
+    "accessedAt": "2026-10-05",
+    "sha256": "ac8a874e78385b705a03e677a2fdd975821519fdba616deb9f7105450653b3be"
+  },
+  {
+    "file": "research/raw/location-review-2026-10-05/gromstul-addresses.json",
+    "url": "https://ws.geonorge.no/adresser/v1/sok?kommunenummer=4003&gardsnummer=11&bruksnummer=28",
+    "accessedAt": "2026-10-05",
+    "sha256": "62d05fdf889585b9a4a46d7be13e142cf010d91bc16c194da92aed62469652a5"
+  }
+]

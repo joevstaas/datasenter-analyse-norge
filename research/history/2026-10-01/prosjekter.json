@@ -1,0 +1,3445 @@
+{
+  "meta": {
+    "version": "0.2.0",
+    "accessedAt": "2026-10-01",
+    "coverage": "Første kildebelagte utvalg på åtte prosjekter; ikke uttømmende eller representativt.",
+    "status": "Research baseline; ikke komplett kartlegging. Prosjektstatus er rapportert/historisk, ikke verifisert driftsstatus på lesedato.",
+    "coordinatePolicy": "Kun kildebelagte adressepunkter. Null når dokumentasjon mangler. To reelle planomriss hentet fra kommunalt register; ingen konstruerte polygoner.",
+    "uncertaintyPolicy": "Ingen statistiske konfidensintervaller: datagrunnlaget er dokumentopplysninger og prognoser, ikke en estimert utvalgsfordeling. Konfidensnivå gjelder belegg og avgrensning, ikke sannsynlighet.",
+    "datesPolicy": "Publisert/oppdatert dato er null dersom siden ikke oppgir dette. Lest dato er ikke observasjonsdato. Udaterte nettpåstander har period=null.",
+    "areaPolicy": "Tomt, planareal, campus, IT-gulvareal og faktisk arealbeslag er ulike størrelser. Ingen samlet arealsum beregnes.",
+    "energyPolicy": "MW er effekt/kapasitet. Målt TWh mangler for alle utvalgte anlegg. Ingen årsenergi beregnes fra kapasitet.",
+    "sourcePolicy": "Operatør- og bestilte analyseopplysninger er eksplisitte partsopplysninger. Søkeuttrekk er flagget publishAsFact=false. publishAsFact=true betyr at dokumentert påstand kan presenteres med kildetype, konfidens og forbehold; det er ikke uavhengig QA-godkjenning eller bekreftelse av partsopplysningens riktighet."
+  },
+  "sources": [
+    {
+      "id": "gm-contact",
+      "title": "Kontaktadresser for datasentre",
+      "url": "https://greenmountain.no/contact-us/",
+      "publisher": "Green Mountain",
+      "type": "operator",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "gm-owner",
+      "title": "Hvem eier Green Mountain?",
+      "url": "https://info.greenmountain.no/faq/azrieli-group/",
+      "publisher": "Green Mountain",
+      "type": "operator",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "gm-2025",
+      "title": "Sustainability report 2025",
+      "url": "https://greenmountain.no/wp-content/uploads/Sustainability-Report-2025-1.pdf",
+      "publisher": "Green Mountain",
+      "type": "operator",
+      "publishedAt": "2026-05",
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "gm-three",
+      "title": "Key facts – The three data centers",
+      "url": "https://greenmountain.no/wp-content/uploads/Summary-Economic-Impact-Report-SVG-Rennesoy-TEL-Rjukan-OSL-Enebakk.pdf",
+      "publisher": "Green Mountain / Menon",
+      "type": "commissioned_analysis",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "gm-hamar",
+      "title": "OSL-Hamar",
+      "url": "https://greenmountain.no/data-center/osl-hamar/",
+      "publisher": "Green Mountain",
+      "type": "operator",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "gm-rennesoy",
+      "title": "SVG-Rennesøy",
+      "url": "https://greenmountain.no/data-center/svg-rennesoy/",
+      "publisher": "Green Mountain",
+      "type": "operator",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "gm-rjukan",
+      "title": "TEL-Rjukan",
+      "url": "https://greenmountain.no/data-center/tel-rjukan/",
+      "publisher": "Green Mountain",
+      "type": "operator",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "gm-enebakk",
+      "title": "OSL-Enebakk",
+      "url": "https://greenmountain.no/data-center/osl-enebakk/",
+      "publisher": "Green Mountain",
+      "type": "operator",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "gm-undheim",
+      "title": "SVG-Undheim",
+      "url": "https://greenmountain.no/data-center/svg-undheim/",
+      "publisher": "Green Mountain",
+      "type": "operator",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "hamar-plan",
+      "title": "Heggvin: planreferanser og prosjekt",
+      "url": "https://www.hamar.kommune.no/utviklingsomrader/heggvin",
+      "publisher": "Hamar kommune",
+      "type": "municipality",
+      "publishedAt": "2023-12-15",
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "rennesoy-economy",
+      "title": "Sammendrag av ringvirkninger Rennesøy (tittel i PDF feilaktig Rjukan)",
+      "url": "https://greenmountain.no/wp-content/uploads/MENON-Economic-Impact-Report-Green-Mountain-SVG-Rennesoy-Summary_01.11.2024.pdf",
+      "publisher": "Menon / Green Mountain",
+      "type": "commissioned_analysis",
+      "publishedAt": "2024-11-01",
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "skien-timeline",
+      "title": "Tidslinje for Google-etablering",
+      "url": "https://www.skien.kommune.no/by-og-naeringsutvikling/google-etablering-i-skien-kommune/tidslinje-hva-har-skjedd-fram-til-naa/",
+      "publisher": "Skien kommune",
+      "type": "municipality",
+      "publishedAt": "2024-02-19",
+      "updatedAt": "2025-09-18",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "google-release",
+      "title": "Google starter bygging i Skien",
+      "url": "https://kommunikasjon.ntb.no/pressemelding/18046820/google-starter-bygging-av-et-nytt-datasenter-i-skien-investerer-600-millioner-euro?lang=no&publisherId=8930805",
+      "publisher": "Google Norge (NTB distribusjon)",
+      "type": "operator",
+      "publishedAt": "2024-02-07",
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "gromstul-nve",
+      "title": "Gromstul (Kise) koblingsstasjon med 132 kV nettilknytning",
+      "url": "https://www.nve.no/konsesjon/konsesjonssaker/konsesjonssak/?id=4885&type=A-1",
+      "publisher": "NVE",
+      "type": "authority",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "gromstul-plan",
+      "title": "Bystyret sak 75/18: Gromstul sluttbehandling",
+      "url": "https://opengov.360online.com/Meetings/skien/Meetings/Details/819161?agendaItemId=222580",
+      "publisher": "Skien kommune",
+      "type": "municipality",
+      "publishedAt": "2018-05-31",
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "gromstul-deponi",
+      "title": "Detaljregulering Fjellimellomdalen",
+      "url": "https://www.skien.kommune.no/politikk/kunngjoeringer/detaljregulering-for-gbnr-111-fjellimellomdalen/",
+      "publisher": "Skien kommune",
+      "type": "municipality",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "n01-site",
+      "title": "N01 Data Center Campus",
+      "url": "https://bulkinfrastructure.com/data-centers/locations/n01",
+      "publisher": "Bulk Infrastructure",
+      "type": "operator",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01",
+      "access": "search_excerpt_only",
+      "publishAsFact": false
+    },
+    {
+      "id": "n01-invest",
+      "title": "BGO investering og N01-utbygging",
+      "url": "https://bgo.com/press-release/bulk-infrastructure-announces-350msup1/sup-equity-investment-by-bgo-and-plans-for-over-1bn-of-investments-by-2026-to-grow-sustainable-data-centre-l-1717514270601",
+      "publisher": "BGO / Bulk",
+      "type": "operator",
+      "publishedAt": "2024-06-05",
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "bulk-owner",
+      "title": "Investor relations: eierfordeling desember 2025",
+      "url": "https://bulkinfrastructure.com/about-us/investor-relations",
+      "publisher": "Bulk Infrastructure",
+      "type": "operator",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "bulk-q4",
+      "title": "Fourth Quarter 2025 Results",
+      "url": "https://bulkinfrastructure.com/uploads/Financial-report/Bulk-Infrastructure-Group-Financial-statements-Q4-2025.pdf",
+      "publisher": "Bulk Infrastructure",
+      "type": "operator",
+      "publishedAt": "2026-02-05",
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "bulk-address",
+      "title": "ISO-sertifikat med stedsliste (utløpt; kun adressebelegg)",
+      "url": "https://bulkinfrastructure.com/uploads/ISO-cert-14001.PDF",
+      "publisher": "LRQA / Bulk",
+      "type": "certification",
+      "publishedAt": "2022-10-03",
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "n01-va",
+      "title": "Utbyggingsavtale Stølen datalagringspark",
+      "url": "https://www.vennesla.kommune.no/kunngjoringer-og-planer-pa-horing/utbyggingsavtale-stolen-datalagrinspark.9114.aspx",
+      "publisher": "Vennesla kommune",
+      "type": "municipality",
+      "publishedAt": "2026-03-13",
+      "updatedAt": "2026-03-13",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "lefdal-site",
+      "title": "Lefdal Mine Data Centers",
+      "url": "https://www.lefdalmine.com/",
+      "publisher": "Lefdal Mine Data Centers",
+      "type": "operator",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "lefdal-power",
+      "title": "Utvidelse av tilgjengelig effekt med 60 MW",
+      "url": "https://www.lefdalmine.com/news/lefdal-mine-datacenter-expand-power-capacity-with-60-mw",
+      "publisher": "Lefdal Mine Data Centers",
+      "type": "operator",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "lefdal-owner",
+      "title": "Ownership",
+      "url": "https://www.lefdalmine.com/about/ownership",
+      "publisher": "Lefdal Mine Data Centers",
+      "type": "operator",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "lefdal-register",
+      "title": "Lefdal Mine Datacenter AS – registeradresse",
+      "url": "https://virksomhet.brreg.no/nn/oppslag/enheter/911599252",
+      "publisher": "Brønnøysundregistrene",
+      "type": "authority",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "kartverket-stabekkvegen-140",
+      "title": "Kartverket adressepunkt: Stabekkvegen 140",
+      "url": "https://ws.geonorge.no/adresser/v1/sok?sok=Stabekkvegen+140&treffPerSide=10",
+      "publisher": "Kartverket",
+      "type": "authority",
+      "publishedAt": null,
+      "updatedAt": "2024-06-27T10:12:25",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "kartverket-hodneveien-260",
+      "title": "Kartverket adressepunkt: Hodneveien 260",
+      "url": "https://ws.geonorge.no/adresser/v1/sok?sok=Hodneveien+260&treffPerSide=10",
+      "publisher": "Kartverket",
+      "type": "authority",
+      "publishedAt": null,
+      "updatedAt": "2021-02-24T22:11:36",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "kartverket-svaddevegen-161",
+      "title": "Kartverket adressepunkt: Svaddevegen 161",
+      "url": "https://ws.geonorge.no/adresser/v1/sok?sok=Svaddevegen+161&treffPerSide=10",
+      "publisher": "Kartverket",
+      "type": "authority",
+      "publishedAt": null,
+      "updatedAt": "2024-01-01T00:00:00",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "kartverket-granittveien-110",
+      "title": "Kartverket adressepunkt: Granittveien 110",
+      "url": "https://ws.geonorge.no/adresser/v1/sok?sok=Granittveien+110&treffPerSide=10",
+      "publisher": "Kartverket",
+      "type": "authority",
+      "publishedAt": null,
+      "updatedAt": "2024-09-05T09:45:16",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "kartverket-stølevegen-39",
+      "title": "Kartverket adressepunkt: Stølevegen 39",
+      "url": "https://ws.geonorge.no/adresser/v1/sok?sok=St%C3%B8levegen+39&treffPerSide=10",
+      "publisher": "Kartverket",
+      "type": "authority",
+      "publishedAt": null,
+      "updatedAt": "2020-06-15T18:31:24",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "kartverket-nordfjordvegen-7300",
+      "title": "Kartverket adressepunkt: Nordfjordvegen 7300",
+      "url": "https://ws.geonorge.no/adresser/v1/sok?sok=Nordfjordvegen+7300&treffPerSide=10",
+      "publisher": "Kartverket",
+      "type": "authority",
+      "publishedAt": null,
+      "updatedAt": "2020-06-15T18:28:21",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "lefdal-3i-close",
+      "title": "3i Infrastructure completes investment in Lefdal",
+      "url": "https://www.3i-infrastructure.com/newsroom/press-releases/2026/3i-infrastructure-plc-completes-investment-in-the-lefdal-mine-datacenter-campus/",
+      "publisher": "3i Infrastructure",
+      "type": "investor",
+      "publishedAt": "2026-09-03",
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "lefdal-3i-agreement",
+      "title": "3i Infrastructure invests in Lefdal",
+      "url": "https://www.3i-infrastructure.com/newsroom/press-releases/2026/3i-infrastructure-plc-invests-in-lefdal-mine-datacenter/",
+      "publisher": "3i Infrastructure",
+      "type": "investor",
+      "publishedAt": "2026-03-11",
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "hamar-menon-full",
+      "title": "Economic impact analysis OSL-Hamar construction, Menon 96/2025",
+      "url": "https://greenmountain.no/wp-content/uploads/Report-Economic-Impact-Analysis-of-OSL-Hamar-Construction-english.pdf",
+      "publisher": "Menon / Green Mountain",
+      "type": "commissioned_analysis",
+      "publishedAt": "2025-08",
+      "updatedAt": null,
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "id": "plan-hamar",
+      "title": "Detaljreguleringsplan for Heggvin næringspark",
+      "url": "https://arealplaner.no/hamar3403/arealplaner/156",
+      "publisher": "Kommunalt planregister / Norkart",
+      "type": "municipal_plan_register",
+      "publishedAt": null,
+      "updatedAt": "2024-11-26T00:00:00",
+      "accessedAt": "2026-10-01",
+      "metadataUrl": "https://api.arealplaner.no/api/kunder/hamar3403/arealplaner/156",
+      "dataUrl": "https://api.arealplaner.no/api/gi/kunder/hamar3403/planomraader/3403/079500",
+      "effectiveDate": "2022-04-27T00:00:00",
+      "rawMetadata": "research/raw/hamar3403-079500-metadata.json",
+      "rawGeometry": "research/raw/hamar3403-079500-geometry.json"
+    },
+    {
+      "id": "plan-gromstul",
+      "title": "Reguleringsplan for gbnr. 11/1 - datasenter Gromstul",
+      "url": "https://arealplaner.no/skien4003/arealplaner/726",
+      "publisher": "Kommunalt planregister / Norkart",
+      "type": "municipal_plan_register",
+      "publishedAt": null,
+      "updatedAt": null,
+      "accessedAt": "2026-10-01",
+      "metadataUrl": "https://api.arealplaner.no/api/kunder/skien4003/arealplaner/726",
+      "dataUrl": "https://api.arealplaner.no/api/gi/kunder/skien4003/planomraader/4003/2017004",
+      "effectiveDate": "2018-05-31T00:00:00",
+      "rawMetadata": "research/raw/skien4003-2017004-metadata.json",
+      "rawGeometry": "research/raw/skien4003-2017004-geometry.json"
+    }
+  ],
+  "projects": [
+    {
+      "id": "hamar",
+      "name": "Green Mountain OSL-Hamar / Heggvin",
+      "municipality": "Hamar",
+      "status": "I drift; videre utvidelse planlagt",
+      "coordinates": {
+        "lat": 60.84134903994555,
+        "lon": 11.267875011605103,
+        "crs": "EPSG:4258",
+        "kind": "address_point",
+        "address": "Stabekkvegen 140",
+        "sourceIds": [
+          "gm-contact",
+          "kartverket-stabekkvegen-140"
+        ],
+        "confidence": "middels",
+        "method": "Eksakt adresse og kommune matchet i Kartverkets adresse-API. Adresse knyttet til anlegget via oppgitt kilde.",
+        "reason": "Dokumentert adressepunkt; stedfestingverifisert=false i registeret. Punktet er ikke eiendomsgrense eller anleggets sentrum. EPSG:4258 er bevart; ingen statistisk presisjon er oppgitt.",
+        "rawFile": "research/raw/Stabekkvegen-140.json"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.270287075043203,
+              60.85039629200989
+            ],
+            [
+              11.270312828231608,
+              60.85038561772025
+            ],
+            [
+              11.27034823724581,
+              60.85037091813636
+            ],
+            [
+              11.270409595966925,
+              60.850345720550244
+            ],
+            [
+              11.273218638754383,
+              60.84918521090846
+            ],
+            [
+              11.273396589529359,
+              60.84911169357627
+            ],
+            [
+              11.275049609711532,
+              60.848428676783726
+            ],
+            [
+              11.274162825256811,
+              60.84824716305899
+            ],
+            [
+              11.273710689656191,
+              60.84812269048226
+            ],
+            [
+              11.273608105359518,
+              60.848096133238855
+            ],
+            [
+              11.272558030949112,
+              60.84778991942147
+            ],
+            [
+              11.271998258204395,
+              60.84765046530079
+            ],
+            [
+              11.27153146455037,
+              60.84745671409638
+            ],
+            [
+              11.27116868668282,
+              60.84732263918385
+            ],
+            [
+              11.271236406337978,
+              60.847203024536405
+            ],
+            [
+              11.27122431546107,
+              60.846921199747214
+            ],
+            [
+              11.271524891351525,
+              60.84654481115825
+            ],
+            [
+              11.271690943925222,
+              60.84635572136452
+            ],
+            [
+              11.272194227042936,
+              60.845995574603585
+            ],
+            [
+              11.272246281370379,
+              60.845914666421436
+            ],
+            [
+              11.272387963133506,
+              60.8458179616121
+            ],
+            [
+              11.272503187780881,
+              60.84566754363333
+            ],
+            [
+              11.272603374412748,
+              60.845396125202214
+            ],
+            [
+              11.272654666120053,
+              60.844962423596876
+            ],
+            [
+              11.272705285828385,
+              60.84486653980432
+            ],
+            [
+              11.272707076705853,
+              60.844839923310104
+            ],
+            [
+              11.272711002946329,
+              60.84482782126173
+            ],
+            [
+              11.272721407583472,
+              60.84481363364822
+            ],
+            [
+              11.272742949622726,
+              60.844795575126504
+            ],
+            [
+              11.27283818823022,
+              60.84461522602933
+            ],
+            [
+              11.273130378226789,
+              60.844281998057134
+            ],
+            [
+              11.273985460846278,
+              60.84395173011544
+            ],
+            [
+              11.274100253705976,
+              60.84359859791204
+            ],
+            [
+              11.27443451114582,
+              60.84322567372774
+            ],
+            [
+              11.274414651238338,
+              60.84302912805808
+            ],
+            [
+              11.274515504164368,
+              60.84226764761704
+            ],
+            [
+              11.274343240962283,
+              60.84198296494125
+            ],
+            [
+              11.274453456305634,
+              60.84186855707582
+            ],
+            [
+              11.27455888544207,
+              60.841694590732054
+            ],
+            [
+              11.274409988502754,
+              60.84109640581467
+            ],
+            [
+              11.274264409388262,
+              60.8405059787951
+            ],
+            [
+              11.274095057824635,
+              60.84038642256485
+            ],
+            [
+              11.274025148232187,
+              60.84007081632937
+            ],
+            [
+              11.274380025730638,
+              60.83888531507422
+            ],
+            [
+              11.274487714373736,
+              60.83874068097977
+            ],
+            [
+              11.27458899540636,
+              60.83832463422922
+            ],
+            [
+              11.275333440093938,
+              60.83787721889732
+            ],
+            [
+              11.275444408719519,
+              60.83748373130914
+            ],
+            [
+              11.275498452703193,
+              60.83746476255288
+            ],
+            [
+              11.275526712244627,
+              60.837344555975676
+            ],
+            [
+              11.275530418714263,
+              60.83724138162904
+            ],
+            [
+              11.27552760731392,
+              60.83714747914787
+            ],
+            [
+              11.27546670085361,
+              60.83692495252298
+            ],
+            [
+              11.27542366926638,
+              60.836718290481365
+            ],
+            [
+              11.275389771509904,
+              60.83659868745941
+            ],
+            [
+              11.275343881168203,
+              60.83640357056922
+            ],
+            [
+              11.275316816039352,
+              60.83634124581136
+            ],
+            [
+              11.275316156226696,
+              60.83633973007135
+            ],
+            [
+              11.27525237797637,
+              60.836239854176426
+            ],
+            [
+              11.275250575977372,
+              60.83623521413235
+            ],
+            [
+              11.275219511836992,
+              60.83615804721467
+            ],
+            [
+              11.275218623595833,
+              60.8361559066133
+            ],
+            [
+              11.275164367963395,
+              60.836032067538106
+            ],
+            [
+              11.275142236431316,
+              60.83597441958421
+            ],
+            [
+              11.275125453478063,
+              60.83592988437015
+            ],
+            [
+              11.27511389981048,
+              60.83588642824569
+            ],
+            [
+              11.275085694702822,
+              60.83577957280112
+            ],
+            [
+              11.275062326395247,
+              60.83564497136843
+            ],
+            [
+              11.275009260158017,
+              60.835527489209596
+            ],
+            [
+              11.27500966489698,
+              60.83552541653204
+            ],
+            [
+              11.274926409498343,
+              60.83552170658088
+            ],
+            [
+              11.2747850117692,
+              60.83550514895168
+            ],
+            [
+              11.27362061076278,
+              60.83536866402902
+            ],
+            [
+              11.272749888454507,
+              60.835200795028506
+            ],
+            [
+              11.272209523058093,
+              60.835106104644375
+            ],
+            [
+              11.271751926377055,
+              60.835034173791556
+            ],
+            [
+              11.271749548951465,
+              60.83503178889476
+            ],
+            [
+              11.271599685501304,
+              60.834908846543115
+            ],
+            [
+              11.2714720710804,
+              60.83481417993591
+            ],
+            [
+              11.271392724919153,
+              60.834759205276406
+            ],
+            [
+              11.27119194040316,
+              60.8346343389861
+            ],
+            [
+              11.270962185433856,
+              60.83450053117136
+            ],
+            [
+              11.270606251101933,
+              60.834302569576536
+            ],
+            [
+              11.270318098344312,
+              60.83413920940881
+            ],
+            [
+              11.27023467648612,
+              60.83409157825761
+            ],
+            [
+              11.27019535772049,
+              60.83406646478638
+            ],
+            [
+              11.270108328334667,
+              60.834012068326594
+            ],
+            [
+              11.269991442336293,
+              60.83393105113891
+            ],
+            [
+              11.269875212991558,
+              60.8338385260192
+            ],
+            [
+              11.269856367186684,
+              60.833821868757575
+            ],
+            [
+              11.269762924491033,
+              60.83373928767467
+            ],
+            [
+              11.269639559668319,
+              60.83361876978613
+            ],
+            [
+              11.26959779653651,
+              60.83357214105354
+            ],
+            [
+              11.269496315438687,
+              60.83344882826853
+            ],
+            [
+              11.269461670764436,
+              60.83340657016523
+            ],
+            [
+              11.269297850965243,
+              60.83318515086339
+            ],
+            [
+              11.26915541694267,
+              60.83299543530866
+            ],
+            [
+              11.269044380304958,
+              60.832861864685185
+            ],
+            [
+              11.268934894808172,
+              60.8327449739826
+            ],
+            [
+              11.268793840256242,
+              60.832611011935526
+            ],
+            [
+              11.268648605644797,
+              60.832482958525304
+            ],
+            [
+              11.26848205617622,
+              60.83236568379345
+            ],
+            [
+              11.268282678810538,
+              60.83223692747786
+            ],
+            [
+              11.266832587593944,
+              60.83131956854819
+            ],
+            [
+              11.266687750028998,
+              60.83136584363045
+            ],
+            [
+              11.26664133374538,
+              60.83138072822172
+            ],
+            [
+              11.266594917418402,
+              60.83139561279713
+            ],
+            [
+              11.26654345701252,
+              60.83141201954613
+            ],
+            [
+              11.266538603101123,
+              60.83141362834591
+            ],
+            [
+              11.266441803404165,
+              60.83144454215034
+            ],
+            [
+              11.266410861183894,
+              60.83145449506065
+            ],
+            [
+              11.26639520946822,
+              60.83145951946906
+            ],
+            [
+              11.266348786560787,
+              60.83147431424935
+            ],
+            [
+              11.2663025473842,
+              60.831489105913846
+            ],
+            [
+              11.266264945151589,
+              60.831501147138646
+            ],
+            [
+              11.267561029228876,
+              60.832327700561144
+            ],
+            [
+              11.267907110834438,
+              60.832548200866434
+            ],
+            [
+              11.268067510179506,
+              60.8326565982954
+            ],
+            [
+              11.268141352122518,
+              60.83271714664487
+            ],
+            [
+              11.26829258178117,
+              60.8328493208296
+            ],
+            [
+              11.268433492526604,
+              60.832996848372524
+            ],
+            [
+              11.26858829241353,
+              60.833184559473835
+            ],
+            [
+              11.26869196082477,
+              60.83333100907578
+            ],
+            [
+              11.268828307853616,
+              60.8335127442477
+            ],
+            [
+              11.268925590093499,
+              60.83363136805044
+            ],
+            [
+              11.269028944995823,
+              60.8337525837787
+            ],
+            [
+              11.269039657966843,
+              60.83376354031666
+            ],
+            [
+              11.269151174169417,
+              60.833875277024404
+            ],
+            [
+              11.26925918963559,
+              60.833973959306974
+            ],
+            [
+              11.269373548029856,
+              60.834066067454174
+            ],
+            [
+              11.269436206151266,
+              60.834111534945826
+            ],
+            [
+              11.269472286147947,
+              60.83413769134271
+            ],
+            [
+              11.269636774670465,
+              60.834249071778316
+            ],
+            [
+              11.2698437486928,
+              60.83437311718598
+            ],
+            [
+              11.270001370256772,
+              60.834462877186525
+            ],
+            [
+              11.270250197805941,
+              60.83459843014023
+            ],
+            [
+              11.270502837672856,
+              60.83473840914537
+            ],
+            [
+              11.270655367607858,
+              60.83482897300777
+            ],
+            [
+              11.270776724618226,
+              60.83490290827192
+            ],
+            [
+              11.270915706317652,
+              60.83499441938231
+            ],
+            [
+              11.271037658841133,
+              60.83508451165617
+            ],
+            [
+              11.27115117182999,
+              60.83518013558739
+            ],
+            [
+              11.271245683794309,
+              60.83527248790225
+            ],
+            [
+              11.271364888829002,
+              60.83540681696265
+            ],
+            [
+              11.27145603048551,
+              60.835539824004215
+            ],
+            [
+              11.271527237567756,
+              60.83566418618359
+            ],
+            [
+              11.2715936794885,
+              60.83580955656604
+            ],
+            [
+              11.271620157327185,
+              60.83590260978787
+            ],
+            [
+              11.271632522351887,
+              60.83598090195283
+            ],
+            [
+              11.271646671481117,
+              60.836068774513684
+            ],
+            [
+              11.27165045887415,
+              60.83611954765483
+            ],
+            [
+              11.271651171094133,
+              60.836225521243506
+            ],
+            [
+              11.27164243274689,
+              60.836309828759504
+            ],
+            [
+              11.271634953183487,
+              60.83634705018727
+            ],
+            [
+              11.271624999228626,
+              60.836396079649724
+            ],
+            [
+              11.27160509176146,
+              60.836475995261154
+            ],
+            [
+              11.271577210666653,
+              60.83655505767327
+            ],
+            [
+              11.27154059769663,
+              60.836640734620325
+            ],
+            [
+              11.271498720968836,
+              60.836717069619574
+            ],
+            [
+              11.27147824039189,
+              60.83675001991142
+            ],
+            [
+              11.271459058309036,
+              60.836780523153074
+            ],
+            [
+              11.27142061681987,
+              60.83683784838279
+            ],
+            [
+              11.271367539407247,
+              60.83691194758891
+            ],
+            [
+              11.271284476209098,
+              60.8370069424176
+            ],
+            [
+              11.271209965413604,
+              60.83709020605992
+            ],
+            [
+              11.27115150181986,
+              60.83715065401329
+            ],
+            [
+              11.271089995261326,
+              60.83720971627984
+            ],
+            [
+              11.27099752852329,
+              60.83729669638875
+            ],
+            [
+              11.270878264256911,
+              60.83740802100292
+            ],
+            [
+              11.27078392647794,
+              60.83749458348024
+            ],
+            [
+              11.270699124843798,
+              60.837572901081536
+            ],
+            [
+              11.27062587653283,
+              60.837648059380086
+            ],
+            [
+              11.270582136497751,
+              60.8376929891339
+            ],
+            [
+              11.270526053045192,
+              60.837750702014155
+            ],
+            [
+              11.270458795512022,
+              60.83783249534673
+            ],
+            [
+              11.270401847149575,
+              60.83790396497917
+            ],
+            [
+              11.27037561004909,
+              60.83793880871107
+            ],
+            [
+              11.270371230892263,
+              60.83791858377742
+            ],
+            [
+              11.270334900563757,
+              60.83796680133208
+            ],
+            [
+              11.27027951564087,
+              60.83805513032213
+            ],
+            [
+              11.270220780162845,
+              60.83815330608595
+            ],
+            [
+              11.27016677554155,
+              60.83828445500784
+            ],
+            [
+              11.270136592517318,
+              60.838377837038
+            ],
+            [
+              11.270114475877945,
+              60.83846299913401
+            ],
+            [
+              11.270116235215891,
+              60.83856823640375
+            ],
+            [
+              11.270116001213424,
+              60.83857012654053
+            ],
+            [
+              11.269858137701066,
+              60.838559303606665
+            ],
+            [
+              11.269766937741222,
+              60.838550066032624
+            ],
+            [
+              11.269662946519615,
+              60.838539517552995
+            ],
+            [
+              11.26929360102161,
+              60.83849554749562
+            ],
+            [
+              11.268946881553187,
+              60.83843844017933
+            ],
+            [
+              11.268312293628115,
+              60.838302840685294
+            ],
+            [
+              11.267770375450135,
+              60.838249115328686
+            ],
+            [
+              11.267744235935703,
+              60.83824901758973
+            ],
+            [
+              11.266968626175162,
+              60.838245040190586
+            ],
+            [
+              11.26644196057265,
+              60.83826631977431
+            ],
+            [
+              11.266242457764122,
+              60.838253158246076
+            ],
+            [
+              11.266161806467945,
+              60.838242123603656
+            ],
+            [
+              11.265787010701116,
+              60.8381912301084
+            ],
+            [
+              11.265422194087826,
+              60.83825010469125
+            ],
+            [
+              11.265354875463713,
+              60.83826102984773
+            ],
+            [
+              11.265177053456059,
+              60.8382733688226
+            ],
+            [
+              11.264536723143598,
+              60.838267006913775
+            ],
+            [
+              11.26435803585039,
+              60.838248911058045
+            ],
+            [
+              11.26426748438071,
+              60.83844130040723
+            ],
+            [
+              11.264256712279785,
+              60.83847633134103
+            ],
+            [
+              11.259469802265402,
+              60.84099941962035
+            ],
+            [
+              11.259470686111028,
+              60.841064073631344
+            ],
+            [
+              11.259473110241032,
+              60.841244387168
+            ],
+            [
+              11.259473343586679,
+              60.841265939534665
+            ],
+            [
+              11.259475017336282,
+              60.841375668834985
+            ],
+            [
+              11.259477378499504,
+              60.841549875808425
+            ],
+            [
+              11.259485227291055,
+              60.84210939898233
+            ],
+            [
+              11.259512869528784,
+              60.842162016549146
+            ],
+            [
+              11.259534572639087,
+              60.84220350674305
+            ],
+            [
+              11.259537109305274,
+              60.84230459900763
+            ],
+            [
+              11.259517913732923,
+              60.842551471813664
+            ],
+            [
+              11.259413542421335,
+              60.84292408466497
+            ],
+            [
+              11.2593451233294,
+              60.84333929531451
+            ],
+            [
+              11.259340147447663,
+              60.84354775637897
+            ],
+            [
+              11.25929588953321,
+              60.84369256829582
+            ],
+            [
+              11.25923287152275,
+              60.843855838789935
+            ],
+            [
+              11.259582827129476,
+              60.84393474294022
+            ],
+            [
+              11.260908428067054,
+              60.84377017546498
+            ],
+            [
+              11.261070287866673,
+              60.843747692221875
+            ],
+            [
+              11.261593782448116,
+              60.84369846497626
+            ],
+            [
+              11.262022380175539,
+              60.843655593438
+            ],
+            [
+              11.262362737956611,
+              60.84361429591835
+            ],
+            [
+              11.262819657564084,
+              60.84356070575096
+            ],
+            [
+              11.263081817463691,
+              60.843538057990024
+            ],
+            [
+              11.263426757409288,
+              60.843517338711855
+            ],
+            [
+              11.263884005780184,
+              60.843491852382094
+            ],
+            [
+              11.26432492285801,
+              60.84346448403928
+            ],
+            [
+              11.26477341595889,
+              60.84344794435815
+            ],
+            [
+              11.264910018352817,
+              60.84345354606135
+            ],
+            [
+              11.265522870769315,
+              60.843514890198996
+            ],
+            [
+              11.26601024943635,
+              60.843579604887786
+            ],
+            [
+              11.266588776612487,
+              60.843707180037796
+            ],
+            [
+              11.26658463740006,
+              60.84382284572101
+            ],
+            [
+              11.266583174099736,
+              60.843867150714686
+            ],
+            [
+              11.266558780986056,
+              60.84455440095053
+            ],
+            [
+              11.266513437939059,
+              60.8458320192614
+            ],
+            [
+              11.266486609976333,
+              60.84588465601359
+            ],
+            [
+              11.266081036264383,
+              60.84667919966748
+            ],
+            [
+              11.265097144299595,
+              60.847514118130974
+            ],
+            [
+              11.264924359025624,
+              60.847660738968464
+            ],
+            [
+              11.261777825940587,
+              60.850330484136364
+            ],
+            [
+              11.263357263668267,
+              60.850500057452244
+            ],
+            [
+              11.266808891893097,
+              60.850641372492156
+            ],
+            [
+              11.267738614173007,
+              60.85071667431454
+            ],
+            [
+              11.269395979943674,
+              60.85108084541497
+            ],
+            [
+              11.269413557989525,
+              60.85108468023994
+            ],
+            [
+              11.269748702260905,
+              60.85115833023599
+            ],
+            [
+              11.269762164870263,
+              60.851161246517215
+            ],
+            [
+              11.269814905647667,
+              60.851172840550525
+            ],
+            [
+              11.269832490158965,
+              60.851176765030814
+            ],
+            [
+              11.269839034401658,
+              60.85117818141756
+            ],
+            [
+              11.269862636966899,
+              60.851183890439174
+            ],
+            [
+              11.269867691022956,
+              60.85118506253722
+            ],
+            [
+              11.269920508267562,
+              60.85119773305575
+            ],
+            [
+              11.270032332100733,
+              60.85122467604009
+            ],
+            [
+              11.270082714382145,
+              60.85123675889537
+            ],
+            [
+              11.270085339728045,
+              60.85123743309795
+            ],
+            [
+              11.270107193442824,
+              60.85113547970223
+            ],
+            [
+              11.270121049176963,
+              60.85107129517867
+            ],
+            [
+              11.270264181183526,
+              60.85040575035975
+            ],
+            [
+              11.270287075043203,
+              60.85039629200989
+            ]
+          ]
+        ],
+        "sourceIds": [
+          "plan-hamar"
+        ],
+        "planReferences": [
+          {
+            "planId": "079500",
+            "effectiveDate": "2022-04-27",
+            "amendedDate": "2023-05-10",
+            "sourceIds": [
+              "hamar-plan"
+            ]
+          },
+          {
+            "planId": "165",
+            "description": "Kryss og veg; ikke datasentertomt",
+            "effectiveDate": "2023-05-10",
+            "sourceIds": [
+              "hamar-plan"
+            ]
+          }
+        ],
+        "status": "Hentet kommunalt planomriss; ringlukking kontrollert. Ikke full planjuridisk eller landmålingsmessig validering.",
+        "kind": "regulatory_plan_extent",
+        "planId": "079500",
+        "effectiveDate": "2022-04-27T00:00:00",
+        "lastProcessedAt": "2024-11-26T00:00:00",
+        "confidence": "middels",
+        "crs": "Geografisk lon/lat som publisert for kartvisning; tolket som GeoJSON/WGS84 etter registerets frontend, EPSG ikke oppgitt i API-responsen.",
+        "method": "Eksakt plan-ID hentet via offentlig planomriss-endepunkt. x/y overført uendret til GeoJSON [lon,lat], samme metode som registerets frontend. Ingen håndtegning, simplifisering eller arealberegning.",
+        "limitation": "Hele planområdet; kan omfatte vei, grøntareal og flere virksomheter. Ikke datasenterets fotavtrykk eller faktisk nedbygd natur.",
+        "dataUrl": "https://api.arealplaner.no/api/gi/kunder/hamar3403/planomraader/3403/079500"
+      },
+      "claims": [
+        {
+          "field": "status",
+          "value": "I drift; videre utvidelse planlagt",
+          "unit": null,
+          "kind": "reported_status",
+          "period": "2025",
+          "sourceIds": [
+            "gm-2025"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {
+            "gm-2025": "Prosjektbeskrivelse / status; se oppgitt periode"
+          }
+        },
+        {
+          "field": "ownership",
+          "value": "Green Mountain; Azrieli Group oppgis som konserneier",
+          "unit": null,
+          "kind": "reported_group_owner",
+          "period": "2021 acquisition; current webpage undated",
+          "sourceIds": [
+            "gm-owner"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "municipality",
+          "value": "Hamar",
+          "unit": null,
+          "kind": "location",
+          "period": null,
+          "sourceIds": [
+            "gm-hamar"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 90,
+          "unit": "MW",
+          "kind": "contracted_IT_capacity",
+          "period": null,
+          "sourceIds": [
+            "gm-hamar"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 150,
+          "unit": "MW",
+          "kind": "planned_maximum_IT_capacity",
+          "period": null,
+          "sourceIds": [
+            "gm-hamar"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "area",
+          "value": 280000,
+          "unit": "m2",
+          "kind": "potential_campus_area",
+          "period": null,
+          "sourceIds": [
+            "gm-hamar"
+          ],
+          "confidence": "middels",
+          "reason": "Operatørens potensielle campusareal; ikke målt nedbygd natur.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "jobs",
+          "value": 200,
+          "unit": "persons",
+          "kind": "more_than_current_workplace_count",
+          "period": null,
+          "sourceIds": [
+            "gm-hamar"
+          ],
+          "confidence": "middels",
+          "reason": "Operatør oppgir mer enn 200; ikke antall direkte ansatte eller årsverk.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "value_creation",
+          "value": 6100000000,
+          "unit": "NOK",
+          "kind": "modelled_construction_gross_value_added",
+          "period": "Byggefase første tre bygg, inkludert forventede 2025–2026-utgifter",
+          "sourceIds": [
+            "hamar-menon-full"
+          ],
+          "confidence": "lav",
+          "reason": "5,7 mrd beregnet fra gjennomførte investeringer + 0,4 mrd prognose. Ekskluderer TikToks egne investeringer. Ikke realisert netto eller årlig gevinst.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "sourceLocators": {
+            "hamar-menon-full": "side 5"
+          },
+          "publishAsFact": true
+        },
+        {
+          "field": "nature",
+          "value": "Tilrettelagt for varmegjenvinning; faktisk utnyttet varme ikke dokumentert her.",
+          "unit": null,
+          "kind": "operator_design_claim",
+          "period": null,
+          "sourceIds": [
+            "gm-hamar"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 110,
+          "unit": "MW",
+          "kind": "reported_total_power_capacity",
+          "period": "rapport august 2025",
+          "sourceIds": [
+            "hamar-menon-full"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "sourceLocators": {
+            "hamar-menon-full": "side 8, faktaboks"
+          },
+          "publishAsFact": true
+        },
+        {
+          "field": "area",
+          "value": 139000,
+          "unit": "m2",
+          "kind": "reported_site_size_first_three_buildings",
+          "period": "rapport august 2025",
+          "sourceIds": [
+            "hamar-menon-full"
+          ],
+          "confidence": "middels",
+          "reason": "Rapportens tomtestørrelse for eksisterende utbygging, ikke faktisk naturtap. Må avstemmes mot 280 000 m2 potensielt campus på nettsiden.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "sourceLocators": {
+            "hamar-menon-full": "side 8, faktaboks"
+          },
+          "publishAsFact": true
+        },
+        {
+          "field": "jobs",
+          "value": 220,
+          "unit": "persons",
+          "kind": "reported_regular_workplace_count",
+          "period": "rapport august 2025",
+          "sourceIds": [
+            "hamar-menon-full"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "sourceLocators": {
+            "hamar-menon-full": "side 8, faktaboks"
+          },
+          "publishAsFact": true
+        },
+        {
+          "field": "plan_extent",
+          "value": "Detaljreguleringsplan for Heggvin næringspark",
+          "unit": null,
+          "kind": "regulatory_plan_area_not_actual_land_take",
+          "period": "2022-04-27T00:00:00",
+          "sourceIds": [
+            "plan-hamar"
+          ],
+          "confidence": "middels",
+          "reason": "Reell digital plangrense fra kommunalt register. Polygon er ikke arealbeslag.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        }
+      ],
+      "gaps": [
+        "Faktisk årlig kraftbruk (målt TWh og år) mangler.",
+        "Faktisk nedbygd areal med måledato og metode mangler.",
+        "Eiendomseier og endelig reell eier er ikke kontrollert mot full eierkjede.",
+        "Planomriss hentet; gjeldende revisjon, formålsflater, eiendomsavgrensning og faktisk nedbygging må fortsatt kvalitetssikres."
+      ],
+      "statusType": "reported_or_historical; see status claim period and source",
+      "statusVerifiedAsCurrent": false
+    },
+    {
+      "id": "rennesoy",
+      "name": "Green Mountain SVG-Rennesøy",
+      "municipality": "Stavanger",
+      "status": "I drift",
+      "coordinates": {
+        "lat": 59.06854209888397,
+        "lon": 5.758031501966236,
+        "crs": "EPSG:4258",
+        "kind": "address_point",
+        "address": "Hodneveien 260",
+        "sourceIds": [
+          "gm-contact",
+          "kartverket-hodneveien-260"
+        ],
+        "confidence": "middels",
+        "method": "Eksakt adresse og kommune matchet i Kartverkets adresse-API. Adresse knyttet til anlegget via oppgitt kilde.",
+        "reason": "Dokumentert adressepunkt; stedfestingverifisert=false i registeret. Punktet er ikke eiendomsgrense eller anleggets sentrum. EPSG:4258 er bevart; ingen statistisk presisjon er oppgitt.",
+        "rawFile": "research/raw/Hodneveien-260.json"
+      },
+      "geometry": {
+        "type": null,
+        "coordinates": null,
+        "sourceIds": [],
+        "planReferences": [],
+        "status": "Kunnskapshull: ingen validert digital avgrensning"
+      },
+      "claims": [
+        {
+          "field": "status",
+          "value": "I drift",
+          "unit": null,
+          "kind": "reported_status",
+          "period": "2025",
+          "sourceIds": [
+            "gm-2025"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {
+            "gm-2025": "Prosjektbeskrivelse / status; se oppgitt periode"
+          }
+        },
+        {
+          "field": "ownership",
+          "value": "Green Mountain; Azrieli Group oppgis som konserneier",
+          "unit": null,
+          "kind": "reported_group_owner",
+          "period": "2021 acquisition; current webpage undated",
+          "sourceIds": [
+            "gm-owner"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "municipality",
+          "value": "Stavanger",
+          "unit": null,
+          "kind": "location",
+          "period": null,
+          "sourceIds": [
+            "gm-rennesoy"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 25,
+          "unit": "MW",
+          "kind": "maximum_IT_capacity",
+          "period": null,
+          "sourceIds": [
+            "gm-rennesoy"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "area",
+          "value": 144700,
+          "unit": "m2",
+          "kind": "reported_site_area",
+          "period": null,
+          "sourceIds": [
+            "gm-three"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "area",
+          "value": 23000,
+          "unit": "m2",
+          "kind": "reported_available_mountain_hall_space",
+          "period": null,
+          "sourceIds": [
+            "gm-rennesoy"
+          ],
+          "confidence": "middels",
+          "reason": "Kilden kaller dette både campus footprint og tilgjengelig areal i fjellhaller. Ikke tolket som nedbygd overflate.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "jobs",
+          "value": 80,
+          "unit": "persons",
+          "kind": "regular_workplace_count",
+          "period": "2024",
+          "sourceIds": [
+            "rennesoy-economy"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "value_creation",
+          "value": 2300000000,
+          "unit": "NOK",
+          "kind": "modelled_cumulative_gross_value_added",
+          "period": "2011–2024",
+          "sourceIds": [
+            "rennesoy-economy"
+          ],
+          "confidence": "lav",
+          "reason": "Kumulativ ringvirkningsmodell inkludert investering/drift; 2024 delvis budsjett. Ikke årlig verdi.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "nature",
+          "value": "Gjenbruk av tidligere NATO-fjellhaller; fjordkjøling.",
+          "unit": null,
+          "kind": "reported_site_characteristics",
+          "period": null,
+          "sourceIds": [
+            "gm-rennesoy"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        }
+      ],
+      "gaps": [
+        "Faktisk årlig kraftbruk (målt TWh og år) mangler.",
+        "Faktisk nedbygd areal med måledato og metode mangler.",
+        "Validert planpolygon, bygningsfotavtrykk og naturtypeoverlegg mangler.",
+        "Eiendomseier og endelig reell eier er ikke kontrollert mot full eierkjede."
+      ],
+      "statusType": "reported_or_historical; see status claim period and source",
+      "statusVerifiedAsCurrent": false
+    },
+    {
+      "id": "rjukan",
+      "name": "Green Mountain TEL-Rjukan",
+      "municipality": "Tinn",
+      "status": "I drift",
+      "coordinates": {
+        "lat": 59.88108325483751,
+        "lon": 8.669421227037606,
+        "crs": "EPSG:4258",
+        "kind": "address_point",
+        "address": "Svaddevegen 161",
+        "sourceIds": [
+          "gm-contact",
+          "kartverket-svaddevegen-161"
+        ],
+        "confidence": "middels",
+        "method": "Eksakt adresse og kommune matchet i Kartverkets adresse-API. Adresse knyttet til anlegget via oppgitt kilde.",
+        "reason": "Dokumentert adressepunkt; stedfestingverifisert=false i registeret. Punktet er ikke eiendomsgrense eller anleggets sentrum. EPSG:4258 er bevart; ingen statistisk presisjon er oppgitt.",
+        "rawFile": "research/raw/Svaddevegen-161.json"
+      },
+      "geometry": {
+        "type": null,
+        "coordinates": null,
+        "sourceIds": [],
+        "planReferences": [],
+        "status": "Kunnskapshull: ingen validert digital avgrensning"
+      },
+      "claims": [
+        {
+          "field": "status",
+          "value": "I drift",
+          "unit": null,
+          "kind": "reported_status",
+          "period": "2025",
+          "sourceIds": [
+            "gm-2025"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {
+            "gm-2025": "Prosjektbeskrivelse / status; se oppgitt periode"
+          }
+        },
+        {
+          "field": "ownership",
+          "value": "Green Mountain; Azrieli Group oppgis som konserneier",
+          "unit": null,
+          "kind": "reported_group_owner",
+          "period": "2021 acquisition; current webpage undated",
+          "sourceIds": [
+            "gm-owner"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "municipality",
+          "value": "Tinn",
+          "unit": null,
+          "kind": "location",
+          "period": null,
+          "sourceIds": [
+            "gm-rjukan"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 40,
+          "unit": "MW",
+          "kind": "design_capacity",
+          "period": "2025",
+          "sourceIds": [
+            "gm-2025"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 50,
+          "unit": "MW",
+          "kind": "potential_maximum_IT_capacity",
+          "period": null,
+          "sourceIds": [
+            "gm-rjukan"
+          ],
+          "confidence": "middels",
+          "reason": "Operatørens nyere udaterte nettside; kan ikke likestilles med 40 MW designkapasitet for 2025.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "area",
+          "value": 29000,
+          "unit": "m2",
+          "kind": "reported_campus_area",
+          "period": null,
+          "sourceIds": [
+            "gm-rjukan"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "nature",
+          "value": "Luftkjøling; klargjort for varmegjenvinning.",
+          "unit": null,
+          "kind": "operator_design_claim",
+          "period": null,
+          "sourceIds": [
+            "gm-rjukan"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        }
+      ],
+      "gaps": [
+        "Faktisk årlig kraftbruk (målt TWh og år) mangler.",
+        "Faktisk nedbygd areal med måledato og metode mangler.",
+        "Validert planpolygon, bygningsfotavtrykk og naturtypeoverlegg mangler.",
+        "Eiendomseier og endelig reell eier er ikke kontrollert mot full eierkjede.",
+        "40 MW design i rapport for 2025 og 50 MW potensial på nettside må avstemmes; dette er ikke et statistisk intervall."
+      ],
+      "statusType": "reported_or_historical; see status claim period and source",
+      "statusVerifiedAsCurrent": false
+    },
+    {
+      "id": "enebakk",
+      "name": "Green Mountain OSL-Enebakk",
+      "municipality": "Enebakk",
+      "status": "I drift",
+      "coordinates": {
+        "lat": 59.75739221276422,
+        "lon": 10.99371918458457,
+        "crs": "EPSG:4258",
+        "kind": "address_point",
+        "address": "Granittveien 110",
+        "sourceIds": [
+          "gm-contact",
+          "kartverket-granittveien-110"
+        ],
+        "confidence": "middels",
+        "method": "Eksakt adresse og kommune matchet i Kartverkets adresse-API. Adresse knyttet til anlegget via oppgitt kilde.",
+        "reason": "Dokumentert adressepunkt; stedfestingverifisert=false i registeret. Punktet er ikke eiendomsgrense eller anleggets sentrum. EPSG:4258 er bevart; ingen statistisk presisjon er oppgitt.",
+        "rawFile": "research/raw/Granittveien-110.json"
+      },
+      "geometry": {
+        "type": null,
+        "coordinates": null,
+        "sourceIds": [],
+        "planReferences": [],
+        "status": "Kunnskapshull: ingen validert digital avgrensning"
+      },
+      "claims": [
+        {
+          "field": "status",
+          "value": "I drift",
+          "unit": null,
+          "kind": "reported_status",
+          "period": "2025",
+          "sourceIds": [
+            "gm-2025"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {
+            "gm-2025": "Prosjektbeskrivelse / status; se oppgitt periode"
+          }
+        },
+        {
+          "field": "ownership",
+          "value": "Green Mountain; Azrieli Group oppgis som konserneier",
+          "unit": null,
+          "kind": "reported_group_owner",
+          "period": "2021 acquisition; current webpage undated",
+          "sourceIds": [
+            "gm-owner"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "municipality",
+          "value": "Enebakk",
+          "unit": null,
+          "kind": "location",
+          "period": null,
+          "sourceIds": [
+            "gm-enebakk"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 75,
+          "unit": "MW",
+          "kind": "headline_total_IT_capacity",
+          "period": null,
+          "sourceIds": [
+            "gm-enebakk"
+          ],
+          "confidence": "lav",
+          "reason": "Samme side oppgir også 93 MW maksimum og 94 MW line-of-sight; definisjonene er ikke avstemt.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 93,
+          "unit": "MW",
+          "kind": "maximum_capacity",
+          "period": null,
+          "sourceIds": [
+            "gm-enebakk"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 94,
+          "unit": "MW",
+          "kind": "line_of_sight_capacity",
+          "period": null,
+          "sourceIds": [
+            "gm-enebakk"
+          ],
+          "confidence": "lav",
+          "reason": "Operatørens eget begrep; ingen realiseringsgaranti.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "area",
+          "value": 72200,
+          "unit": "m2",
+          "kind": "reported_acquired_site_area",
+          "period": null,
+          "sourceIds": [
+            "gm-enebakk"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "area",
+          "value": 81205,
+          "unit": "m2",
+          "kind": "reported_site_area_in_economic_summary",
+          "period": null,
+          "sourceIds": [
+            "gm-three"
+          ],
+          "confidence": "lav",
+          "reason": "Avviker fra 72 200 m2 nettside. Ulik avgrensning eller tidspunkt ikke avklart.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "jobs",
+          "value": 98,
+          "unit": "persons",
+          "kind": "regular_workplace_count",
+          "period": null,
+          "sourceIds": [
+            "gm-three"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "nature",
+          "value": "Klargjort for varmegjenvinning; faktisk leveranse ikke dokumentert her.",
+          "unit": null,
+          "kind": "operator_design_claim",
+          "period": null,
+          "sourceIds": [
+            "gm-enebakk"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        }
+      ],
+      "gaps": [
+        "Faktisk årlig kraftbruk (målt TWh og år) mangler.",
+        "Faktisk nedbygd areal med måledato og metode mangler.",
+        "Validert planpolygon, bygningsfotavtrykk og naturtypeoverlegg mangler.",
+        "Eiendomseier og endelig reell eier er ikke kontrollert mot full eierkjede.",
+        "Effektdefinisjoner 75/93/94 MW og arealavvik 72 200/81 205 m2 trenger avklaring; ikke slå sammen til konfidensintervaller."
+      ],
+      "statusType": "reported_or_historical; see status claim period and source",
+      "statusVerifiedAsCurrent": false
+    },
+    {
+      "id": "undheim",
+      "name": "Green Mountain SVG-Undheim",
+      "municipality": "Time",
+      "status": "Under bygging ifølge operatør; planlagt ferdigstillelse 2028",
+      "coordinates": null,
+      "geometry": {
+        "type": null,
+        "coordinates": null,
+        "sourceIds": [],
+        "planReferences": [],
+        "status": "Kunnskapshull: ingen validert digital avgrensning"
+      },
+      "claims": [
+        {
+          "field": "status",
+          "value": "Under bygging ifølge operatør; planlagt ferdigstillelse 2028",
+          "unit": null,
+          "kind": "reported_status",
+          "period": null,
+          "sourceIds": [
+            "gm-undheim"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {
+            "gm-undheim": "Prosjektbeskrivelse / status; se oppgitt periode"
+          }
+        },
+        {
+          "field": "ownership",
+          "value": "Green Mountain; Azrieli Group oppgis som konserneier",
+          "unit": null,
+          "kind": "reported_group_owner",
+          "period": "2021 acquisition; current webpage undated",
+          "sourceIds": [
+            "gm-owner"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "municipality",
+          "value": "Time",
+          "unit": null,
+          "kind": "location",
+          "period": null,
+          "sourceIds": [
+            "gm-undheim"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 80,
+          "unit": "MW",
+          "kind": "planned_IT_capacity",
+          "period": "full completion planned 2028",
+          "sourceIds": [
+            "gm-undheim"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 100,
+          "unit": "MW",
+          "kind": "planned_site_capacity",
+          "period": "full completion planned 2028",
+          "sourceIds": [
+            "gm-undheim"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "area",
+          "value": 76000,
+          "unit": "m2",
+          "kind": "reported_campus_area",
+          "period": null,
+          "sourceIds": [
+            "gm-undheim"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "jobs",
+          "value": 100,
+          "unit": "persons",
+          "kind": "approximately_forecast_regular_workplace_count",
+          "period": "future operations",
+          "sourceIds": [
+            "gm-undheim"
+          ],
+          "confidence": "lav",
+          "reason": "Operatørprognose, ikke observerte arbeidsplasser.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "nature",
+          "value": "Design for luft- og væskekjøling samt mottakere av overskuddsvarme.",
+          "unit": null,
+          "kind": "operator_design_claim",
+          "period": "planned",
+          "sourceIds": [
+            "gm-undheim"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        }
+      ],
+      "gaps": [
+        "Faktisk årlig kraftbruk (målt TWh og år) mangler.",
+        "Faktisk nedbygd areal med måledato og metode mangler.",
+        "Validert planpolygon, bygningsfotavtrykk og naturtypeoverlegg mangler.",
+        "Eiendomseier og endelig reell eier er ikke kontrollert mot full eierkjede."
+      ],
+      "statusType": "reported_or_historical; see status claim period and source",
+      "statusVerifiedAsCurrent": false
+    },
+    {
+      "id": "gromstul",
+      "name": "Google / WS Computing – Gromstul",
+      "municipality": "Skien",
+      "status": "Byggestart dokumentert 2024; søknad byggetrinn 2 i august 2025. Drift ikke bekreftet.",
+      "coordinates": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.537731197091905,
+              59.26679127442118
+            ],
+            [
+              9.537653332629885,
+              59.26678153785934
+            ],
+            [
+              9.537511840210705,
+              59.26676380191688
+            ],
+            [
+              9.53740040498977,
+              59.26674989316826
+            ],
+            [
+              9.53722077148025,
+              59.26672737507584
+            ],
+            [
+              9.537179114906559,
+              59.26672215866993
+            ],
+            [
+              9.536649181530443,
+              59.26665582304211
+            ],
+            [
+              9.536605415999722,
+              59.26665034573168
+            ],
+            [
+              9.536446876227174,
+              59.26663052358066
+            ],
+            [
+              9.536160203413505,
+              59.266594615089765
+            ],
+            [
+              9.53587827707168,
+              59.26655931506605
+            ],
+            [
+              9.53427883114297,
+              59.26635906819506
+            ],
+            [
+              9.533526218743647,
+              59.2662648061804
+            ],
+            [
+              9.53351971468266,
+              59.26626393478609
+            ],
+            [
+              9.533289819144233,
+              59.266235151299036
+            ],
+            [
+              9.533053245950505,
+              59.266205586504725
+            ],
+            [
+              9.53304797255799,
+              59.26620488965762
+            ],
+            [
+              9.530254109091214,
+              59.26585501409607
+            ],
+            [
+              9.52254842240353,
+              59.26547333703958
+            ],
+            [
+              9.516430362745654,
+              59.26587860884385
+            ],
+            [
+              9.516091036852538,
+              59.265943356292645
+            ],
+            [
+              9.515974582233266,
+              59.26597956003509
+            ],
+            [
+              9.51590998241208,
+              59.26599966281659
+            ],
+            [
+              9.514319396030249,
+              59.26649395322827
+            ],
+            [
+              9.512585552157535,
+              59.26784785744893
+            ],
+            [
+              9.51210782627044,
+              59.27108269621333
+            ],
+            [
+              9.511790640076615,
+              59.273329052655505
+            ],
+            [
+              9.510762182926909,
+              59.274949568844434
+            ],
+            [
+              9.507947055628298,
+              59.27627962560709
+            ],
+            [
+              9.500617623875113,
+              59.27714426499543
+            ],
+            [
+              9.500678372554914,
+              59.27763678726421
+            ],
+            [
+              9.500683952572052,
+              59.277682206749766
+            ],
+            [
+              9.500816819535302,
+              59.27875997512179
+            ],
+            [
+              9.504879239006328,
+              59.2805403739241
+            ],
+            [
+              9.504847055075821,
+              59.28097434283
+            ],
+            [
+              9.504780371502129,
+              59.281875696661025
+            ],
+            [
+              9.504732996416594,
+              59.28251663316799
+            ],
+            [
+              9.5037344393106,
+              59.28620246944454
+            ],
+            [
+              9.503239719581575,
+              59.2883596804574
+            ],
+            [
+              9.507803043474883,
+              59.28897634652845
+            ],
+            [
+              9.516320107557304,
+              59.28691248164356
+            ],
+            [
+              9.52134423914644,
+              59.28407405221642
+            ],
+            [
+              9.521923845898653,
+              59.283746549566914
+            ],
+            [
+              9.522120358893028,
+              59.283548102699385
+            ],
+            [
+              9.522146454422792,
+              59.283521595623895
+            ],
+            [
+              9.52307506271366,
+              59.282583814970025
+            ],
+            [
+              9.52374652816999,
+              59.28258372081753
+            ],
+            [
+              9.523749802112473,
+              59.282522640718696
+            ],
+            [
+              9.524067211994627,
+              59.28158156166543
+            ],
+            [
+              9.524355068709971,
+              59.281310451214416
+            ],
+            [
+              9.52525234375997,
+              59.28051098945318
+            ],
+            [
+              9.526065155550143,
+              59.280086167106994
+            ],
+            [
+              9.526054578739076,
+              59.27998068970244
+            ],
+            [
+              9.528059330326913,
+              59.27867598075147
+            ],
+            [
+              9.528149111084897,
+              59.27861508851495
+            ],
+            [
+              9.528233508993523,
+              59.27855790002912
+            ],
+            [
+              9.528377817441012,
+              59.27846005644886
+            ],
+            [
+              9.529511321119303,
+              59.27770783085842
+            ],
+            [
+              9.531345025875586,
+              59.27593803966047
+            ],
+            [
+              9.531591360065077,
+              59.27570021996577
+            ],
+            [
+              9.531771090882106,
+              59.27551233365136
+            ],
+            [
+              9.531772991473957,
+              59.275510439996445
+            ],
+            [
+              9.531877099985719,
+              59.27540162083059
+            ],
+            [
+              9.532048159572906,
+              59.2751529719056
+            ],
+            [
+              9.532114295579902,
+              59.27487089523472
+            ],
+            [
+              9.53211545229358,
+              59.2748663104798
+            ],
+            [
+              9.532127786001874,
+              59.2748133652436
+            ],
+            [
+              9.532128610022083,
+              59.27480994930621
+            ],
+            [
+              9.532226180904548,
+              59.27442851014845
+            ],
+            [
+              9.532316299039607,
+              59.2740643438173
+            ],
+            [
+              9.532323071955092,
+              59.27403737478369
+            ],
+            [
+              9.532619377737156,
+              59.27338292527388
+            ],
+            [
+              9.532702462166675,
+              59.273164270667195
+            ],
+            [
+              9.532761861975766,
+              59.27287835952
+            ],
+            [
+              9.532793681453144,
+              59.27251164731478
+            ],
+            [
+              9.532838028842713,
+              59.272306801362646
+            ],
+            [
+              9.532883028686168,
+              59.27206513286397
+            ],
+            [
+              9.5329657003716,
+              59.2717754443419
+            ],
+            [
+              9.53305148463573,
+              59.271550312465756
+            ],
+            [
+              9.533083157101403,
+              59.271432718479446
+            ],
+            [
+              9.533201873187021,
+              59.27109214263872
+            ],
+            [
+              9.533270258608434,
+              59.270876511308025
+            ],
+            [
+              9.533634894305262,
+              59.27030888960351
+            ],
+            [
+              9.53424900621932,
+              59.26966408916102
+            ],
+            [
+              9.534544816325008,
+              59.26944186606982
+            ],
+            [
+              9.534543840521243,
+              59.26935718436694
+            ],
+            [
+              9.534818270267797,
+              59.26908071663547
+            ],
+            [
+              9.535088926061965,
+              59.268776424391014
+            ],
+            [
+              9.535344133928705,
+              59.26852769430749
+            ],
+            [
+              9.535690095555175,
+              59.26823817829005
+            ],
+            [
+              9.536268095636801,
+              59.26785655417213
+            ],
+            [
+              9.536711516138675,
+              59.26759653886713
+            ],
+            [
+              9.536969431873102,
+              59.267365126626345
+            ],
+            [
+              9.537252209590545,
+              59.2671754602242
+            ],
+            [
+              9.537335186190074,
+              59.26711988797155
+            ],
+            [
+              9.537386220830978,
+              59.26708564139411
+            ],
+            [
+              9.537664568995122,
+              59.26687120628142
+            ],
+            [
+              9.537731197091905,
+              59.26679127442118
+            ]
+          ]
+        ],
+        "sourceIds": [
+          "plan-gromstul"
+        ],
+        "planReferences": [
+          {
+            "description": "Gromstul gbnr 11/1, bystyresak 75/18",
+            "effectiveDate": "2018-05-31",
+            "url": "https://opengov.360online.com/Meetings/skien/Meetings/Details/819161?agendaItemId=222580",
+            "sourceIds": [
+              "gromstul-plan"
+            ]
+          },
+          {
+            "planId": "2026008",
+            "description": "Fjellimellomdalen massedeponi: tilknyttet tiltak, ikke datasentertomt",
+            "sourceIds": [
+              "gromstul-deponi"
+            ]
+          }
+        ],
+        "status": "Hentet kommunalt planomriss; ringlukking kontrollert. Ikke full planjuridisk eller landmålingsmessig validering.",
+        "kind": "regulatory_plan_extent",
+        "planId": "2017004",
+        "effectiveDate": "2018-05-31T00:00:00",
+        "lastProcessedAt": null,
+        "confidence": "middels",
+        "crs": "Geografisk lon/lat som publisert for kartvisning; tolket som GeoJSON/WGS84 etter registerets frontend, EPSG ikke oppgitt i API-responsen.",
+        "method": "Eksakt plan-ID hentet via offentlig planomriss-endepunkt. x/y overført uendret til GeoJSON [lon,lat], samme metode som registerets frontend. Ingen håndtegning, simplifisering eller arealberegning.",
+        "limitation": "Hele planområdet; kan omfatte vei, grøntareal og flere virksomheter. Ikke datasenterets fotavtrykk eller faktisk nedbygd natur.",
+        "dataUrl": "https://api.arealplaner.no/api/gi/kunder/skien4003/planomraader/4003/2017004"
+      },
+      "claims": [
+        {
+          "field": "status",
+          "value": "Byggestart dokumentert 2024; søknad byggetrinn 2 i august 2025. Drift ikke bekreftet.",
+          "unit": null,
+          "kind": "documented_historical_status",
+          "period": "2024–2025",
+          "sourceIds": [
+            "skien-timeline"
+          ],
+          "confidence": "høy",
+          "reason": "Kommunal prosjektkronologi; dagens driftsstatus er ikke avklart.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {
+            "skien-timeline": "Prosjektbeskrivelse / status; se oppgitt periode"
+          }
+        },
+        {
+          "field": "municipality",
+          "value": "Skien",
+          "unit": null,
+          "kind": "location",
+          "period": null,
+          "sourceIds": [
+            "skien-timeline"
+          ],
+          "confidence": "høy",
+          "reason": "Kommunal prosjektkilde.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "ownership",
+          "value": "Tomtekjøper WS Computing AS, Google-selskap; Google er del av Alphabet.",
+          "unit": null,
+          "kind": "reported_group_owner",
+          "period": "2019 acquisition / 2024 statement",
+          "sourceIds": [
+            "skien-timeline",
+            "google-release"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "area",
+          "value": 2000000,
+          "unit": "m2",
+          "kind": "approximately_purchased_plot_area",
+          "period": "2019",
+          "sourceIds": [
+            "skien-timeline"
+          ],
+          "confidence": "høy",
+          "reason": "Nær 2000 mål tomt; ikke faktisk nedbygd areal.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "area",
+          "value": 3000000,
+          "unit": "m2",
+          "kind": "approximately_regulated_total_area",
+          "period": "2018",
+          "sourceIds": [
+            "skien-timeline"
+          ],
+          "confidence": "høy",
+          "reason": "Nær 3000 mål reguleringsområde; videre avgrensning ikke hentet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 240,
+          "unit": "MW",
+          "kind": "allocated_capacity_operator_statement",
+          "period": "2024-02-07 first phase",
+          "sourceIds": [
+            "google-release"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 50,
+          "unit": "MW",
+          "kind": "historical_permitted_connection",
+          "period": "2020-11-23",
+          "sourceIds": [
+            "gromstul-nve"
+          ],
+          "confidence": "høy",
+          "reason": "NVE beskriver denne nettkonsesjonsendringen; ikke påstand om dagens samlede anleggskapasitet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "value_creation",
+          "value": 6700000000,
+          "unit": "NOK",
+          "kind": "forecast_construction_gross_value_added",
+          "period": "2024–2025",
+          "sourceIds": [
+            "google-release"
+          ],
+          "confidence": "lav",
+          "reason": "Deloitte-modell bestilt av Google, sitert i pressemelding. Ikke realisert eller netto verdi.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "nature",
+          "value": "Planlagt massedeponi fra byggetrinn 1: ca. 500 000 m3. Varslingsområde omfatter skog, bekker og grøftet myr; konsekvensutredning kreves.",
+          "unit": null,
+          "kind": "municipal_planning_notice",
+          "period": "2026 planning notice",
+          "sourceIds": [
+            "gromstul-deponi"
+          ],
+          "confidence": "høy",
+          "reason": "Dokumentert utredningsbehov og tiltak, ikke ferdig vurdering av faktisk naturtap.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "plan_extent",
+          "value": "Reguleringsplan for gbnr. 11/1 - datasenter Gromstul",
+          "unit": null,
+          "kind": "regulatory_plan_area_not_actual_land_take",
+          "period": "2018-05-31T00:00:00",
+          "sourceIds": [
+            "plan-gromstul"
+          ],
+          "confidence": "middels",
+          "reason": "Reell digital plangrense fra kommunalt register. Polygon er ikke arealbeslag.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        }
+      ],
+      "gaps": [
+        "Faktisk årlig kraftbruk (målt TWh og år) mangler.",
+        "Faktisk nedbygd areal med måledato og metode mangler.",
+        "Eiendomseier og endelig reell eier er ikke kontrollert mot full eierkjede.",
+        "240 MW fra operatør er ikke kontrollert mot gjeldende nettilknytningsavtale.",
+        "2026 var en forventet driftsstart i 2024; faktisk oppstart må verifiseres.",
+        "Planomriss hentet; gjeldende revisjon, formålsflater, eiendomsavgrensning og faktisk nedbygging må fortsatt kvalitetssikres."
+      ],
+      "statusType": "reported_or_historical; see status claim period and source",
+      "statusVerifiedAsCurrent": false
+    },
+    {
+      "id": "n01",
+      "name": "Bulk N01 Campus – Støleheia",
+      "municipality": "Vennesla",
+      "status": "Drift og utbygging dokumentert i rapport for Q4 2025",
+      "coordinates": {
+        "lat": 58.25757326329835,
+        "lon": 7.892050117139653,
+        "crs": "EPSG:4258",
+        "kind": "address_point",
+        "address": "Stølevegen 39",
+        "sourceIds": [
+          "bulk-address",
+          "kartverket-stølevegen-39"
+        ],
+        "confidence": "middels",
+        "method": "Eksakt adresse og kommune matchet i Kartverkets adresse-API. Adresse knyttet til anlegget via oppgitt kilde.",
+        "reason": "Dokumentert adressepunkt; stedfestingverifisert=false i registeret. Punktet er ikke eiendomsgrense eller anleggets sentrum. EPSG:4258 er bevart; ingen statistisk presisjon er oppgitt.",
+        "rawFile": "research/raw/Stølevegen-39.json"
+      },
+      "geometry": {
+        "type": null,
+        "coordinates": null,
+        "sourceIds": [],
+        "planReferences": [],
+        "status": "Kunnskapshull: ingen validert digital avgrensning"
+      },
+      "claims": [
+        {
+          "field": "municipality",
+          "value": "Vennesla",
+          "unit": null,
+          "kind": "location",
+          "period": null,
+          "sourceIds": [
+            "n01-va"
+          ],
+          "confidence": "høy",
+          "reason": "Kommunens utbyggingsavtale.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "status",
+          "value": "Drift og utbygging dokumentert i rapport for Q4 2025",
+          "unit": null,
+          "kind": "reported_status",
+          "period": "Q4 2025",
+          "sourceIds": [
+            "bulk-q4"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {
+            "bulk-q4": "Prosjektbeskrivelse / status; se oppgitt periode"
+          }
+        },
+        {
+          "field": "power",
+          "value": 1000,
+          "unit": "MW",
+          "kind": "marketed_potential_site_capacity",
+          "period": null,
+          "sourceIds": [
+            "n01-site"
+          ],
+          "confidence": "lav",
+          "reason": "Markedsført skaleringspotensial; ikke forbruk eller bekreftet nettilknytning. Side ble kun tilgjengelig som søkeuttrekk.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": false,
+          "sourceLocators": {},
+          "access": "search_excerpt_only"
+        },
+        {
+          "field": "power",
+          "value": 400,
+          "unit": "MW",
+          "kind": "announced_target_power_capacity",
+          "period": "target 2026 announced 2024",
+          "sourceIds": [
+            "n01-invest"
+          ],
+          "confidence": "lav",
+          "reason": "Historisk mål, ikke bekreftet levert kapasitet i 2026.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "area",
+          "value": 3000000,
+          "unit": "m2",
+          "kind": "marketed_campus_area",
+          "period": null,
+          "sourceIds": [
+            "n01-site"
+          ],
+          "confidence": "lav",
+          "reason": "3 km2 markedsført campus; kun søkeuttrekk tilgjengelig, ingen avgrensningskontroll.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": false,
+          "sourceLocators": {},
+          "access": "search_excerpt_only"
+        },
+        {
+          "field": "ownership",
+          "value": {
+            "Bulk Industrier AS": 35.8,
+            "BGO Europe IV": 30.8,
+            "BGO King HoldCo": 15.2,
+            "Geveran Trading Co. Ltd.": 7.8,
+            "others": 10.5
+          },
+          "unit": "%",
+          "kind": "reported_group_shareholding",
+          "period": "2025-12",
+          "sourceIds": [
+            "bulk-owner"
+          ],
+          "confidence": "middels",
+          "reason": "Selskapets eieroversikt, avrundet; sum 100,1 %. Ikke matrikkelens tomteeier.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "nature",
+          "value": "Kommunal utbyggingsavtale for VA-anlegg lagt ut på høring.",
+          "unit": null,
+          "kind": "planning_process",
+          "period": "2026-03-10 decision",
+          "sourceIds": [
+            "n01-va"
+          ],
+          "confidence": "høy",
+          "reason": "Sier ikke hvor stort naturtap tiltaket medfører.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        }
+      ],
+      "gaps": [
+        "Faktisk årlig kraftbruk (målt TWh og år) mangler.",
+        "Faktisk nedbygd areal med måledato og metode mangler.",
+        "Validert planpolygon, bygningsfotavtrykk og naturtypeoverlegg mangler.",
+        "Eiendomseier og endelig reell eier er ikke kontrollert mot full eierkjede.",
+        "1 GW markedsføring, 400 MW 2026-mål og 2 GW ambisjon fra 2024 gjelder ulike stadier; trenger oppdatert avstemming.",
+        "Prosjektspesifikke driftsjobber og verdiskaping mangler. Konsernets 125 FTE i Q4 2025 er ikke fordelt på N01."
+      ],
+      "statusType": "reported_or_historical; see status claim period and source",
+      "statusVerifiedAsCurrent": false
+    },
+    {
+      "id": "lefdal",
+      "name": "Lefdal Mine Data Centers",
+      "municipality": "Stad",
+      "status": "Operativt anlegg ifølge operatør",
+      "coordinates": {
+        "lat": 61.93203463076023,
+        "lon": 5.506214036146013,
+        "crs": "EPSG:4258",
+        "kind": "address_point",
+        "address": "Nordfjordvegen 7300",
+        "sourceIds": [
+          "lefdal-register",
+          "kartverket-nordfjordvegen-7300"
+        ],
+        "confidence": "middels",
+        "method": "Eksakt adresse og kommune matchet i Kartverkets adresse-API. Adresse knyttet til anlegget via oppgitt kilde.",
+        "reason": "Dokumentert adressepunkt; stedfestingverifisert=false i registeret. Punktet er ikke eiendomsgrense eller anleggets sentrum. EPSG:4258 er bevart; ingen statistisk presisjon er oppgitt. Registeradresse er forretningsadresse; fysisk anleggsplassering krever egen plankontroll.",
+        "rawFile": "research/raw/Nordfjordvegen-7300.json"
+      },
+      "geometry": {
+        "type": null,
+        "coordinates": null,
+        "sourceIds": [],
+        "planReferences": [],
+        "status": "Kunnskapshull: ingen validert digital avgrensning"
+      },
+      "claims": [
+        {
+          "field": "municipality",
+          "value": "Stad",
+          "unit": null,
+          "kind": "registered_location",
+          "period": null,
+          "sourceIds": [
+            "lefdal-register"
+          ],
+          "confidence": "høy",
+          "reason": "Brønnøysundregistrenes forretningsadresse.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "status",
+          "value": "Operativt anlegg ifølge operatør",
+          "unit": null,
+          "kind": "reported_status",
+          "period": null,
+          "sourceIds": [
+            "lefdal-power"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {
+            "lefdal-power": "Prosjektbeskrivelse / status; se oppgitt periode"
+          }
+        },
+        {
+          "field": "power",
+          "value": 80,
+          "unit": "MW",
+          "kind": "available_power_capacity",
+          "period": null,
+          "sourceIds": [
+            "lefdal-power"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 20,
+          "unit": "MW",
+          "kind": "reserved_for_current_customers",
+          "period": null,
+          "sourceIds": [
+            "lefdal-power"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 200,
+          "unit": "MW",
+          "kind": "potential_facility_capacity",
+          "period": null,
+          "sourceIds": [
+            "lefdal-site"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "area",
+          "value": 120000,
+          "unit": "m2",
+          "kind": "potential_underground_whitespace",
+          "period": null,
+          "sourceIds": [
+            "lefdal-site"
+          ],
+          "confidence": "middels",
+          "reason": "Potensielt IT-gulvareal i gruve; ikke tomt eller overflateinngrep.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "ownership",
+          "value": {
+            "Columbia Threadneedle European Sustainable Infrastructure Fund": 66.67,
+            "other_named_main_shareholder": "Professor Friedhelm Loh"
+          },
+          "unit": null,
+          "kind": "superseded_ownership_webpage",
+          "period": null,
+          "sourceIds": [
+            "lefdal-owner"
+          ],
+          "confidence": "lav",
+          "reason": "Utdatert operatørside: motsies av datert 3i-sluttføringsmelding 03.09.2026.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": false,
+          "supersededBySourceIds": [
+            "lefdal-3i-close"
+          ],
+          "sourceLocators": {}
+        },
+        {
+          "field": "nature",
+          "value": "Gjenbruk av underjordisk gruve og fjordbasert kjøling.",
+          "unit": null,
+          "kind": "operator_site_characteristics",
+          "period": null,
+          "sourceIds": [
+            "lefdal-site"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "ownership",
+          "value": "3i forvalter 90 %: 3i Infrastructure litt over 45 %, medinvestorer ca. 45 %. Gjenværende minoritet 10 %.",
+          "unit": "%",
+          "kind": "completed_transaction_reported_shareholding",
+          "period": "2026-09-02",
+          "sourceIds": [
+            "lefdal-3i-close"
+          ],
+          "confidence": "høy",
+          "reason": "Datert investors sluttføringsmelding. Første kjøp 28.08.2026, tillegg 02.09.2026. Ikke uavhengig aksjeeierbok.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 37,
+          "unit": "MW",
+          "kind": "reported_operational_capacity",
+          "period": "2026-03-11",
+          "sourceIds": [
+            "lefdal-3i-agreement"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        },
+        {
+          "field": "power",
+          "value": 43,
+          "unit": "MW",
+          "kind": "contracted_capacity_under_construction",
+          "period": "2026-03-11",
+          "sourceIds": [
+            "lefdal-3i-agreement"
+          ],
+          "confidence": "middels",
+          "reason": "Partsopplysning; ikke uavhengig bekreftet.",
+          "uncertaintyType": "documented_confidence_level",
+          "confidenceInterval": null,
+          "publishAsFact": true,
+          "sourceLocators": {}
+        }
+      ],
+      "gaps": [
+        "Faktisk årlig kraftbruk (målt TWh og år) mangler.",
+        "Faktisk nedbygd areal med måledato og metode mangler.",
+        "Validert planpolygon, bygningsfotavtrykk og naturtypeoverlegg mangler.",
+        "Eiendomseier og endelig reell eier er ikke kontrollert mot full eierkjede.",
+        "Prosjektspesifikke driftsjobber og verdiskaping ikke dokumentert.",
+        "Udatert effektmelding gir ingen sikker observasjonsdato for 80 MW.",
+        "80 MW tilgjengelig nettkapasitet på udatert operatørside må holdes adskilt fra 37 MW drift / 43 MW under bygging oppgitt 11.03.2026."
+      ],
+      "statusType": "reported_or_historical; see status claim period and source",
+      "statusVerifiedAsCurrent": false
+    }
+  ]
+}

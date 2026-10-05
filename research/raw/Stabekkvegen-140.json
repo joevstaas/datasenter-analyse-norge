@@ -1,0 +1,43 @@
+{
+  "retrieved_at": "2026-10-01",
+  "source_url": "https://ws.geonorge.no/adresser/v1/sok?sok=Stabekkvegen+140&treffPerSide=10",
+  "response": {
+    "metadata": {
+      "treffPerSide": 10,
+      "side": 0,
+      "totaltAntallTreff": 1,
+      "viserFra": 0,
+      "viserTil": 10,
+      "sokeStreng": "sok=Stabekkvegen+140&treffPerSide=10",
+      "asciiKompatibel": true
+    },
+    "adresser": [
+      {
+        "adressenavn": "Stabekkvegen",
+        "adressetekst": "Stabekkvegen 140",
+        "adressetilleggsnavn": null,
+        "adressekode": 2323,
+        "nummer": 140,
+        "bokstav": "",
+        "kommunenummer": "3403",
+        "kommunenavn": "HAMAR",
+        "gardsnummer": 161,
+        "bruksnummer": 4,
+        "festenummer": 0,
+        "undernummer": null,
+        "bruksenhetsnummer": [],
+        "objtype": "Vegadresse",
+        "poststed": "VANG PÅ HEDMARKEN",
+        "postnummer": "2324",
+        "adressetekstutenadressetilleggsnavn": "Stabekkvegen 140",
+        "stedfestingverifisert": false,
+        "representasjonspunkt": {
+          "epsg": "EPSG:4258",
+          "lat": 60.84134903994555,
+          "lon": 11.267875011605103
+        },
+        "oppdateringsdato": "2024-06-27T10:12:25"
+      }
+    ]
+  }
+}

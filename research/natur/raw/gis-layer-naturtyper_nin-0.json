@@ -1,0 +1,678 @@
+{
+ "currentVersion": 10.91,
+ "id": 0,
+ "name": "naturtyper_nin_alle",
+ "type": "Feature Layer",
+ "description": "Naturtyper NiN (Alle)",
+ "geometryType": "esriGeometryPolygon",
+ "sourceSpatialReference": {
+  "wkid": 25833,
+  "latestWkid": 25833
+ },
+ "copyrightText": "Miljødirektoratet",
+ "parentLayer": null,
+ "subLayers": [],
+ "minScale": 1280001,
+ "maxScale": 0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSFS",
+    "style": "esriSFSForwardDiagonal",
+    "color": [
+     130,
+     100,
+     172,
+     255
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSSolid",
+     "color": [
+      70,
+      33,
+      110,
+      255
+     ],
+     "width": 1.5
+    }
+   },
+   "label": "Naturtyper NiN",
+   "description": ""
+  },
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": true,
+ "extent": {
+  "xmin": -76066.29289999977,
+  "ymin": 6448986.2093,
+  "xmax": 1094665.7626,
+  "ymax": 7937977.329999998,
+  "spatialReference": {
+   "wkid": 25833,
+   "latestWkid": 25833
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "NiNID",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "Områdenavn",
+   "type": "esriFieldTypeString",
+   "alias": "Områdenavn",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "Kommuner",
+   "type": "esriFieldTypeString",
+   "alias": "Kommuner",
+   "length": 60,
+   "domain": null
+  },
+  {
+   "name": "NiNID",
+   "type": "esriFieldTypeString",
+   "alias": "NiNID",
+   "length": 15,
+   "domain": null
+  },
+  {
+   "name": "Naturtype",
+   "type": "esriFieldTypeString",
+   "alias": "Naturtype",
+   "length": 70,
+   "domain": null
+  },
+  {
+   "name": "Lokalitetskvalitet",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Lokalitetskvalitet",
+   "domain": {
+    "type": "codedValue",
+    "name": "lokalitetsverdi",
+    "description": "Kvalitet på området",
+    "codedValues": [
+     {
+      "name": "Svært høy kvalitet",
+      "code": 0
+     },
+     {
+      "name": "Høy kvalitet",
+      "code": 1
+     },
+     {
+      "name": "Moderat kvalitet",
+      "code": 2
+     },
+     {
+      "name": "Lav kvalitet",
+      "code": 3
+     },
+     {
+      "name": "Svært lav kvalitet",
+      "code": 4
+     },
+     {
+      "name": "Ikke kvalitetsvurdert",
+      "code": 9
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "Tilstand",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Tilstand",
+   "domain": {
+    "type": "codedValue",
+    "name": "tilstandsvurdering",
+    "description": "",
+    "codedValues": [
+     {
+      "name": "God",
+      "code": 0
+     },
+     {
+      "name": "Moderat",
+      "code": 1
+     },
+     {
+      "name": "Dårlig",
+      "code": 2
+     },
+     {
+      "name": "Svært redusert",
+      "code": 3
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "Tilstandbeskrivelse",
+   "type": "esriFieldTypeString",
+   "alias": "Tilstandbeskrivelse",
+   "length": 2000,
+   "domain": null
+  },
+  {
+   "name": "Naturmangfold",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Naturmangfold",
+   "domain": {
+    "type": "codedValue",
+    "name": "naturmangfoldvurdering",
+    "description": "Vurdering av naturmangfold og artsmangfold",
+    "codedValues": [
+     {
+      "name": "Stort",
+      "code": 0
+     },
+     {
+      "name": "Moderat",
+      "code": 1
+     },
+     {
+      "name": "Lite",
+      "code": 2
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "Naturmangfoldbeskrivelse",
+   "type": "esriFieldTypeString",
+   "alias": "Naturmangfoldbeskrivelse",
+   "length": 2000,
+   "domain": null
+  },
+  {
+   "name": "Hovedøkosystem",
+   "type": "esriFieldTypeString",
+   "alias": "Hovedøkosystem",
+   "length": 50,
+   "domain": {
+    "type": "codedValue",
+    "name": "Hovedøkosystem",
+    "description": "Hovedøkosystem i NNF",
+    "codedValues": [
+     {
+      "name": "Fjell",
+      "code": "Fjell"
+     },
+     {
+      "name": "Ingen",
+      "code": "Ingen"
+     },
+     {
+      "name": "Naturlig åpne områder i lavlandet",
+      "code": "Naturlig åpne områder i lavlandet"
+     },
+     {
+      "name": "Naturlig åpne områder under skoggrensa",
+      "code": "Naturlig åpne områder under skoggrensa"
+     },
+     {
+      "name": "Semi-naturlig mark",
+      "code": "Semi-naturlig mark"
+     },
+     {
+      "name": "Skog",
+      "code": "Skog"
+     },
+     {
+      "name": "Våtmark",
+      "code": "Våtmark"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "Mosaikk",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Mosaikk",
+   "domain": {
+    "type": "codedValue",
+    "name": "Ja/Nei",
+    "description": "",
+    "codedValues": [
+     {
+      "name": "Nei",
+      "code": 0
+     },
+     {
+      "name": "Ja",
+      "code": 1
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "Nøyaktighet",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Nøyaktighet",
+   "domain": {
+    "type": "codedValue",
+    "name": "Nøyaktighet",
+    "description": "",
+    "codedValues": [
+     {
+      "name": "Mindre god (> 50m)",
+      "code": 1
+     },
+     {
+      "name": "God (20 - 50m)",
+      "code": 2
+     },
+     {
+      "name": "Meget god (5 - 20m)",
+      "code": 3
+     },
+     {
+      "name": "Særs god (0 - 5m)",
+      "code": 4
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "Usikkerhet",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Usikkerhet",
+   "domain": {
+    "type": "codedValue",
+    "name": "Ja/Nei",
+    "description": "",
+    "codedValues": [
+     {
+      "name": "Nei",
+      "code": 0
+     },
+     {
+      "name": "Ja",
+      "code": 1
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "Usikkerhetsbeskrivelse",
+   "type": "esriFieldTypeString",
+   "alias": "Usikkerhetsbeskrivelse",
+   "length": 2000,
+   "domain": null
+  },
+  {
+   "name": "Kartleggingsdato",
+   "type": "esriFieldTypeDate",
+   "alias": "Kartleggingsdato",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "Kartleggingsår",
+   "type": "esriFieldTypeInteger",
+   "alias": "Kartleggingsår",
+   "domain": null
+  },
+  {
+   "name": "Oppdragsgiver",
+   "type": "esriFieldTypeString",
+   "alias": "Oppdragsgiver",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "Kartlegger",
+   "type": "esriFieldTypeString",
+   "alias": "Kartlegger",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "Oppdragstaker",
+   "type": "esriFieldTypeString",
+   "alias": "Oppdragstaker",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "Kartleggingsinstruks",
+   "type": "esriFieldTypeString",
+   "alias": "Kartleggingsinstruks",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "Prosjektnavn",
+   "type": "esriFieldTypeString",
+   "alias": "Prosjektnavn",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "Naturtypekode",
+   "type": "esriFieldTypeString",
+   "alias": "Naturtypekode",
+   "length": 20,
+   "domain": null
+  },
+  {
+   "name": "NiNKartleggingsenheter",
+   "type": "esriFieldTypeString",
+   "alias": "NiNKartleggingsenheter",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "NiNBeskrivelsesvariabler",
+   "type": "esriFieldTypeString",
+   "alias": "NiNBeskrivelsesvariabler",
+   "length": 320,
+   "domain": null
+  },
+  {
+   "name": "Faktaark",
+   "type": "esriFieldTypeString",
+   "alias": "Faktaark",
+   "length": 80,
+   "domain": null
+  },
+  {
+   "name": "UK_Truet",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Utvalgskriterium Truet",
+   "domain": {
+    "type": "codedValue",
+    "name": "Ja/Nei",
+    "description": "",
+    "codedValues": [
+     {
+      "name": "Nei",
+      "code": 0
+     },
+     {
+      "name": "Ja",
+      "code": 1
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "UK_NærTruet",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Utvalgskriterium Nær truet",
+   "domain": {
+    "type": "codedValue",
+    "name": "Ja/Nei",
+    "description": "",
+    "codedValues": [
+     {
+      "name": "Nei",
+      "code": 0
+     },
+     {
+      "name": "Ja",
+      "code": 1
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "UK_SpesieltDårligKartlagt",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Utvalgskriterium Spesielt dårlig kartlagt",
+   "domain": {
+    "type": "codedValue",
+    "name": "Ja/Nei",
+    "description": "",
+    "codedValues": [
+     {
+      "name": "Nei",
+      "code": 0
+     },
+     {
+      "name": "Ja",
+      "code": 1
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "UK_SentralØkosystemFunksjon",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Utvalgskriterium Sentral økosystemfunksjon",
+   "domain": {
+    "type": "codedValue",
+    "name": "Ja/Nei",
+    "description": "",
+    "codedValues": [
+     {
+      "name": "Nei",
+      "code": 0
+     },
+     {
+      "name": "Ja",
+      "code": 1
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "UK_SeBekrivelseNaturtype",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Utvalgskriterium Se beskrivelse naturtype",
+   "domain": {
+    "type": "codedValue",
+    "name": "Ja/Nei",
+    "description": "",
+    "codedValues": [
+     {
+      "name": "Nei",
+      "code": 0
+     },
+     {
+      "name": "Ja",
+      "code": 1
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "UK_IngenStatus",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Utvalgskriterium Ingen status",
+   "domain": {
+    "type": "codedValue",
+    "name": "Ja/Nei",
+    "description": "",
+    "codedValues": [
+     {
+      "name": "Nei",
+      "code": 0
+     },
+     {
+      "name": "Ja",
+      "code": 1
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "prosjektid",
+   "type": "esriFieldTypeGUID",
+   "alias": "ProsjektID",
+   "length": 38,
+   "domain": null
+  },
+  {
+   "name": "naturomradeid",
+   "type": "esriFieldTypeGUID",
+   "alias": "naturomradeid",
+   "length": 38,
+   "domain": null
+  },
+  {
+   "name": "SHAPE",
+   "type": "esriFieldTypeGeometry",
+   "alias": "SHAPE",
+   "domain": null
+  },
+  {
+   "name": "SHAPE.STArea()",
+   "type": "esriFieldTypeDouble",
+   "alias": "SHAPE.STArea()",
+   "domain": null
+  },
+  {
+   "name": "SHAPE.STLength()",
+   "type": "esriFieldTypeDouble",
+   "alias": "SHAPE.STLength()",
+   "domain": null
+  }
+ ],
+ "geometryField": {
+  "name": "SHAPE",
+  "type": "esriFieldTypeGeometry",
+  "alias": "SHAPE"
+ },
+ "indexes": [
+  {
+   "name": "R157_pk",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "G2262Prosjektnav",
+   "fields": "Prosjektnavn",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "G2262prosjektid",
+   "fields": "prosjektid",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "G2262naturomrade",
+   "fields": "naturomradeid",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "S62_idx",
+   "fields": "SHAPE",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [
+  {
+   "id": 0,
+   "name": "NNF_Dekningskart",
+   "relatedTableId": 1,
+   "role": "esriRelRoleOrigin",
+   "keyField": "prosjektid",
+   "cardinality": "esriRelCardinalityOneToOne",
+   "composite": false
+  },
+  {
+   "id": 1,
+   "name": "NNF_Kartleggingsenheter",
+   "relatedTableId": 12,
+   "role": "esriRelRoleOrigin",
+   "keyField": "naturomradeid",
+   "cardinality": "esriRelCardinalityOneToMany",
+   "composite": false
+  },
+  {
+   "id": 2,
+   "name": "NNF_Beskrivelsesvariabler",
+   "relatedTableId": 11,
+   "role": "esriRelRoleOrigin",
+   "keyField": "naturomradeid",
+   "cardinality": "esriRelCardinalityOneToMany",
+   "composite": false
+  }
+ ],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 5000,
+ "supportsStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, geoJSON",
+ "isDataVersioned": false,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsHavingClause": true,
+  "supportsCountDistinct": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsPagination": true,
+  "supportsTrueCurve": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true
+ },
+ "supportsDatumTransformation": true,
+ "hasGeometryProperties": true,
+ "geometryProperties": {
+  "shapeAreaFieldName": "SHAPE.STArea()",
+  "shapeLengthFieldName": "SHAPE.STLength()",
+  "units": "esriMeters"
+ },
+ "dateFieldsTimeReference": null,
+ "supportsCoordinatesQuantization": true
+}

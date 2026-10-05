@@ -1,0 +1,21 @@
+{
+  "id": "grom-permit-2025",
+  "publisher": "Statsforvalteren i Vestfold og Telemark",
+  "title": "Tillatelse til virksomhet – WS Computing AS, datasenter 1 Gromstul",
+  "documentDate": "2025-08-25",
+  "accessedAt": "2026-10-05",
+  "url": "https://webfileservice.nve.no/API/PublishedFiles/Download/dddf6fda-38d1-491f-abc5-9464c85e35eb/202422995/3446684",
+  "access": "web_pdf_fulltext",
+  "locator": "s. 1–4",
+  "scope": "Datasenter 1; ikke øvrige byggetrinn eller samlet KU",
+  "downloadStatus": "Direkte lokal nedlasting mislyktes: DNS. PDF-tekst lest gjennom nettleseverktøy. Dette er kontrollnotat, ikke arkivert PDF.",
+  "findings": [
+    "Kilden omtaler registrert ildsandbie i 2022 og hagtornsommerfugl i 2009 (publisert 2021) innenfor planområdet.",
+    "Kilden beskriver overvann via oljeutskillere og fordrøyningsbasseng til Bjordamsbekken; ikke utslipp av kjølevann eller prosessavløpsvann fra dette tiltaket.",
+    "Myndigheten vurderer forurensningsulempene som akseptable med vilkår; vurderingen gjelder ikke fremtidige bygninger eller avgjør KU-plikt."
+  ],
+  "limitations": [
+    "Ikke uavhengig artsverifikasjon, mengdemåling eller effektoppfølging.",
+    "Senere endringer i tillatelsen er ikke avklart."
+  ]
+}

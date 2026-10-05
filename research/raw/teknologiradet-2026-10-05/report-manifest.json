@@ -1,0 +1,22 @@
+{
+  "reviewedAt": "2026-10-05",
+  "source": {
+    "id": "tr-report-2026-10",
+    "publisher": "Teknologirådet",
+    "title": "Datasentre i Norge – vurderinger av samfunnsnytte",
+    "url": "https://teknologiradet.no/publication/datasentre-i-norge-vurderinger-av-samfunnsnytte/",
+    "publishedAt": "2026-10-05",
+    "documentDate": "2026-10",
+    "retrievedAt": "2026-10-05",
+    "accessedAt": "2026-10-05",
+    "type": "published_analysis_report",
+    "access": "local_pdf_fulltext",
+    "localFile": "report/Datasentre-i-Norge.pdf",
+    "sha256": "9950c6e87846f762f73c31abfd232eba531b437921e775c49f6d08e4f95ade13",
+    "version": "ISBN 978-82-8400-045-9; ingen eksplisitt revisjonskode",
+    "locator": "Trykte sidetall; PDF-side = trykt side minus 2 fra trykt side 4",
+    "dateNote": "Publiseringsside datert 05.10.2026; PDF oppgir oktober 2026. Analyse, ikke kommende anbefalingsrapport."
+  },
+  "scope": "Rapport lest og sentrale figurer/fotnoter visuelt kontrollert. Underliggende 192-raders database ikke innhentet.",
+  "publicationVerifiedAt": "https://teknologiradet.no/publication/datasentre-i-norge-vurderinger-av-samfunnsnytte/"
+}
