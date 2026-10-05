@@ -107,4 +107,4 @@ Naturtypelagene vises fra zoomnivå 8; dekningskartet kan vises på oversiktsniv
 
 ## Quiz
 
-`/quiz` har 10 tilfeldige flervalgsspørsmål (av 20) om datasentre i Norge, hentet fra Teknologirådets rapport. Spørsmålene ligger i `quiz/*.json` (med side- og kapittelhenvisning), og `lib/quiz.ts` trekker og blander dem. Resultatet kan deles som lenke (`/quiz/del/<poeng>-<faktum>`) med et generert bilde: 1200×630 for lenkeforhåndsvisning (`opengraph-image`) og 1080×1350 for Instagram (`/portrett`). Test: `npx playwright test tests/quiz.spec.ts`.
+`/quiz` har 10 tilfeldige flervalgsspørsmål (av 40) om datasentre i Norge, hentet fra Teknologirådets rapport. Spørsmålene ligger i `quiz/*.json` (med side- og kapittelhenvisning), og `lib/quiz.ts` trekker og blander dem. Resultatet kan deles som lenke (`/quiz/del/<poeng>-<faktum>`) med et generert bilde: 1200×630 for lenkeforhåndsvisning (`opengraph-image`) og 1080×1350 for Instagram (`/portrett`). Test: `npx playwright test tests/quiz.spec.ts`.

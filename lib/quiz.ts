@@ -1,5 +1,6 @@
 import general from '@/quiz/datasentre-i-norge-quiz.json';
 import regulation from '@/quiz/datasentre-i-norge-quiz-reguleringer.json';
+import more from '@/quiz/datasentre-i-norge-quiz-flere.json';
 
 export const QUIZ_LENGTH = 10;
 
@@ -40,6 +41,7 @@ const prefixed = (prefix: string, items: RawQuestion[]): Question[] =>
 export const allQuestions: Question[] = [
   ...prefixed('a', general.questions as RawQuestion[]),
   ...prefixed('b', regulation.questions as RawQuestion[]),
+  ...prefixed('c', more.questions as RawQuestion[]),
 ];
 
 export const questionById = (id: string) => allQuestions.find(q => q.id === id);

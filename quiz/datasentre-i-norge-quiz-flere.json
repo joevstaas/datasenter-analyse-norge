@@ -1,0 +1,511 @@
+{
+  "title": "Datasentre i Norge – quiz, flere spørsmål",
+  "source": {
+    "report": "Datasentre i Norge: Vurderinger av samfunnsnytte",
+    "publisher": "Teknologirådet",
+    "published": "Oslo, oktober 2026",
+    "pageNumbering": "Sidetall refererer til trykt sidetall i rapporten (som i innholdsfortegnelsen), ikke PDF-sideindeks."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Globale investeringer i datasentre passerte i 2025 investeringene i en annen enorm bransje. Hvordan så sammenligningen ut?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Det ble investert om lag 580 milliarder dollar i datasentre, mer enn de 540 milliardene som gikk til ny oljeforsyning"
+        },
+        {
+          "id": "B",
+          "text": "Det ble investert om lag 58 milliarder dollar, omtrent en tiendedel av det som gikk til ny oljeforsyning"
+        },
+        {
+          "id": "C",
+          "text": "Det ble investert like mye i datasentre som i ny oljeforsyning, nesten på krone"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Mye av dette kommer fra Alphabet (Google), Amazon, Meta, Microsoft og Oracle. Rapporten melder at kapitalutgiftene til disse fem forventes å vokse med ytterligere 75 prosent i 2026.",
+      "fact": "I 2025 ble det investert ca. 580 mrd. dollar i datasentre globalt, mer enn de 540 mrd. som gikk til ny oljeforsyning.",
+      "reference": {
+        "page": "9",
+        "chapter": "En ny kraftintensiv industri → Kunstig intelligens driver utviklingen globalt"
+      }
+    },
+    {
+      "id": 2,
+      "question": "xAIs Colossus-anlegg i Memphis, USA, ble etablert på 122 dager. Hvor mange dager etter at det første serverstativet var på plass startet KI-treningen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Etter 190 dager, nesten et halvt år"
+        },
+        {
+          "id": "B",
+          "text": "Etter 60 dager"
+        },
+        {
+          "id": "C",
+          "text": "Bare 19 dager etter"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Rapporten bruker dette som ekstremt eksempel på hvor raskt et KI-treningsanlegg kan tas i bruk. Erfaringsgrunnlaget i Norge er begrenset eller ikke-eksisterende.",
+      "fact": "xAIs Colossus-anlegg ble bygget på 122 dager, og KI-treningen startet bare 19 dager etter første serverstativ.",
+      "reference": {
+        "page": "13",
+        "chapter": "En ny kraftintensiv industri → Raskt økende kraftbehov for datasentre i Norge → 92 nye datasentre siden 2019"
+      }
+    },
+    {
+      "id": 3,
+      "question": "Statnett har en kø med prosjekter som venter på å få reservert kraft. Hvor stor andel av nettkøen består av datasentre?",
+      "options": [
+        {
+          "id": "A",
+          "text": "56 prosent"
+        },
+        {
+          "id": "B",
+          "text": "6 prosent"
+        },
+        {
+          "id": "C",
+          "text": "26 prosent"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Per september 2026 står datasentre med 8 801 MW i kapasitetskø hos Statnett, over åtte ganger dagens tilknyttede kapasitet.",
+      "fact": "56 % av Statnetts nettkø, altså prosjekter som venter på å få reservert kraft, er datasentre.",
+      "reference": {
+        "page": "15",
+        "chapter": "En ny kraftintensiv industri → Raskt økende kraftbehov for datasentre i Norge → Reservert kapasitet er rundt fire ganger dagens nivå"
+      }
+    },
+    {
+      "id": 4,
+      "question": "NVE har justert anslaget for datasentrenes strømforbruk i Norge i 2030 mellom rapportene fra 2024 og 2026. Hva skjedde?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anslaget ble halvert, fra 8 TWh til 4 TWh"
+        },
+        {
+          "id": "B",
+          "text": "Anslaget ble doblet, fra 4 TWh til 8 TWh"
+        },
+        {
+          "id": "C",
+          "text": "Anslaget ble stående uendret på 4 TWh"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Til sammenligning var forbruket i 2025 på 3,3 TWh. Rapporten bruker forskjellen som et eksempel på hvor rask utviklingen er, og hvor usikre prognosene er.",
+      "fact": "NVE doblet anslaget for datasentrenes strømforbruk i 2030, fra 4 TWh (2024) til 8 TWh (2026).",
+      "reference": {
+        "page": "17",
+        "chapter": "En ny kraftintensiv industri → Datasentre og kampen om knappe kraftressurser → Kan i teorien bruke over halvparten av vannkraften"
+      }
+    },
+    {
+      "id": 5,
+      "question": "Et datasenter kan søke om og stå i kø for langt mer kapasitet enn det noen gang kommer til å bruke. Hvor lang tid legger NVE til grunn fra et datasenter reserverer kapasitet til det er i full drift?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rundt 6 til 12 måneder"
+        },
+        {
+          "id": "B",
+          "text": "Opptil to år"
+        },
+        {
+          "id": "C",
+          "text": "Åtte til ti år"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Det kan ta flere år før et datasenter fylles opp. Kunder flytter ikke nødvendigvis inn gradvis, men et KI-treningsanlegg kan tas i bruk så snart maskinvaren er installert.",
+      "fact": "NVE legger til grunn 8–10 år fra et datasenter reserverer kapasitet til det er i full drift.",
+      "reference": {
+        "page": "13",
+        "chapter": "En ny kraftintensiv industri → Raskt økende kraftbehov for datasentre i Norge → 92 nye datasentre siden 2019"
+      }
+    },
+    {
+      "id": 6,
+      "question": "Datasentre skårer høyt i kampen om nettkapasitet blant annet på rask etablering. Hvor lang tid tar det i gjennomsnitt å bygge ut et datasenter på 50 MW?",
+      "options": [
+        {
+          "id": "A",
+          "text": "18 måneder"
+        },
+        {
+          "id": "B",
+          "text": "5 år"
+        },
+        {
+          "id": "C",
+          "text": "8 uker"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Hastigheten er en konkurransefordel mot industri og forsvarsprosjekter. Samtidig tar det 8–10 år å bygge mer nettkapasitet, og leveringstiden for store transformatorer har nesten doblet seg siden 2021.",
+      "fact": "Et datasenter på 50 MW bygges i snitt ut på 18 måneder. Å bygge mer nettkapasitet tar 8–10 år.",
+      "reference": {
+        "page": "19",
+        "chapter": "En ny kraftintensiv industri → Datasentre og kampen om knappe kraftressurser → Hvorfor datasentre vinner frem i kampen om strøm"
+      }
+    },
+    {
+      "id": 7,
+      "question": "Rapporten forklarer digitale tjenester med en boligmetafor. Programvare som tjeneste (SaaS), som Microsoft 365 og Teams, tilsvarer hva?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Å leie en tom leilighet og sette opp alt selv"
+        },
+        {
+          "id": "B",
+          "text": "Å bo på hotell: du kjøper en ferdig tjeneste og gjør minst selv"
+        },
+        {
+          "id": "C",
+          "text": "Å bygge eget hus på en leid tomt"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Virtuell infrastruktur (IaaS) er å leie en tom leilighet, og plattformtjenester (PaaS) er å leie en møblert leilighet. Jo mer ferdig stedet er, desto mindre må du gjøre selv, men jo mindre kontroll har du også.",
+      "fact": "Programvare som tjeneste (SaaS), som Microsoft 365, er som å bo på hotell, ifølge rapporten.",
+      "reference": {
+        "page": "22",
+        "chapter": "Datasentre – typer, bruk og eierskap → Datasenteroperatører selger ikke alltid digitale tjenester"
+      }
+    },
+    {
+      "id": 8,
+      "question": "Et datasenterbygg har en levetid på 15–25 år. Hvor ofte skiftes tradisjonell IT-maskinvare i bygget ut?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hvert 15.–25. år, samtidig med bygget"
+        },
+        {
+          "id": "B",
+          "text": "Hvert år"
+        },
+        {
+          "id": "C",
+          "text": "Hvert tredje til femte år"
+        }
+      ],
+      "correct": "C",
+      "explanation": "GPU-er for KI-relaterte arbeidslaster skiftes ut enda oftere. Derfor kan et anleggs kraftforbruk, inntektsgrunnlag og strategiske nytteverdi endre seg over tid.",
+      "fact": "Datasenterbygg varer 15–25 år, men tradisjonell IT-maskinvare byttes hvert 3.–5. år, og GPU-er enda oftere.",
+      "reference": {
+        "page": "24",
+        "chapter": "Datasentre – typer, bruk og eierskap → Hva datasentre faktisk brukes til"
+      }
+    },
+    {
+      "id": 9,
+      "question": "Overskuddsvarme fra tradisjonell, luftkjølt sky holder bare 25–35 °C. Hvilken temperatur har varmen typisk fra vannkjølte KI-treningsanlegg, og hvorfor er det interessant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "50–60 °C, som kan gå til fjernvarme uten ekstra varmepumpe, forutsatt at det bygges infrastruktur"
+        },
+        {
+          "id": "B",
+          "text": "10–15 °C, så den må kjøles videre før den kan brukes"
+        },
+        {
+          "id": "C",
+          "text": "150–200 °C, nok til å produsere strøm direkte"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Varmepumper er en ekstra kostnad som svekker lønnsomheten i varmegjenvinning. Ettersom væskekjøling blir stadig vanligere for KI-anlegg, kan varmegjenvinning bli enklere teknisk fremover.",
+      "fact": "Varmen fra vannkjølte KI-treningsanlegg (50–60 °C) kan gå til fjernvarme uten varmepumpe. Luftkjølt sky gir bare 25–35 °C.",
+      "reference": {
+        "page": "25–26",
+        "chapter": "Datasentre – typer, bruk og eierskap → Hva datasentre faktisk brukes til → Trene opp KI-modeller – mest kraftintensivt, men fleksibelt"
+      }
+    },
+    {
+      "id": 10,
+      "question": "KI-trening er den mest kraftkrevende arbeidslasten per anlegg. Men hvilken KI-aktivitet står for 80–90 prosent av all KI-relatert strøm globalt?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Å trene opp nye KI-modeller"
+        },
+        {
+          "id": "B",
+          "text": "Å kjøle ned selve datasentrene"
+        },
+        {
+          "id": "C",
+          "text": "Å bruke ferdige modeller, såkalt inferens, for eksempel når du stiller et spørsmål til en KI-chatbot"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Ifølge McKinsey vil inferens øke med 35 prosent hvert år frem mot 2030. Siden inferens gir jevn belastning og ikke kan settes på pause, bidrar den lite til fleksibilitet i kraftsystemet.",
+      "fact": "80–90 % av all KI-strøm globalt går til å bruke ferdige modeller (inferens), ikke til opplæring.",
+      "reference": {
+        "page": "27",
+        "chapter": "Datasentre – typer, bruk og eierskap → Hva datasentre faktisk brukes til → Bruke KI-modeller – økende belastning, mindre fleksibelt"
+      }
+    },
+    {
+      "id": 11,
+      "question": "Kryptoutvinning kjører nesten full effekt hele tiden. Hva styrer kraftforbruket ifølge rapporten, og hva skjer når kryptokursen faller eller kraftprisen går opp?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Etterspørselen fra sluttbrukere. Anleggene skrus gradvis ned over flere måneder"
+        },
+        {
+          "id": "B",
+          "text": "Finansielle svingninger. Anleggene stenges gjerne ned umiddelbart"
+        },
+        {
+          "id": "C",
+          "text": "Været. Anleggene flyttes til kaldere områder"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Lønnsomheten er direkte knyttet til antall beregninger per sekund. Regjeringen utreder en planbestemmelse med midlertidig og avgrenset forbud mot å etablere kraftintensiv kryptoutvinning.",
+      "fact": "Kryptoutvinning styres av finansielle svingninger, og anleggene stenges ned umiddelbart hvis kryptokursen faller eller kraftprisen går opp.",
+      "reference": {
+        "page": "28–29",
+        "chapter": "Datasentre – typer, bruk og eierskap → Hva datasentre faktisk brukes til → Kryptoutvinning – maksimal drift, vurderes forbudt"
+      }
+    },
+    {
+      "id": 12,
+      "question": "Navn som Microsoft, Google og Amazon er mest kjent som hyperscalere. Hvor stor del av det globale markedet for skytjenester kontrollerer Amazon Web Services, Microsoft Azure og Google Cloud Platform til sammen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To tredjedeler"
+        },
+        {
+          "id": "B",
+          "text": "Rundt 10 prosent"
+        },
+        {
+          "id": "C",
+          "text": "Over 95 prosent"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Navnet kommer av at disse selskapene kan skalere opp IT-kapasitet når de selv og kundene deres trenger det. Hyperscalere leverer tjenester med strenge krav til tilgjengelighet, typisk 99,9 prosent oppetid eller høyere.",
+      "fact": "Amazon, Microsoft og Google kontrollerer to tredjedeler av det globale skymarkedet.",
+      "reference": {
+        "page": "31",
+        "chapter": "Datasentre – typer, bruk og eierskap → Slik eies og drives datasentre → Hyperscale – ett selskap eier og driver alt selv"
+      }
+    },
+    {
+      "id": 13,
+      "question": "Utenfor Narvik bygges Europas største GPU-anlegg, drevet av Nscale (Aker eier 27 prosent). Hvem bruker egentlig regnekraften?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aker selv, til egen oljevirksomhet"
+        },
+        {
+          "id": "B",
+          "text": "Forsvaret og norske forskningsmiljøer"
+        },
+        {
+          "id": "C",
+          "text": "Microsoft kjøper regnekraften på flerårige kontrakter og selger den videre via Azure, blant annet til KI-selskapet OpenAI"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Nscale eier og drifter anlegget og bestemmer ikke hva regnekraften skal brukes til. Rapporten kaller det en lang og komplisert verdikjede.",
+      "fact": "Regnekraften i Kvandal (Narvik) kjøpes av Microsoft og selges videre via Azure, blant annet til OpenAI.",
+      "reference": {
+        "page": "33",
+        "chapter": "Datasentre – typer, bruk og eierskap → Slik eies og drives datasentre → Regnekraft til utleie – operatøren eier, kunden bruker"
+      }
+    },
+    {
+      "id": 14,
+      "question": "SSB har beregnet verdiskaping per MWh strøm for datasenternæringen og for kraftintensiv industri. Hva var tallene i 2023?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Datasentre 1 500 kr og industri 913 kr per MWh"
+        },
+        {
+          "id": "B",
+          "text": "Begge lå på rundt 600 kr per MWh"
+        },
+        {
+          "id": "C",
+          "text": "Datasentre 587 kr og industri 913 kr per MWh"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Tallene svinger mye: i 2020 var verdiskapingen til datasentrene rundt dobbelt så stor som industriens 602 kroner per MWh. Datasentrene har kritisert SSB for å bygge på utdaterte tall for en næring i endring.",
+      "fact": "I 2023 skapte datasentre 587 kr per MWh, mot 913 kr for kraftintensiv industri. I 2020 var det omvendt.",
+      "reference": {
+        "page": "38",
+        "chapter": "Samfunnsnytten ved datasentre i Norge → Lokal/nasjonal verdiskaping og næringsvirksomhet → Verdiskaping per megawattime er varierende over tid"
+      }
+    },
+    {
+      "id": 15,
+      "question": "CTS Nordics' datterselskap NordicEpod i Holmestrand bygger standardiserte kraftmoduler for datasentre. Hvor mye økte omsetningen på to år?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fra 18 millioner til 40 millioner kroner"
+        },
+        {
+          "id": "B",
+          "text": "Fra 18 millioner til 190 millioner kroner"
+        },
+        {
+          "id": "C",
+          "text": "Fra 18 millioner til 1,9 milliarder kroner"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Rapporten bruker CTS Nordics som eksempel på både potensialet og forbeholdene ved en norsk leverandørindustri: konsernet har hele tiden vært utenlandsk, hovedkontoret er flyttet til Genève og halve fabrikken er solgt til amerikanske Eaton.",
+      "fact": "NordicEpod i Holmestrand økte omsetningen fra 18 millioner til 1,9 milliarder kroner på to år.",
+      "reference": {
+        "page": "43",
+        "chapter": "Samfunnsnytten ved datasentre i Norge → Lokal/nasjonal verdiskaping og næringsvirksomhet → Byggefasen gir mer lokal verdiskaping enn driftsfasen"
+      }
+    },
+    {
+      "id": 16,
+      "question": "WS Computing er selskapet bak Googles datasenter i Skien. Det selger hostingtjenester til Google Ireland med en avtalt margin («cost plus»). Hvor stort var driftsresultatet i 2025, av 566 millioner kroner i inntekter?",
+      "options": [
+        {
+          "id": "A",
+          "text": "12 millioner kroner"
+        },
+        {
+          "id": "B",
+          "text": "280 millioner kroner"
+        },
+        {
+          "id": "C",
+          "text": "500 millioner kroner"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Overskuddet kan reduseres på lovlig vis før det skattlegges, for eksempel gjennom «cost plus» eller konserngjeld. WS Computing hadde 112 millioner kroner i rentekostnader på slike lån i 2025 og gikk med underskudd før skatt.",
+      "fact": "Googles datasenterselskap i Skien hadde et driftsresultat på 12 mill. av 566 mill. kr i inntekter i 2025.",
+      "reference": {
+        "page": "44",
+        "chapter": "Samfunnsnytten ved datasentre i Norge → Lokal/nasjonal verdiskaping og næringsvirksomhet → Byggefasen gir mer lokal verdiskaping enn driftsfasen"
+      }
+    },
+    {
+      "id": 17,
+      "question": "Metas datasenter i Odense viser at varmegjenvinning kan fungere i praksis. Hvordan ser løsningen ut?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Datasenteret kjøles med snø fra fjellet og leverer ingen varme"
+        },
+        {
+          "id": "B",
+          "text": "Anlegget leverer varmt vann på 90 grader direkte til husene uten varmepumpe"
+        },
+        {
+          "id": "C",
+          "text": "Anlegget leverer kjølevann på rundt 30 grader, som varmepumper løfter til 70–75 grader før det sendes ut i det danske fjernvarmenettet"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Fjernvarmenettet opererer som regel ved høyere temperaturer enn det et datasenter leverer, og krever derfor en varmepumpe. Det koster og gjør investeringen mindre lønnsom jo lavere temperaturen er.",
+      "fact": "Metas datasenter i Odense leverer kjølevann på ca. 30 °C som varmepumper løfter til 70–75 °C for fjernvarmenettet.",
+      "reference": {
+        "page": "48",
+        "chapter": "Samfunnsnytten ved datasentre i Norge → Fleksibilitet og robusthet i energisystemet → Nesten ingen overskuddsvarme utnyttes i Norge foreløpig"
+      }
+    },
+    {
+      "id": 18,
+      "question": "De fleste norske datasentre bygger inn reservekraft. Nscales datasenter i Glomfjord planlegges derimot uten dieselaggregater eller batterier. Hvorfor?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fordi oppetiden i det norske kraftnettet er så høy at strømbrudd er sjeldne og som regel korte"
+        },
+        {
+          "id": "B",
+          "text": "Fordi diesel er forbudt å lagre i Nordland"
+        },
+        {
+          "id": "C",
+          "text": "Fordi anlegget har sitt eget vannkraftverk"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Til sammenligning har Googles datasenter i Skien fått godkjent 46 nødstrømsaggregater og et drivstofflager på én million liter.",
+      "fact": "Nscales anlegg i Glomfjord planlegges uten dieselaggregater og batterier, fordi strømbrudd i Norge er sjeldne og korte.",
+      "reference": {
+        "page": "51",
+        "chapter": "Samfunnsnytten ved datasentre i Norge → Fleksibilitet og robusthet i energisystemet → Reservekraft kan gi avlastning, men dette er lite utnyttet"
+      }
+    },
+    {
+      "id": 19,
+      "question": "Om lag 90 prosent av datasenterkapasiteten i Norge er eid fra utlandet. Green Mountain, med 23 prosent av kapasiteten, høres norsk ut. Hvilket land kommer eierne fra ifølge rapporten?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Norge"
+        },
+        {
+          "id": "B",
+          "text": "Israel"
+        },
+        {
+          "id": "C",
+          "text": "Sveits"
+        }
+      ],
+      "correct": "B",
+      "explanation": "De største eierne er Straitdeer/Bitdeer (26 prosent, Singapore), Green Mountain (23 prosent, Israel), Google (13 prosent, USA) og Polar/COWA (6 prosent). Fire anlegg står for om lag to tredjedeler av all tilknyttet kapasitet.",
+      "fact": "Green Mountain, ett av Norges største datasenterselskaper, har 23 % av kapasiteten og eies fra Israel.",
+      "reference": {
+        "page": "65",
+        "chapter": "Nasjonal kontroll og strategisk kapasitet → Utviklingstrekk for eierskap i datasentre i Norge i dag"
+      }
+    },
+    {
+      "id": 20,
+      "question": "De fire største enkeltanleggene i Norge står for to tredjedeler av all tilknyttet kapasitet. Hvor stor andel av kapasiteten går til kryptoutvinning ved ett av dem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 prosent"
+        },
+        {
+          "id": "B",
+          "text": "33 prosent"
+        },
+        {
+          "id": "C",
+          "text": "97 prosent"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Ved et annet anlegg er andelen 33 prosent. En arbeidslast som kryptoutvinning lar seg ikke utnytte til å huse og drifte viktige funksjoner for Norge, uavhengig av eierskap.",
+      "fact": "Ved ett av Norges fire største anlegg går 97 % av kapasiteten til kryptoutvinning.",
+      "reference": {
+        "page": "66",
+        "chapter": "Nasjonal kontroll og strategisk kapasitet → Utviklingstrekk for eierskap i datasentre i Norge i dag"
+      }
+    }
+  ]
+}
