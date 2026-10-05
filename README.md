@@ -13,7 +13,7 @@ En kartbasert utforskning av norske datasenterprosjekter, med naturpåvirkning, 
 - Åtte prosjekter med dokumenterte adressepunkter: Heggvin, Rennesøy, Rjukan, Enebakk, Undheim, Gromstul, Bulk N01 og Lefdal.
 - Søk og filtre for kommune, operatør og rapportert prosjektstatus; delbare prosjektlenker.
 - Fem temapaneler med daterte kilder, dokumentert usikkerhet og synlige kunnskapshull.
-- Naturkort og verneområder fra Miljødirektoratet som geografisk kontekst.
+- Naturkort, verneområder, NiN-naturtyper, NiN-kartleggingsdekning og HB13 fra Miljødirektoratet som geografisk kontekst. Naturmenyen har tegnforklaringer og klikkbare fakta med kilder og årstall.
 - Etterprøving av nasjonale påstander, med skille mellom medieomtale, publisert rapport og egen vurdering.
 - Nedlasting av datauttrekket som vises i demoen.
 
@@ -102,3 +102,5 @@ Bidra gjerne med rettelser via issues eller pull requests. Oppgi prosjekt/påsta
 ## Lisens og kilder
 
 Prosjektets egen kode er MIT-lisensiert, se [LICENSE](LICENSE). Eksterne data, kart, dokumenter og sitater følger kildenes egne rettigheter og vilkår; MIT-lisensen gir ingen nye rettigheter til disse. Lokale PDF-er, HTML-kopier og tekstuttrekk fra tredjepartsdokumenter er ikke med i det offentlige repoet. Kildereferanser og dokumenterte analyser er beholdt.
+
+Naturtypelagene vises fra zoomnivå 8; dekningskartet kan vises på oversiktsnivå. Tomme treff er ikke dokumentasjon på fravær av naturverdier. NiN og HB13 bruker ulik metodikk og summeres ikke. Se [lagdokumentasjonen](docs/implementation/nature-layers-2026-10-05.md).

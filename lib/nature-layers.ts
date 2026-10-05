@@ -1,0 +1,9 @@
+export const natureLayers = {
+ nin: {name:'Naturtyper (NiN)', service:'naturtyper_nin', layer:0, minzoom:8, description:'Kartlagte naturtyper etter Miljødirektoratets instruks. Lilla skravur viser lokaliteter, ikke en risikoklasse.', limitation:'Utvalgskartlegging. Ingen registrering betyr ikke fravær av naturverdier. Kvalitet er ikke det samme som påvirkning.', fields:['Områdenavn','Naturtype','Lokalitetskvalitet','Tilstand','Kartleggingsår','Kartleggingsinstruks','Usikkerhet','Usikkerhetsbeskrivelse','Faktaark']},
+ coverage: {name:'Hvor er naturen kartlagt?', service:'naturtyper_nin', layer:1, minzoom:0, description:'NiN-dekningskart. Blå avgrensning/mønster viser kartlagte områder etter denne metodikken.', limitation:'Dekning er ikke en naturverdi. Kartleggingsår og instruks må vurderes; eldre kartlegging kan trenge oppdatering.', fields:['Prosjektområdenavn','Prosjektnavn','Årstall','Kartleggingsinstruks','Prosjektrapport']},
+ hb13: {name:'Naturtyper (HB13)', service:'naturtyper_hb13', layer:0, minzoom:8, description:'Tidligere kartlegging av naturtyper på land og i ferskvann. Grønn skravur: A/B viktig eller svært viktig; C lokalt viktig.', limitation:'Eldre og annen metodikk enn NiN. Overlapp skal ikke summeres. Registreringsdato er ikke nødvendigvis dato for feltkartlegging.', fields:['omraadenavn','naturtype','verdi','registreringsDato','datafangstdato','noeyaktighetsklasse','faktaark']},
+} as const;
+export type NatureLayer = keyof typeof natureLayers;
+export const natureLayerKeys = Object.keys(natureLayers) as NatureLayer[];
+export const natureService = (key:NatureLayer)=>`https://kart.miljodirektoratet.no/arcgis/rest/services/${natureLayers[key].service}/MapServer`;
+export function isNatureLayer(key:string|null):key is NatureLayer{return key!==null && Object.hasOwn(natureLayers,key);}
