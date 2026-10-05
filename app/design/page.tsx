@@ -1,3 +1,3 @@
 import {redirect} from 'next/navigation';
-import {BASE} from '@/lib/model';
-export default function Page(){redirect(BASE);}
+// Next.js adds the configured basePath to this application-relative redirect.
+export default function Page(){redirect('/');}
