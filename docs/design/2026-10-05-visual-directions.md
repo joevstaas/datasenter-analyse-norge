@@ -48,3 +48,10 @@ Ingen merge til main utføres før brukeren har valgt retning.
 
 Produksjonsbygg (`npm run build`) bestod med den nye `/design`-ruten.
 Skjermbilder: `naturatlas.png`, `observatorium.png` og `mobil.png` i samme mappe.
+
+## Valgt kombinasjon
+
+Brukeren foretrekker B med fargetonene fra A. B beholder oppsett, sans-serif,
+kompakt prosjektindeks og talltypografi, men bruker nå As papirtoner og grønne
+aksenter. Kombinasjonen er forhåndsvalgt på designsiden. Endringen er fortsatt
+avgrenset til designbranchen; main og produksjon er ikke endret.
